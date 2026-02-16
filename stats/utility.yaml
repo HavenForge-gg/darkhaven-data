@@ -1,6 +1,6 @@
 # =============================================================================
 # UTILITY STATS - Movement, find rates, and miscellaneous
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 # --- MOVEMENT ---
@@ -13,8 +13,8 @@
   subcategory: movement
   description: Rate of character movement.
   guid: b4f373c86515b1c4c8389c944ecb579b
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -28,8 +28,8 @@
   subcategory: movement
   description: Distance covered by dash abilities.
   guid: cb9c1fef7d38bc6479958e347c044dd0
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -44,8 +44,8 @@
   subcategory: movement
   description: Increased movement speed while swimming.
   guid: 6926eb2c44eec3843bd430808ccfdc05
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -62,8 +62,8 @@
   subcategory: traversal
   description: Ability to walk on water surfaces.
   guid: 0e18262ae2504484c83a8feed23fd016
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -78,8 +78,8 @@
   subcategory: traversal
   description: Ability to walk on lava surfaces.
   guid: 60a887561f0841b40a5a06e201b70c9c
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -94,8 +94,8 @@
   subcategory: traversal
   description: Reduced fall damage and slower falling speed.
   guid: 08085d1e3fcea624481f889ef6bf8329
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -111,8 +111,8 @@
   subcategory: find
   description: Increased chance to find items from enemies.
   guid: 29ced5a857c129d4298c238cfade2de2
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -127,8 +127,8 @@
   subcategory: find
   description: Increased chance to find higher rarity items.
   guid: 41edf57e3ff5689449a522ff28d4cf0a
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -144,8 +144,8 @@
   subcategory: find
   description: Increased gold dropped by enemies.
   guid: 7dc4f108eb38fb44196ffd73a9f573ac
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -162,8 +162,8 @@
   subcategory: vision
   description: Radius of light around the character in dark areas.
   guid: 78a1d0a12315eb84a9ad308b5696f6e7
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -179,8 +179,8 @@
   subcategory: progression
   description: Current experience points towards next level.
   guid: 9509ba7b24ce0f844a22044dbc6e9a02
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -194,8 +194,8 @@
   subcategory: progression
   description: Modifier to experience points earned.
   guid: de22b09ec736be54bbb2abbaf21eed56
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -209,8 +209,8 @@
   subcategory: progression
   description: Current character level.
   guid: 58f688979805ad9448dd76c47394f635
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -225,8 +225,8 @@
   subcategory: progression
   description: Points available to unlock new skills.
   guid: 23bc299a3830ead4fb7d5aaae1f61824
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -241,8 +241,8 @@
   subcategory: progression
   description: Points available to increase core attributes.
   guid: 8e4486dbac97d8a478d0418bf37d4497
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility

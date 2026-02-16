@@ -1,6 +1,6 @@
 # =============================================================================
 # WITCH - Playable Character Class
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 id: witch
@@ -42,8 +42,8 @@ mechanics:
 
 # Metadata
 guid: 9f78b51d366a99342b128ab8b0e5497d
-game_version: 0.3.1
-last_updated: 2026-01-31
+game_version: 0.0.23272
+last_updated: 2026-02-16
 status: active
 tags:
   - class

@@ -18,8 +18,8 @@ implicit_modifiers:
 explicit_modifiers: []
 requirements:
   level: 20
-game_version: 0.3.1
-last_updated: 2026-01-30
+game_version: 0.0.23272
+last_updated: 2026-02-16
 status: active
 tags:
   - ring

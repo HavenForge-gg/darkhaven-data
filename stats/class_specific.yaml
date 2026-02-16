@@ -1,6 +1,6 @@
 # =============================================================================
 # CLASS-SPECIFIC STATS - Unique resources and mechanics for specific classes
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 # --- WITCH CLASS ---
@@ -13,8 +13,8 @@
   class: witch
   description: Resource used by the Witch class for bone-based abilities.
   guid: 25e591f78d5e2264cbe5dd47abbbb265
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -30,8 +30,8 @@
   class: witch
   description: Shadow resource used by the Witch class for dark abilities.
   guid: d91992913778c504d82dcad1101fd61b
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -48,8 +48,8 @@
   category: consumable
   description: Current potion charges available.
   guid: 446ee239b53115146a9e009f93f66ed5
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - consumable
@@ -62,8 +62,8 @@
   category: consumable
   description: Maximum number of potion charges.
   guid: 1e3a257df4439934dac0752c7e35427d
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - consumable
@@ -76,8 +76,8 @@
   category: consumable
   description: Amount of health restored per potion use.
   guid: 210ac8c6764c3e845900eca369a86d7c
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - consumable
@@ -91,8 +91,8 @@
   category: consumable
   description: Duration of flask effects.
   guid: 5e4d484a42ad5f74587fbc56120004e7
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - consumable
@@ -105,8 +105,8 @@
   category: consumable
   description: Time between flask uses.
   guid: b438db40114ea1f4192f3617e28bdce8
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - consumable
@@ -122,8 +122,8 @@
   category: currency
   description: Primary currency used for trading and services.
   guid: e098506db56ab944794ce132ced2ea51
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - currency
@@ -136,8 +136,8 @@
   category: currency
   description: Crafting material or secondary currency.
   guid: e2fca4e0f5f710446a6e4b44bd62a543
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - currency

@@ -1,6 +1,6 @@
 # =============================================================================
 # RESOURCES - Pools that are consumed and regenerated during gameplay
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 - id: life
@@ -14,8 +14,8 @@
     - life_max
     - life_regen
     - life_bonus
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -29,8 +29,8 @@
   category: resource
   description: Maximum health pool capacity.
   guid: 6762d1df54458a047b5fa138b0430207
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -43,8 +43,8 @@
   category: resource
   description: Rate at which life is restored over time.
   guid: 15d5d6d0097585b41ba4da30712bf77a
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -61,8 +61,8 @@
   related_stats:
     - mana_max
     - mana_regen
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -76,8 +76,8 @@
   category: resource
   description: Maximum mana pool capacity.
   guid: 7b8688dfc705e5a4795434a96f5faf88
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -90,8 +90,8 @@
   category: resource
   description: Rate at which mana is restored over time.
   guid: 8834f016bd6cc3547b3a540212a96a47
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -108,8 +108,8 @@
   related_stats:
     - stamina_max
     - stamina_regen
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -122,8 +122,8 @@
   category: resource
   description: Maximum stamina pool capacity.
   guid: b8f43645839918c4b9328c71c5913577
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -136,8 +136,8 @@
   category: resource
   description: Rate at which stamina is restored over time.
   guid: bf067c99e613bd4479abfa185c61bf3d
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource
@@ -151,8 +151,8 @@
   category: resource
   description: Alternative resource pool for certain class mechanics.
   guid: 765c7e665b3e1d349bdce3dd64a00ead
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - resource

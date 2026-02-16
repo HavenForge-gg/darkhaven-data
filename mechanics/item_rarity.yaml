@@ -1,6 +1,6 @@
 # =============================================================================
 # ITEM RARITY - Quality Tiers for Items
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 id: item_rarity
@@ -146,8 +146,8 @@ core_rarities:
     guid: ebc6e4328a296434189e0e2c8e115d39
 
 # Metadata
-game_version: 0.3.1
-last_updated: 2026-01-31
+game_version: 0.0.23272
+last_updated: 2026-02-16
 status: active
 tags:
   - mechanic

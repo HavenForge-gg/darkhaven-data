@@ -1,6 +1,6 @@
 # =============================================================================
 # ATTRIBUTES - Core character stats that affect all other mechanics
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 - id: strength
@@ -10,8 +10,8 @@
   category: attribute
   description: Primary physical attribute. Affects melee damage and physical abilities.
   guid: fe2f09265d25eb5488ecd81b076fcf63
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - attribute
@@ -24,8 +24,8 @@
   category: attribute
   description: Primary agility attribute. Affects attack speed, critical chance, and evasion.
   guid: a3f14410163b5bc42b72e51ad9a4bc8e
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - attribute
@@ -38,8 +38,8 @@
   category: attribute
   description: Primary magical attribute. Affects spell damage and mana pool.
   guid: cf6a5e41fac71de48b7fc87aa12ab252
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - attribute
@@ -52,8 +52,8 @@
   category: attribute
   description: Primary defensive attribute. Affects health pool and resistances.
   guid: cf5c6725d0622e94a8d9869526914357
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - attribute

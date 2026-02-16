@@ -1,6 +1,6 @@
 # =============================================================================
 # FLUIDS - Environmental liquid and gas effects
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 id: fluids
@@ -98,8 +98,8 @@ fluid_summary:
   system_fluids: 2
 
 # Metadata
-game_version: 0.3.1
-last_updated: 2026-01-31
+game_version: 0.0.23272
+last_updated: 2026-02-16
 status: active
 tags:
   - mechanic

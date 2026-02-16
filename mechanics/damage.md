@@ -27,6 +27,6 @@ Damage in Darkhaven is calculated based on several factors including base damage
 
 ---
 
-**Game Version:** 0.3.1  
+**Game Version:** 0.0.23272  
 **Last Updated:** 2026-01-30  
 **Status:** active

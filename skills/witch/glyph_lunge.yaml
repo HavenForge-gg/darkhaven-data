@@ -44,8 +44,8 @@ mechanics:
   - glyph_generation
 
 # Metadata
-game_version: 0.3.1
-last_updated: 2026-01-31
+game_version: 0.0.23272
+last_updated: 2026-02-16
 status: active
 tags:
   - skill

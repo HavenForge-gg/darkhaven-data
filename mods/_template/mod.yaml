@@ -13,9 +13,9 @@ description: |
 download_url: null
 source_url: null
 compatible_game_versions:
-  - 0.3.1
+  - 0.0.23272
 status: speculative
-game_version: 0.3.1
-last_updated: 2026-01-30
+game_version: 0.0.23272
+last_updated: 2026-02-16
 tags:
   - utility
