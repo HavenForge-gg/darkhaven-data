@@ -1,6 +1,6 @@
 # =============================================================================
 # ITEM SETS - Equipment Sets with Bonuses
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 id: item_sets
@@ -19,8 +19,8 @@ sets:
     guid: d01e2c07bba642a4f95ea548bbd831b2
 
 # Metadata
-game_version: 0.3.1
-last_updated: 2026-01-31
+game_version: 0.0.23272
+last_updated: 2026-02-16
 status: speculative
 tags:
   - items

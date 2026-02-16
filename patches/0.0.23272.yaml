@@ -1,0 +1,23 @@
+# =============================================================================
+# Patch notes - 16 Feb 2026
+# =============================================================================
+
+id: "0.0.23272"
+type: patch
+name: Patch 0.0.23272
+version: 0.0.23272
+release_date: 2026-02-16
+description: |
+  Game data as of 16 Feb 2026.
+highlights: []
+changes:
+  classes: []
+  skills: []
+  items: []
+  mechanics: []
+  bug_fixes: []
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - patch

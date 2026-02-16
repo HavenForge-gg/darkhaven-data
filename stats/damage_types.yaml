@@ -1,6 +1,6 @@
 # =============================================================================
 # DAMAGE TYPES - All damage types in the game
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 - id: fire
@@ -12,8 +12,8 @@
   color: "#e72424"
   scaling_attribute: magic
   guid: 49c26b4693bceee48bb7695e3d6e6d76
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - elemental
@@ -29,8 +29,8 @@
   color: "#3737f8"
   scaling_attribute: dexterity
   guid: 59c4f390c4bfa4a4fa40dd370bb62244
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - elemental
@@ -45,8 +45,8 @@
   color: "#6d6d6d"
   scaling_attribute: vitality
   guid: 0d001a391d58dc34f99e415549444f66
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - elemental
@@ -62,8 +62,8 @@
   color: "#c77650"
   scaling_attribute: vitality
   guid: 7bc384bdc3b5f4a49b5dc5265a4cf984
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - elemental
@@ -79,8 +79,8 @@
   color: "#c7c7c7"
   scaling_attribute: dexterity
   guid: 1952544644d9fad4993fe76109f43381
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - physical
@@ -96,8 +96,8 @@
   color: "#7ed9ff"
   scaling_attribute: magic
   guid: null
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: speculative
   tags:
     - elemental
@@ -113,8 +113,8 @@
   color: "#ffffff"
   scaling_attribute: strength
   guid: null
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: speculative
   tags:
     - physical

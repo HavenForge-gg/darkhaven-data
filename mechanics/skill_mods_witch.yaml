@@ -1,6 +1,6 @@
 # =============================================================================
 # WITCH SKILL MODS - Skill Modifiers
-# Extracted from game data - Version 0.3.1
+# Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
 
 # Skill mods are upgrades that modify how skills work
@@ -11,8 +11,8 @@
   class: witch
   description: Modifies the Spine Breaker skill with guided projectiles.
   guid: 46c6050da0d4179479f9c125ddd4bdd2
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - skill_mod
@@ -25,8 +25,8 @@
   class: witch
   description: A blood magic skill modifier.
   guid: 685590486e7b41f46b275fdf92f8c80f
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - skill_mod
@@ -39,8 +39,8 @@
   class: witch
   description: Adds a charge-up mechanic to a lunge skill.
   guid: d1ad4de881900c845a86a83e2cc30086
-  game_version: 0.3.1
-  last_updated: 2026-01-31
+  game_version: 0.0.23272
+  last_updated: 2026-02-16
   status: active
   tags:
     - skill_mod

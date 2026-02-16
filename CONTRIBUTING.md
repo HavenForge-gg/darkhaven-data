@@ -61,7 +61,7 @@ havenforge-data/
 ├── mechanics/
 │   └── topic.md
 ├── patches/
-│   └── 0.3.1.yaml
+│   └── 0.0.23272.yaml
 └── images/                         # All images (mirrors data structure)
     ├── classes/
     ├── skills/<class>/
@@ -78,8 +78,8 @@ All YAML/JSON files must include these base fields:
 id: unique_identifier      # Immutable, snake_case
 type: skill                # class | skill | item | mechanic | build | mod | patch
 name: Display Name
-game_version: 0.3.1        # Version this data applies to
-last_updated: 2026-01-30   # ISO date format
+game_version: 0.0.23272        # Version this data applies to
+last_updated: 2026-02-16   # ISO date format
 status: active             # active | deprecated | speculative
 tags:
   - relevant
