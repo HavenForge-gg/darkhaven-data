@@ -1,0 +1,140 @@
+name: Discord GitHub Notify
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          set -euo pipefail
+
+          EVENT_NAME="${{ github.event_name }}"
+          REPO="${{ github.repository }}"
+          REPO_URL="https://github.com/${REPO}"
+          AVATAR_URL="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            ACTION="${{ github.event.action }}"
+            TITLE="${{ github.event.pull_request.title }}"
+            PR_NUMBER="${{ github.event.pull_request.number }}"
+            URL="${{ github.event.pull_request.html_url }}"
+            AUTHOR="${{ github.event.pull_request.user.login }}"
+            AUTHOR_URL="https://github.com/${AUTHOR}"
+            AUTHOR_AVATAR="https://github.com/${AUTHOR}.png"
+            BODY="${{ github.event.pull_request.body }}"
+
+            # Truncate PR body for the description
+            DESCRIPTION=$(printf "%s" "$BODY" | head -c 200)
+            if [ ${#BODY} -gt 200 ]; then
+              DESCRIPTION="${DESCRIPTION}..."
+            fi
+
+            # Purple for PRs
+            COLOR=7506394
+
+            # Capitalize action
+            ACTION_UPPER=$(echo "$ACTION" | sed 's/.*/\u&/')
+
+            payload=$(jq -n \
+              --arg title "Pull Request ${ACTION_UPPER}: #${PR_NUMBER} ${TITLE}" \
+              --arg url "$URL" \
+              --arg desc "$DESCRIPTION" \
+              --arg author "$AUTHOR" \
+              --arg author_url "$AUTHOR_URL" \
+              --arg author_icon "$AUTHOR_AVATAR" \
+              --arg footer "$REPO" \
+              --arg footer_icon "$AVATAR_URL" \
+              --arg ts "$TIMESTAMP" \
+              --argjson color "$COLOR" \
+              '{
+                embeds: [{
+                  title: $title,
+                  url: $url,
+                  description: $desc,
+                  color: $color,
+                  author: {
+                    name: $author,
+                    url: $author_url,
+                    icon_url: $author_icon
+                  },
+                  footer: {
+                    text: $footer,
+                    icon_url: $footer_icon
+                  },
+                  timestamp: $ts
+                }]
+              }')
+
+          else
+            COMPARE_URL="${{ github.event.compare }}"
+            COMMIT_MSG="${{ github.event.head_commit.message }}"
+            COMMIT_SHA="${{ github.event.head_commit.id }}"
+            COMMIT_URL="${{ github.event.head_commit.url }}"
+            AUTHOR="${{ github.event.head_commit.author.name }}"
+            AUTHOR_USERNAME="${{ github.event.head_commit.author.username }}"
+            AUTHOR_AVATAR="https://github.com/${AUTHOR_USERNAME}.png"
+            AUTHOR_URL="https://github.com/${AUTHOR_USERNAME}"
+            SHORT_SHA=$(echo "$COMMIT_SHA" | cut -c1-7)
+            BRANCH="${{ github.ref_name }}"
+
+            COMMIT_TITLE=$(printf "%s" "$COMMIT_MSG" | head -n 1)
+
+            # Grab any extra lines as description
+            COMMIT_BODY=$(printf "%s" "$COMMIT_MSG" | tail -n +2 | head -c 200)
+
+            # Count commits in push
+            COMMIT_COUNT="${{ github.event.size }}"
+            if [ -z "$COMMIT_COUNT" ] || [ "$COMMIT_COUNT" = "0" ]; then
+              COMMIT_COUNT=1
+            fi
+
+            # Green for pushes
+            COLOR=3066993
+
+            DESCRIPTION="[\`${SHORT_SHA}\`](${COMMIT_URL}) ${COMMIT_TITLE}"
+            if [ -n "$COMMIT_BODY" ]; then
+              DESCRIPTION="${DESCRIPTION}\n\n${COMMIT_BODY}"
+            fi
+
+            payload=$(jq -n \
+              --arg title "Push to ${BRANCH} — ${COMMIT_COUNT} commit(s)" \
+              --arg url "$COMPARE_URL" \
+              --arg desc "$DESCRIPTION" \
+              --arg author "$AUTHOR" \
+              --arg author_url "$AUTHOR_URL" \
+              --arg author_icon "$AUTHOR_AVATAR" \
+              --arg footer "$REPO" \
+              --arg footer_icon "$AVATAR_URL" \
+              --arg ts "$TIMESTAMP" \
+              --argjson color "$COLOR" \
+              '{
+                embeds: [{
+                  title: $title,
+                  url: $url,
+                  description: $desc,
+                  color: $color,
+                  author: {
+                    name: $author,
+                    url: $author_url,
+                    icon_url: $author_icon
+                  },
+                  footer: {
+                    text: $footer,
+                    icon_url: $footer_icon
+                  },
+                  timestamp: $ts
+                }]
+              }')
+          fi
+
+          curl -sS -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK"
