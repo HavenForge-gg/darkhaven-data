@@ -1,0 +1,108 @@
+# =============================================================================
+# FLUIDS - Environmental liquid and gas effects
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: fluids
+type: mechanic
+name: Fluids & Environmental Effects
+description: >
+  The game features various fluid types that affect gameplay when players 
+  walk through them.
+
+# Liquid Surfaces (visible liquids you can walk through)
+liquid_surfaces:
+  - id: water
+    name: Water
+    type: liquid
+    is_surface: true
+    flow_force: 60
+    effect: damp
+    description: Standard water that applies the Damp status when walked through.
+    guid: 79043c94dc90ee344b9d764b4608123b
+    
+  - id: lava
+    name: Lava
+    type: liquid
+    is_surface: true
+    flow_force: 0
+    effect: burn
+    damage_type: fire
+    description: Molten rock that applies the Burn status and deals fire damage.
+    guid: 5d38b4591eedb0e4887b5e2e12bbfc1e
+    
+  - id: acid
+    name: Acid
+    type: liquid
+    is_surface: true
+    flow_force: 60
+    effect: burn
+    damage_type: acid
+    description: Corrosive liquid that burns and damages over time.
+    guid: ed739b84ec58af74ab7e04909d45226a
+    
+  - id: silt
+    name: Silt
+    type: liquid
+    is_surface: true
+    flow_force: 0
+    description: Murky liquid found in swamps that may slow movement.
+    guid: d92778f81c8d9834982f16145e9f35b4
+
+# Gas Effects (non-liquid environmental hazards)
+gas_effects:
+  - id: poison_gas
+    name: Poisonous Gas
+    type: gas
+    is_surface: false
+    effect: poison
+    description: Clouds of poison that damage and debuff over time.
+    guid: 98d2513f4ec0cb149b1a2129d554da53
+    
+  - id: gloom
+    name: Gloom
+    type: corruption
+    is_surface: false
+    effect: gloom
+    description: >
+      Dark corruption that spreads across the land. Applies the Gloom 
+      debuff and spawns gloom creatures.
+    guid: 466fe16db8f207844b0a16a850dec6b8
+    
+  - id: shadow
+    name: Shadow
+    type: darkness
+    is_surface: false
+    description: Areas of magical darkness that reduce visibility.
+    guid: 5a600a20bc9b23841873059ca2dfd264
+
+# System Fluids (technical/internal use)
+system_fluids:
+  - id: territory
+    name: Territory
+    type: system
+    description: Used for NPC territory marking (internal).
+    guid: 62aed90f6d97c254db102499fa87c6c6
+    
+  - id: water_timestamps
+    name: Water Timestamps
+    type: system
+    description: Used for water animation timing (internal).
+    guid: 05367cfe8d04b6d459f5cfb6064018a4
+
+# Summary
+fluid_summary:
+  total: 9
+  liquid_surfaces: 4
+  gas_effects: 3
+  system_fluids: 2
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - fluids
+  - hazards
+  - environment

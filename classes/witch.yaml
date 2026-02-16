@@ -1,0 +1,52 @@
+# =============================================================================
+# WITCH - Playable Character Class
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: witch
+type: class
+name: Witch
+description: >
+  A dark spellcaster who manipulates blood, bone, and shadow magic.
+  The Witch uses a unique glyph system to enhance spells and commands 
+  an arsenal of necromantic abilities.
+
+# Core attributes
+primary_attribute: magic
+secondary_attribute: vitality
+resource: mana
+
+# Skill tree branches
+skill_branches:
+  - id: blood_and_bone
+    name: Blood and Bone
+    description: Necromantic skills focusing on blood magic and bone manipulation.
+    color: "#8F3030"  # RGB(143, 48, 48)
+    guid: 98d71cb016bc09c4299218b103d51941
+  - id: glyph
+    name: Glyph
+    description: Skills that utilize the Witch's unique glyph casting system.
+    color: "#764B24"  # RGB(118, 75, 36)
+    guid: 86f24eb25dd7cae44a2065e622727df5
+  - id: shadow
+    name: Shadow
+    description: Dark magic skills that harness shadow energy.
+    color: "#4F3572"  # RGB(79, 53, 114)
+    guid: 8adfe3bf7439a9341831c5fa90e81a67
+
+# Special mechanics
+mechanics:
+  - glyphs
+  - bone_shards
+  - blood_magic
+
+# Metadata
+guid: 9f78b51d366a99342b128ab8b0e5497d
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - class
+  - playable
+  - caster
+  - necromancer

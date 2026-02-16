@@ -1,0 +1,13 @@
+name: Trigger Site Rebuild
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy
+        run: |
+          curl -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}"

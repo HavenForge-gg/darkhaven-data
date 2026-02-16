@@ -1,0 +1,54 @@
+# =============================================================================
+# SHADOW WALK - Witch Skill
+# Extracted from game data
+# =============================================================================
+
+id: shadow_walk
+type: skill
+name: Shadow Walk
+class: witch
+branch: shadow
+
+description: >
+  Vanishes into shadow, becoming briefly invulnerable and reappearing 
+  at a target location. Can trigger effects on arrival.
+
+damage_type: shadow
+resource_cost:
+  type: mana
+  base_value: 18
+
+scaling:
+  - magic
+
+# Skill upgrade options
+skill_options:
+  - id: cypher
+    name: Cypher
+    description: Shadow Walk generates glyphs.
+    requires_tag: evocation
+    
+  - id: expanse
+    name: Expanse
+    description: Releases a shadow nova upon arriving at destination.
+    
+  - id: scourge
+    name: Scourge
+    description: Leaves a damaging shadow trail behind.
+    applies_status: scourge
+
+mechanics:
+  - teleport
+  - invulnerability
+  - shadow
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - skill
+  - witch
+  - shadow
+  - movement
+  - teleport

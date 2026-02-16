@@ -1,0 +1,156 @@
+# =============================================================================
+# ITEM RARITY - Quality Tiers for Items
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: item_rarity
+type: mechanic
+name: Item Rarity
+description: >
+  Items in Darkhaven come in different quality tiers, each with varying 
+  affix counts and drop rates. Higher rarity items are more powerful but 
+  significantly rarer.
+
+item_rarities:
+  - id: inferior
+    tier: 0
+    name: Inferior
+    description: Low-quality items with reduced stats.
+    drop_weight: 1
+    magic_find_order: -1
+    color: "#808080"  # Gray
+    guid: 1c68e17dc20ee774b979ac8b7080c0b4
+    
+  - id: common
+    tier: 1
+    name: Common
+    description: Standard items with no magical properties.
+    drop_weight: 2000
+    magic_find_order: 0
+    color: "#ffffff"  # White
+    guid: 6ca0be0d07c71f448a501203bc157292
+    
+  - id: magic
+    tier: 2
+    name: Magic
+    description: Enchanted items with 1-2 magical affixes.
+    drop_weight: 200
+    magic_find_order: 1
+    color: "#4169e1"  # Blue
+    guid: f1a38f31dfb7f524896b9156510bafb4
+    
+  - id: rare
+    tier: 3
+    name: Rare
+    description: Powerful items with multiple affixes and a unique name.
+    drop_weight: 10
+    magic_find_order: 2
+    color: "#ffd700"  # Gold/Yellow
+    guid: d2929ef2b92c9aa4ebd815d488f86b36
+    
+  - id: legendary
+    tier: 4
+    name: Legendary
+    description: Exceptionally rare items with unique properties.
+    drop_weight: 1
+    magic_find_order: 3
+    downgrade_to: rare
+    color: "#ff8c00"  # Orange
+    guid: de2fcd8f48cd49e41a2961e8c45ca7c0
+    
+  - id: extraordinary
+    tier: 5
+    name: Extraordinary
+    description: The rarest tier of items.
+    drop_weight: 1
+    magic_find_order: 0
+    color: "#00ff00"  # Green (speculative)
+    guid: 6c12c7d9a15287b40aded128b6c75ce1
+
+monster_rarities:
+  - id: normal
+    tier: 0
+    name: Normal
+    description: Standard monsters.
+    drop_weight: 115
+    level_bonus: 0
+    xp_bonus: 0
+    guid: acf3446efb1da8447b30904f1afe5b32
+    
+  - id: elite
+    tier: 1
+    name: Elite
+    description: Stronger monsters with enhanced abilities.
+    drop_weight: 6
+    level_bonus: 1
+    xp_bonus: 100
+    guid: d7c2f0ac5e51d5048b28d65444101d3d
+    
+  - id: champion
+    tier: 2
+    name: Champion
+    description: Powerful monsters that lead packs of minions.
+    drop_weight: 1
+    level_bonus: 2
+    xp_bonus: 100
+    has_minions: true
+    guid: 4faab5fef94929d4e9afb693c2779851
+    
+  - id: unique
+    tier: 3
+    name: Unique
+    description: Named monsters with special abilities.
+    drop_weight: 0
+    level_bonus: 3
+    xp_bonus: 0
+    guid: a59730ab948719c44bce2770b1bc239f
+    
+  - id: boss
+    tier: 4
+    name: Boss
+    description: Major boss enemies.
+    drop_weight: 0
+    level_bonus: 3
+    xp_bonus: 300
+    guid: 6f595e9bbd735bd42bce7f10c600ef0a
+    
+  - id: champion_minion
+    tier: 5
+    name: Champion Minion
+    description: Minions spawned by Champion monsters.
+    drop_weight: 0
+    level_bonus: 0
+    xp_bonus: 0
+    spawned_by: champion
+    guid: f4a7ae79ec7cb1a48a50563b119a3158
+
+core_rarities:
+  - id: common
+    tier: 1
+    name: Common
+    guid: c5320b9f29e6cc0439b73605d482c54f
+    
+  - id: elite
+    tier: 2
+    name: Elite
+    guid: b55b58879594bc649b3144ea1afe8b0a
+    
+  - id: champion
+    tier: 3
+    name: Champion
+    guid: 6420c97838301fe4b828a2012aa64883
+    
+  - id: unique
+    tier: 4
+    name: Unique
+    guid: ebc6e4328a296434189e0e2c8e115d39
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - items
+  - rarity
+  - quality

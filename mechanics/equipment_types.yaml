@@ -1,0 +1,175 @@
+# =============================================================================
+# EQUIPMENT TYPES - Base Item Categories
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+# This file defines the equipment type hierarchy used by the item system.
+# Items are generated from these base types + progressions + affixes.
+
+weapons:
+  # One-Handed Weapons
+  - id: sword_1h
+    name: Sword (1H)
+    display_name: Sword
+    category: weapon
+    slot: hand_right
+    hands: 1
+    parent: weapon_1h
+    guid: c0a54dc8f689ef745838a68760a9cac3
+    
+  - id: dagger
+    name: Dagger
+    display_name: Dagger
+    category: weapon
+    slot: hand_right
+    hands: 1
+    parent: weapon_oh
+    guid: bc6daa7051c0f434c82f0c97f7efbee5
+    
+  - id: athame
+    name: Athame
+    display_name: Dagger
+    description: Witch-specific ritual dagger.
+    category: weapon
+    slot: hand_right
+    hands: 1
+    parent: dagger
+    guid: 0b182ec73356f2a409dedf29b58a25ff
+
+  # Two-Handed Weapons
+  - id: sword_2h
+    name: Sword (2H)
+    display_name: Sword
+    category: weapon
+    slot: hand_right
+    hands: 2
+    parent: weapon_2h
+    guid: 62cf9ddf50b08564ca9dbb121606fa24
+    
+  - id: staff
+    name: Staff
+    display_name: Staff
+    category: weapon
+    slot: hand_right
+    hands: 2
+    parent: weapon_2h
+    guid: 71c88da87ea1e844f9b03038c62af5bf
+    
+  - id: polearm
+    name: Polearm
+    display_name: Lance
+    category: weapon
+    slot: hand_right
+    hands: 2
+    parent: weapon_2h
+    guid: a2ecd846528f4eb4eb36d5f67860e959
+
+armor:
+  - id: helm
+    name: Helm
+    display_name: Helm
+    category: armor
+    slot: head
+    icon_guid: e621834fa8c6a4a46a1a39f926694bae
+    guid: 4f9f89518755d1d4c9a7ff3bb25722ae
+    
+  - id: chest_armor
+    name: Chest Armor
+    display_name: Armor
+    category: armor
+    slot: chest
+    icon_guid: ba598d2e41b58374ab083417c1670778
+    guid: 779fb38435fd37849876b11ac0670b2f
+    
+  - id: gloves
+    name: Gloves
+    display_name: Gloves
+    category: armor
+    slot: hands
+    icon_guid: c57a33e2705022b4eb2718b3be90433b
+    guid: 5a4209e00e21bcf4982b3646ecc8d1f9
+    
+  - id: belt
+    name: Belt
+    display_name: Belt
+    category: armor
+    slot: waist
+    icon_guid: 1bed230ac88b5b14abe8b18f51078670
+    guid: 34d073c9ed0cd8d44a47628f4259e074
+    
+  - id: boots
+    name: Boots
+    display_name: Boots
+    category: armor
+    slot: feet
+    icon_guid: e0f005a694077404f82c1a071737c5d2
+    guid: b50a6125e081db4409ce3fe11bb79870
+    
+  - id: shield
+    name: Shield
+    display_name: Shield
+    category: armor
+    slot: hand_left
+    icon_guid: 5a5f59ead6b07b34991dfec798a8d976
+    guid: e2d3800e5a3a18146ad7293f80e8c53e
+
+jewelry:
+  - id: trinket_neck
+    name: Neck Trinket
+    display_name: Trinket
+    category: jewelry
+    slot: neck
+    guid: 44aae81927f1cff429083123cc781eb2
+    
+  - id: trinket_finger
+    name: Finger Trinket
+    display_name: Trinket
+    category: jewelry
+    slot: finger
+    guid: ddc9a4d64c1957d48b64aafc16abee7b
+
+other:
+  - id: flask
+    name: Flask
+    display_name: Flask
+    category: equipment
+    slot: flask
+    description: Consumable potion container.
+    guid: f7591e2920cf9694dacdc69c6ee11984
+
+socketables:
+  - id: rune
+    name: Rune
+    display_name: Rune
+    category: socketable
+    description: Socketable item that provides stat bonuses.
+    loot_guid: 6c2fd74d64672ab46b503a7a32e2f22b
+    guid: 0e45d06f9e629b147ad9af1acc796f2e
+    
+  - id: gem
+    name: Gem
+    display_name: Gem
+    category: socketable
+    description: Socketable item that provides stat bonuses.
+    loot_guid: 2da9e58664f464644a1ab0f0e884dcbc
+    guid: a0a483f116687984d987f66fb3bcb0af
+    
+  - id: heart
+    name: Heart
+    display_name: Heart
+    category: socketable
+    description: Core socketable that provides unique effects.
+    guid: 58496da174faa934d82f77b799e0037f
+
+consumables:
+  - id: tome
+    name: Tome
+    display_name: Tome
+    category: consumable
+    description: Books that grant permanent stat increases.
+    guid: deb289218f66532448f9274f3a24a591
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active

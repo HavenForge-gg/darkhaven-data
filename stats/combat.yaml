@@ -1,0 +1,235 @@
+# =============================================================================
+# COMBAT STATS - Offensive and defensive combat statistics
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+# --- OFFENSIVE ---
+
+- id: attack
+  type: stat
+  name: Attack
+  display_name: Attack
+  category: combat
+  subcategory: offensive
+  description: Base attack power for physical damage calculations.
+  guid: 57d40243ca69cdc4293ab75783630ea9
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+    - physical
+
+- id: weapon_damage
+  type: stat
+  name: Weapon Damage
+  display_name: Damage
+  category: combat
+  subcategory: offensive
+  description: Base damage dealt by equipped weapons.
+  guid: bf72788dbcdf42645a45aa7be0a67937
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+    - weapon
+
+- id: critical_chance
+  type: stat
+  name: Critical Chance
+  display_name: Critical Chance
+  category: combat
+  subcategory: offensive
+  description: Probability of landing a critical hit.
+  guid: f1888e2481817cf4cb0f2e000974df58
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+    - critical
+
+- id: critical_duration
+  type: stat
+  name: Critical Duration
+  display_name: Critical Duration
+  category: combat
+  subcategory: offensive
+  description: Duration of critical hit effects.
+  guid: 9a276b7b84a83d145b98a73edd859a92
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+    - critical
+
+- id: attack_speed
+  type: stat
+  name: Attack Speed
+  display_name: Attack Speed
+  category: combat
+  subcategory: offensive
+  description: Rate at which attacks are performed.
+  guid: 72a9c1d23b5aaa64bab15c8c5b7128fb
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+    - speed
+
+- id: cast_speed
+  type: stat
+  name: Cast Speed
+  display_name: Cast Speed
+  category: combat
+  subcategory: offensive
+  description: Rate at which spells are cast.
+  guid: ffa90dc178405304c9adcc1fec04bf36
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+    - speed
+    - magic
+
+- id: penetration
+  type: stat
+  name: Penetration
+  display_name: Penetration
+  category: combat
+  subcategory: offensive
+  description: Ability to bypass enemy defenses.
+  guid: fce128493e8e2e8498616d6c73c35556
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - offensive
+
+# --- DEFENSIVE ---
+
+- id: armor
+  type: stat
+  name: Armor
+  display_name: Armor
+  category: combat
+  subcategory: defensive
+  description: Physical damage reduction from incoming attacks.
+  guid: 00a346fa53aaaa047bfab169da141d13
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - defensive
+    - physical
+
+- id: block
+  type: stat
+  name: Block Chance
+  display_name: Block
+  category: combat
+  subcategory: defensive
+  description: Probability of blocking incoming attacks with a shield.
+  guid: 52f19fd86c9e17043b0fc6a7691dedbc
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - defensive
+    - shield
+
+- id: resistance
+  type: stat
+  name: Resistance
+  display_name: Resistance
+  category: combat
+  subcategory: defensive
+  description: Reduction to elemental and status effect damage.
+  guid: fe9add0c2727d3c409ec60640cd420f0
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - defensive
+    - elemental
+
+- id: critical_resistance
+  type: stat
+  name: Critical Resistance
+  display_name: Critical Resistance
+  category: combat
+  subcategory: defensive
+  description: Reduction to critical hit damage taken.
+  guid: 2422fdf6009941846aefa30e599d1254
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - defensive
+    - critical
+
+# --- LEECH/SUSTAIN ---
+
+- id: life_stealing
+  type: stat
+  name: Life Stealing
+  display_name: Life Stealing
+  category: combat
+  subcategory: sustain
+  description: Percentage of damage dealt recovered as life.
+  guid: a640f5c3ace2b474fb02fdb484b3a832
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - sustain
+    - leech
+
+- id: mana_stealing
+  type: stat
+  name: Mana Stealing
+  display_name: Mana Stealing
+  category: combat
+  subcategory: sustain
+  description: Percentage of damage dealt recovered as mana.
+  guid: 53854e7b5880bea46907578967f0a33b
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - sustain
+    - leech
+    - mana
+
+- id: mana_drain
+  type: stat
+  name: Mana Drain
+  display_name: Mana Drain
+  category: combat
+  subcategory: sustain
+  description: Amount of mana drained from enemies on hit.
+  guid: 6f6719a72167fb7409de51dce54cbc6f
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - combat
+    - sustain
+    - mana

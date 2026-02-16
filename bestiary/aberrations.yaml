@@ -1,0 +1,92 @@
+# =============================================================================
+# ABERRATIONS - Strange and eldritch creatures
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+category: aberrations
+description: >
+  Eldritch and unnatural creatures from beyond, or twisted by dark magic.
+
+enemies:
+  - id: gazer
+    name: Gazer
+    type: aberration
+    subtype: floating_eye
+    description: >
+      A floating eye creature that attacks with deadly beam attacks. 
+      Hovers above the ground and tracks targets precisely.
+    attacks:
+      - beam
+    loot: gazer_loot
+    guid: 51ecd63f6452afd498a15ba5ba028760
+    
+  - id: false_gazer
+    name: False Gazer
+    type: aberration
+    subtype: floating_eye
+    description: A variant of the gazer with different abilities.
+    attacks:
+      - beam
+    guid: b84e72995cc7fbc4cb351604e3dd4dc0
+
+  - id: gulpjaw
+    name: Gulpjaw
+    type: aberration
+    description: >
+      A grotesque creature with a massive maw. Fast and aggressive, 
+      it strikes with devastating force.
+    attacks:
+      - strike
+    loot: gulpjaw_loot
+    core_drop: gulpjaw_core
+    guid: 1155593db9e1b00498e9e108864ad5ac
+    
+  - id: ooze
+    name: Ooze
+    type: aberration
+    subtype: slime
+    description: Amorphous slime creatures that dissolve their prey.
+    attacks:
+      - strike
+      - spit
+    variants:
+      - shadow_ooze
+      - lightning_ooze
+    loot: ooze_loot
+    
+  - id: shadow_ooze
+    name: Shadow Ooze
+    type: aberration
+    subtype: slime
+    element: shadow
+    description: An ooze infused with shadow energy.
+    attacks:
+      - strike
+      - spit
+      
+  - id: lightning_ooze
+    name: Lightning Ooze
+    type: aberration
+    subtype: slime
+    element: lightning
+    description: An ooze crackling with electrical energy.
+    attacks:
+      - strike
+      - spit
+
+  - id: wraith
+    name: Wraith
+    type: aberration
+    subtype: spectral
+    element: shadow
+    description: >
+      A spectral entity of pure shadow. Floats above the ground and 
+      can phase through obstacles.
+    attacks:
+      - shadow_touch
+    loot: wraith_loot
+    guid: a5f93f9ce1b0d7a408ef71a057e578b5
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31

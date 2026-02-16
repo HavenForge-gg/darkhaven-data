@@ -1,0 +1,21 @@
+# =============================================================================
+# MOD TEMPLATE - Copy this folder to create a new mod entry.
+# Rename the folder to match your mod's id (e.g., /mods/my-cool-mod/)
+# =============================================================================
+
+id: template-mod
+type: mod
+name: Template Mod
+author: ModAuthor
+version: 1.0.0
+description: |
+  A template for documenting community mods.
+download_url: null
+source_url: null
+compatible_game_versions:
+  - 0.3.1
+status: speculative
+game_version: 0.3.1
+last_updated: 2026-01-30
+tags:
+  - utility

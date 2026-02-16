@@ -1,0 +1,125 @@
+# =============================================================================
+# EQUIPMENT SLOTS - Character Equipment Slots
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: equipment_slots
+type: mechanic
+name: Equipment Slots
+description: >
+  Defines all equipment slots available on a character. Each slot can hold
+  specific types of equipment.
+
+slots:
+  # Main equipment slots
+  - id: head
+    name: Head
+    description: Helm slot
+    auto_equip: true
+    guid: aab4507b5a49e344ea91d879c66eaa3c
+    
+  - id: chest
+    name: Chest
+    description: Body armor slot
+    auto_equip: true
+    guid: e3123eb94597f164c958c5674f3f4282
+    
+  - id: hands
+    name: Hands
+    description: Gloves slot
+    auto_equip: true
+    guid: 67e7e800e7fa3a74f870e3d69508fe94
+    
+  - id: waist
+    name: Waist
+    description: Belt slot
+    auto_equip: true
+    guid: a31c217fdd8ba2e48ba8d51f0cd9fd07
+    
+  - id: feet
+    name: Feet
+    description: Boots slot
+    auto_equip: true
+    guid: 39d5788e19413a44492069a4e39ceb4f
+    
+  - id: neck
+    name: Neck
+    description: Amulet/trinket slot
+    auto_equip: true
+    guid: c3c49f6dea5f17248b3bdaa666a56d5f
+    
+  - id: finger_1
+    name: Finger 1
+    description: First ring slot
+    auto_equip: true
+    paired_with: finger_2
+    guid: 804114c467b2736448aef9083429e1fb
+    
+  - id: finger_2
+    name: Finger 2
+    description: Second ring slot
+    auto_equip: true
+    paired_with: finger_1
+    guid: a502b2157e7eeca4799f4b5f0b43d693
+
+  # Weapon slots
+  - id: hand_right
+    name: Main Hand
+    description: Primary weapon slot
+    auto_equip: true
+    paired_with: hand_left
+    guid: 378ead4730d80684dbf6561bb197de5f
+    
+  - id: hand_left
+    name: Off Hand
+    description: Secondary weapon or shield slot
+    auto_equip: true
+    paired_with: hand_right
+    guid: dce2fb2c88223f748aec3393e4365a3e
+    
+  # Alt weapon slots (weapon swap)
+  - id: hand_right_alt
+    name: Alt Main Hand
+    description: Alternate weapon slot for weapon swapping
+    auto_equip: false
+    paired_with: hand_left_alt
+    guid: 8bf8d9f6339a5c64e9fddf237cf9cfce
+    
+  - id: hand_left_alt
+    name: Alt Off Hand
+    description: Alternate off-hand slot for weapon swapping
+    auto_equip: false
+    paired_with: hand_right_alt
+    guid: e0615aa28c6b57a438b2cfe376907d3c
+
+  # Flask slot
+  - id: flask
+    name: Flask
+    description: Potion flask slot
+    auto_equip: true
+    guid: 4db0d05ede09ca743b5ea2c65aaed93b
+
+# Tattoo slots (13 total - cosmetic/stat slots)
+tattoo_slots:
+  - { id: tattoo_head, name: "Head Tattoo", guid: "35ca7cdd0f5f4e84ea648049ba13e902" }
+  - { id: tattoo_chest, name: "Chest Tattoo", guid: "7e66ca87205075542bf57067d2cffe09" }
+  - { id: tattoo_stomach, name: "Stomach Tattoo", guid: "e5db015e8478a7642b20e01b2eebe317" }
+  - { id: tattoo_upper_back, name: "Upper Back Tattoo", guid: "bdd24c41948566842997b31ea759a7dd" }
+  - { id: tattoo_lower_back, name: "Lower Back Tattoo", guid: "ec26128fb31ba3341804d0d5b39a1215" }
+  - { id: tattoo_upper_arm_r, name: "Right Upper Arm Tattoo", guid: "1d1f292987d157742b57eca6271c1f3a" }
+  - { id: tattoo_upper_arm_l, name: "Left Upper Arm Tattoo", guid: "321e00012f7470e4a9688eaa747f7a1b" }
+  - { id: tattoo_lower_arm_r, name: "Right Lower Arm Tattoo", guid: "d81cf33daf0049d46ba25045b5f6171b" }
+  - { id: tattoo_lower_arm_l, name: "Left Lower Arm Tattoo", guid: "981a461b881aef8468b30918002def24" }
+  - { id: tattoo_upper_leg_r, name: "Right Upper Leg Tattoo", guid: "6920ad3e65e00104b8b9f15b909c3ae1" }
+  - { id: tattoo_upper_leg_l, name: "Left Upper Leg Tattoo", guid: "a60f4bc5078384046ba2581b412b61fd" }
+  - { id: tattoo_lower_leg_r, name: "Right Lower Leg Tattoo", guid: "17f15088b999e9a41a7e4a68461ae7c4" }
+  - { id: tattoo_lower_leg_l, name: "Left Lower Leg Tattoo", guid: "689c2bd0c963744438a49dbcd667c4a7" }
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - equipment
+  - slots

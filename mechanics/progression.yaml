@@ -1,0 +1,110 @@
+# =============================================================================
+# PROGRESSION SYSTEMS - Player, skill, item, and monster progression
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: progression
+type: mechanic
+name: Progression Systems
+description: >
+  Defines how players, skills, items, and monsters scale and progress 
+  throughout the game.
+
+# Player Progression
+player_progression:
+  description: >
+    Player leveling and attribute progression.
+  attributes:
+    count: 4
+    list:
+      - strength
+      - dexterity
+      - magic
+      - vitality
+  progression_tiers: 8
+  guid: ceb000c4a34d58a43bc0008c9c0b4996
+
+# Skill Progression
+skill_progression:
+  description: >
+    How skills gain power as they level up.
+  types:
+    - id: default
+      name: Skill Default Progression
+      description: Standard skill leveling.
+      guid: 8da2fc0e159acfe458a07773ffc118d7
+      
+    - id: core
+      name: Skill Core Progression
+      description: Core skill abilities.
+      guid: cd2e76e8f72e9ff4caec709df608dd2f
+      
+    - id: tier_1
+      name: Skill Tier 1 Level
+      description: Leveling within skill tier 1.
+      guid: 6827468e7ff8a5b46824dd23b2a2eae0
+
+# Item Progression
+item_progression:
+  description: >
+    How item power scales with item level.
+  progression_tiers: 8
+  guid: 82c6651615a9e6d4ebd3e6645be73c69
+
+# Monster Progression
+monster_progression:
+  description: >
+    How monster stats scale with level.
+  progression_tiers: 8
+  guid: 12332b27f23dff24ba3783ff5c186a07
+
+# Level vs Level Mechanics
+level_vs_level:
+  description: >
+    How level differences affect combat and experience.
+  max_experience_gain: 2500
+  notes: >
+    Experience modifiers are applied based on the level difference 
+    between player and monster.
+  guid: 5a17d8ecc276a0945b82be1b3a52668d
+
+# Weapon Mechanics
+weapon_mechanics:
+  description: >
+    Weapon-specific mechanics and systems.
+  features:
+    - dual_wield
+  guid: 4e81ce790f383294f9b109f1fffbb360
+
+# Armor Slot Mechanics
+armor_slots:
+  description: >
+    Armor contribution from equipment slots.
+  slot_count: 6
+  slots:
+    - head
+    - chest
+    - hands
+    - waist
+    - feet
+    - neck
+  guid: 7183502689ba6714aae3e291ff2fceed
+
+# Item Mechanics
+item_mechanics:
+  description: >
+    General item systems including vendors and crafting.
+  systems:
+    - vendor
+    - crafting
+  guid: bb517f70d206ea945b6821cad95f0e92
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - progression
+  - leveling
+  - scaling

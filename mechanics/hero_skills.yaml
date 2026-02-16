@@ -1,0 +1,160 @@
+# =============================================================================
+# HERO COMMON SKILLS - Base skills all characters have
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: hero_skills
+type: mechanic
+name: Hero Common Skills
+description: >
+  All player characters have access to these base skills regardless of class.
+  These include movement, interaction, and utility abilities.
+
+# Skill Slots
+skill_slots:
+  description: >
+    Players have 8 skill slots (indices 0-8), plus additional system skills.
+  slots:
+    - index: 0
+      type: basic_attack
+      control: none
+      name: Attack Skill
+      
+    - index: 1
+      type: class_skill
+      control: player
+      description: First class skill slot.
+      
+    - index: 2
+      type: class_skill
+      control: player
+      description: Second class skill slot.
+      
+    - index: 3
+      type: class_skill
+      control: player
+      description: Third class skill slot.
+      
+    - index: 4
+      type: class_skill
+      control: player
+      description: Fourth class skill slot.
+      
+    - index: 5
+      type: class_skill
+      control: player
+      description: Fifth class skill slot.
+      
+    - index: 6
+      type: dash
+      control: index
+      name: Dash Skill
+      description: Evasive dash ability. Uses Acrobatics channel.
+      
+    - index: 7
+      type: jump
+      control: index
+      name: Jump Skill
+      description: Leap over obstacles.
+      
+    - index: 8
+      type: flask
+      control: index
+      name: Flask Skill
+      description: Use equipped flask/potion.
+
+# System Skills (no slot index)
+system_skills:
+  - id: move
+    name: Move Skill
+    control: none
+    description: Basic movement. Always available.
+    
+  - id: interact
+    name: Interact Skill
+    control: none
+    description: Interact with objects, NPCs, and the environment.
+    
+  - id: fast_travel
+    name: Fast Travel Skill
+    control: none
+    description: Teleport to discovered waypoints.
+
+# Strike Types
+strike_types:
+  description: >
+    Weapon attacks produce different strike visual effects based on the 
+    weapon type and element.
+  strikes:
+    - id: default_short
+      name: Default Short Strike
+      shape: short
+      flavor: default
+      color: "#FFFFFF"
+      guid: 8b97e44c271814946baf4aa0d4a8d24e
+      
+    - id: default_medium
+      name: Default Medium Strike
+      shape: medium
+      flavor: default
+      color: "#FFFFFF"
+      guid: 462a078e6c4afad46b0063347689e0f9
+      
+    - id: default_long
+      name: Default Long Strike
+      shape: long
+      flavor: default
+      color: "#FFFFFF"
+      guid: 6de5b945ece1b374b8820c3fc30c173d
+      
+    - id: blood_short
+      name: Blood Short Strike
+      shape: short
+      flavor: blood
+      color: "#FFA0A0"
+      guid: 5f4a09d8920d1624c8cfc7a542fd169c
+      
+    - id: blood_medium
+      name: Blood Medium Strike
+      shape: medium
+      flavor: blood
+      color: "#FFA0A0"
+      guid: 842251778f831014aa9aba74294686ec
+      
+    - id: blood_long
+      name: Blood Long Strike
+      shape: long
+      flavor: blood
+      color: "#FFA0A0"
+      guid: 14d640ce8036b5a49be4b990b60e834a
+      
+    - id: bone_short
+      name: Bone Short Strike
+      shape: short
+      flavor: bone
+      color: "#7ED9FF"
+      guid: cef5b731d1730134db35c37b08d93bb8
+      
+    - id: bone_medium
+      name: Bone Medium Strike
+      shape: medium
+      flavor: bone
+      color: "#7ED9FF"
+      guid: 303d10058ec7cd34db0cca447b1e4661
+      
+    - id: bone_long
+      name: Bone Long Strike
+      shape: long
+      flavor: bone
+      color: "#7ED9FF"
+      guid: 6bd9bee45142a274cb88b496b7da9c8d
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - skills
+  - controls
+  - player

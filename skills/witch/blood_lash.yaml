@@ -1,0 +1,62 @@
+# =============================================================================
+# BLOOD LASH - Witch Skill
+# Extracted from game data
+# =============================================================================
+
+id: blood_lash
+type: skill
+name: Blood Lash
+class: witch
+branch: blood_and_bone
+
+description: >
+  A blood magic skill that tethers to enemies, draining their life force.
+  Can be enhanced with glyphs and upgraded to steal mana or enrage the caster.
+
+damage_type: shadow
+resource_cost:
+  type: mana
+  base_value: 12
+
+scaling:
+  - magic
+  - vitality
+
+# Skill upgrade options
+skill_options:
+  - id: blood_glyph
+    name: Blood Glyph
+    description: Enhances the skill with blood glyph effects.
+    requires_tag: evocation
+    
+  - id: blood_rage
+    name: Blood Rage
+    description: Enters an enraged state after using Blood Lash.
+    
+  - id: vitae
+    name: Vitae
+    description: Drains life from tethered enemies.
+    
+  - id: steal_mana
+    name: Steal Mana
+    description: Drains mana from tethered enemies.
+    
+  - id: ichor
+    name: Ichor
+    description: Increases the number of enemies that can be tethered.
+
+mechanics:
+  - tether
+  - drain
+  - blood
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - skill
+  - witch
+  - blood_and_bone
+  - blood
+  - drain

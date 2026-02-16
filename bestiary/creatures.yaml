@@ -1,0 +1,61 @@
+# =============================================================================
+# CREATURES - Bestiary
+# Extracted from game data
+# =============================================================================
+
+category: creatures
+description: Various beasts and monsters that roam the wilds and dungeons.
+
+enemies:
+  - id: beetle
+    name: Beetle
+    type: beast
+    description: Large insects found in dark caves and swamps.
+    attacks:
+      - strike
+      - spit
+
+  - id: death_beetle
+    name: Death Beetle
+    type: beast
+    description: A larger, more dangerous beetle species.
+    attacks:
+      - strike
+      - spit
+
+  - id: giant_death_beetle
+    name: Giant Death Beetle
+    type: beast
+    tier: elite
+    description: Massive beetle that poses a significant threat.
+    attacks:
+      - strike
+      - spit
+
+  - id: crypt_roach
+    name: Crypt Roach
+    type: beast
+    description: Oversized roaches that infest crypts and tombs.
+    attacks:
+      - strike
+
+  - id: deep_ones
+    name: Deep Ones
+    type: aberration
+    tier: elite
+    description: Aquatic horrors from the depths.
+    attacks:
+      - melee
+    variants:
+      - unique
+    loot: deep_ones_loot
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - bestiary
+  - creatures
+  - beasts
+  - aberrations

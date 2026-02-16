@@ -1,0 +1,197 @@
+# =============================================================================
+# SKILL SYSTEM - Skill tiers, channels, and shapes
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: skill_system
+type: mechanic
+name: Skill System
+description: >
+  The skill system defines how skills are organized into tiers within skill 
+  trees, how different actions can interrupt each other, and the shapes of 
+  skill AOE effects.
+
+# Skill Tiers (6 total)
+skill_tiers:
+  description: >
+    Skills are organized into 6 tiers within each skill tree branch.
+    Higher tiers unlock as you progress deeper into the skill tree.
+  tiers:
+    - tier: 1
+      description: Starting skills, unlocked immediately.
+      guid: 6db8c252e87658d4ca4db5f708f03258
+    - tier: 2
+      description: Second tier skills.
+      guid: fe04abe1a029da942b31adbb2da48576
+    - tier: 3
+      description: Third tier skills.
+      guid: 961179be29258494c8ad9b18ab6b1035
+    - tier: 4
+      description: Fourth tier skills.
+      guid: 2ebfed981c5a02640b466b46b6bf07c5
+    - tier: 5
+      description: Fifth tier skills.
+      guid: ce7a4477989bb2a459a039451c54be5c
+    - tier: 6
+      description: Ultimate tier skills.
+      guid: de1ff1e866701dd419dc5a6cd25c93d7
+
+# Skill Channels (action priority system)
+skill_channels:
+  description: >
+    Channels determine how different actions interact - which can interrupt 
+    others, and which block simultaneous actions.
+  channels:
+    - id: combat
+      name: Combat Channel
+      description: Combat skills and attacks.
+      soft_hits: false
+      alert: true
+      blocked_by: [combat]
+      interrupted_by: [acrobatics]
+      guid: 5ab6de91addc20b4f96308913b4e1fd5
+      
+    - id: movement
+      name: Movement Channel
+      description: Movement abilities.
+      soft_hits: true
+      alert: false
+      blocked_by: [combat]
+      interrupted_by: [combat]
+      guid: 77529a273493f9940906a4216aad5c4c
+      
+    - id: acrobatics
+      name: Acrobatics Channel
+      description: Dodge, dash, and evasive abilities.
+      soft_hits: false
+      alert: true
+      blocked_by: []
+      interrupted_by: []
+      notes: Can interrupt combat actions.
+      guid: 7e048936440a39e4fba81d169feed8be
+      
+    - id: potion
+      name: Potion Channel
+      description: Using flasks/potions.
+      soft_hits: false
+      alert: false
+      blocked_by: []
+      interrupted_by: []
+      guid: ef41bfea2363dba4381c2621c5e9d98f
+      
+    - id: interact
+      name: Interact Channel
+      description: Interacting with objects/NPCs.
+      soft_hits: false
+      alert: false
+      blocked_by: []
+      interrupted_by: []
+      guid: 9c90f6b25e979fb4ab4c3e23e6915cb2
+      
+    - id: proc
+      name: Proc Channel
+      description: Triggered effects and procs.
+      soft_hits: false
+      alert: false
+      blocked_by: []
+      interrupted_by: []
+      guid: 5e23c3b1c9ad41a4d981283ffb429c90
+      
+    - id: behavior
+      name: Behavior Channel
+      description: AI and behavior actions.
+      soft_hits: false
+      alert: false
+      blocked_by: []
+      interrupted_by: []
+      guid: 3ecdfca53b0669b479422274f85d198b
+
+# Skill Shape Types
+skill_shapes:
+  description: >
+    Different shapes for skill AOE effects.
+  shapes:
+    - id: melee_standard
+      name: Standard Melee
+      type: melee
+      normalized_height: 0.66
+      guid: 1fe9c05264eb2e64f850a0903bc54c2c
+      
+    - id: floor_disk_bone_storm
+      name: Bone Storm Disk
+      type: aoe
+      origin: center
+      skill: bone_storm
+      guid: 150dc319fb664e04780bbbfb7c79a17e
+      
+    - id: floor_disk_spine_breaker
+      name: Spine Breaker Disk
+      type: aoe
+      origin: center
+      forward_distance: 3
+      skill: spine_breaker
+      guid: 8e2787c36308c024ca3be9e4e8e00093
+      
+    - id: tyrant_meteor
+      name: Tyrant Meteor
+      type: aoe
+      origin: center
+      notes: Boss attack shape
+      guid: 32b1323175b7f744e8b9c95c28cbd747
+      
+    - id: lightning_major
+      name: Lightning Damage Major
+      type: lightning
+      guid: 50c59fe511960fb4097215fab3bfc0e8
+      
+    - id: lightning_minor
+      name: Lightning Damage Minor
+      type: lightning
+      guid: f50162454d59cbf42b6a133f4c55db9c
+      
+    - id: shocking
+      name: Shocking Effect
+      type: lightning
+      notes: Chain lightning effect
+      guid: 87ea9f7010db1cc4eb0d69efdd443076
+      
+    - id: bogie_bomber
+      name: Bogie Bomber Throw
+      type: projectile
+      origin: position
+      guid: 68fc1be7df1181646ae612437eba2710
+
+# Skill Tags
+skill_tags:
+  description: Tags that categorize skills and affect how they interact.
+  visible_tags:
+    - summon
+    - evocation
+    - weapon
+    - piercing
+    - entangle
+    - ranged
+    - melee
+    - spell
+    - cast
+    - glyph
+    - heal
+    - movement
+    - dash
+    - shadow
+    - nature
+  hidden_tags:
+    - basic_attack
+    - primary_effect
+    - secondary_effect
+    - removed_by_acrobatic
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - skills
+  - channels
+  - tiers

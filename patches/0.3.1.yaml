@@ -1,0 +1,27 @@
+# =============================================================================
+# EXAMPLE CONTENT - This file demonstrates the patch notes schema format.
+# Replace with actual Darkhaven patch notes when available.
+# =============================================================================
+
+id: "0.3.1"
+type: patch
+name: Patch 0.3.1
+version: 0.3.1
+release_date: 2026-01-15
+description: |
+  Example patch notes entry demonstrating the schema format.
+highlights:
+  - Example highlight one
+  - Example highlight two
+changes:
+  classes: []
+  skills: []
+  items: []
+  mechanics: []
+  bug_fixes: []
+game_version: 0.3.1
+last_updated: 2026-01-30
+status: active
+tags:
+  - patch
+  - balance

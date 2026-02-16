@@ -1,0 +1,144 @@
+# =============================================================================
+# CLASS-SPECIFIC STATS - Unique resources and mechanics for specific classes
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+# --- WITCH CLASS ---
+
+- id: bone_shard
+  type: stat
+  name: Bone Shard
+  display_name: Bone Shard
+  category: class_specific
+  class: witch
+  description: Resource used by the Witch class for bone-based abilities.
+  guid: 25e591f78d5e2264cbe5dd47abbbb265
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - class_specific
+    - witch
+    - bone
+
+- id: gloom
+  type: stat
+  name: Gloom
+  display_name: Gloom
+  category: class_specific
+  class: witch
+  description: Shadow resource used by the Witch class for dark abilities.
+  guid: d91992913778c504d82dcad1101fd61b
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - class_specific
+    - witch
+    - shadow
+
+# --- FLASK/POTION ---
+
+- id: potion
+  type: stat
+  name: Potion
+  display_name: Potion
+  category: consumable
+  description: Current potion charges available.
+  guid: 446ee239b53115146a9e009f93f66ed5
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - consumable
+    - potion
+
+- id: potion_max
+  type: stat
+  name: Potion Max
+  display_name: Potion Max
+  category: consumable
+  description: Maximum number of potion charges.
+  guid: 1e3a257df4439934dac0752c7e35427d
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - consumable
+    - potion
+
+- id: flask_health
+  type: stat
+  name: Flask Health Recovery
+  display_name: Flask Health
+  category: consumable
+  description: Amount of health restored per potion use.
+  guid: 210ac8c6764c3e845900eca369a86d7c
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - consumable
+    - potion
+    - health
+
+- id: flask_duration
+  type: stat
+  name: Flask Duration
+  display_name: Flask Duration
+  category: consumable
+  description: Duration of flask effects.
+  guid: 5e4d484a42ad5f74587fbc56120004e7
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - consumable
+    - potion
+
+- id: flask_cooldown
+  type: stat
+  name: Flask Cooldown
+  display_name: Flask Cooldown
+  category: consumable
+  description: Time between flask uses.
+  guid: b438db40114ea1f4192f3617e28bdce8
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - consumable
+    - potion
+    - cooldown
+
+# --- CURRENCY ---
+
+- id: gold
+  type: stat
+  name: Gold
+  display_name: Gold
+  category: currency
+  description: Primary currency used for trading and services.
+  guid: e098506db56ab944794ce132ced2ea51
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - currency
+    - gold
+
+- id: stone
+  type: stat
+  name: Stone
+  display_name: Stone
+  category: currency
+  description: Crafting material or secondary currency.
+  guid: e2fca4e0f5f710446a6e4b44bd62a543
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - currency
+    - crafting

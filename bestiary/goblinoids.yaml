@@ -1,0 +1,193 @@
+# =============================================================================
+# GOBLINOIDS - Bestiary
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+category: goblinoids
+description: Small, cunning creatures that attack in groups. Includes Bogies and Gobkins.
+
+enemies:
+  # =========================================================================
+  # BOGIES - Wild goblinoid creatures
+  # =========================================================================
+  
+  - id: bogie_feral
+    name: Bogie Feral
+    type: goblinoid
+    subtype: bogie
+    description: Wild, untamed bogies that attack with savage fury.
+    attacks:
+      - melee
+    loot: bogie_feral_loot
+    spawn_group: each_bogie_feral_spawn_group
+
+  - id: bogie_stabber
+    name: Bogie Stabber
+    type: goblinoid
+    subtype: bogie
+    description: Quick bogies that stab with daggers.
+    attacks:
+      - stab
+    loot: bogie_stabber_loot
+
+  - id: bogie_jabber
+    name: Bogie Jabber
+    type: goblinoid
+    subtype: bogie
+    description: Bogies that attack with jabbing motions.
+    attacks:
+      - jab
+    loot: bogie_jabber_loot
+    spawn_group: bogie_jabber_spawn_group
+
+  - id: bogie_chopper
+    name: Bogie Chopper
+    type: goblinoid
+    subtype: bogie
+    tier: warrior
+    description: Armored bogies wielding crude axes.
+    attacks:
+      - melee
+
+  - id: bogie_spearman
+    name: Bogie Spearman
+    type: goblinoid
+    subtype: bogie
+    tier: warrior
+    description: Bogies armed with spears, capable of charging attacks.
+    attacks:
+      - stab
+      - charge
+
+  - id: bogie_shaman
+    name: Bogie Shaman
+    type: goblinoid
+    subtype: bogie
+    tier: caster
+    description: Bogie spellcasters that support their allies.
+    attacks:
+      - magic
+    loot: bogie_shaman_loot
+    spawn_group: bogie_shaman_leader_spawn_group
+
+  - id: bogie_slingshotter
+    name: Bogie Slingshotter
+    type: goblinoid
+    subtype: bogie
+    tier: ranged
+    description: Bogies that attack from range with slings.
+    attacks:
+      - ranged
+    loot: bogie_slingshotter_loot
+
+  - id: bogie_bomb_thrower
+    name: Bogie Bomb Thrower
+    type: goblinoid
+    subtype: bogie
+    tier: ranged
+    description: Bogies that throw explosive molotov bombs.
+    attacks:
+      - molotov
+      - head_strike
+      - kick
+      - palm_strike
+    skill_shape: bogie_bomber_skill_shape
+
+  - id: bogie_fire
+    name: Bogie Fire
+    type: goblinoid
+    subtype: bogie
+    element: fire
+    description: Fire-attuned bogies found in volcanic areas.
+    attacks:
+      - melee
+      - fire
+
+  - id: bogie_magma
+    name: Bogie Magma
+    type: goblinoid
+    subtype: bogie
+    element: fire
+    description: Magma-infused bogies with burning attacks.
+    attacks:
+      - melee
+
+  - id: bogie_tyrant
+    name: Bogie Tyrant
+    type: goblinoid
+    subtype: bogie
+    tier: boss
+    description: >
+      Massive bogie chieftain with devastating magical abilities.
+      Uses meteor attacks to devastate areas.
+    attacks:
+      - magic
+      - melee
+      - meteor
+    skill_shape: tyrant_meteor_shape
+    spawn_group: unique_bogie_spawn_group
+
+  # =========================================================================
+  # GOBKINS - Smaller, more organized goblinoid tribe
+  # =========================================================================
+  
+  - id: gobkin_grunt
+    name: Gobkin Grunt
+    type: goblinoid
+    subtype: gobkin
+    description: Basic gobkin warrior with sword and shield.
+    attacks:
+      - slash
+      - stab
+      - shield_bash
+    behaviors: gobkin_common_behaviors
+
+  - id: gobkin_shaman
+    name: Gobkin Shaman
+    type: goblinoid
+    subtype: gobkin
+    tier: caster
+    description: Gobkin spellcaster providing magical support.
+    attacks:
+      - magic
+      - melee
+    behaviors: gobkin_common_behaviors
+
+  - id: gobkin_slinger
+    name: Gobkin Slinger
+    type: goblinoid
+    subtype: gobkin
+    tier: ranged
+    description: Gobkin that throws explosive bombs from range.
+    attacks:
+      - molotov
+      - head_strike
+      - kick
+      - palm_strike
+    behaviors: gobkin_common_behaviors
+
+# Spawn Groups Reference
+spawn_groups:
+  - bogie_campfire_spawn_group
+  - bogie_jabber_spawn_group
+  - bogie_pack_cricks_hollow_spawn_group
+  - bogie_pack_spawn_group
+  - bogie_shaman_leader_spawn_group
+  - each_bogie_spawn_group
+  - each_bogie_feral_spawn_group
+  - unique_bogie_spawn_group
+
+# Locations
+locations:
+  - cricks_hollow  # Primary bogie area
+  - lava_tunnels   # Bogie Magma/Fire variants
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - bestiary
+  - goblinoids
+  - bogie
+  - gobkin

@@ -1,0 +1,69 @@
+# =============================================================================
+# CORRUPTED/GLOOM ENEMIES - Bestiary
+# Extracted from game data
+# =============================================================================
+
+category: corrupted
+description: Creatures twisted by the Gloom, the dark force corrupting the land.
+
+enemies:
+  - id: gloomkin_grunt
+    name: Gloomkin Grunt
+    type: corrupted
+    description: Humanoids transformed by the Gloom into twisted warriors.
+    attacks:
+      - stab_left
+      - stab_right
+      - stab_cross
+
+  - id: gloomkin_demolisher
+    name: Gloomkin Demolisher
+    type: corrupted
+    tier: elite
+    description: Large, powerful gloomkin that smash through defenses.
+    attacks:
+      - bash_forward
+      - punch
+
+  - id: gloom_parasite
+    name: Gloom Parasite
+    type: corrupted
+    description: Small parasitic creatures born from the Gloom.
+    attacks:
+      - strike
+
+  - id: gloom_tentacle
+    name: Gloom Tentacle
+    type: corrupted
+    description: Writhing appendages of the Gloom that emerge from the ground.
+    attacks:
+      - strike
+      - spit
+      - sweep
+
+  - id: thorn_husk
+    name: Thorn Husk
+    type: corrupted
+    description: Plant-like husks covered in thorns.
+    attacks:
+      - strike
+
+  - id: corrupted_bramblehusk
+    name: Corrupted Bramblehusk
+    type: corrupted
+    description: Twisted plant creatures with thorn attacks.
+    attacks:
+      - strike
+      - thorn
+    variants:
+      - unique
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - bestiary
+  - corrupted
+  - gloom
+  - monsters

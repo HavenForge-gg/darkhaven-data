@@ -1,0 +1,88 @@
+# =============================================================================
+# GEMS - Socketable Items
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: gems
+type: item_category
+name: Gems
+description: >
+  Gems are socketable items that can be placed into equipment sockets to 
+  provide stat bonuses. Gems can be upgraded by combining lower tier gems.
+
+gem_types:
+  - id: ruby
+    name: Ruby
+    color: red
+    element: fire
+    description: Red gems associated with fire and offensive power.
+    tiers:
+      - tier: 1
+        crafts_to: tier_2
+      - tier: 2
+    
+  - id: amber
+    name: Amber
+    color: orange
+    description: Orange gems with warm, protective properties.
+    tiers:
+      - tier: 1
+        crafts_to: tier_2
+      - tier: 2
+    
+  - id: jade
+    name: Jade
+    color: green
+    element: acid
+    description: Green gems associated with nature and vitality.
+    tiers:
+      - tier: 1
+        crafts_to: tier_2
+      - tier: 2
+    
+  - id: lapis
+    name: Lapis
+    color: blue
+    element: cold
+    description: Blue gems associated with cold and mana.
+    tiers:
+      - tier: 1
+        crafts_to: tier_2
+      - tier: 2
+    
+  - id: onyx
+    name: Onyx
+    color: black
+    element: shadow
+    description: Black gems associated with shadow and dark magic.
+    tiers:
+      - tier: 1
+        crafts_to: tier_2
+      - tier: 2
+    
+  - id: opal
+    name: Opal
+    color: white
+    element: lightning
+    description: Iridescent gems associated with lightning and speed.
+    tiers:
+      - tier: 1
+        crafts_to: tier_2
+      - tier: 2
+
+crafting:
+  description: >
+    Combine gems of the same type and tier to create a higher tier gem.
+  recipes:
+    - input: 3x Tier 1
+      output: 1x Tier 2
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - items
+  - gems
+  - socketables
+  - crafting

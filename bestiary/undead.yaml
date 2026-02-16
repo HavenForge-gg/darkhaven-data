@@ -1,0 +1,123 @@
+# =============================================================================
+# UNDEAD ENEMIES - Bestiary
+# Extracted from game data
+# =============================================================================
+
+category: undead
+description: Reanimated corpses and skeletal warriors that haunt the dark places of Darkhaven.
+
+enemies:
+  - id: living_corpse
+    name: Living Corpse
+    type: undead
+    description: A shambling corpse animated by dark magic.
+    attacks:
+      - strike
+    variants:
+      - ember  # Living Corpse with ember/fire attacks
+
+  - id: skelezomb_walker
+    name: Skelezomb Walker
+    type: undead
+    description: A partially decomposed skeleton that walks the crypts.
+    attacks:
+      - strike
+    loot: skelezomb_walker_loot
+
+  - id: skelezomb_archer
+    name: Skelezomb Archer
+    type: undead
+    tier: ranged
+    description: Skeletal archer that attacks from range.
+    attacks:
+      - ranged
+    loot: skelezomb_archer_loot
+
+  - id: skelezomb_champion
+    name: Skelezomb Champion
+    type: undead
+    tier: elite
+    description: A powerful skeletal warrior leading lesser undead.
+    attacks:
+      - strike
+    loot: skelezomb_champion_loot
+
+  - id: doomed_soldier
+    name: Doomed Soldier
+    type: undead
+    description: A cursed warrior bound to fight eternally.
+    attacks:
+      - slashing_strike
+      - blunt_strike
+
+  - id: barrow_knight
+    name: Barrow Knight
+    type: undead
+    tier: elite
+    description: An armored undead knight, guardian of ancient tombs.
+    attacks:
+      - slashing_strike
+      - blunt_strike
+    variants:
+      - unique  # Boss version
+
+  - id: bone_legion
+    name: Bone Legion
+    type: undead
+    description: Skeletal soldiers that fight in coordinated groups.
+    attacks:
+      - slashing_strike
+      - blunt_strike
+
+  - id: skeleton_mage
+    name: Skeleton Mage
+    type: undead
+    tier: ranged
+    description: An undead spellcaster wielding elemental magic.
+    attacks:
+      - fire_missile
+      - frost_missile
+      - lightning_charged_bolt
+      - shadow_missile
+    variants:
+      - fire
+      - frost
+      - lightning
+      - shadow
+      - unique_shadow
+
+  - id: lich
+    name: Lich
+    type: undead
+    tier: boss
+    description: A powerful undead sorcerer of immense magical power.
+    attacks:
+      - fire_missile
+      - frost_missile
+      - lightning_charged_bolt
+      - shadow_missile
+      - meteor
+
+  - id: necro_knight
+    name: Necro Knight
+    type: undead
+    tier: elite
+    description: A shadow-wielding undead champion.
+    attacks:
+      - shadow
+
+  - id: zombie
+    name: Zombie
+    type: undead
+    description: A slow-moving undead that attacks in groups.
+    attacks:
+      - strike
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - bestiary
+  - undead
+  - monsters

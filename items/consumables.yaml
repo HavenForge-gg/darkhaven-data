@@ -1,0 +1,100 @@
+# =============================================================================
+# CONSUMABLES - Usable Items
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: consumables
+type: item_category
+name: Consumable Items
+description: Items that can be used and consumed for various effects.
+
+# Stat Upgrade Tomes
+tomes:
+  description: >
+    Tomes are rare items that permanently increase a character's stats.
+    Each tome type corresponds to a core attribute.
+    
+  types:
+    - id: tome_of_might
+      name: Tome of Might
+      attribute: strength
+      description: Permanently increases Strength.
+      guid: 2dc925538bb92eb4482f8ad830836f68
+      
+    - id: tome_of_power
+      name: Tome of Power
+      attribute: magic
+      description: Permanently increases Magic.
+      guid: 89925bd8bd770744ab6e9f2c0a419077
+      
+    - id: tome_of_vigor
+      name: Tome of Vigor
+      attribute: vitality
+      description: Permanently increases Vitality.
+      guid: d1b5ea8d19ee233478ac4bad491923f2
+      
+    - id: tome_of_agility
+      name: Tome of Agility
+      attribute: dexterity
+      description: Permanently increases Dexterity.
+      guid: f4a62f175d339b946a7aca37bc302991
+      
+    - id: tome_of_talents
+      name: Tome of Talents
+      description: Grants additional skill points.
+      guid: 7ed7da32e11fb9149a6a15fd7fe42041
+
+# Flasks
+flasks:
+  description: >
+    Flasks are rechargeable healing items. Players start with 3 free flask
+    uses that recharge at certain conditions.
+    
+  types:
+    - id: flask_01
+      name: Flask
+      description: A basic healing flask.
+      
+    - id: flask_03
+      name: Flask
+      description: An upgraded healing flask.
+      
+    - id: flask_04
+      name: Rotgut Flask
+      description: A special flask with unique effects.
+      
+    - id: flask_06
+      name: Flask
+      description: A high-tier healing flask.
+
+  stats:
+    - flask_duration
+    - flask_effect_duration
+    - flask_health_recovery
+    - flask_cooldown
+
+# Special Items
+special:
+  - id: puzzle_box
+    name: Puzzle Box
+    description: A mysterious box that can be opened for rewards.
+
+# Orbs (dropped by enemies)
+orbs:
+  - id: health_orb
+    name: Health Orb
+    description: Dropped by enemies, restores health on pickup.
+    
+  - id: mana_orb
+    name: Mana Orb
+    description: Dropped by enemies, restores mana on pickup.
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - items
+  - consumables
+  - tomes
+  - flasks

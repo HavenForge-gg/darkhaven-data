@@ -1,0 +1,159 @@
+# =============================================================================
+# RESOURCES - Pools that are consumed and regenerated during gameplay
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+- id: life
+  type: stat
+  name: Life
+  display_name: Life
+  category: resource
+  description: Health pool. Reaching zero results in death.
+  guid: a12ff07e0f2eb2c458c46d895b3e984f
+  related_stats:
+    - life_max
+    - life_regen
+    - life_bonus
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - core
+    - health
+
+- id: life_max
+  type: stat
+  name: Maximum Life
+  display_name: Life
+  category: resource
+  description: Maximum health pool capacity.
+  guid: 6762d1df54458a047b5fa138b0430207
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - health
+
+- id: life_regen
+  type: stat
+  name: Life Regeneration
+  display_name: Life Regen
+  category: resource
+  description: Rate at which life is restored over time.
+  guid: 15d5d6d0097585b41ba4da30712bf77a
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - health
+    - regen
+
+- id: mana
+  type: stat
+  name: Mana
+  display_name: Mana
+  category: resource
+  description: Magical energy pool used for casting spells and abilities.
+  guid: a1a41762eced5bf4eb07e65cb7fbed7e
+  related_stats:
+    - mana_max
+    - mana_regen
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - core
+    - magic
+
+- id: mana_max
+  type: stat
+  name: Maximum Mana
+  display_name: Mana
+  category: resource
+  description: Maximum mana pool capacity.
+  guid: 7b8688dfc705e5a4795434a96f5faf88
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - magic
+
+- id: mana_regen
+  type: stat
+  name: Mana Regeneration
+  display_name: Mana Regen
+  category: resource
+  description: Rate at which mana is restored over time.
+  guid: 8834f016bd6cc3547b3a540212a96a47
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - magic
+    - regen
+
+- id: stamina
+  type: stat
+  name: Stamina
+  display_name: Stamina
+  category: resource
+  description: Physical energy pool used for movement abilities like dashing.
+  guid: b952e7d961c1ee44fb4942edfe7f1f62
+  related_stats:
+    - stamina_max
+    - stamina_regen
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - physical
+
+- id: stamina_max
+  type: stat
+  name: Maximum Stamina
+  display_name: Stamina
+  category: resource
+  description: Maximum stamina pool capacity.
+  guid: b8f43645839918c4b9328c71c5913577
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - physical
+
+- id: stamina_regen
+  type: stat
+  name: Stamina Regeneration
+  display_name: Stamina Regen
+  category: resource
+  description: Rate at which stamina is restored over time.
+  guid: bf067c99e613bd4479abfa185c61bf3d
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - physical
+    - regen
+
+- id: energy
+  type: stat
+  name: Energy
+  display_name: Energy
+  category: resource
+  description: Alternative resource pool for certain class mechanics.
+  guid: 765c7e665b3e1d349bdce3dd64a00ead
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - resource
+    - class_specific

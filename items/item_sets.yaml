@@ -1,0 +1,28 @@
+# =============================================================================
+# ITEM SETS - Equipment Sets with Bonuses
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: item_sets
+type: mechanic
+name: Item Sets
+description: >
+  Item sets are collections of related equipment pieces that provide 
+  additional bonuses when multiple pieces are equipped together.
+
+sets:
+  - id: shadowscar
+    name: Shadowscar
+    description: A dark set infused with shadow magic.
+    pieces: []  # Pending piece extraction
+    set_bonuses: []  # Pending bonus extraction
+    guid: d01e2c07bba642a4f95ea548bbd831b2
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: speculative
+tags:
+  - items
+  - sets
+  - equipment

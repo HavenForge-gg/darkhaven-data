@@ -1,0 +1,121 @@
+# =============================================================================
+# DAMAGE TYPES - All damage types in the game
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+- id: fire
+  type: damage_type
+  name: Fire Damage
+  display_name: Fire
+  category: elemental
+  description: Fire damage burns enemies and can apply burning status effects.
+  color: "#e72424"
+  scaling_attribute: magic
+  guid: 49c26b4693bceee48bb7695e3d6e6d76
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - elemental
+    - fire
+    - dot
+
+- id: lightning
+  type: damage_type
+  name: Lightning Damage
+  display_name: Lightning
+  category: elemental
+  description: Lightning damage shocks enemies with electrical energy.
+  color: "#3737f8"
+  scaling_attribute: dexterity
+  guid: 59c4f390c4bfa4a4fa40dd370bb62244
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - elemental
+    - lightning
+
+- id: shadow
+  type: damage_type
+  name: Shadow Damage
+  display_name: Shadow
+  category: elemental
+  description: Shadow damage corrupts enemies with dark energy.
+  color: "#6d6d6d"
+  scaling_attribute: vitality
+  guid: 0d001a391d58dc34f99e415549444f66
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - elemental
+    - shadow
+    - dark
+
+- id: acid
+  type: damage_type
+  name: Acid Damage
+  display_name: Acid
+  category: elemental
+  description: Acid damage corrodes enemies over time.
+  color: "#c77650"
+  scaling_attribute: vitality
+  guid: 7bc384bdc3b5f4a49b5dc5265a4cf984
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - elemental
+    - acid
+    - dot
+
+- id: slashing
+  type: damage_type
+  name: Slashing Damage
+  display_name: Slashing
+  category: physical
+  description: Physical slashing damage from bladed weapons.
+  color: "#c7c7c7"
+  scaling_attribute: dexterity
+  guid: 1952544644d9fad4993fe76109f43381
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - physical
+    - slashing
+    - melee
+
+- id: cold
+  type: damage_type
+  name: Cold Damage
+  display_name: Cold
+  category: elemental
+  description: Cold damage freezes and slows enemies.
+  color: "#7ed9ff"
+  scaling_attribute: magic
+  guid: null
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: speculative
+  tags:
+    - elemental
+    - cold
+    - slow
+
+- id: physical
+  type: damage_type
+  name: Physical Damage
+  display_name: Physical
+  category: physical
+  description: Raw physical damage from weapons and impacts.
+  color: "#ffffff"
+  scaling_attribute: strength
+  guid: null
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: speculative
+  tags:
+    - physical
+    - melee

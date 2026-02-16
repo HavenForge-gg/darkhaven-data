@@ -1,0 +1,123 @@
+# =============================================================================
+# SOCKETABLES - Items that can be socketed into equipment
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: socketables
+type: item_category
+name: Socketables
+description: >
+  Items that can be placed into equipment sockets to provide stat bonuses.
+  Includes Gems, Runes, and Cores.
+
+# Gem Types (see gems.yaml for detailed gem info)
+gems:
+  types:
+    - ruby
+    - amber
+    - jade
+    - lapis
+    - onyx
+    - opal
+  tiers:
+    - tier_1
+    - tier_2
+  max_stack: 9
+
+# Rune Types
+runes:
+  description: >
+    Runes provide unique skill modifiers and special effects when socketed.
+  types:
+    - rune_01
+    - rune_02
+    - rune_03
+  notes: Rune names pending localization.
+
+# Cores (monster drops)
+cores:
+  description: >
+    Cores are dropped by monsters and provide elemental bonuses.
+    Higher rarity cores come from stronger monsters.
+  elements:
+    - id: fire
+      name: Fire Core
+      element: fire
+      description: Core infused with fire energy.
+      
+    - id: cold
+      name: Cold Core
+      element: cold
+      description: Core infused with cold energy.
+      
+    - id: lightning
+      name: Lightning Core
+      element: lightning
+      description: Core infused with lightning energy.
+      
+    - id: nature
+      name: Nature Core
+      element: nature
+      description: Core infused with nature energy.
+      
+    - id: shadow
+      name: Shadow Core
+      element: shadow
+      description: Core infused with shadow energy.
+      
+  rarities:
+    - id: common
+      name: Common Core
+      tier: 1
+      source: Normal monsters
+      
+    - id: elite
+      name: Elite Core
+      tier: 2
+      source: Elite monsters
+      
+    - id: champion
+      name: Champion Core
+      tier: 3
+      source: Champion monsters
+      
+    - id: unique
+      name: Unique Core
+      tier: 4
+      source: Unique/Boss monsters
+
+# Monster-specific cores
+monster_cores:
+  - beetle_core
+  - bogie_feral_core
+  - bogie_spearman_core
+  - bogie_chopper_core
+  - bogie_fire_core
+  - gulpjaw_core
+
+# Socket Types
+socket_types:
+  - id: common_socket
+    name: Common Socket
+    color: "#FFFFFF"  # White
+    fill_order: 0
+    description: Standard socket found on most equipment.
+    guid: dc4f6168a7d26c940959545485f76962
+    
+  - id: unique_socket
+    name: Unique Socket
+    color: "#B5A06D"  # Gold/Tan
+    fill_order: 1
+    description: Special socket found on unique and legendary equipment.
+    guid: 07826ea7c73d5df40b02785076596196
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - items
+  - socketables
+  - cores
+  - runes
+  - gems

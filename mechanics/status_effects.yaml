@@ -1,0 +1,126 @@
+# =============================================================================
+# STATUS EFFECTS - All status effects in the game
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: status_effects
+type: mechanic
+name: Status Effects
+description: >
+  Status effects are temporary conditions applied to characters that modify 
+  their stats or deal damage over time. Some are beneficial (buffs) while 
+  others are harmful (debuffs).
+
+debuffs:
+  # Elemental DoTs
+  - id: burn
+    name: Burn
+    category: elemental
+    element: fire
+    description: Deals fire damage over time. Applied by fire attacks and lava/acid tiles.
+    damage_type: fire
+    
+  - id: bleed
+    name: Bleed
+    category: physical
+    description: Deals physical damage over time. Applied by slashing attacks and blood magic.
+    damage_type: physical
+    
+  - id: poison
+    name: Poison
+    category: elemental
+    element: acid
+    description: Deals acid damage over time. Applied by poison gas and venomous attacks.
+    damage_type: acid
+
+  # Temperature Effects
+  - id: chilled
+    name: Chilled
+    category: elemental
+    element: cold
+    description: Slows movement and attack speed. Prolonged exposure leads to Frozen.
+    effect: slow
+    
+  - id: frozen
+    name: Frozen
+    category: elemental  
+    element: cold
+    description: Completely immobilizes the target. Broken by taking damage.
+    effect: immobilize
+
+  # Crowd Control
+  - id: stun
+    name: Stun
+    category: crowd_control
+    description: Briefly incapacitates the target, preventing all actions.
+    effect: incapacitate
+    
+  - id: entangle
+    name: Entangle
+    category: crowd_control
+    description: Roots the target in place but allows them to attack.
+    effect: root
+
+  # Electrical
+  - id: shock
+    name: Shock
+    category: elemental
+    element: lightning
+    description: Deals lightning damage and may chain to nearby enemies.
+    damage_type: lightning
+
+  # Darkness
+  - id: gloom
+    name: Gloom
+    category: corruption
+    description: Corruption damage from the Gloom. Stacks can be dangerous.
+    damage_type: shadow
+    
+  - id: cursed
+    name: Cursed
+    category: corruption
+    description: A dark curse that reduces the target's effectiveness.
+    effect: debuff
+
+  # Witch-specific
+  - id: scourge
+    name: Scourge
+    category: witch
+    description: A shadow DoT applied by the Witch's Shadow Walk ability.
+    damage_type: shadow
+    source: shadow_walk
+
+buffs:
+  - id: flask_effect
+    name: Flask Effect
+    category: consumable
+    description: Beneficial effect from using a flask/potion.
+    
+  - id: enrage
+    name: Enrage
+    category: combat
+    description: Increased damage output at the cost of defense.
+    effect: damage_boost
+    
+  - id: stun_immunity
+    name: Stun Immunity
+    category: protection
+    description: Prevents stun effects from being applied.
+
+environmental:
+  - id: damp
+    name: Damp
+    category: environment
+    source: water
+    description: Applied when walking through water. May affect fire-based abilities.
+    duration: 6000  # 6 seconds
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - status_effects
+  - debuffs
+  - buffs

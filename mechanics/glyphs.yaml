@@ -1,0 +1,68 @@
+# =============================================================================
+# GLYPHS - Witch Class Mechanic
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: glyphs
+type: mechanic
+name: Glyphs
+description: >
+  A unique resource system for the Witch class. Glyphs are collected during 
+  combat and can be consumed to enhance spells with powerful effects.
+
+class: witch
+
+glyph_types:
+  - id: blood_glyph
+    name: Blood Glyph
+    branch: blood_and_bone
+    description: Enhances spells with blood magic effects.
+    color: "#8F3030"
+    icon_guid: ea2cc2952cc6c6e448ca4cbeab24b388
+    sound_guid: c0fe03c5e7302f441800a7c6885b9d6b
+    guid: 28595efcaa849964e897554fed755102
+    
+  - id: shadow_glyph
+    name: Shadow Glyph
+    branch: shadow
+    description: Enhances spells with shadow magic effects.
+    color: "#4F3572"
+    icon_guid: aea21b4bff0d89b40877edc98ff1e9a0
+    sound_guid: 25fb1665934a19b45990b49a8996bb92
+    guid: 8171ad4830288f1458701c37f20a297f
+    
+  - id: bone_glyph
+    name: Bone Glyph
+    branch: blood_and_bone
+    description: Enhances spells with bone magic effects.
+    color: "#D4C4A1"
+    icon_guid: 28460d567477f324e9978aa30c879e62
+    sound_guid: 3123196cdf74d1049ab3f4f43f08bdc2
+    guid: 9edec4b907990114a9a39be8c6b5e7ea
+
+# Glyph-triggered spells
+glyph_spells:
+  - id: stun_nova
+    name: Stun Nova
+    description: Releases a stunning nova around the Witch.
+    guid: 6cbd0655873abf04eb867eb0729c3a07
+    
+  - id: mana_restore
+    name: Mana Restore
+    description: Restores mana when glyphs are consumed.
+    guid: 6fdb5a3baa3dabf42ad9bdf83479aff9
+    
+  - id: bleed_nova
+    name: Bleed Nova
+    description: Releases a bleeding nova that damages enemies.
+    guid: f803f2bd00b14184c8d3614f8402e75a
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - witch
+  - resource
+  - glyph

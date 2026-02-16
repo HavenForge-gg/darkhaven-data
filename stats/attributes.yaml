@@ -1,0 +1,60 @@
+# =============================================================================
+# ATTRIBUTES - Core character stats that affect all other mechanics
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+- id: strength
+  type: stat
+  name: Strength
+  display_name: Str
+  category: attribute
+  description: Primary physical attribute. Affects melee damage and physical abilities.
+  guid: fe2f09265d25eb5488ecd81b076fcf63
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - attribute
+    - core
+
+- id: dexterity
+  type: stat
+  name: Dexterity
+  display_name: Dex
+  category: attribute
+  description: Primary agility attribute. Affects attack speed, critical chance, and evasion.
+  guid: a3f14410163b5bc42b72e51ad9a4bc8e
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - attribute
+    - core
+
+- id: magic
+  type: stat
+  name: Magic
+  display_name: Mag
+  category: attribute
+  description: Primary magical attribute. Affects spell damage and mana pool.
+  guid: cf6a5e41fac71de48b7fc87aa12ab252
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - attribute
+    - core
+
+- id: vitality
+  type: stat
+  name: Vitality
+  display_name: Vit
+  category: attribute
+  description: Primary defensive attribute. Affects health pool and resistances.
+  guid: cf5c6725d0622e94a8d9869526914357
+  game_version: 0.3.1
+  last_updated: 2026-01-31
+  status: active
+  tags:
+    - attribute
+    - core

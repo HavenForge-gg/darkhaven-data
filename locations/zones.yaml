@@ -1,0 +1,365 @@
+# =============================================================================
+# ZONES/LOCATIONS - Game Areas
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: zones
+type: mechanic
+name: Zones & Locations
+description: >
+  The world of Darkhaven is divided into various zones, each with unique 
+  enemies, environments, and challenges.
+
+# =============================================================================
+# DUNGEONS
+# =============================================================================
+
+dungeons:
+  - id: the_ossuary
+    name: The Ossuary
+    full_name: The Ossuary Catacombs
+    type: dungeon
+    description: Ancient catacombs filled with undead horrors.
+    environment: underground
+    sub_areas:
+      - The Ossuary Entrance
+      - The Ossuary Catacombs
+    hazards:
+      - gloom
+      - shadow
+    enemies:
+      - skelezomb
+      - bone_legion
+      - barrow_knight
+      - skeleton_mage
+    guid: 0abfbf07ae7942846ad8df1a81b9051a
+
+  - id: the_forgotten_mausoleum
+    name: The Forgotten Mausoleum
+    type: dungeon
+    description: An ancient tomb with powerful undead guardians.
+    environment: underground
+    sub_areas:
+      - The Forgotten Mausoleum Entrance
+      - The Forgotten Mausoleum Undercroft
+    boss_spawn: true
+    enemies:
+      - doomed_soldier
+      - skeleton_mage
+      - barrow_knight
+    guid: 2cf7447509e9dc047a0be65c337ec7e8
+
+  - id: lava_tunnels
+    name: Lava Tunnels
+    type: dungeon
+    description: Volcanic caverns with rivers of molten rock.
+    environment: volcanic
+    hazards:
+      - lava
+      - fire
+    enemies:
+      - bogie_magma
+      - bogie_fire
+    boss_spawn: true
+    guid: 01cfd3db5611a3546bbf2ddde1628cf9
+
+  - id: flooded_quarry
+    name: Flooded Quarry
+    type: dungeon
+    description: An abandoned quarry now partially submerged.
+    environment: water
+    size: "160x160"
+    hazards:
+      - water
+      - acid
+    enemies:
+      - ooze
+      - deep_ones
+    boss_spawn: true
+    guid: 69adae29350b74c4e90e52255c23063e
+
+  - id: necropolis
+    name: Necropolis
+    type: dungeon
+    description: A massive undead city ruled by powerful liches.
+    environment: underground
+    enemies:
+      - lich
+      - necro_knight
+      - bone_legion
+    boss_spawn: true
+    guid: necropolis_area
+
+  - id: charred_fissure
+    name: Charred Fissure
+    type: dungeon
+    description: A volcanic rift leading deep underground.
+    environment: volcanic
+    hazards:
+      - lava
+      - fire
+    
+  - id: collapsed_pit
+    name: Collapsed Pit
+    type: dungeon
+    description: A collapsed mine leading to underground caverns.
+    environment: underground
+
+# =============================================================================
+# OVERWORLD REGIONS
+# =============================================================================
+
+overworld:
+  - id: cricks_hollow
+    name: Cricks Hollow
+    type: overworld
+    description: A goblin-infested forest area with dangerous bogie packs.
+    environment: forest
+    enemies:
+      - bogie
+      - bogie_feral
+      - bogie_shaman
+    guid: 170d9715940e38f48aa4de3ea6df4ce1
+
+  - id: greensward
+    name: Greensward
+    full_name: Greensward Outpost
+    type: town
+    description: A safe haven and trading post.
+    environment: forest
+    is_safe_zone: true
+    guid: 0d406066b54cecc4d84d08ebadcab754
+
+  - id: shadowlands
+    name: Shadowlands
+    type: overworld
+    description: A region corrupted by shadow and the Gloom.
+    environment: shadow
+    hazards:
+      - gloom
+      - shadow
+    enemies:
+      - gloom_tentacle
+      - shadow_ooze
+    guid: 0ba52727cd69157458169d76ddec581f
+
+  - id: sunless_sea
+    name: Sunless Sea
+    type: overworld
+    description: A vast underground sea with no sunlight.
+    environment: water
+    hazards:
+      - water
+    guid: 1b14c7a2900c97542be332ae31fb72a1
+
+  - id: gray_mire
+    name: Gray Mire
+    type: overworld
+    description: A murky swamp filled with poisonous creatures.
+    environment: swamp
+    hazards:
+      - poison_gas
+      - water
+    enemies:
+      - ooze
+      - beetle
+    guid: gray_mire_area
+
+  - id: meandering_creek
+    name: Meandering Creek
+    type: overworld
+    description: A winding creek through the forest.
+    environment: forest
+    hazards:
+      - water
+    guid: meandering_creek_area
+
+  - id: abandoned_homestead
+    name: Abandoned Homestead
+    type: overworld
+    description: A ruined farmstead overrun by creatures.
+    environment: forest
+    enemies:
+      - zombie
+      - skelezomb
+    guid: abandoned_homestead_area
+
+  - id: wilderness
+    name: Wilderness
+    type: overworld
+    description: Untamed wilds beyond civilization.
+    environment: forest
+    guid: wilderness_area
+
+# =============================================================================
+# POINTS OF INTEREST
+# =============================================================================
+
+points_of_interest:
+  - id: shady_grove
+    name: Shady Grove
+    full_name: Tree Grove - Shady Grove
+    type: poi
+    description: A mysterious grove with ancient trees.
+    environment: forest
+    parent_zone: tree_grove
+    guid: 10556f7a3b3a1ae4ebeda8fb4e456704
+
+  - id: misty_thicket
+    name: Misty Thicket
+    full_name: Tree Grove - Misty Thicket
+    type: poi
+    description: A fog-shrouded section of the grove.
+    environment: forest
+    parent_zone: tree_grove
+    guid: tree_grove_misty
+
+  - id: old_growth
+    name: Old Growth
+    full_name: Tree Grove - Old Growth
+    type: poi
+    description: Ancient trees with hidden secrets.
+    environment: forest
+    parent_zone: tree_grove
+    guid: tree_grove_old_growth
+
+  - id: shady_glade
+    name: Shady Glade
+    full_name: Tree Grove - Shady Glade
+    type: poi
+    description: A peaceful clearing in the forest.
+    environment: forest
+    parent_zone: tree_grove
+    guid: tree_grove_shady_glade
+
+  - id: ruined_necropolis
+    name: Ruined Necropolis
+    type: poi
+    description: The crumbling outer sections of the Necropolis.
+    environment: underground
+    enemies:
+      - skelezomb
+      - zombie
+    guid: 1a61c035cc5379c42901f7bb1a1310c9
+
+  - id: rocky_meadow_ruins
+    name: Rocky Meadow Ruins
+    type: poi
+    description: Ancient ruins in a rocky meadow.
+    environment: plains
+    guid: rocky_meadow_ruins
+
+  - id: rocky_meadows
+    name: Rocky Meadows
+    type: poi
+    description: Open meadows with scattered boulders.
+    environment: plains
+    guid: rocky_meadows_area
+
+# =============================================================================
+# SECTORS (Sub-areas within zones)
+# =============================================================================
+
+sectors:
+  - id: graveyard
+    name: Graveyard
+    type: sector
+    description: A foggy graveyard with restless undead.
+    environment: graveyard
+    enemies:
+      - zombie
+      - skelezomb
+    guid: 1be8a4fae20993f48ab0c7afab89fc97
+
+  - id: cricks_lake
+    name: Cricks Lake
+    type: sector
+    description: A lake area near Cricks Hollow.
+    environment: water
+    parent_zone: cricks_hollow
+    guid: cricks_lake_sector
+
+  - id: pond_sector
+    name: Pond
+    type: sector
+    description: A small pond area.
+    environment: water
+    guid: pond_sector
+
+  - id: shadowstone
+    name: Shadowstone
+    type: sector
+    description: Area containing the Shadowstone artifact.
+    environment: shadow
+    quest_related: true
+    guid: shadowstone_sector
+
+  - id: stony_field
+    name: Stony Field
+    type: sector
+    description: An open field covered with stones.
+    environment: plains
+    guid: stony_field_sector
+
+  - id: watchtower
+    name: Watchtower
+    type: sector
+    description: An ancient watchtower overlooking the region.
+    environment: ruins
+    guid: watchtower_sector
+
+# =============================================================================
+# Zone count summary
+# =============================================================================
+
+zones_summary:
+  dungeons: 6
+  overworld: 8
+  points_of_interest: 7
+  sectors: 6
+  total: 27
+
+environmental_hazards:
+  - id: lava
+    name: Lava
+    effect: burn
+    damage_type: fire
+    expire_delay: 5000
+    description: Walking on lava applies the Burn status effect.
+    
+  - id: acid
+    name: Acid
+    effect: burn
+    damage_type: acid
+    expire_delay: 1000
+    description: Acid pools deal damage over time.
+    
+  - id: water
+    name: Water
+    effect: damp
+    expire_delay: 6000
+    description: Walking through water applies the Damp status.
+    
+  - id: poison_gas
+    name: Poison Gas
+    effect: poison
+    description: Clouds of poisonous gas that damage over time.
+    
+  - id: gloom_tiles
+    name: Gloom
+    effect: gloom
+    description: Areas corrupted by the Gloom that damage and debuff.
+    
+  - id: shadow_tiles
+    name: Shadow
+    description: Dark areas with reduced visibility.
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - locations
+  - zones
+  - dungeons
+  - hazards

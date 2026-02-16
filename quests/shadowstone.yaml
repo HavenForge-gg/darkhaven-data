@@ -1,0 +1,102 @@
+# =============================================================================
+# SHADOWSTONE QUEST - Main quest line
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: shadowstone
+type: quest
+name: The Shadowstone
+description: >
+  The main quest line involving the mysterious Shadowstone artifact and 
+  the fight against the Necropolis.
+
+# Quest Objectives (in order)
+objectives:
+  - id: intro
+    name: Shadowstone Intro
+    description: Learn about the Shadowstone from an NPC.
+    hidden: false
+    dialog: shadowstone_intro_dialog
+    guid: 6722e35ff3396d44c9e64db4fa9ffeda
+    
+  - id: outpost_travel
+    name: Travel to the Outpost
+    description: Journey to the outpost near the Shadowstone.
+    hidden: false
+    dialog: shadowstone_outpost_travel_dialog
+    guid: afd12a87edee9104d82819cb5ba5023d
+    
+  - id: outpost_report
+    name: Report to the Outpost
+    description: Speak with the NPC at the outpost.
+    hidden: false
+    dialog: shadowstone_outpost_report_dialog
+    guid: 12a6a3d3a880f97438c52f57a40bb090
+    
+  - id: grind
+    name: Clear the Area
+    description: Defeat enemies in the Shadowstone area.
+    hidden: false
+    dialog: shadowstone_grind_dialog
+    guid: 9ddf2de3bd9e19a4797a421a301e11af
+    
+  - id: touch
+    name: Touch the Shadowstone
+    description: Interact with the Shadowstone to activate it.
+    hidden: false
+    dialog: shadowstone_touch_dialog
+    guid: f4a64409f3615174690534bba6544883
+    
+  - id: report
+    name: Report the Activation
+    description: The Shadowstone is activated, shadow is now growing.
+    hidden: false
+    dialog: shadowstone_report_dialog
+    guid: 366ade261a4e64248847cfbcd17219a8
+    
+  - id: boss_ready
+    name: Prepare for the Boss
+    description: Speak with the NPC in the clearing.
+    hidden: false
+    guid: 0c33513ef4c0ffe458b662b234adab27
+    
+  - id: boss_kill_spawned
+    name: Defeat the Boss
+    description: Kill the boss that has spawned.
+    hidden: false
+    dialog: shadowstone_boss_kill_dialog
+    guid: 3e2609465cef0994294214d97d6adc3c
+    
+  - id: epilogue
+    name: Quest Complete
+    description: The Shadowstone threat has been neutralized.
+    hidden: false
+    dialog: shadowstone_epilogue_dialog
+    guid: c6fae1c81e3447c49aa55c7c06667d6e
+    
+  - id: town_destroyed
+    name: Town Destroyed
+    description: The Necropolis has destroyed the town (failure state).
+    hidden: true
+    notes: This objective triggers if the player fails to stop the Necropolis.
+    guid: d2d21671a115f96448f4347efe478b28
+
+# Related Locations
+locations:
+  - shadowstone_sector
+  - greensward_outpost
+
+# Related Enemies
+enemies:
+  - necropolis_units
+  - undead
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - quest
+  - main_quest
+  - shadowstone
+  - necropolis

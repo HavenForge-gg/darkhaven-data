@@ -1,0 +1,64 @@
+# =============================================================================
+# WEAPON BASE STATS - Attack speeds, socket counts, and damage types
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: weapon_stats
+type: mechanic
+name: Weapon Base Statistics
+description: >
+  Base statistics for weapon types including attack speed, socket capacity, 
+  and damage types.
+
+weapons:
+  # One-Handed Weapons
+  - id: dagger
+    name: Dagger
+    type: weapon
+    hands: 1
+    attack_time: 0.60
+    sockets_max: 4
+    damage_type: slashing
+    combat_factor: 0.60
+    description: Fast one-handed blade. Quick attacks but lower damage.
+
+  - id: athame
+    name: Athame
+    type: weapon
+    hands: 1
+    attack_time: 0.69
+    sockets_max: 4
+    damage_type: slashing
+    combat_factor: 0.69
+    class_requirement: witch
+    description: Witch's ritual blade. Slightly slower than daggers but tuned for spellcasting.
+
+  # Two-Handed Weapons
+  - id: staff
+    name: Staff
+    type: weapon
+    hands: 2
+    attack_time: 0.90
+    sockets_max: 6
+    damage_type: blunt
+    combat_factor: 0.90
+    description: Two-handed staff. Slower attacks with more sockets for spellcasters.
+
+notes:
+  attack_time: >
+    Attack time is the base speed of weapon attacks in seconds.
+    Lower values = faster attacks.
+  combat_factor: >
+    Combat factor affects skill damage scaling with this weapon.
+  sockets_max: >
+    Maximum number of sockets for gems and runes.
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanics
+  - weapons
+  - stats
+  - equipment

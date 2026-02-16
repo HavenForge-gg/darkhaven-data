@@ -1,0 +1,64 @@
+# =============================================================================
+# TIME OF DAY - Day/Night cycle system
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: time_of_day
+type: mechanic
+name: Time of Day
+description: >
+  The game features a day/night cycle that affects gameplay, enemy spawns, 
+  and certain events.
+
+# Time Periods
+periods:
+  - id: day
+    name: Day Period
+    description: Normal daytime with full visibility.
+    guid: c38161ce02de7df4ab5638f224849be2
+    
+  - id: night_early
+    name: Night Early Period
+    description: Early evening as darkness begins to fall.
+    guid: 722067b7d266d644aaeab2e9c8ad2b5a
+    
+  - id: night
+    name: Night Period
+    description: Full night with reduced visibility and stronger undead.
+    guid: 3245f2c11a6c6884eab7043305d95b86
+    notes: >
+      Undead enemies are more active at night. Some quests have different 
+      objectives during night vs day (see Undead Day/Night Conquest quests).
+    
+  - id: witching_hour
+    name: Witching Hour Period
+    description: >
+      A special time period when dark magic is at its peak. 
+      Powerful enemies may spawn during this time.
+    guid: adeb359107a9a224a96d697643b6f254
+    notes: Likely midnight or specific dark hours.
+    
+  - id: endless
+    name: Endless Period
+    description: >
+      A period that never ends. Used for dungeons or areas that don't 
+      follow the normal day/night cycle.
+    guid: 87ab76a58505c9f4f983464fded3b610
+
+# Time-based Quest Variants
+time_based_content:
+  quests:
+    - undead_day_conquest
+    - undead_night_conquest
+  notes: >
+    Some quests have separate objectives for day and night, indicating 
+    that time of day affects enemy spawns and quest requirements.
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - time
+  - day_night_cycle

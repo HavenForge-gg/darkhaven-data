@@ -1,0 +1,49 @@
+# =============================================================================
+# PLANT CREATURES - Animated plant enemies
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+category: plants
+description: >
+  Animated plant and nature creatures that attack unwary travelers.
+
+enemies:
+  - id: bramblehusk
+    name: Bramblehusk
+    type: plant
+    description: >
+      A thorny plant creature that lies dormant until disturbed. Uses 
+      burrowing and thorn attacks to ambush prey.
+    attacks:
+      - strike
+      - thorns
+    behaviors:
+      - burrow
+      - awake
+    loot: bramblehusk_loot
+    guid: de422167cec30f54d9e2d09a69edf8b5
+    
+  - id: bramblehusk_guard
+    name: Bramblehusk Guard
+    type: plant
+    tier: elite
+    description: A larger, more dangerous bramblehusk protecting an area.
+    attacks:
+      - strike
+      - thorns
+    loot: bramblehusk_guard_loot
+    
+  - id: unique_bramblehusk
+    name: Unique Bramblehusk
+    type: plant
+    tier: unique
+    description: A unique variant of bramblehusk with enhanced abilities.
+    attacks:
+      - strike
+      - thorns
+    notes: Has slower movement but more power.
+    guid: 5dbd342b530fbdb4aa253ba77f7db5af
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31

@@ -1,0 +1,65 @@
+# =============================================================================
+# BLOOD & BONE WITCH - Community Build
+# =============================================================================
+
+id: blood_bone_witch
+type: build
+name: Blood & Bone Witch
+author: HavenForge Community
+class: witch
+
+description: >
+  A necromantic build focused on the Blood and Bone skill branch. 
+  This build uses blood magic for sustain while summoning bone constructs 
+  for damage. Excellent for both solo and group play.
+
+# Build focus
+primary_branch: blood_and_bone
+secondary_branch: glyph
+
+# Recommended skills (pending skill data extraction)
+skills:
+  primary:
+    - spine_breaker
+  utility:
+    - blood_embrace
+  
+# Glyph priority
+glyph_priority:
+  - bone_glyph
+  - blood_glyph
+  - shadow_glyph
+
+# Stat priorities
+stat_priority:
+  - magic
+  - vitality
+  - life
+  - mana_regen
+  - armor
+
+# Gear recommendations
+gear_recommendations:
+  - Staff with +Magic
+  - Armor with Life bonuses
+  - Trinkets with Mana Regen
+
+# Playstyle notes
+playstyle_notes: >
+  Focus on building bone glyphs to power up Spine Breaker. Use blood skills 
+  to sustain health in extended fights. Keep distance from enemies and let 
+  bone constructs tank damage.
+
+difficulty: intermediate
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: speculative
+tags:
+  - build
+  - witch
+  - blood
+  - bone
+  - necromancer
+  - community

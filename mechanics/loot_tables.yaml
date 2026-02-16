@@ -1,0 +1,177 @@
+# =============================================================================
+# LOOT TABLES - Drop table references
+# Extracted from game data - Version 0.3.1
+# =============================================================================
+
+id: loot_tables
+type: mechanic
+name: Loot Tables
+description: >
+  Reference of loot tables that determine what items monsters and chests 
+  can drop.
+
+# Monster Loot Tables
+monster_loot:
+  # Generic
+  - id: monster_loot
+    description: Standard monster loot.
+  - id: monster_resource_loot
+    description: Resource drops from monsters.
+  - id: monster_item_loot
+    description: Item drops from monsters.
+  - id: monster_good_item_loot
+    description: Higher quality item drops.
+    
+  # Elite Monsters
+  - id: popcorn_monster_loot
+    description: Loot from weak enemies.
+  - id: popcorn_elite_magic_item_loot
+    description: Magic item drops from elite popcorn mobs.
+  - id: popcorn_elite_other_item_loot
+    description: Other item drops from elite popcorn mobs.
+  - id: solitaire_monster_loot
+    description: Loot from solo elite monsters.
+  - id: solitaire_elite_other_item_loot
+    description: Other item drops from solo elites.
+  - id: elite_resource_loot
+    description: Resource drops from elites.
+  - id: elite_other_item_loot
+    description: Other item drops from elites.
+    
+  # Specific Monsters
+  undead:
+    - barrow_knight_loot
+    - skelezomb_walker_loot
+    - skelezomb_archer_loot
+    - skelezomb_champion_loot
+    - wraith_loot
+    
+  goblinoids:
+    - bogie_feral_loot
+    - bogie_jabber_loot
+    - bogie_shaman_loot
+    - bogie_slingshotter_loot
+    - bogie_stabber_loot
+    
+  creatures:
+    - beetle_loot
+    - death_beetle_loot
+    - giant_death_beetle_loot
+    - deep_ones_loot
+    - ooze_loot
+    - shadow_ooze_loot
+    - lightning_ooze_loot
+    - gazer_loot
+    - gulpjaw_loot
+    
+  plants:
+    - bramblehusk_loot
+    - bramblehusk_guard_loot
+    - swamp_husk_loot
+    
+  corrupted:
+    - gloom_parasite_loot
+
+# Treasure Chest Loot
+treasure_loot:
+  description: >
+    Treasure chests come in 3 tiers, each with better loot.
+  tiers:
+    - id: treasure_chest_01
+      tier: 1
+      loot_tables:
+        - treasure_chest_01_loot
+        - treasure_chest_01_gold_loot
+        - treasure_chest_01_other_items_loot
+    - id: treasure_chest_02
+      tier: 2
+      loot_tables:
+        - treasure_chest_02_loot
+        - treasure_chest_02_gold_loot
+        - treasure_chest_02_other_items_loot
+    - id: treasure_chest_03
+      tier: 3
+      loot_tables:
+        - treasure_chest_03_loot
+        - treasure_chest_03_gold_loot
+        - treasure_chest_03_other_items_loot
+  special:
+    - treasure_chest_guaranteed_magic_item_loot
+
+# Breakable Object Loot
+breakable_loot:
+  - id: breakable_loot
+    description: Generic breakable objects.
+  - id: breakable_dungeon_loot
+    description: Breakables in dungeons.
+  - id: breakable_dungeon_item_loot
+    description: Item drops from dungeon breakables.
+  - id: breakable_overworld_loot
+    description: Breakables in overworld areas.
+  - id: breakable_resource_loot
+    description: Resource drops from breakables.
+
+# Biome & Environment Loot
+environment_loot:
+  - id: biome_loot
+    description: Drops from terrain/biome sources.
+
+# Item Type Loot
+item_type_loot:
+  - armor_loot
+  - weapon_loot
+  - jewelry_loot
+  - gem_loot
+  - rune_loot
+  - socketables_loot
+  - misc_items_loot
+  - special_items_loot
+  - item_loot  # Generic items
+  - good_item_loot  # Higher tier items
+
+# Resource Loot
+resource_loot:
+  - id: health_loot
+    description: Health drops.
+  - id: health_orb_loot
+    description: Health orb drops.
+  - id: health_weighted_resource_loot
+    description: Resource drops weighted toward health.
+  - id: mana_orb_loot
+    description: Mana orb drops.
+  - id: mana_weighted_resource_loot
+    description: Resource drops weighted toward mana.
+
+# Vendor Loot (scales with level)
+vendor_loot:
+  description: >
+    Vendor inventory scales with character level in tiers.
+  tiers:
+    - id: vendor_l01_02_loot
+      level_range: [1, 2]
+    - id: vendor_l03_04_loot
+      level_range: [3, 4]
+    - id: vendor_l05_99_loot
+      level_range: [5, 99]
+  general:
+    - vendor_loot
+    - vendor_special_items_loot
+
+# Summary
+loot_summary:
+  total_tables: 71
+  monster_tables: 45
+  treasure_tables: 12
+  breakable_tables: 5
+  vendor_tables: 5
+  other_tables: 4
+
+# Metadata
+game_version: 0.3.1
+last_updated: 2026-01-31
+status: active
+tags:
+  - mechanic
+  - loot
+  - drops
+  - items
