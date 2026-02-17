@@ -1,5 +1,366 @@
 {
-  "generated_at": "2026-02-17T00:00:00Z",
-  "latest_game_version": "0.0.23272",
-  "files": {}
+  "generated_at": "2026-02-17T06:55:20Z",
+  "latest_game_version": null,
+  "files": {
+    "bestiary/aberrations.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "bestiary/corrupted.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "bestiary/creatures.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "bestiary/goblinoids.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "bestiary/plants.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "bestiary/undead.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "builds/witch/blood_bone_witch.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "classes/witch.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "items/accessories/obsidian_ring.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "items/consumables.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/dyes/syringa_dye.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/_category.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/cracked_amber.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/cracked_jade.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/cracked_lapis.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/cracked_onyx.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/cracked_opal.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/gems/cracked_ruby.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/item_sets.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "items/socketables.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "items/special/murakamis_puzzle_box.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/special/puzzle_box.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/_category.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_agility.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_blood_lash.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_might.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_power.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_shadow_walk.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_spine_breaker.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_talents.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/tomes/tome_of_vigor.yaml": {
+      "last_commit": "f89d359",
+      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_author": "Meanski",
+      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "locations/zones.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/equipment_slots.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/equipment_types.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/fluids.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/glyphs.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/hero_skills.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/item_rarity.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/loot_tables.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/progression.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/skill_mods_witch.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/skill_system.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/status_effects.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/time_of_day.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/weapon_stats.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mods/_template/mod.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "patches/0.0.23272.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "quests/shadowstone.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "skills/witch/blood_lash.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "skills/witch/bone_spirit.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "skills/witch/bone_storm.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "skills/witch/glyph_lunge.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "skills/witch/shadow_walk.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "skills/witch/spine_breaker.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "stats/attributes.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "stats/class_specific.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "stats/combat.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "stats/damage_types.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "stats/resources.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    },
+    "stats/utility.yaml": {
+      "last_commit": "dc973a4",
+      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated game ver to 0.0.23272"
+    }
+  }
 }
