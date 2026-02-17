@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T06:55:20Z",
+  "generated_at": "2026-02-17T07:22:36Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -74,41 +74,41 @@
       "last_author": "Meanski",
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
     },
-    "items/gems/cracked_amber.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+    "items/gems/amber/cracked_amber.yaml": {
+      "last_commit": "94230b8",
+      "last_updated": "2026-02-17T20:21:53+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "move gems a layer deeper"
     },
-    "items/gems/cracked_jade.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+    "items/gems/jade/cracked_jade.yaml": {
+      "last_commit": "94230b8",
+      "last_updated": "2026-02-17T20:21:53+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "move gems a layer deeper"
     },
-    "items/gems/cracked_lapis.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+    "items/gems/lapis/cracked_lapis.yaml": {
+      "last_commit": "94230b8",
+      "last_updated": "2026-02-17T20:21:53+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "move gems a layer deeper"
     },
-    "items/gems/cracked_onyx.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+    "items/gems/onyx/cracked_onyx.yaml": {
+      "last_commit": "94230b8",
+      "last_updated": "2026-02-17T20:21:53+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "move gems a layer deeper"
     },
-    "items/gems/cracked_opal.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+    "items/gems/opal/cracked_opal.yaml": {
+      "last_commit": "94230b8",
+      "last_updated": "2026-02-17T20:21:53+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "move gems a layer deeper"
     },
-    "items/gems/cracked_ruby.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+    "items/gems/ruby/cracked_ruby.yaml": {
+      "last_commit": "94230b8",
+      "last_updated": "2026-02-17T20:21:53+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "move gems a layer deeper"
     },
     "items/item_sets.yaml": {
       "last_commit": "dc973a4",
