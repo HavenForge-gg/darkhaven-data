@@ -1,0 +1,25 @@
+id: cracked_lapis
+type: item
+name: Cracked Lapis
+category: gems
+gem_type: lapis
+tier: 1
+rarity: Common Gem
+description: This triangular blue stone is slightly cool to the touch.
+sell_price: 18
+image: images/items/gems/cracked_lapis.png
+socket_effects:
+  weapon: "+6% Lightning Damage"
+  head_glove: "+3 Armor, +10% Shock Chance"
+  chest_shield: "+5 Armor, +10% Lightning Resistance"
+  belt_boot: "+4 Armor, +5 Dexterity"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - gems
+  - lapis
+  - cold

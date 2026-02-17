@@ -11,15 +11,18 @@ This repository contains structured data about Darkhaven's classes, skills, item
 ## Structure
 
 ```
-havenforge-data/
+darkhaven-data/
+├── _meta/                — Auto-generated metadata (history.json)
 ├── classes/              — Playable character classes
 ├── skills/
 │   └── <class>/          — Skills grouped by class
 ├── items/
-│   ├── weapons/
-│   ├── armor/
+│   ├── gems/             — One file per gem (+ _category.yaml)
+│   ├── tomes/            — One file per tome
+│   ├── dyes/             — One file per dye
+│   ├── special/          — Unique/legendary items
 │   ├── accessories/
-│   └── consumables/
+│   └── ...
 ├── builds/
 │   └── <class>/          — Builds grouped by class
 ├── mods/
@@ -50,9 +53,32 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting corrections,
 
 ## Versioning
 
-- Repository uses semantic versioning: `vX.Y.Z-data`
-- The HavenForge website pins to specific data versions
-- Breaking schema changes increment the major version
+### Game Version Tags
+
+When data is updated for a new game patch, tag the commit:
+
+```bash
+git tag game/0.0.23272
+git push origin game/0.0.23272
+```
+
+This enables:
+- Diffing between game versions: `git diff game/0.0.23272..game/0.0.23300`
+- GitHub Releases with auto-generated changelogs per game patch
+- The site displaying "Data current as of version X"
+
+### Data Version Tags
+
+The repository also uses semantic versioning (`vX.Y.Z-data`) for schema-level changes:
+- **Major**: Breaking schema changes
+- **Minor**: New data categories or fields
+- **Patch**: Data corrections and additions
+
+### Per-File History
+
+A GitHub Action automatically generates `_meta/history.json` on each push to `main`.
+This file contains per-file last-commit metadata (date, author, message) and is consumed
+by the site to display "last updated" dates on each page.
 
 ## Disclaimer
 

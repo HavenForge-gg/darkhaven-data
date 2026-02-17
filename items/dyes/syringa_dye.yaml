@@ -1,0 +1,16 @@
+id: syringa_dye
+type: item
+name: Syringa Dye
+category: dyes
+rarity: Common Dye
+description: What's the point of being a hero if you don't look good doing it?
+image: images/items/dyes/syringa_dye.png
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-17
+status: active
+tags:
+  - items
+  - dyes
+  - cosmetic

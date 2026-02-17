@@ -1,0 +1,17 @@
+id: murakamis_puzzle_box
+type: item
+name: Murakami's Puzzle Box
+category: special
+rarity: Legendary Puzzle Box
+description: This intricately painted box appears to be an artifact from the Orient.
+image: images/items/special/murakamis_puzzle_box.png
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-17
+status: active
+tags:
+  - items
+  - special
+  - legendary
+  - puzzle_box

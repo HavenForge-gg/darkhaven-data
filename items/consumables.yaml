@@ -1,103 +1,20 @@
 # =============================================================================
-# CONSUMABLES - Usable Items
+# CONSUMABLES - Flasks and Orbs
 # Extracted from game data - Version 0.0.23272 (16 Feb 2026)
+# =============================================================================
+#
+# Items that have been split into per-item files:
+#   - Tomes     -> items/tomes/
+#   - Dyes      -> items/dyes/
+#   - Special   -> items/special/
+#
+# This file retains flasks and orbs which are generic game mechanics.
 # =============================================================================
 
 id: consumables
 type: item_category
 name: Consumable Items
 description: Items that can be used and consumed for various effects.
-
-# Stat Upgrade Tomes
-tomes:
-  description: >
-    Tomes are rare items that permanently increase a character's stats or
-    grant skill points. Each tome is usable once per character. Stat tomes
-    have attribute requirements; skill tomes require the relevant skill.
-    
-  stat_tomes:
-    - id: tome_of_might
-      name: Tome of Might
-      rarity: Extraordinary Tome
-      attribute: strength
-      effect: "+1 Strength (intrinsic)"
-      description: Permanently increases Strength.
-      usable_once_per_character: true
-      guid: 2dc925538bb92eb4482f8ad830836f68
-      
-    - id: tome_of_power
-      name: Tome of Power
-      rarity: Extraordinary Tome
-      attribute: magic
-      effect: "+1 Magic (intrinsic)"
-      description: Permanently increases Magic.
-      usable_once_per_character: true
-      guid: 89925bd8bd770744ab6e9f2c0a419077
-      
-    - id: tome_of_vigor
-      name: Tome of Vigor I
-      rarity: Extraordinary Tome
-      attribute: vitality
-      effect: "+1 Vitality (intrinsic)"
-      requirements:
-        vitality: 25
-      description: In a pinch, this sturdy book might make a good shield.
-      usable_once_per_character: true
-      image: images/items/tomes/tome_of_vigor.png
-      guid: d1b5ea8d19ee233478ac4bad491923f2
-      
-    - id: tome_of_agility
-      name: Tome of Agility
-      rarity: Extraordinary Tome
-      attribute: dexterity
-      effect: "+1 Dexterity (intrinsic)"
-      description: Permanently increases Dexterity.
-      usable_once_per_character: true
-      guid: f4a62f175d339b946a7aca37bc302991
-      
-    - id: tome_of_talents
-      name: Tome of Talents
-      rarity: Extraordinary Tome
-      description: Grants additional skill points.
-      usable_once_per_character: true
-      guid: 7ed7da32e11fb9149a6a15fd7fe42041
-
-  skill_tomes:
-    - id: tome_of_blood_lash
-      name: Tome of Blood Lash I
-      rarity: Extraordinary Tome
-      effect: "+1 Blood Lash (intrinsic)"
-      skill: blood_lash
-      requirements:
-        skill: Blood Lash
-      description: The pages of this book turn quickly, as if of their own accord.
-      usable_once_per_character: true
-      image: images/items/tomes/tome_of_blood_lash.png
-
-    - id: tome_of_shadow_walk
-      name: Tome of Shadow Walk I
-      rarity: Extraordinary Tome
-      effect: "+1 Shadow Walk (intrinsic)"
-      skill: shadow_walk
-      requirements:
-        magic: 25
-        skill: Shadow Walk
-      description: The pages of this book turn quickly, as if of their own accord.
-      usable_once_per_character: true
-      image: images/items/tomes/tome_of_shadow_walk.png
-
-    - id: tome_of_spine_breaker
-      name: Tome of Skill
-      display_name_unidentified: Tome of Skill
-      rarity: Extraordinary Tome
-      rarity_label: Unidentified Extraordinary Tome
-      effect: "+1 Spine Breaker (intrinsic)"
-      skill: spine_breaker
-      requirements:
-        strength: 25
-        skill: Spine Breaker
-      usable_once_per_character: true
-      image: images/items/tomes/tome_of_skill.png
 
 # Flasks
 flasks:
@@ -128,18 +45,6 @@ flasks:
     - flask_health_recovery
     - flask_cooldown
 
-# Special Items
-special:
-  - id: puzzle_box
-    name: Puzzle Box
-    description: A mysterious box that can be opened for rewards.
-
-  - id: murakamis_puzzle_box
-    name: Murakami's Puzzle Box
-    rarity: Legendary Puzzle Box
-    description: This intricately painted box appears to be an artifact from the Orient.
-    image: images/items/special/murakamis_puzzle_box.png
-
 # Orbs (dropped by enemies)
 orbs:
   - id: health_orb
@@ -150,17 +55,6 @@ orbs:
     name: Mana Orb
     description: Dropped by enemies, restores mana on pickup.
 
-# Dyes
-dyes:
-  description: >
-    Dyes are cosmetic items used to change the color of equipment.
-  types:
-    - id: syringa_dye
-      name: Syringa Dye
-      rarity: Common Dye
-      description: What's the point of being a hero if you don't look good doing it?
-      image: images/items/dyes/syringa_dye.png
-
 # Metadata
 game_version: 0.0.23272
 last_updated: 2026-02-17
@@ -168,6 +62,4 @@ status: active
 tags:
   - items
   - consumables
-  - tomes
   - flasks
-  - dyes

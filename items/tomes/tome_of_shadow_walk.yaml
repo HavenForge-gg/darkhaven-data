@@ -1,0 +1,24 @@
+id: tome_of_shadow_walk
+type: item
+name: Tome of Shadow Walk I
+category: tomes
+subcategory: skill_tome
+rarity: Extraordinary Tome
+effect: "+1 Shadow Walk (intrinsic)"
+skill: shadow_walk
+requirements:
+  magic: 25
+  skill: Shadow Walk
+description: The pages of this book turn quickly, as if of their own accord.
+usable_once_per_character: true
+image: images/items/tomes/tome_of_shadow_walk.png
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-17
+status: active
+tags:
+  - items
+  - tomes
+  - skill_tome
+  - shadow_walk

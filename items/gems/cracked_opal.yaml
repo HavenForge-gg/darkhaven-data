@@ -1,0 +1,25 @@
+id: cracked_opal
+type: item
+name: Cracked Opal
+category: gems
+gem_type: opal
+tier: 1
+rarity: Common Gem
+description: This once-iridescent gem is slightly scuffed.
+sell_price: 18
+image: images/items/gems/cracked_opal.png
+socket_effects:
+  weapon: "+6% Slashing Damage"
+  head_glove: "+3 Armor, +10% Bleed Chance"
+  chest_shield: "+5 Armor, +10% Slashing Resistance"
+  belt_boot: "+4 Armor, +10 Life"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - gems
+  - opal
+  - lightning

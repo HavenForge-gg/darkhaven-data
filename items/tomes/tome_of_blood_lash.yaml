@@ -1,0 +1,23 @@
+id: tome_of_blood_lash
+type: item
+name: Tome of Blood Lash I
+category: tomes
+subcategory: skill_tome
+rarity: Extraordinary Tome
+effect: "+1 Blood Lash (intrinsic)"
+skill: blood_lash
+requirements:
+  skill: Blood Lash
+description: The pages of this book turn quickly, as if of their own accord.
+usable_once_per_character: true
+image: images/items/tomes/tome_of_blood_lash.png
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-17
+status: active
+tags:
+  - items
+  - tomes
+  - skill_tome
+  - blood_lash

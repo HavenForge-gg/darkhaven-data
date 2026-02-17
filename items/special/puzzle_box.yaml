@@ -1,0 +1,14 @@
+id: puzzle_box
+type: item
+name: Puzzle Box
+category: special
+description: A mysterious box that can be opened for rewards.
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - special
+  - puzzle_box

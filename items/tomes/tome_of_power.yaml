@@ -1,0 +1,21 @@
+id: tome_of_power
+type: item
+name: Tome of Power
+category: tomes
+subcategory: stat_tome
+rarity: Extraordinary Tome
+attribute: magic
+effect: "+1 Magic (intrinsic)"
+description: Permanently increases Magic.
+usable_once_per_character: true
+guid: 89925bd8bd770744ab6e9f2c0a419077
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - tomes
+  - stat_tome
+  - magic

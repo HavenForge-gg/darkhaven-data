@@ -1,0 +1,21 @@
+id: tome_of_agility
+type: item
+name: Tome of Agility
+category: tomes
+subcategory: stat_tome
+rarity: Extraordinary Tome
+attribute: dexterity
+effect: "+1 Dexterity (intrinsic)"
+description: Permanently increases Dexterity.
+usable_once_per_character: true
+guid: f4a62f175d339b946a7aca37bc302991
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - tomes
+  - stat_tome
+  - dexterity

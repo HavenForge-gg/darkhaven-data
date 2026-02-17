@@ -1,0 +1,21 @@
+id: tome_of_might
+type: item
+name: Tome of Might
+category: tomes
+subcategory: stat_tome
+rarity: Extraordinary Tome
+attribute: strength
+effect: "+1 Strength (intrinsic)"
+description: Permanently increases Strength.
+usable_once_per_character: true
+guid: 2dc925538bb92eb4482f8ad830836f68
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - tomes
+  - stat_tome
+  - strength

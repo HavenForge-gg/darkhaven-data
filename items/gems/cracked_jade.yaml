@@ -1,0 +1,25 @@
+id: cracked_jade
+type: item
+name: Cracked Jade
+category: gems
+gem_type: jade
+tier: 1
+rarity: Common Gem
+description: A piece of jade wonderfully cool to the touch.
+sell_price: 18
+image: images/items/gems/cracked_jade.png
+socket_effects:
+  weapon: "+6% Cold Damage"
+  head_glove: "+3 Armor, +10% Chill Chance"
+  chest_shield: "+5 Armor, +10% Cold Resistance"
+  belt_boot: "+4 Armor, +5 Vitality"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - gems
+  - jade
+  - acid

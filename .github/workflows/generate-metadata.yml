@@ -1,0 +1,89 @@
+name: Generate File Metadata
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  generate-metadata:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout with full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate _meta/history.json
+        run: |
+          mkdir -p _meta
+
+          echo '{' > _meta/history.json
+          echo "  \"generated_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"," >> _meta/history.json
+
+          # Find latest game version tag
+          LATEST_TAG=$(git tag -l 'game/*' --sort=-version:refname | head -n 1)
+          if [ -n "$LATEST_TAG" ]; then
+            echo "  \"latest_game_version\": \"${LATEST_TAG#game/}\"," >> _meta/history.json
+          else
+            echo "  \"latest_game_version\": null," >> _meta/history.json
+          fi
+
+          echo '  "files": {' >> _meta/history.json
+
+          FIRST=true
+          # Find all YAML files (excluding _meta, .github, and hidden dirs)
+          find . -name '*.yaml' -o -name '*.yml' | \
+            grep -v '^\./\.github' | \
+            grep -v '^\./\._meta' | \
+            grep -v '/\.' | \
+            sort | \
+          while read -r FILE; do
+            # Strip leading ./
+            REL_PATH="${FILE#./}"
+
+            # Get last commit info for this file
+            COMMIT_HASH=$(git log -1 --format='%H' -- "$FILE" 2>/dev/null)
+            if [ -z "$COMMIT_HASH" ]; then
+              continue
+            fi
+
+            COMMIT_SHORT=$(git log -1 --format='%h' -- "$FILE")
+            COMMIT_DATE=$(git log -1 --format='%aI' -- "$FILE")
+            COMMIT_AUTHOR=$(git log -1 --format='%an' -- "$FILE")
+            COMMIT_MSG=$(git log -1 --format='%s' -- "$FILE" | sed 's/"/\\"/g' | head -c 200)
+
+            if [ "$FIRST" = true ]; then
+              FIRST=false
+            else
+              echo ',' >> _meta/history.json
+            fi
+
+            printf '    "%s": {\n' "$REL_PATH" >> _meta/history.json
+            printf '      "last_commit": "%s",\n' "$COMMIT_SHORT" >> _meta/history.json
+            printf '      "last_updated": "%s",\n' "$COMMIT_DATE" >> _meta/history.json
+            printf '      "last_author": "%s",\n' "$COMMIT_AUTHOR" >> _meta/history.json
+            printf '      "last_message": "%s"\n' "$COMMIT_MSG" >> _meta/history.json
+            printf '    }' >> _meta/history.json
+          done
+
+          echo '' >> _meta/history.json
+          echo '  }' >> _meta/history.json
+          echo '}' >> _meta/history.json
+
+          echo "Generated metadata for files:"
+          cat _meta/history.json | head -20
+
+      - name: Commit metadata if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _meta/history.json
+          if git diff --cached --quiet; then
+            echo "No metadata changes to commit"
+          else
+            git commit -m "chore: update _meta/history.json [skip ci]"
+            git push
+          fi

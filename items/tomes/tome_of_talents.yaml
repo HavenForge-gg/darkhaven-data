@@ -1,0 +1,19 @@
+id: tome_of_talents
+type: item
+name: Tome of Talents
+category: tomes
+subcategory: stat_tome
+rarity: Extraordinary Tome
+description: Grants additional skill points.
+usable_once_per_character: true
+guid: 7ed7da32e11fb9149a6a15fd7fe42041
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - items
+  - tomes
+  - stat_tome
+  - talents
