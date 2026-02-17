@@ -45,10 +45,23 @@ gem_types:
   - id: amber
     name: Amber
     color: orange
+    element: blunt
     description: Orange gems with warm, protective properties.
     tiers:
       - tier: 1
         crafts_to: tier_2
+        items:
+          - id: cracked_amber
+            name: Cracked Amber
+            rarity: Common Gem
+            description: A primordial insect of some sort is trapped within this stone.
+            sell_price: 18
+            image: images/items/gems/cracked_amber.png
+            socket_effects:
+              weapon: "+6% Blunt Damage"
+              head_glove: "+3 Armor, +10% Stun Chance"
+              chest_shield: "+5 Armor, +10% Blunt Resistance"
+              belt_boot: "+4 Armor, +5 Strength"
       - tier: 2
     
   - id: jade
@@ -103,6 +116,18 @@ gem_types:
     tiers:
       - tier: 1
         crafts_to: tier_2
+        items:
+          - id: cracked_onyx
+            name: Cracked Onyx
+            rarity: Common Gem
+            description: This black stone gleams like a moonlit night.
+            sell_price: 18
+            image: images/items/gems/cracked_onyx.png
+            socket_effects:
+              weapon: "+6% Shadow Damage"
+              head_glove: "+3 Armor, +10% Scourge Chance"
+              chest_shield: "+5 Armor, +10% Shadow Resistance"
+              belt_boot: "+4 Armor, +7 Mana"
       - tier: 2
     
   - id: opal
