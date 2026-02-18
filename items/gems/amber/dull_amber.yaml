@@ -7,6 +7,7 @@ tier: 3
 rarity: Common Gem
 description: It might be a bit scuffed, but it's still a fascinating stone.
 sell_price: 18
+prev_tier: flawed_amber
 image: images/items/accessories/gems/Gem_Amber_03.png
 socket_effects:
   weapon: "+12% Blunt Damage"

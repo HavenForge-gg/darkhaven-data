@@ -7,6 +7,7 @@ tier: 1
 rarity: Common Gem
 description: A primordial insect of some sort is trapped within this stone.
 sell_price: 18
+next_tier: flawed_amber
 image: images/items/accessories/gems/Gem_Amber_01.png
 socket_effects:
   weapon: "+6% Blunt Damage"

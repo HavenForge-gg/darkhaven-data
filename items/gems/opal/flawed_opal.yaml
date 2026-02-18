@@ -7,6 +7,8 @@ tier: 2
 rarity: Common Gem
 description: A white stone that reflects the shining moon.
 sell_price: 18
+prev_tier: cracked_opal
+next_tier: dull_opal
 image: images/items/accessories/gems/Gem_Opal_02.png
 socket_effects:
   weapon: "+9% Slashing Damage"

@@ -7,6 +7,8 @@ tier: 2
 rarity: Common Gem
 description: A square stone the color of a cool forest pond.
 sell_price: 18
+prev_tier: cracked_jade
+next_tier: dull_jade
 image: images/items/accessories/gems/Gem_Jade_02.png
 socket_effects:
   weapon: "+9% Cold Damage"

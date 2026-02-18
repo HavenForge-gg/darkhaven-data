@@ -7,6 +7,8 @@ tier: 2
 rarity: Common Gem
 description: This shadowy stone seems to absorb light.
 sell_price: 18
+prev_tier: cracked_onyx
+next_tier: dull_onyx
 image: images/items/accessories/gems/Gem_Onyx_02.png
 socket_effects:
   weapon: "+9% Shadow Damage"

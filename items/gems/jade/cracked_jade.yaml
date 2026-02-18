@@ -7,6 +7,7 @@ tier: 1
 rarity: Common Gem
 description: A piece of jade wonderfully cool to the touch.
 sell_price: 18
+next_tier: flawed_jade
 image: images/items/accessories/gems/Gem_Jade_01.png
 socket_effects:
   weapon: "+6% Cold Damage"

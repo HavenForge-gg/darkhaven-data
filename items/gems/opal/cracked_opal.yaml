@@ -7,6 +7,7 @@ tier: 1
 rarity: Common Gem
 description: This once-iridescent gem is slightly scuffed.
 sell_price: 18
+next_tier: flawed_opal
 image: images/items/accessories/gems/Gem_Opal_01.png
 socket_effects:
   weapon: "+6% Slashing Damage"

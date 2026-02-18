@@ -7,6 +7,7 @@ tier: 3
 rarity: Common Gem
 description: They say the Emperors of the East value jade more than any other stone.
 sell_price: 18
+prev_tier: flawed_jade
 image: images/items/accessories/gems/Gem_Jade_03.png
 socket_effects:
   weapon: "+12% Cold Damage"

@@ -7,6 +7,7 @@ tier: 3
 rarity: Common Gem
 description: I've seen some strange birds with feathers this color.
 sell_price: 18
+prev_tier: flawed_lapis
 image: images/items/accessories/gems/Gem_Lapis_03.png
 socket_effects:
   weapon: "+12% Lightning Damage"

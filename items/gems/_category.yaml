@@ -49,15 +49,22 @@ gem_types:
 
 tiers:
   - tier: 1
+    name: Cracked
     crafts_to: tier_2
   - tier: 2
+    name: Flawed
+    crafts_to: tier_3
+  - tier: 3
+    name: Dull
 
 crafting:
   description: >
     Combine gems of the same type and tier to create a higher tier gem.
   recipes:
-    - input: 3x Tier 1
-      output: 1x Tier 2
+    - input: 3x Tier 1 (Cracked)
+      output: 1x Tier 2 (Flawed)
+    - input: 3x Tier 2 (Flawed)
+      output: 1x Tier 3 (Dull)
 
 # Metadata
 game_version: 0.0.23272
