@@ -6,8 +6,9 @@ This folder contains all image assets for HavenForge, organized to mirror the da
 
 ```
 images/
+├── base_ui/
 ├── classes/
-│   └── pyromancer.png
+│   └── witch.png
 ├── skills/
 │   └── pyromancer/
 │       └── fireball.png
@@ -15,7 +16,6 @@ images/
 │   ├── weapons/
 │   ├── armor/
 │   ├── accessories/
-│   │   └── obsidian_ring.png
 │   └── consumables/
 ├── builds/
 │   └── pyromancer/
