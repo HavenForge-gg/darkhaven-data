@@ -16,6 +16,16 @@ primary_attribute: magic
 secondary_attribute: vitality
 resource: mana
 
+# Base stats
+base_stats:
+  agility: 15
+  attack: 20
+  cognition: 25
+  health_max: 5
+  mana_max: 10
+  power: 20
+  spirit: 30
+
 # Skill tree branches
 skill_branches:
   - id: blood_and_bone
