@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-18T00:23:34Z",
+  "generated_at": "2026-02-18T00:39:16Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -69,46 +69,118 @@
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
     },
     "items/gems/_category.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "all gems"
     },
     "items/gems/amber/cracked_amber.yaml": {
-      "last_commit": "94230b8",
-      "last_updated": "2026-02-17T20:21:53+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "move gems a layer deeper"
+      "last_message": "all gems"
+    },
+    "items/gems/amber/dull_amber.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
+    },
+    "items/gems/amber/flawed_amber.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
     },
     "items/gems/jade/cracked_jade.yaml": {
-      "last_commit": "94230b8",
-      "last_updated": "2026-02-17T20:21:53+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "move gems a layer deeper"
+      "last_message": "all gems"
+    },
+    "items/gems/jade/dull_jade.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
+    },
+    "items/gems/jade/flawed_jade.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
     },
     "items/gems/lapis/cracked_lapis.yaml": {
-      "last_commit": "94230b8",
-      "last_updated": "2026-02-17T20:21:53+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "move gems a layer deeper"
+      "last_message": "all gems"
+    },
+    "items/gems/lapis/dull_lapis.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
+    },
+    "items/gems/lapis/flawed_lapis.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
     },
     "items/gems/onyx/cracked_onyx.yaml": {
-      "last_commit": "94230b8",
-      "last_updated": "2026-02-17T20:21:53+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "move gems a layer deeper"
+      "last_message": "all gems"
+    },
+    "items/gems/onyx/dull_onyx.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
+    },
+    "items/gems/onyx/flawed_onyx.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
     },
     "items/gems/opal/cracked_opal.yaml": {
-      "last_commit": "94230b8",
-      "last_updated": "2026-02-17T20:21:53+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "move gems a layer deeper"
+      "last_message": "all gems"
+    },
+    "items/gems/opal/dull_opal.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
+    },
+    "items/gems/opal/flawed_opal.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
     },
     "items/gems/ruby/cracked_ruby.yaml": {
-      "last_commit": "94230b8",
-      "last_updated": "2026-02-17T20:21:53+13:00",
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
       "last_author": "Meanski",
-      "last_message": "move gems a layer deeper"
+      "last_message": "all gems"
+    },
+    "items/gems/ruby/dull_ruby.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
+    },
+    "items/gems/ruby/flawed_ruby.yaml": {
+      "last_commit": "070132d",
+      "last_updated": "2026-02-18T13:38:56+13:00",
+      "last_author": "Meanski",
+      "last_message": "all gems"
     },
     "items/item_sets.yaml": {
       "last_commit": "dc973a4",
