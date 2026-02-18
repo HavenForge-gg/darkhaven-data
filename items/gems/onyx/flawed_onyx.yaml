@@ -1,0 +1,25 @@
+id: flawed_onyx
+type: item
+name: Flawed Onyx
+category: gems
+gem_type: onyx
+tier: 2
+rarity: Common Gem
+description: This shadowy stone seems to absorb light.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Onyx_02.png
+socket_effects:
+  weapon: "+9% Shadow Damage"
+  head_glove: "+5 Armor, +13% Scourge Chance"
+  chest_shield: "+9 Armor, +13% Shadow Resistance"
+  belt_boot: "+7 Armor, +9 Mana"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - onyx
+  - shadow

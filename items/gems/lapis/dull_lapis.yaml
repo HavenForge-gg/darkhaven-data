@@ -1,0 +1,25 @@
+id: dull_lapis
+type: item
+name: Dull Lapis
+category: gems
+gem_type: lapis
+tier: 3
+rarity: Common Gem
+description: I've seen some strange birds with feathers this color.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Lapis_03.png
+socket_effects:
+  weapon: "+12% Lightning Damage"
+  head_glove: "+10 Armor, +16% Shock Chance"
+  chest_shield: "+17 Armor, +16% Lightning Resistance"
+  belt_boot: "+13 Armor, +9 Dexterity"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - lapis
+  - lightning

@@ -1,0 +1,25 @@
+id: dull_ruby
+type: item
+name: Dull Ruby
+category: gems
+gem_type: ruby
+tier: 3
+rarity: Common Gem
+description: It may not shine as brightly as it could, but it's a pretty thing nonetheless.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Ruby_03.png
+socket_effects:
+  weapon: "+12% Fire Damage"
+  head_glove: "+10 Armor, +16% Burn Chance"
+  chest_shield: "+17 Armor, +16% Fire Resistance"
+  belt_boot: "+13 Armor, +9 Magic"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - ruby
+  - fire

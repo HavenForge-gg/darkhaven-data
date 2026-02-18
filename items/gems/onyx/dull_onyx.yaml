@@ -1,0 +1,25 @@
+id: dull_onyx
+type: item
+name: Dull Onyx
+category: gems
+gem_type: onyx
+tier: 3
+rarity: Common Gem
+description: Looking into this stone's depths for too long leaves me disquieted.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Onyx_03.png
+socket_effects:
+  weapon: "+12% Shadow Damage"
+  head_glove: "+10 Armor, +16% Scourge Chance"
+  chest_shield: "+17 Armor, +16% Shadow Resistance"
+  belt_boot: "+13 Armor, +11 Mana"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - onyx
+  - shadow

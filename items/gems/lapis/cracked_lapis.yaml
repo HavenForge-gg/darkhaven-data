@@ -7,7 +7,7 @@ tier: 1
 rarity: Common Gem
 description: This triangular blue stone is slightly cool to the touch.
 sell_price: 18
-image: images/items/gems/lapis/cracked_lapis.png
+image: images/items/accessories/gems/Gem_Lapis_01.png
 socket_effects:
   weapon: "+6% Lightning Damage"
   head_glove: "+3 Armor, +10% Shock Chance"

@@ -1,0 +1,25 @@
+id: flawed_jade
+type: item
+name: Flawed Jade
+category: gems
+gem_type: jade
+tier: 2
+rarity: Common Gem
+description: A square stone the color of a cool forest pond.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Jade_02.png
+socket_effects:
+  weapon: "+9% Cold Damage"
+  head_glove: "+5 Armor, +13% Chill Chance"
+  chest_shield: "+9 Armor, +13% Cold Resistance"
+  belt_boot: "+7 Armor, +7 Vitality"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - jade
+  - cold

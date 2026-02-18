@@ -1,0 +1,25 @@
+id: dull_jade
+type: item
+name: Dull Jade
+category: gems
+gem_type: jade
+tier: 3
+rarity: Common Gem
+description: They say the Emperors of the East value jade more than any other stone.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Jade_03.png
+socket_effects:
+  weapon: "+12% Cold Damage"
+  head_glove: "+10 Armor, +16% Chill Chance"
+  chest_shield: "+17 Armor, +16% Cold Resistance"
+  belt_boot: "+13 Armor, +9 Vitality"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - jade
+  - cold

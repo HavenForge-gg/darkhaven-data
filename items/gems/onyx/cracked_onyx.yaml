@@ -7,7 +7,7 @@ tier: 1
 rarity: Common Gem
 description: This black stone gleams like a moonlit night.
 sell_price: 18
-image: images/items/gems/onyx/cracked_onyx.png
+image: images/items/accessories/gems/Gem_Onyx_01.png
 socket_effects:
   weapon: "+6% Shadow Damage"
   head_glove: "+3 Armor, +10% Scourge Chance"

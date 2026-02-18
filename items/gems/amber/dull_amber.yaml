@@ -1,0 +1,25 @@
+id: dull_amber
+type: item
+name: Dull Amber
+category: gems
+gem_type: amber
+tier: 3
+rarity: Common Gem
+description: It might be a bit scuffed, but it's still a fascinating stone.
+sell_price: 18
+image: images/items/accessories/gems/Gem_Amber_03.png
+socket_effects:
+  weapon: "+12% Blunt Damage"
+  head_glove: "+10 Armor, +16% Stun Chance"
+  chest_shield: "+17 Armor, +16% Blunt Resistance"
+  belt_boot: "+13 Armor, +9 Strength"
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - items
+  - gems
+  - amber
+  - blunt
