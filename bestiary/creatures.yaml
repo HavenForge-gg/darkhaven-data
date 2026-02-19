@@ -14,6 +14,7 @@ enemies:
     attacks:
       - strike
       - spit
+    guid: 94ad53c8429e9ed498e6e4aef8eb0590
 
   - id: death_beetle
     name: Death Beetle

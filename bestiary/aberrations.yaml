@@ -18,7 +18,7 @@ enemies:
     attacks:
       - beam
     loot: gazer_loot
-    guid: 51ecd63f6452afd498a15ba5ba028760
+    guid: bcb144ff8ba10c34c933fe9a6e29e1e9
     
   - id: false_gazer
     name: False Gazer
@@ -39,7 +39,7 @@ enemies:
       - strike
     loot: gulpjaw_loot
     core_drop: gulpjaw_core
-    guid: 1155593db9e1b00498e9e108864ad5ac
+    guid: 8b8662a4574a7824abb7bae38f2a499b
     
   - id: ooze
     name: Ooze

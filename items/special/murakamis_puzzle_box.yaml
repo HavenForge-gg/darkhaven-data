@@ -7,6 +7,8 @@ description: This intricately painted box appears to be an artifact from the Ori
 image: images/items/special/murakamis_puzzle_box.png
 
 # Metadata
+guid: ff888090ff7a67a3ed0af5b5cb6d5460
+
 game_version: 0.0.23272
 last_updated: 2026-02-17
 status: active

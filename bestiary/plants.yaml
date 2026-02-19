@@ -21,7 +21,7 @@ enemies:
       - burrow
       - awake
     loot: bramblehusk_loot
-    guid: de422167cec30f54d9e2d09a69edf8b5
+    guid: 81396e6df39205840a9e94bb74f6b82e
     
   - id: bramblehusk_guard
     name: Bramblehusk Guard

@@ -23,6 +23,7 @@ enemies:
     attacks:
       - strike
     loot: skelezomb_walker_loot
+    guid: fc75c41257e6fb44b9eddfc31acd4fbc
 
   - id: skelezomb_archer
     name: Skelezomb Archer
@@ -49,6 +50,7 @@ enemies:
     attacks:
       - slashing_strike
       - blunt_strike
+    guid: 69ba21950a3283c4394f9dc51fe4b40b
 
   - id: barrow_knight
     name: Barrow Knight
@@ -60,6 +62,7 @@ enemies:
       - blunt_strike
     variants:
       - unique  # Boss version
+    guid: aaa52fc7cd436c94cbb09e6e67bac08f
 
   - id: bone_legion
     name: Bone Legion
@@ -68,6 +71,7 @@ enemies:
     attacks:
       - slashing_strike
       - blunt_strike
+    guid: b548a018176aafb4c8313f2e59bbff56
 
   - id: skeleton_mage
     name: Skeleton Mage
@@ -85,6 +89,7 @@ enemies:
       - lightning
       - shadow
       - unique_shadow
+    guid: d3bfd0d138d6cb04e88e90f6ac98d3bb
 
   - id: lich
     name: Lich
@@ -97,6 +102,7 @@ enemies:
       - lightning_charged_bolt
       - shadow_missile
       - meteor
+    guid: ae9dda7bfa4d2d34890a5b6b6b32e3be
 
   - id: necro_knight
     name: Necro Knight
@@ -105,6 +111,7 @@ enemies:
     description: A shadow-wielding undead champion.
     attacks:
       - shadow
+    guid: f3eeba82c52fdf44688e8ab2e26f9c22
 
   - id: zombie
     name: Zombie
@@ -112,6 +119,7 @@ enemies:
     description: A slow-moving undead that attacks in groups.
     attacks:
       - strike
+    guid: f464eb45e75d5c54da0d8b4e94ae0b0e
 
 # Metadata
 game_version: 0.0.23272

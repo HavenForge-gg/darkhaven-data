@@ -15,6 +15,8 @@ usable_once_per_character: true
 image: images/items/tomes/tome_of_skill.png
 
 # Metadata
+guid: da490a9d5daf7b4488a1a643d3d356da
+
 game_version: 0.0.23272
 last_updated: 2026-02-17
 status: active
