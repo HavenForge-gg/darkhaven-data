@@ -1,0 +1,48 @@
+id: glyph_lunge
+type: skill
+name: Glyph Lunge
+class: witch
+branch: glyph
+row: 1
+
+level: 3
+skill_tags:
+  - Approach
+  - Basic Attack
+  - Evocation
+  - Focusing
+  - Melee
+  - Weapon Damage
+  - Witch
+
+requires: weapon
+
+description: >
+  Lunges at a nearby target dealing 150% weapon damage and a 20% chance
+  of generating a random Glyph.
+
+mechanic_note: >
+  Three glyphs form a Spell. Trigger spells with Evocation skills.
+
+weapon_damage_percent: 150
+glyph_chance: 20
+
+# Upgrades (the red nodes around the skill on the tree)
+upgrades:
+  - id: reprise
+    name: Reprise
+    description: 40% chance an evoked Spell remains to be used again.
+    cost: 1
+    image: images/skills/witch/glyph/upgrades/reprise.png
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-18
+status: active
+tags:
+  - skill
+  - witch
+  - glyph
+  - melee
+  - basic_attack
+  - evocation

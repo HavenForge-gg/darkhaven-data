@@ -1,0 +1,1044 @@
+# Darkhaven Affixes Database
+# Auto-generated from guid-map.ts - 190 unique affixes
+# Run: node play/extract_affixes.js
+
+id: affixes
+type: mechanic
+name: Item Affixes
+description: >-
+  Affixes are magical properties that appear on equipment. Each affix is
+  restricted to specific equipment slots and may have multiple tiers.
+game_version: "0.0.23272"
+last_updated: "2026-02-19"
+status: active
+tags: [items, affixes, crafting]
+
+slot_categories:
+  - id: 1h_weapon
+    name: "1H Weapon"
+    count: 34
+  - id: 2h_weapon
+    name: "2H Weapon"
+    count: 34
+  - id: armor
+    name: "armor"
+    count: 15
+  - id: belt
+    name: "Belt"
+    count: 11
+  - id: boots
+    name: "Boots"
+    count: 6
+  - id: bootsjewelry
+    name: "bootsjewelry"
+    count: 1
+  - id: chest
+    name: "Chest"
+    count: 8
+  - id: chestwaist
+    name: "chestwaist"
+    count: 2
+  - id: flask
+    name: "Flask"
+    count: 4
+  - id: gloves
+    name: "Gloves"
+    count: 2
+  - id: gloves_helm
+    name: "Gloves / Helm"
+    count: 31
+  - id: helm
+    name: "Helm"
+    count: 5
+  - id: helmamulet
+    name: "helmamulet"
+    count: 1
+  - id: jewelry
+    name: "Jewelry"
+    count: 11
+  - id: other
+    name: "Other"
+    count: 15
+  - id: rare
+    name: "rare"
+    count: 1
+  - id: ring
+    name: "Ring"
+    count: 1
+  - id: shield
+    name: "Shield"
+    count: 2
+  - id: weapon
+    name: "Weapon"
+    count: 6
+
+affixes:
+  - id: apenetration_shadow_1h_weapon_t2
+    name: "APenetration"
+    guid: "97fffdaaa396882ae62180c5e5fda2dc"
+    slot: 1h_weapon
+    tier: 2
+    element: shadow
+  - id: apenetration_shadow_1h_weapon_t1
+    name: "APenetration"
+    guid: "ecb04cf2de1cf28286e1dbd2d8d98f0e"
+    slot: 1h_weapon
+    tier: 1
+    element: shadow
+  - id: attack_bonus_1h_weapon_t3
+    name: "Attack Bonus"
+    guid: "54fe9bafd0e17212a9c491ff5a767d1c"
+    slot: 1h_weapon
+    tier: 3
+  - id: attack_bonus_1h_weapon_t2
+    name: "Attack Bonus"
+    guid: "5572c0e1473ff3a40bc55008dff07c60"
+    slot: 1h_weapon
+    tier: 2
+  - id: attack_bonus_1h_weapon_t1
+    name: "Attack Bonus"
+    guid: "c337617b320339aa28fc3e5bff9d5d35"
+    slot: 1h_weapon
+    tier: 1
+  - id: ccritical_chance_lightning_1h_weapon
+    name: "CCritical Chance"
+    guid: "877130e47a96670178beccc0641a111f"
+    slot: 1h_weapon
+    element: lightning
+  - id: cpenetration_slashing_1h_weapon_t2
+    name: "CPenetration"
+    guid: "48a14ab177608cf41c6b0505afe808bd"
+    slot: 1h_weapon
+    tier: 2
+    element: slashing
+  - id: cpenetration_slashing_1h_weapon_t1
+    name: "CPenetration"
+    guid: "c5711f9908fc050305c4f03bc4e94323"
+    slot: 1h_weapon
+    tier: 1
+    element: slashing
+  - id: critical_chance_blunt_1h_weapon
+    name: "Critical Chance"
+    guid: "0f959b8fbd02f3571663b49e49d573fa"
+    slot: 1h_weapon
+    element: blunt
+  - id: critical_chance_slashing_1h_weapon
+    name: "Critical Chance"
+    guid: "36cc7a4b1a3ddf04cbe482191b696834"
+    slot: 1h_weapon
+    element: slashing
+  - id: critical_chance_shadow_1h_weapon
+    name: "Critical Chance"
+    guid: "3ae41b7373b844b44b9181ea7b5e86fb"
+    slot: 1h_weapon
+    element: shadow
+  - id: critical_chance_fire_1h_weapon
+    name: "Critical Chance"
+    guid: "4e5eeec78731a6be760c0db5e8de6160"
+    slot: 1h_weapon
+    element: fire
+  - id: critical_chance_cold_1h_weapon
+    name: "Critical Chance"
+    guid: "9b0103a3250dfdbf3dc829480c9bc9dd"
+    slot: 1h_weapon
+    element: cold
+  - id: critical_chance_lightning_1h_weapon
+    name: "Critical Chance"
+    guid: "ba3cdbb4acc54034c85af8fd5204f656"
+    slot: 1h_weapon
+    element: lightning
+  - id: critical_chance_slashing_1h_weapon
+    name: "Critical Chance"
+    guid: "f7c36baabf0f7fbf8517c30ce3ab3cb1"
+    slot: 1h_weapon
+    element: slashing
+  - id: damage_bonus_1h_weapon_t1
+    name: "Damage Bonus"
+    guid: "0cf2c2371674e2444a7f0bc2aa7505ee"
+    slot: 1h_weapon
+    tier: 1
+  - id: damage_bonus_1h_weapon_t3
+    name: "Damage Bonus"
+    guid: "74b96f705444092489c5c5272407d191"
+    slot: 1h_weapon
+    tier: 3
+  - id: damage_bonus_1h_weapon_t2
+    name: "Damage Bonus"
+    guid: "840035d8d30619be2444a8c485d67e0d"
+    slot: 1h_weapon
+    tier: 2
+  - id: damage_bonus_percent_1h_weapon
+    name: "Damage Bonus Percent"
+    guid: "5c52544a4a5823362c50475c2f5ff592"
+    slot: 1h_weapon
+  - id: dpenetration_lightning_1h_weapon_t1
+    name: "DPenetration"
+    guid: "1db276337079ce2f04cf8bfa4c850d2d"
+    slot: 1h_weapon
+    tier: 1
+    element: lightning
+  - id: dpenetration_lightning_1h_weapon_t2
+    name: "DPenetration"
+    guid: "5a4fcab7bebbc8d71180468418d2f9f0"
+    slot: 1h_weapon
+    tier: 2
+    element: lightning
+  - id: penetration_blunt_1h_weapon_t1
+    name: "Penetration"
+    guid: "06c4e568483ee5141a414342aabbcd90"
+    slot: 1h_weapon
+    tier: 1
+    element: blunt
+  - id: penetration_blunt_1h_weapon_t2
+    name: "Penetration"
+    guid: "1c32dbd5807d745f077020097912d49c"
+    slot: 1h_weapon
+    tier: 2
+    element: blunt
+  - id: penetration_fire_1h_weapon_t1
+    name: "Penetration"
+    guid: "21ed78eecdfb4924aa71155f7b93fff0"
+    slot: 1h_weapon
+    tier: 1
+    element: fire
+  - id: penetration_shadow_1h_weapon_t2
+    name: "Penetration"
+    guid: "272598a3795fd7a42b790c2cbf68b696"
+    slot: 1h_weapon
+    tier: 2
+    element: shadow
+  - id: penetration_slashing_1h_weapon_t1
+    name: "Penetration"
+    guid: "79b35d81f362e6245b1c326b8da40256"
+    slot: 1h_weapon
+    tier: 1
+    element: slashing
+  - id: penetration_lightning_1h_weapon_t1
+    name: "Penetration"
+    guid: "7fea30c94434d564f82bd97bb8e416de"
+    slot: 1h_weapon
+    tier: 1
+    element: lightning
+  - id: penetration_cold_1h_weapon_t2
+    name: "Penetration"
+    guid: "a0065f4c27c5fd4bdba21a9a17ccd773"
+    slot: 1h_weapon
+    tier: 2
+    element: cold
+  - id: penetration_cold_1h_weapon_t1
+    name: "Penetration"
+    guid: "b2585794891f94f60be01869ce53361b"
+    slot: 1h_weapon
+    tier: 1
+    element: cold
+  - id: penetration_fire_1h_weapon_t2
+    name: "Penetration"
+    guid: "b7e65321f1730ded35a6b0986c60579c"
+    slot: 1h_weapon
+    tier: 2
+    element: fire
+  - id: penetration_slashing_1h_weapon_t2
+    name: "Penetration"
+    guid: "c5d75ae2c2cb67b40b24a858abe7092d"
+    slot: 1h_weapon
+    tier: 2
+    element: slashing
+  - id: penetration_shadow_1h_weapon_t1
+    name: "Penetration"
+    guid: "d4a48d5eb29b48948b9a910193a706d3"
+    slot: 1h_weapon
+    tier: 1
+    element: shadow
+  - id: penetration_lightning_1h_weapon_t2
+    name: "Penetration"
+    guid: "ed437166d2c31f54bbe95343e70e6448"
+    slot: 1h_weapon
+    tier: 2
+    element: lightning
+  - id: skill_level_1h_weapon
+    name: "Skill Level"
+    guid: "84b8454f3e92cabc12703180d64e6fa7"
+    slot: 1h_weapon
+  - id: apenetration_shadow_2h_weapon_t1
+    name: "APenetration"
+    guid: "15526a880d28333d458d9985dbaa0783"
+    slot: 2h_weapon
+    tier: 1
+    element: shadow
+  - id: apenetration_shadow_2h_weapon_t2
+    name: "APenetration"
+    guid: "e768648bc429e08fdd6d43e0baebce43"
+    slot: 2h_weapon
+    tier: 2
+    element: shadow
+  - id: attack_bonus_2h_weapon_t2
+    name: "Attack Bonus"
+    guid: "1a86fa8342de4a84f973c8cf5dbed6b7"
+    slot: 2h_weapon
+    tier: 2
+  - id: attack_bonus_2h_weapon_t1
+    name: "Attack Bonus"
+    guid: "4de3e4fbf0cef04849c74836de4d2552"
+    slot: 2h_weapon
+    tier: 1
+  - id: attack_bonus_2h_weapon_t3
+    name: "Attack Bonus"
+    guid: "4e7178d0b889936c88f8985ccb05ffeb"
+    slot: 2h_weapon
+    tier: 3
+  - id: ccritical_chance_lightning_2h_weapon
+    name: "CCritical Chance"
+    guid: "ae01d2ac076c62d01ede5bbb277b28b6"
+    slot: 2h_weapon
+    element: lightning
+  - id: cpenetration_slashing_2h_weapon_t1
+    name: "CPenetration"
+    guid: "1c97a144e4dc364304ea34f3b0bd7e77"
+    slot: 2h_weapon
+    tier: 1
+    element: slashing
+  - id: cpenetration_slashing_2h_weapon_t2
+    name: "CPenetration"
+    guid: "3a0d07d2905a73928af621a417ba3613"
+    slot: 2h_weapon
+    tier: 2
+    element: slashing
+  - id: critical_chance_fire_2h_weapon
+    name: "Critical Chance"
+    guid: "11a1f0aa3b84269498e72954536fa549"
+    slot: 2h_weapon
+    element: fire
+  - id: critical_chance_shadow_2h_weapon
+    name: "Critical Chance"
+    guid: "29cac51a3d322524bb3e0ab8e77e7f95"
+    slot: 2h_weapon
+    element: shadow
+  - id: critical_chance_blunt_2h_weapon
+    name: "Critical Chance"
+    guid: "2a90db258f406016a9af16af571ec67f"
+    slot: 2h_weapon
+    element: blunt
+  - id: critical_chance_cold_2h_weapon
+    name: "Critical Chance"
+    guid: "77b2f505163d67b4e8cce8dee4d42dcf"
+    slot: 2h_weapon
+    element: cold
+  - id: critical_chance_lightning_2h_weapon
+    name: "Critical Chance"
+    guid: "7cf8ba7ed34d3ec4cb7b043c474ba156"
+    slot: 2h_weapon
+    element: lightning
+  - id: critical_chance_slashing_2h_weapon
+    name: "Critical Chance"
+    guid: "9752edadeb69b3768f0b9092ce7675c5"
+    slot: 2h_weapon
+    element: slashing
+  - id: critical_chance_slashing_2h_weapon
+    name: "Critical Chance"
+    guid: "cc2f789def2273f49a318291ae1068aa"
+    slot: 2h_weapon
+    element: slashing
+  - id: damage_bonus_2h_weapon_t1
+    name: "Damage Bonus"
+    guid: "02247a09c42f620415df70face43bcef"
+    slot: 2h_weapon
+    tier: 1
+  - id: damage_bonus_2h_weapon_t3
+    name: "Damage Bonus"
+    guid: "2f04574351149764c96700fd01aace5f"
+    slot: 2h_weapon
+    tier: 3
+  - id: damage_bonus_2h_weapon_t2
+    name: "Damage Bonus"
+    guid: "d52c3a3bccaedbc4f99db7ba94c900c7"
+    slot: 2h_weapon
+    tier: 2
+  - id: damage_bonus_percent_2h_weapon
+    name: "Damage Bonus Percent"
+    guid: "222d4b3ad96b7a94fa2a839c09765698"
+    slot: 2h_weapon
+  - id: dpenetration_lightning_2h_weapon_t2
+    name: "DPenetration"
+    guid: "2bb7f57c9341f3dd781c3af8944f14e7"
+    slot: 2h_weapon
+    tier: 2
+    element: lightning
+  - id: dpenetration_lightning_2h_weapon_t1
+    name: "DPenetration"
+    guid: "a93080ea66ecb8261ef37c64c0f24104"
+    slot: 2h_weapon
+    tier: 1
+    element: lightning
+  - id: penetration_fire_2h_weapon_t2
+    name: "Penetration"
+    guid: "2248c2c52accf1645909a6749422fe2c"
+    slot: 2h_weapon
+    tier: 2
+    element: fire
+  - id: penetration_slashing_2h_weapon_t2
+    name: "Penetration"
+    guid: "26a5c02f0465a7743b6983bd4ca41787"
+    slot: 2h_weapon
+    tier: 2
+    element: slashing
+  - id: penetration_slashing_2h_weapon_t1
+    name: "Penetration"
+    guid: "28ba2cb776a6091469fb69852dad04fd"
+    slot: 2h_weapon
+    tier: 1
+    element: slashing
+  - id: penetration_shadow_2h_weapon_t2
+    name: "Penetration"
+    guid: "3420742352d941245a2c76e54a7468ec"
+    slot: 2h_weapon
+    tier: 2
+    element: shadow
+  - id: penetration_blunt_2h_weapon_t2
+    name: "Penetration"
+    guid: "45a8570252eea7a68e922f3b8b9948a2"
+    slot: 2h_weapon
+    tier: 2
+    element: blunt
+  - id: penetration_fire_2h_weapon_t1
+    name: "Penetration"
+    guid: "69e2dad10f9bafabc7f0e930720e54d4"
+    slot: 2h_weapon
+    tier: 1
+    element: fire
+  - id: penetration_cold_2h_weapon_t1
+    name: "Penetration"
+    guid: "6f6f1201631c23a4d87a0ea6b5beffea"
+    slot: 2h_weapon
+    tier: 1
+    element: cold
+  - id: penetration_lightning_2h_weapon_t2
+    name: "Penetration"
+    guid: "82b74f149780cb740918940c45973dee"
+    slot: 2h_weapon
+    tier: 2
+    element: lightning
+  - id: penetration_cold_2h_weapon_t2
+    name: "Penetration"
+    guid: "a7eef0753d20e9e4a867074950884787"
+    slot: 2h_weapon
+    tier: 2
+    element: cold
+  - id: penetration_blunt_2h_weapon_t1
+    name: "Penetration"
+    guid: "b989e965b8813ce4cb53e92586f286cf"
+    slot: 2h_weapon
+    tier: 1
+    element: blunt
+  - id: penetration_lightning_2h_weapon_t1
+    name: "Penetration"
+    guid: "dc7c4e1cf0a440d4388cd059ee2f9f9f"
+    slot: 2h_weapon
+    tier: 1
+    element: lightning
+  - id: penetration_shadow_2h_weapon_t1
+    name: "Penetration"
+    guid: "e43cc8e1fd4dee545af56c857366c7e8"
+    slot: 2h_weapon
+    tier: 1
+    element: shadow
+  - id: skill_level_2h_weapon
+    name: "Skill Level"
+    guid: "939f8010e3291b842888753aed9e18c5"
+    slot: 2h_weapon
+  - id: armor_bonus_armor_t2
+    name: "Armor Bonus"
+    guid: "29c3e85090a6b6f248c7f82e0bdcd281"
+    slot: armor
+    tier: 2
+  - id: armor_bonus_armor_t1
+    name: "Armor Bonus"
+    guid: "3ba6ac3d7d2f52f19ca85dfa4a376a2d"
+    slot: armor
+    tier: 1
+  - id: armor_pct_bonus_armor
+    name: "Armor Pct Bonus"
+    guid: "72915069b71738f44814ae5907d29642"
+    slot: armor
+  - id: resistance_cold_armor_t1
+    name: "Resistance"
+    guid: "15a3f23271d9aac4183a44f53bc28f09"
+    slot: armor
+    tier: 1
+    element: cold
+  - id: resistance_fire_armor_t2
+    name: "Resistance"
+    guid: "18d44d29569464642b5a58bbd1ec7a5d"
+    slot: armor
+    tier: 2
+    element: fire
+  - id: resistance_slashing_armor_t1
+    name: "Resistance"
+    guid: "22082e6e230fbc64ea55afe50d42e0cc"
+    slot: armor
+    tier: 1
+    element: slashing
+  - id: resistance_cold_armor_t2
+    name: "Resistance"
+    guid: "438d34741a0d49046bcf084fe66531ce"
+    slot: armor
+    tier: 2
+    element: cold
+  - id: resistance_shadow_armor_t1
+    name: "Resistance"
+    guid: "4a0f674dad92e824882a9cde8c9f5571"
+    slot: armor
+    tier: 1
+    element: shadow
+  - id: resistance_lightning_armor_t1
+    name: "Resistance"
+    guid: "4fd824b6f289cb660c7f3505efd5d49e"
+    slot: armor
+    tier: 1
+    element: lightning
+  - id: resistance_blunt_armor_t2
+    name: "Resistance"
+    guid: "55be329fb86c1d54998ad694de0cb717"
+    slot: armor
+    tier: 2
+    element: blunt
+  - id: resistance_shadow_armor_t2
+    name: "Resistance"
+    guid: "7927ae35c1173be41ffaa59e89ee0710"
+    slot: armor
+    tier: 2
+    element: shadow
+  - id: resistance_fire_armor_t1
+    name: "Resistance"
+    guid: "80dcf51e9b029a443b91e04f04f71b3e"
+    slot: armor
+    tier: 1
+    element: fire
+  - id: resistance_slashing_armor_t2
+    name: "Resistance"
+    guid: "880861b8fd92180b2e32bb46717a1b40"
+    slot: armor
+    tier: 2
+    element: slashing
+  - id: resistance_blunt_armor_t1
+    name: "Resistance"
+    guid: "dec56696f293eac825de5ea0f603498a"
+    slot: armor
+    tier: 1
+    element: blunt
+  - id: resistance_lightning_armor_t2
+    name: "Resistance"
+    guid: "e0d463ef27c43394285673e55783fb9d"
+    slot: armor
+    tier: 2
+    element: lightning
+  - id: acritical_resistance_slashing_belt
+    name: "ACritical Resistance"
+    guid: "2d10743fd1ada1352b4f939235d33de0"
+    slot: belt
+    element: slashing
+  - id: critical_resistance_lightning_belt
+    name: "Critical Resistance"
+    guid: "0194adbae77de58677423d6806f09822"
+    slot: belt
+    element: lightning
+  - id: critical_resistance_fire_belt
+    name: "Critical Resistance"
+    guid: "0e8b1ba383c41e84b8fce405a2381db2"
+    slot: belt
+    element: fire
+  - id: critical_resistance_lightning_belt
+    name: "Critical Resistance"
+    guid: "1feb9b876eeef764a9ff75016ed8d140"
+    slot: belt
+    element: lightning
+  - id: critical_resistance_slashing_belt
+    name: "Critical Resistance"
+    guid: "7c97a662158696942a39bac8c26da9be"
+    slot: belt
+    element: slashing
+  - id: critical_resistance_cold_belt
+    name: "Critical Resistance"
+    guid: "9892bed275531e04796b99ea8329cda6"
+    slot: belt
+    element: cold
+  - id: critical_resistance_shadow_belt
+    name: "Critical Resistance"
+    guid: "9ddebc472a211fcc344c114c3538efba"
+    slot: belt
+    element: shadow
+  - id: critical_resistance_blunt_belt
+    name: "Critical Resistance"
+    guid: "bce7b8ae86c1632943f955ae4660acc2"
+    slot: belt
+    element: blunt
+  - id: find_gems_belt
+    name: "Find Gems"
+    guid: "24b7b31d876b234428691c2aaa7cea58"
+    slot: belt
+  - id: find_health_orbs_belt
+    name: "Find Health Orbs"
+    guid: "57a08ee01130151531247d8c02aee021"
+    slot: belt
+  - id: find_mana_orbs_belt
+    name: "Find Mana Orbs"
+    guid: "7df6ac8d9c0398d44b2c931639a0ba5a"
+    slot: belt
+  - id: dash_distance_boots
+    name: "Dash Distance"
+    guid: "9e4b3d78db58baed925cca7b3866718f"
+    slot: boots
+  - id: feather_falling_boots
+    name: "Feather Falling"
+    guid: "0616d22762e5e084cb580052004ead0c"
+    slot: boots
+  - id: movement_speed_boots
+    name: "Movement Speed"
+    guid: "a6dcdb9686cd6a0acd6d8815fd1354f6"
+    slot: boots
+  - id: stamina_boots
+    name: "Stamina"
+    guid: "b23cea3a0410db3d057ce67a46cfc17d"
+    slot: boots
+  - id: stamina_regen_boots
+    name: "Stamina Regen"
+    guid: "3a3b4947a85f73641ae3266e11104fb9"
+    slot: boots
+  - id: water_walking_boots
+    name: "Water Walking"
+    guid: "2e026fc84839d994981d5fee302718be"
+    slot: boots
+  - id: gold_find_bootsjewelry
+    name: "Gold Find"
+    guid: "62e0c5d82cb149b565f2a1cb4595e926"
+    slot: bootsjewelry
+  - id: ccritical_resistance_lightning_chest
+    name: "CCritical Resistance"
+    guid: "c772194a8b3abb13a8a8a15f0d3cf1eb"
+    slot: chest
+    element: lightning
+  - id: critical_resistance_slashing_chest
+    name: "Critical Resistance"
+    guid: "1559594e70900d64ba627154eb02e572"
+    slot: chest
+    element: slashing
+  - id: critical_resistance_cold_chest
+    name: "Critical Resistance"
+    guid: "1b0f6f5121f5d7a92a89aaf70d4f5837"
+    slot: chest
+    element: cold
+  - id: critical_resistance_blunt_chest
+    name: "Critical Resistance"
+    guid: "2f52b76749f1106b3f096c229ca4359d"
+    slot: chest
+    element: blunt
+  - id: critical_resistance_shadow_chest
+    name: "Critical Resistance"
+    guid: "9a982c94dbca403313d2e52eb9b4ec15"
+    slot: chest
+    element: shadow
+  - id: critical_resistance_fire_chest
+    name: "Critical Resistance"
+    guid: "b563614dc50e7af498a2f25890b2476c"
+    slot: chest
+    element: fire
+  - id: critical_resistance_slashing_chest
+    name: "Critical Resistance"
+    guid: "f951700fc4cd778fb10df8b7d6b454de"
+    slot: chest
+    element: slashing
+  - id: critical_resistance_lightning_chest
+    name: "Critical Resistance"
+    guid: "fb47e52f5411f4844b887ae423cab257"
+    slot: chest
+    element: lightning
+  - id: health_bonus_chestwaist_t2
+    name: "Health Bonus"
+    guid: "0f32fb969af8745d1488a061fcb49311"
+    slot: chestwaist
+    tier: 2
+  - id: health_bonus_chestwaist_t1
+    name: "Health Bonus"
+    guid: "6c7c18bfd55b9e24bbb141d6aae2ce4a"
+    slot: chestwaist
+    tier: 1
+  - id: bogie_rotgut_flask
+    name: "Bogie Rotgut"
+    guid: "3624ac65614cac540a3a9222172d1322"
+    slot: flask
+  - id: growth_flask
+    name: "Growth"
+    guid: "03f601d5d4134df4890ac32aec7556b9"
+    slot: flask
+  - id: quickness_flask
+    name: "Quickness"
+    guid: "000ccead0962acbe1cbecec57fd39873"
+    slot: flask
+  - id: war_flask
+    name: "War"
+    guid: "639e984e9c79d094692e43e258d31620"
+    slot: flask
+  - id: attack_speed_gloves
+    name: "Attack Speed"
+    guid: "209d18d1e63d81e40ab04df1b454256a"
+    slot: gloves
+  - id: cast_speed_gloves
+    name: "Cast Speed"
+    guid: "5df3f1c12cc50a6478b0d0fe70a97463"
+    slot: gloves
+  - id: acritical_chance_shadow_gloves_helm
+    name: "ACritical Chance"
+    guid: "26b97b20ba9b3254cc029c76f43c929d"
+    slot: gloves_helm
+    element: shadow
+  - id: apenetration_blunt_gloves_helm_t2
+    name: "APenetration"
+    guid: "c74189c0996ed92a488d13d721b84a0a"
+    slot: gloves_helm
+    tier: 2
+    element: blunt
+  - id: apenetration_blunt_gloves_helm_t1
+    name: "APenetration"
+    guid: "eebea5c46bb4772a13f396bd392372b9"
+    slot: gloves_helm
+    tier: 1
+    element: blunt
+  - id: attack_bonus_gloves_helm_t1
+    name: "Attack Bonus"
+    guid: "1782fa81479995e4e10f3194b6a50437"
+    slot: gloves_helm
+    tier: 1
+  - id: attack_bonus_gloves_helm_t2
+    name: "Attack Bonus"
+    guid: "c9b758eeefa10dd46bb0bf53d0784ef6"
+    slot: gloves_helm
+    tier: 2
+  - id: bpenetration_shadow_gloves_helm_t1
+    name: "BPenetration"
+    guid: "2ed7b0a4fed652afa9ace4d5cf1e05e1"
+    slot: gloves_helm
+    tier: 1
+    element: shadow
+  - id: bpenetration_shadow_gloves_helm_t2
+    name: "BPenetration"
+    guid: "8b99fb91fbd715a225139829167c3dd3"
+    slot: gloves_helm
+    tier: 2
+    element: shadow
+  - id: ccritical_chance_slashing_gloves_helm
+    name: "CCritical Chance"
+    guid: "9c28e43941a6c65f575a7fb9c17f0a3f"
+    slot: gloves_helm
+    element: slashing
+  - id: critical_chance_lightning_gloves_helm
+    name: "Critical Chance"
+    guid: "5b209713482ec544bbe540f115e1a32f"
+    slot: gloves_helm
+    element: lightning
+  - id: critical_chance_fire_gloves_helm
+    name: "Critical Chance"
+    guid: "6eec0e69b5d7b7146b94c16d0cdff63b"
+    slot: gloves_helm
+    element: fire
+  - id: critical_chance_cold_gloves_helm
+    name: "Critical Chance"
+    guid: "7b01760bc05fc94459ba84f70091a4ab"
+    slot: gloves_helm
+    element: cold
+  - id: critical_chance_blunt_gloves_helm
+    name: "Critical Chance"
+    guid: "80d13f4c467446a3257c09a0f178be22"
+    slot: gloves_helm
+    element: blunt
+  - id: critical_chance_shadow_gloves_helm
+    name: "Critical Chance"
+    guid: "b1085421217069e4b98420e9b6c96c1d"
+    slot: gloves_helm
+    element: shadow
+  - id: critical_chance_slashing_gloves_helm
+    name: "Critical Chance"
+    guid: "b42e5ce06c9b09c4582867821a15e83b"
+    slot: gloves_helm
+    element: slashing
+  - id: dcritical_chance_lightning_gloves_helm
+    name: "DCritical Chance"
+    guid: "cb199d02eb6ec300dfa260afa1c9f308"
+    slot: gloves_helm
+    element: lightning
+  - id: dpenetration_slashing_gloves_helm_t2
+    name: "DPenetration"
+    guid: "7444fe82196a6d45c87a792eeb8835c6"
+    slot: gloves_helm
+    tier: 2
+    element: slashing
+  - id: dpenetration_slashing_gloves_helm_t1
+    name: "DPenetration"
+    guid: "fcc247a9c8c205eb35f9b5cc6d6aa50a"
+    slot: gloves_helm
+    tier: 1
+    element: slashing
+  - id: penetration_lightning_gloves_helm_t1
+    name: "Penetration"
+    guid: "07bc78dd3a818bde11fd26a76fbd9efb"
+    slot: gloves_helm
+    tier: 1
+    element: lightning
+  - id: penetration_slashing_gloves_helm_t2
+    name: "Penetration"
+    guid: "0c6c2720b0ebd5b4b8d7630d867ca5b8"
+    slot: gloves_helm
+    tier: 2
+    element: slashing
+  - id: penetration_cold_gloves_helm_t1
+    name: "Penetration"
+    guid: "12c2059fe94656d4a88867eb92a4ebf8"
+    slot: gloves_helm
+    tier: 1
+    element: cold
+  - id: penetration_fire_gloves_helm_t1
+    name: "Penetration"
+    guid: "3a95d4852df52f04fb081efb59421a2a"
+    slot: gloves_helm
+    tier: 1
+    element: fire
+  - id: penetration_blunt_gloves_helm_t1
+    name: "Penetration"
+    guid: "4a2b1b0f98ff2f14e9c7f9bf472eb676"
+    slot: gloves_helm
+    tier: 1
+    element: blunt
+  - id: penetration_slashing_gloves_helm_t1
+    name: "Penetration"
+    guid: "5635849ac38d34c419ed413a434bb71b"
+    slot: gloves_helm
+    tier: 1
+    element: slashing
+  - id: penetration_fire_gloves_helm_t2
+    name: "Penetration"
+    guid: "71f123abd47555e48a614acfc744f737"
+    slot: gloves_helm
+    tier: 2
+    element: fire
+  - id: penetration_shadow_gloves_helm_t2
+    name: "Penetration"
+    guid: "79a28913100ac2e44b0d31094745e752"
+    slot: gloves_helm
+    tier: 2
+    element: shadow
+  - id: penetration_lightning_gloves_helm_t2
+    name: "Penetration"
+    guid: "7b06e88f9bd1722438741a4c990a7eb9"
+    slot: gloves_helm
+    tier: 2
+    element: lightning
+  - id: penetration_lightning_gloves_helm_t2
+    name: "Penetration"
+    guid: "7ff5679608c1ab161ad2d7c572010fff"
+    slot: gloves_helm
+    tier: 2
+    element: lightning
+  - id: penetration_cold_gloves_helm_t2
+    name: "Penetration"
+    guid: "a92219b80e4f5e5c3970f29c2dec8478"
+    slot: gloves_helm
+    tier: 2
+    element: cold
+  - id: penetration_blunt_gloves_helm_t2
+    name: "Penetration"
+    guid: "aa557d8700a3da844af8940efe9fd409"
+    slot: gloves_helm
+    tier: 2
+    element: blunt
+  - id: penetration_shadow_gloves_helm_t1
+    name: "Penetration"
+    guid: "c2f45e94a4e890c42a451d60aba93521"
+    slot: gloves_helm
+    tier: 1
+    element: shadow
+  - id: penetration_lightning_gloves_helm_t1
+    name: "Penetration"
+    guid: "c99152f3e39eabf45abdfebb7d958118"
+    slot: gloves_helm
+    tier: 1
+    element: lightning
+  - id: crow_flock_area_grow_helm
+    name: "Crow Flock Area Grow"
+    guid: "299b295626ae8d2d6dc7672a94db3be9"
+    slot: helm
+  - id: crow_flock_area_shrink_helm
+    name: "Crow Flock Area Shrink"
+    guid: "7079b4e0782de9409791e4379a28da92"
+    slot: helm
+  - id: crow_flock_capacity_helm
+    name: "Crow Flock Capacity"
+    guid: "8aebbe9afb5b9b9f6f9b912251005782"
+    slot: helm
+  - id: mana_bonus_helm_t1
+    name: "Mana Bonus"
+    guid: "05fafb0a0ae9443488affb724c5e1a8c"
+    slot: helm
+    tier: 1
+  - id: mana_bonus_helm_t2
+    name: "Mana Bonus"
+    guid: "67d6c98193863104ebf09a4f136719e5"
+    slot: helm
+    tier: 2
+  - id: experience_gain_helmamulet
+    name: "Experience Gain"
+    guid: "46fa95c6ff9e2b14683b94acbe3217f7"
+    slot: helmamulet
+  - id: armor_bonus_jewelry_t1
+    name: "Armor Bonus"
+    guid: "30ab93e7885f5d64e9a5afccab0aacef"
+    slot: jewelry
+    tier: 1
+  - id: armor_bonus_jewelry_t2
+    name: "Armor Bonus"
+    guid: "3257c4976a38fdd21523a66235f82225"
+    slot: jewelry
+    tier: 2
+  - id: attack_bonus_jewelry_t2
+    name: "Attack Bonus"
+    guid: "4cb54fda2a6ac5840b2889956c415ca2"
+    slot: jewelry
+    tier: 2
+  - id: attack_bonus_jewelry_t1
+    name: "Attack Bonus"
+    guid: "5dc86429f76b5c6f291b7839b7debbcd"
+    slot: jewelry
+    tier: 1
+  - id: health_bonus_jewelry_t1
+    name: "Health Bonus"
+    guid: "0c70177e72f54b24cb72b278af7444a8"
+    slot: jewelry
+    tier: 1
+  - id: health_bonus_jewelry_t2
+    name: "Health Bonus"
+    guid: "0e3572bab88a639927495ab4190a3fa3"
+    slot: jewelry
+    tier: 2
+  - id: health_regen_jewelry
+    name: "Health Regen"
+    guid: "b144da4ca6e676342bb4d6d4dbef5589"
+    slot: jewelry
+  - id: magic_find_jewelry
+    name: "Magic Find"
+    guid: "bc5b9d639402b2845a5a114188637a76"
+    slot: jewelry
+  - id: mana_bonus_jewelry_t1
+    name: "Mana Bonus"
+    guid: "16ad878cb4225694daa84811039b281f"
+    slot: jewelry
+    tier: 1
+  - id: mana_bonus_jewelry_t2
+    name: "Mana Bonus"
+    guid: "7fed0259866a9a54a8035c4c1bba4a7a"
+    slot: jewelry
+    tier: 2
+  - id: mana_regen_jewelry
+    name: "Mana Regen"
+    guid: "be73b48e2bd046c4d9d10e51dc3205da"
+    slot: jewelry
+  - id: affix_unit_table
+    name: "Affix Unit Table"
+    guid: "1717efa9b861b8b4aa1fa10ba4aa82aa"
+    slot: other
+  - id: attribute_dexterity_t1
+    name: "Attribute - Dexterity [T1]"
+    guid: "2cf3fd7a339fee34494b51766a79e9a2"
+    slot: other
+  - id: attribute_dexterity_t2
+    name: "Attribute - Dexterity [T2]"
+    guid: "90fd8619d2a25d841b97d5c70f257a7c"
+    slot: other
+  - id: attribute_magic_t1
+    name: "Attribute - Magic [T1]"
+    guid: "7cfaa24b0246c3940a90a36ad02fb2a4"
+    slot: other
+  - id: attribute_magic_t2
+    name: "Attribute - Magic [T2]"
+    guid: "1901be6a6408dcc569f7b579641ff65e"
+    slot: other
+  - id: attribute_strength_t1
+    name: "Attribute - Strength [T1]"
+    guid: "6e6bd116a31ee52429e5b8de4894be79"
+    slot: other
+  - id: attribute_strength_t2
+    name: "Attribute - Strength [T2]"
+    guid: "3d087230f48b82f4fa1e6a949b9e6335"
+    slot: other
+  - id: attribute_vitality_t1
+    name: "Attribute - Vitality [T1]"
+    guid: "bce758c4af59dde4187d3c48901efa88"
+    slot: other
+  - id: attribute_vitality_t2
+    name: "Attribute - Vitality [T2]"
+    guid: "210073383326f3e4fbf8b0a57fa1eb4b"
+    slot: other
+  - id: bogie_dagger
+    name: "Bogie Dagger"
+    guid: "0cd5112ea9acd11a1351fc3486465a39"
+    slot: other
+  - id: bramble_staff
+    name: "Bramble Staff"
+    guid: "f8f6520acff0bd6de7d6995f296f703b"
+    slot: other
+  - id: fast_elite_mob
+    name: "Fast Elite Mob"
+    guid: "2b4bfa4b01300c749ad1402363c5bcc8"
+    slot: other
+  - id: runeword
+    name: "Runeword"
+    guid: "81e73de5afd6a524fa77da65bbb63614"
+    slot: other
+  - id: strong_elite_mob
+    name: "Strong Elite Mob"
+    guid: "91524eda8f9ec2c4a8be475c8b6794d4"
+    slot: other
+  - id: vampiric_elite_mob
+    name: "Vampiric Elite Mob"
+    guid: "a3fc3c68f0d2a144fa0af9c99dceb5f2"
+    slot: other
+  - id: socket_rare
+    name: "Socket"
+    guid: "27be1e2ad15b79d4a9f90cb1833da0f5"
+    slot: rare
+  - id: faster_swim_speed_ring
+    name: "Faster Swim Speed"
+    guid: "1c6473655927d1247bf4b9059f96f8db"
+    slot: ring
+  - id: red_shield
+    name: "Red"
+    guid: "763ff1a5f01b7bb147b1441495e551ed"
+    slot: shield
+  - id: thorns_shield
+    name: "Thorns"
+    guid: "0abe2f63d93bcfeb16ef3fa1e9991d57"
+    slot: shield
+  - id: attack_speed_weapon
+    name: "Attack Speed"
+    guid: "767c83343aaba38a78e74c5f56fd8494"
+    slot: weapon
+  - id: cast_speed_weapon
+    name: "Cast Speed"
+    guid: "9c88e6b9440598e47b3aba1f317a0118"
+    slot: weapon
+  - id: elemental_imbue_fire_weapon
+    name: "Elemental Imbue"
+    guid: "0074704dc3627e443ac7435195859275"
+    slot: weapon
+    element: fire
+  - id: elemental_imbue_lightning_weapon
+    name: "Elemental Imbue"
+    guid: "1e5d47b74cc2ee64d93ebd58e1f4adf8"
+    slot: weapon
+    element: lightning
+  - id: elemental_imbue_cold_weapon
+    name: "Elemental Imbue"
+    guid: "4a4e0fee83bda62b690a2da05fd5ac65"
+    slot: weapon
+    element: cold
+  - id: elemental_imbue_shadow_weapon
+    name: "Elemental Imbue"
+    guid: "cb033353f3ced3b4eba695ed4d99a979"
+    slot: weapon
+    element: shadow
