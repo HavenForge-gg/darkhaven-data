@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T23:08:53Z",
+  "generated_at": "2026-02-19T23:09:10Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -397,6 +397,12 @@
       "last_updated": "2026-02-19T22:35:51Z",
       "last_author": "Kieran Taylor",
       "last_message": "Update glyph_lunge.yaml"
+    },
+    "skills/witch/glyph/spine_breaker.yaml": {
+      "last_commit": "2c8aad0",
+      "last_updated": "2026-02-19T23:09:02Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Rename spine_breaker.yalm to spine_breaker.yaml"
     },
     "skills/witch/shadow/shadow_walk.yaml": {
       "last_commit": "9ddd877",
