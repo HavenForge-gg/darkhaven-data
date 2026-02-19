@@ -36,9 +36,10 @@ game_version: 0.0.23272
 last_updated: 2026-02-16
 status: active
 tags:
+  - skill
+  - witch
+  - shadow
   - approach
   - basic attack
   - melee
   - weapon damage
-  - witch
-  - shadow
