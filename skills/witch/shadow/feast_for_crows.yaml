@@ -13,12 +13,6 @@ description: >
   On hit summons a Crow to your flock. Crows follow and orbit, doing damage to nearby enemies.
 
 damage_type: shadow
-resource_cost:
-  type: mana
-  base_value: 18
-
-scaling:
-  - magic
 
 # Skill upgrade options
 skill_options:
