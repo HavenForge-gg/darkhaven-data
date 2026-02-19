@@ -1,0 +1,48 @@
+# =============================================================================
+# Feast For Crows - Witch Skill
+# Extracted from game data
+# =============================================================================
+
+id: feast_for_crows
+type: skill
+name: Feast for Crows
+class: witch
+branch: shadow
+
+description: >
+  On hit summons a Crow to your flock. Crows follow and orbit, doing damage to nearby enemies.
+
+damage_type: shadow
+resource_cost:
+  type: mana
+  base_value: 18
+
+scaling:
+  - magic
+
+# Skill upgrade options
+skill_options:
+  - id: murder
+    name: Murder
+    description: Chance on hit to release a spiraling murder of vicious crows.
+    
+  - id: flock
+    name: Flock
+    description: Gather a flock of crows.
+    
+mechanics:
+  - basic attack
+  - melee
+  - shadow
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-16
+status: active
+tags:
+  - approach
+  - basic attack
+  - melee
+  - weapon damage
+  - witch
+  - shadow
