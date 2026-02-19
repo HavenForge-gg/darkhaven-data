@@ -21,6 +21,8 @@ description: >
   Lunges at a nearby target dealing 150% weapon damage and a 20% chance
   of generating a random Glyph.
 
+icon: images/skills/witch/skill_glyph_lunge.png
+
 mechanic_note: >
   Three glyphs form a Spell. Trigger spells with Evocation skills.
 
