@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-18T00:39:16Z",
+  "generated_at": "2026-02-19T08:52:12Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "add missing guids"
     },
     "bestiary/corrupted.yaml": {
       "last_commit": "dc973a4",
@@ -15,28 +15,28 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "bestiary/creatures.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "add missing guids"
     },
     "bestiary/goblinoids.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "add missing guids"
     },
     "bestiary/plants.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "add missing guids"
     },
     "bestiary/undead.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "add missing guids"
     },
     "builds/witch/blood_bone_witch.yaml": {
       "last_commit": "dc973a4",
@@ -63,10 +63,10 @@
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
     },
     "items/dyes/syringa_dye.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "add missing guids"
     },
     "items/gems/_category.yaml": {
       "last_commit": "070132d",
@@ -195,16 +195,16 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "add missing guids"
     },
     "items/special/puzzle_box.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "add missing guids"
     },
     "items/tomes/_category.yaml": {
       "last_commit": "f89d359",
@@ -243,10 +243,10 @@
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
     },
     "items/tomes/tome_of_spine_breaker.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
+      "last_commit": "0cf33cb",
+      "last_updated": "2026-02-19T21:49:01+13:00",
       "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_message": "add missing guids"
     },
     "items/tomes/tome_of_talents.yaml": {
       "last_commit": "f89d359",
@@ -265,6 +265,12 @@
       "last_updated": "2026-02-17T12:24:35+13:00",
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
+    },
+    "mechanics/affixes.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
+      "last_author": "Meanski",
+      "last_message": "move skills"
     },
     "mechanics/equipment_slots.yaml": {
       "last_commit": "dc973a4",
@@ -362,41 +368,41 @@
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
     },
-    "skills/witch/blood_lash.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+    "skills/witch/blood_and_bone/blood_lash.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "move skills"
     },
-    "skills/witch/bone_spirit.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+    "skills/witch/blood_and_bone/bone_spirit.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "move skills"
     },
-    "skills/witch/bone_storm.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+    "skills/witch/blood_and_bone/bone_storm.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "move skills"
     },
-    "skills/witch/glyph_lunge.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+    "skills/witch/blood_and_bone/spine_breaker.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "move skills"
     },
-    "skills/witch/shadow_walk.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+    "skills/witch/glyph/glyph_lunge.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "move skills"
     },
-    "skills/witch/spine_breaker.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+    "skills/witch/shadow/shadow_walk.yaml": {
+      "last_commit": "9ddd877",
+      "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "move skills"
     },
     "stats/attributes.yaml": {
       "last_commit": "dc973a4",
