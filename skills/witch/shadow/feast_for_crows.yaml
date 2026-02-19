@@ -12,6 +12,8 @@ branch: shadow
 description: >
   On hit summons a Crow to your flock. Crows follow and orbit, doing damage to nearby enemies.
 
+icon: images/skills/witch/skill_feast_for_crows.png
+
 damage_type: shadow
 
 # Skill upgrade options
