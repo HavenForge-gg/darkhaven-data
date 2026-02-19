@@ -10,6 +10,7 @@ description: >
   A dark sorceror spellcaster who manipulates blood, bone, and shadow magic.
   The Witch uses a unique glyph system to enhance spells and commands 
   an arsenal of necromantic abilities.
+icon: /images/classes/witch.png
 
 # Core attributes
 primary_attribute: magic
