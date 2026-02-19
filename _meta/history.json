@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T22:33:27Z",
+  "generated_at": "2026-02-19T22:36:01Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -393,10 +393,10 @@
       "last_message": "move skills"
     },
     "skills/witch/glyph/glyph_lunge.yaml": {
-      "last_commit": "9ddd877",
-      "last_updated": "2026-02-19T21:52:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "move skills"
+      "last_commit": "8f388ba",
+      "last_updated": "2026-02-19T22:35:51Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Update glyph_lunge.yaml"
     },
     "skills/witch/shadow/shadow_walk.yaml": {
       "last_commit": "9ddd877",
