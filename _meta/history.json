@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T21:11:58Z",
+  "generated_at": "2026-02-19T21:14:02Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -45,10 +45,10 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "classes/witch.yaml": {
-      "last_commit": "41edeb5",
-      "last_updated": "2026-02-18T13:09:48+13:00",
-      "last_author": "Meanski",
-      "last_message": "Add Witch base stats"
+      "last_commit": "412c00b",
+      "last_updated": "2026-02-19T21:13:53Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Update witch.yaml"
     },
     "items/accessories/obsidian_ring.yaml": {
       "last_commit": "dc973a4",
