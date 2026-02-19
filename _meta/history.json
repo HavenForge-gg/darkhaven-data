@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T23:21:50Z",
+  "generated_at": "2026-02-19T23:25:41Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -393,8 +393,8 @@
       "last_message": "Rename spine_breaker.yalm to spine_breaker.yaml"
     },
     "skills/witch/shadow/feast_for_crows.yaml": {
-      "last_commit": "9f63613",
-      "last_updated": "2026-02-19T23:19:47Z",
+      "last_commit": "902aa08",
+      "last_updated": "2026-02-19T23:25:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Update feast_for_crows.yaml"
     },
