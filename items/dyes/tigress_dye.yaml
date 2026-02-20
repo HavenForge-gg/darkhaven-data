@@ -2,7 +2,7 @@ id: tigress_dye
 type: item
 name: Tigress Dye
 category: dyes
-rarity: Common Dye
+rarity: Common
 description: What's the point of being a hero if you don't look good doing it?
 image: images/items/dyes/tigress_dye.png
 

@@ -4,7 +4,7 @@ name: Cracked Amber
 category: gems
 gem_type: amber
 tier: 1
-rarity: Common Gem
+rarity: Common
 description: A primordial insect of some sort is trapped within this stone.
 sell_price: 18
 next_tier: flawed_amber

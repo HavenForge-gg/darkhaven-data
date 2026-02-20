@@ -4,7 +4,7 @@ name: Dull Ruby
 category: gems
 gem_type: ruby
 tier: 3
-rarity: Common Gem
+rarity: Common
 description: It may not shine as brightly as it could, but it's a pretty thing nonetheless.
 sell_price: 18
 prev_tier: flawed_ruby

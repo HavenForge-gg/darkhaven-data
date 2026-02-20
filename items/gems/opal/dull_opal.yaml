@@ -4,7 +4,7 @@ name: Dull Opal
 category: gems
 gem_type: opal
 tier: 3
-rarity: Common Gem
+rarity: Common
 description: How can a stone be both soft and sharp at the same time?
 sell_price: 18
 prev_tier: flawed_opal

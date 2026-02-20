@@ -4,7 +4,7 @@ name: Cracked Jade
 category: gems
 gem_type: jade
 tier: 1
-rarity: Common Gem
+rarity: Common
 description: A piece of jade wonderfully cool to the touch.
 sell_price: 18
 next_tier: flawed_jade

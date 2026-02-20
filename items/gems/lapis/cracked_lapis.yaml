@@ -4,7 +4,7 @@ name: Cracked Lapis
 category: gems
 gem_type: lapis
 tier: 1
-rarity: Common Gem
+rarity: Common
 description: This triangular blue stone is slightly cool to the touch.
 sell_price: 18
 next_tier: flawed_lapis

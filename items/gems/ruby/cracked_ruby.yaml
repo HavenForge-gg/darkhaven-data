@@ -4,7 +4,7 @@ name: Cracked Ruby
 category: gems
 gem_type: ruby
 tier: 1
-rarity: Common Gem
+rarity: Common
 description: This small red gem has a rather large fissure running through its center.
 sell_price: 18
 next_tier: flawed_ruby

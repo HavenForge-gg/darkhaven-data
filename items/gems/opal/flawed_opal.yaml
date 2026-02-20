@@ -4,7 +4,7 @@ name: Flawed Opal
 category: gems
 gem_type: opal
 tier: 2
-rarity: Common Gem
+rarity: Common
 description: A white stone that reflects the shining moon.
 sell_price: 18
 prev_tier: cracked_opal

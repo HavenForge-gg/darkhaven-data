@@ -4,7 +4,7 @@ name: Dull Lapis
 category: gems
 gem_type: lapis
 tier: 3
-rarity: Common Gem
+rarity: Common
 description: I've seen some strange birds with feathers this color.
 sell_price: 18
 prev_tier: flawed_lapis

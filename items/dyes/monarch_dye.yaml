@@ -2,7 +2,7 @@ id: monarch_dye
 type: item
 name: Monarch Dye
 category: dyes
-rarity: Common Dye
+rarity: Common
 description: What's the point of being a hero if you don't look good doing it?
 image: images/items/dyes/monarch_dye.png
 

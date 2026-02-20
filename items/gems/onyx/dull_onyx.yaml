@@ -4,7 +4,7 @@ name: Dull Onyx
 category: gems
 gem_type: onyx
 tier: 3
-rarity: Common Gem
+rarity: Common
 description: Looking into this stone's depths for too long leaves me disquieted.
 sell_price: 18
 prev_tier: flawed_onyx
