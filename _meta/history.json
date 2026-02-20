@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T13:05:06Z",
+  "generated_at": "2026-02-20T13:09:03Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -225,10 +225,10 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "b959ea7",
-      "last_updated": "2026-02-20T13:04:57Z",
+      "last_commit": "1251bc7",
+      "last_updated": "2026-02-20T13:08:44Z",
       "last_author": "Kieran Taylor",
-      "last_message": "Update murakamis_puzzle_box.yaml"
+      "last_message": "Merge branch 'main' into puzzlebox-dye"
     },
     "items/tomes/_category.yaml": {
       "last_commit": "f89d359",
