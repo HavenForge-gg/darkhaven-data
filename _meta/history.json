@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T22:27:43Z",
+  "generated_at": "2026-02-20T22:55:31Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -57,88 +57,88 @@
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
     },
     "items/dyes/cadet_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/cinnibar_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/eventide_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/hornet_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/kingfisher_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/lion_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/monarch_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/nimbus_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/queen_of_night_dye.yaml": {
-      "last_commit": "ba10b19",
-      "last_updated": "2026-02-20T17:16:42+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "feat(dyes): add new dye & all missing image assets"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/royal_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/serengeti_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/syringa_dye.yaml": {
-      "last_commit": "0cf33cb",
-      "last_updated": "2026-02-19T21:49:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "add missing guids"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/tigress_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/dyes/ursa_major_dye.yaml": {
-      "last_commit": "b28d575",
-      "last_updated": "2026-02-20T13:47:35+02:00",
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fea(dyes)t: add new dye items & images"
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/_category.yaml": {
       "last_commit": "070132d",
@@ -147,112 +147,112 @@
       "last_message": "all gems"
     },
     "items/gems/amber/cracked_amber.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/amber/dull_amber.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/amber/flawed_amber.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/jade/cracked_jade.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/jade/dull_jade.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/jade/flawed_jade.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/lapis/cracked_lapis.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/lapis/dull_lapis.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/lapis/flawed_lapis.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/onyx/cracked_onyx.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/onyx/dull_onyx.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/onyx/flawed_onyx.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/opal/cracked_opal.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/opal/dull_opal.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/opal/flawed_opal.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/ruby/cracked_ruby.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/ruby/dull_ruby.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/gems/ruby/flawed_ruby.yaml": {
-      "last_commit": "070132d",
-      "last_updated": "2026-02-18T13:38:56+13:00",
-      "last_author": "Meanski",
-      "last_message": "all gems"
+      "last_commit": "60ffd63",
+      "last_updated": "2026-02-21T00:39:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(rarity): standardize item rarity values by removing 'Gem' and 'Dye' from the 'Common' rarity"
     },
     "items/item_sets.yaml": {
       "last_commit": "dc973a4",
@@ -303,10 +303,10 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "b823e05",
-      "last_updated": "2026-02-20T18:07:53+02:00",
+      "last_commit": "793eec4",
+      "last_updated": "2026-02-21T00:36:58+02:00",
       "last_author": "DaPandamonium",
-      "last_message": "fix(misstypo): misstypoe image path tag doubles"
+      "last_message": "fix(puzzle): correct image path for PuzzleBox"
     },
     "items/tomes/_category.yaml": {
       "last_commit": "f89d359",
