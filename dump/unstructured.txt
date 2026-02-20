@@ -1,0 +1,106 @@
+## Unstructured snippets of FAQ, answers to questions and other pieces found. Mainly used for the Discord bot ##
+
+Darkhaven Pre-Alpha Demo - FAQ
+We're eager to see you all experience the first heartbeats of Darkhaven, and we thank you for even considering our work to be worth your time, we are honored!
+
+This Demo is meant to let you experience our vision, our world. However, you'll notice lots of things are still undone, and that is normal.
+At this point, everything still is WIP (work in progress).
+
+Please keep that in mind when you'll share feedback, or first impression.
+:arrow_green:Demo
+Q: When does the Demo ends?
+A: We will shut the server down shortly after Kickstarter ends.
+
+Q: Why are you releasing a Demo that's far from being a polished product ready for EA/Release?
+A: Because this demo isn’t meant to represent a polished Early Access product: it’s meant to validate that we’re building the right foundations. 
+We’re testing the core gameplay pillars and the baseline systems we’ll expand and refine for Early Access, using real player feedback and real-world load to spot what works, what breaks, and what needs tweaks.
+
+:arrow_green: Multiplayer
+Experimental feature
+Multiplayer specifically is the most experimental feature we let people test during the Demo.
+Experimental means this is the first layer of a multiplayer system that will evolve over time.
+
+:gtick: Chances are high that all users won't be able to play multiplayer at once, at any given time: the server might get crowded or down: no guarantees!
+:gtick: PvP will likely feel very unbalanced. That's because it is right now (tweaking balance while we still need to work on anything else wouldn't really make sense)
+
+Quick Multiplayer Q&A
+Q: How many servers are there, and where are they located?
+A: We have a single server, located in US WEST.
+
+Q: Server, shard, world... what is what?
+A: Here, we user "server" to mention the physical machine hosting "shards". A "shard" is a world instance (private, public, official...). A world is a synonym for a shard.
+About Shards by @mbphu 
+
+Q: Are Multiplayer worlds consistent?
+A: No. Because of how limited we are in resources, Multiplayer world will decay 5 minutes after the last player leaves.
+Worlds will be persistent on release, of course.
+
+Q: Are Multiplayer characters persistent?
+A: Yes, characters are saved (they'll be wiped after Demo)
+
+Q: How long does a Multiplayer shard last once emptied of players?
+A: Once again, as it's just a Demo: a shard will survive 10 minutes of being empty. After that, the world will be deleted.
+
+Q: How many concurrent players can there be on a single server?
+A: For the Demo we've set a hard cap at 20. That being said, people will be able to tweak that cap higher at some point.
+
+Q: What about Chat, Friends List, Party system, Trading...?
+A: Do not expect such systems for this Demo, though:
+:garrow: You can throw items on the ground to let others pick them.
+:garrow: Shards will be listed in game, and you'll be able to share invites to your shard through our ⁠🔎・lfg-looking-for-game channel.
+
+:arrow_green: Other
+Q: My +X to skills item isn't actually giving me +X to skills I don't already have.
+A: That is intended, we plan on clarifying that. 
+Ketraies
+
+Role icon, MBP - Community Manager — 17/02/2026 07:03
+:arrow_green: Other
+Q: My +X to skills item isn't actually giving me +X to skills I don't already have.
+A: That is intended, we plan on clarifying that.
+
+Q: Is there a pause?
+A: Yes. In Single Player, you can pause the game by pressing ESC to open the options panel. For MP, we may add this feature if there is only one player in-game.
+
+Q: I don't like my current camera. Are there other options?
+A: Yes. For a better camera experience, try the “Smooth” option. There are also a few other modes available under: Settings > Graphics > Camera Mode > Smooth
+
+Q: How can I identify items?
+A: Simply equip the item and it will be identified. We plan to add another identify method later.
+
+Q: Is there a way to unslot gems?
+A: Yes. There is a recipe in the Puzzle Box that allows you to unslot gems.
+
+Q: Is there WASD?
+A: Yes. WASD movement is implemented, and there are two modes you can try. Please note that it is fairly new and still being worked on, so report any bugs you encounter.
+
+Q: Do I need to stand on a waypoint to teleport?
+A: No. You don’t need to be on a waypoint to teleport. You can open the map with TAB and travel to any unlocked waypoint from anywhere.
+
+Q: How do I heal?
+A: There are crystals throughout the world that you can attack to restore Health and Mana. Alternatively, you can use a Flask, which works as collecting health orbs. Red orbs (Health) and blue orbs (Mana) drop from killing enemies. If you don’t find one after a while, you can also buy a Flask from Lum.
+Kieran
+
+Role icon, Moderator — 05:44
+Play it here:
+
+https://store.steampowered.com/app/4356650/Darkhaven_Demo/
+
+
+i think we’ve answered most of the questions in the faq, but to reiterate - we have no plans for any sort of mtx in official shards on launch (cosmetics, stash space, experience boosts, convenience, power etc). we’re ok with including cosmetic-only items in pre-launch fund raising such as the kickstarter, but it's actually something we struggle with a bit and would preferred to not have done given the choice (insomuch as we didn't see a kickstarter that didn't offer such things in return for donations as viable in any way).
+we would like to create expansions which will be b2p, but this would be for major new content, in line with expansions for other games.
+we do view mods as a potential avenue for generating income to support continued development and operations. other than that, we're pretty confident in our ability to optimize servers to reduce operational overhead significantly compared to other live service games. 
+i think it depends on the nature of the content in the expansion. things like a new class, a new starting area, or any other content that's specifically intended for "new" characters would almost certainly require starting fresh so to speak. otoh, new world events, biomes, etc. we would want to make available to existing characters (assuming level appropriate) & worlds.
+there are some major caveats to all of this though -- it's still fairly uncertain how such content would apply across a population of players that either did or did not purchase such an expansion. for example a new world event couldn't easily be restricted only to players that bought the expansion. so i think any b2p expansions would most likely contain a mix of free content (world events and the like) as well as gated content (classes and such of course, but also possibly new areas & quests if they could reasonably be segregated).
+philosophically, i think it's very valuable to provide some amount of content on a regular basis anyway to all players whether or not they've bought an expansion, so long as the company itself is able to operate in a fiscally sustainable manner.
+
+Hi, the long-term vision of the project is to eventually be able to do pretty much everything you describe (long-lasting MMO style worlds with social systems, factional or other such forms of pvp, official persistent long-lasting worlds, etc.) We also envision players (or organizations of players) being able to create and run their own such worlds. But do realize that this is a long term goal, and there’s much to do between here and there. On the other hand, this may be one of the very few teams in the world that has the experience and know-how to achieve such a crazy thing.
+We’ve been laying foundational architecture to do this since we started. There’s more tech to be built before we can scale to that point, but we have a plan to get there.
+Right now, the worlds are too deformable for long-term official worlds that wouldn’t be reduced to bedrock within a day. We still need to build some structure and rules into things before it would make sense to set up an official world meant to last, but we’ll get there.
+so, view this as a preview tech demo. every single player and game is currently being hosted on a single cpu in north america. the network architecture is novel, quite lag resilient, and low-bandwith even at this stage (and we have on deck many many optimizations that will improve things even more). 
+We also have players like @derekplus | Medalmonkey and @Leith42 already doing crazy things with the highly abbreviated editor we were able to include in the demo all while online / connected to that one server. That’s really insane and not something that anyone else (that i know of) has done.
+Many times studios (especially MMO studios, but also ARPG studios) have great ideas but are woefully underprepared to execute on the tech (especially network tech). We’re hoping that this demo proves that we have the chops so to speak, mitigating one of the biggest risks of any kickstarter. 
+
+pvp=yes!
+
+Kickstarter - https://www.kickstarter.com/projects/moonbeastproductions/darkhaven-an-action-rpg-with-dynamic-worlds/description
