@@ -16,13 +16,13 @@ debuffs:
   - id: burn
     name: Burn
     category: elemental
-    element: fire
+    element: Fire
     description: Deals fire damage over time. Applied by fire attacks and lava/acid tiles.
     damage_type: fire
     
   - id: bleed
     name: Bleed
-    category: physical
+    category: Slashing
     description: Deals physical damage over time. Applied by slashing attacks and blood magic.
     damage_type: physical
     
@@ -37,14 +37,14 @@ debuffs:
   - id: chilled
     name: Chilled
     category: elemental
-    element: cold
-    description: Slows movement and attack speed. Prolonged exposure leads to Frozen.
+    element: Cold
+    description: Slows movement and attack speed. Prolonged exposure leads to Frozen. Applied by cold attacks.
     effect: slow
     
   - id: frozen
     name: Frozen
     category: elemental  
-    element: cold
+    element: Cold
     description: Completely immobilizes the target. Broken by taking damage.
     effect: immobilize
 
@@ -52,7 +52,7 @@ debuffs:
   - id: stun
     name: Stun
     category: crowd_control
-    description: Briefly incapacitates the target, preventing all actions.
+    description: Briefly incapacitates the target, preventing all actions. Applied by blunt attacks.
     effect: incapacitate
     
   - id: entangle
@@ -66,7 +66,7 @@ debuffs:
     name: Shock
     category: elemental
     element: lightning
-    description: Deals lightning damage and may chain to nearby enemies.
+    description: Deals lightning damage and may chain to nearby enemies. Applied by electrical attacks.
     damage_type: lightning
 
   # Darkness
@@ -79,7 +79,7 @@ debuffs:
   - id: cursed
     name: Cursed
     category: corruption
-    description: A dark curse that reduces the target's effectiveness.
+    description: A dark curse that reduces the target's effectiveness. Applied by shadow attacks.
     effect: debuff
 
   # Witch-specific
