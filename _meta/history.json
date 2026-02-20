@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T13:15:32Z",
+  "generated_at": "2026-02-20T22:27:24Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -45,10 +45,10 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "classes/witch.yaml": {
-      "last_commit": "412c00b",
-      "last_updated": "2026-02-19T21:13:53Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Update witch.yaml"
+      "last_commit": "d675006",
+      "last_updated": "2026-02-20T18:08:34+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "fix(misstypo): correct typo sorceror to sorcerer"
     },
     "items/consumables.yaml": {
       "last_commit": "f89d359",
@@ -297,10 +297,10 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "1251bc7",
-      "last_updated": "2026-02-20T13:08:44Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Merge branch 'main' into puzzlebox-dye"
+      "last_commit": "b823e05",
+      "last_updated": "2026-02-20T18:07:53+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "fix(misstypo): misstypoe image path tag doubles"
     },
     "items/tomes/_category.yaml": {
       "last_commit": "f89d359",
