@@ -1,0 +1,17 @@
+id: monarch_dye
+type: item
+name: Monarch Dye
+category: dyes
+rarity: Common Dye
+description: What's the point of being a hero if you don't look good doing it?
+image: images/items/dyes/monarch_dye.png
+
+# Metadata
+guid: b13c8f8d227448e89318df52b30bc412
+game_version: 0.0.23272
+last_updated: 2026-02-20
+status: active
+tags:
+  - items
+  - dyes
+  - cosmetic
