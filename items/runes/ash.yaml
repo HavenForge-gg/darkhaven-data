@@ -1,0 +1,23 @@
+id: ash_rune
+type: item
+name: Ash Rune
+category: runes
+tier: 5
+rarity: Common
+description: >
+  The highest tier rune, coveted for its use in Runewords.
+  Cannot be upgraded further.
+upgrades_from: bat_rune
+
+runewords:
+  - faith_of_my_shield
+  - unforgiveable_act_of_violence
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - items
+  - runes
+  - socketables
+  - runewords

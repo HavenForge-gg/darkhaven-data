@@ -1,0 +1,16 @@
+id: elm_rune
+type: item
+name: Elm Rune
+category: runes
+tier: 1
+rarity: Common
+description: The most common rune, found frequently throughout Darkhaven.
+upgrades_to: deb_rune
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - items
+  - runes
+  - socketables

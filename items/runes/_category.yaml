@@ -1,0 +1,69 @@
+# =============================================================================
+# RUNES - Category Metadata
+# Shared information about the Runes item category
+# =============================================================================
+
+id: runes
+type: item_category
+name: Runes
+description: >
+  Runes are socketable items that provide unique effects when placed into
+  equipment sockets. When specific combinations of runes are socketed together,
+  they form Runewords — powerful named items with special properties.
+
+rune_types:
+  - id: elm
+    name: Elm
+    tier: 1
+    description: The most common rune, found frequently throughout Darkhaven.
+
+  - id: deb
+    name: Deb
+    tier: 2
+    description: An uncommon rune with moderate power.
+
+  - id: ka
+    name: Ka
+    tier: 3
+    description: A rare rune crackling with latent energy.
+
+  - id: bat
+    name: Bat
+    tier: 4
+    description: A powerful rune emanating a faint dark aura.
+
+  - id: ash
+    name: Ash
+    tier: 5
+    description: The highest tier rune, coveted for its use in Runewords.
+
+tier_order:
+  - Elm
+  - Deb
+  - Ka
+  - Bat
+  - Ash
+
+crafting:
+  description: >
+    Runes can be upgraded to the next tier using the Puzzle Box.
+    Ash is the highest tier and cannot be upgraded further.
+  recipes:
+    - input: 2x Chipped Gem + Elm Rune
+      output: 1x Deb Rune
+    - input: 2x Chipped Gem + Deb Rune
+      output: 1x Ka Rune
+    - input: 2x Chipped Gem + Ka Rune
+      output: 1x Bat Rune
+    - input: 2x Chipped Gem + Bat Rune
+      output: 1x Ash Rune
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - items
+  - runes
+  - socketables
+  - crafting
+  - runewords

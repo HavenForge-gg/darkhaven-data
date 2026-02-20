@@ -1,0 +1,45 @@
+# =============================================================================
+# RUNEWORDS - Rune combinations that create powerful named items
+# =============================================================================
+
+id: runewords
+type: mechanic
+name: Runewords
+description: >
+  When specific runes are socketed into an item in the correct order,
+  they form a Runeword — transforming the base item into a powerful named
+  item with special properties. The item must have the exact number of
+  sockets required and be of the correct equipment type.
+
+runewords:
+  - id: faith_of_my_shield
+    name: Faith of My Shield
+    runes:
+      - ash
+      - bat
+    sockets: 2
+    base_type: any_armour
+    description: >
+      A defensive Runeword forged from Ash and Bat runes,
+      socketed into any 2-socket armour piece.
+
+  - id: unforgiveable_act_of_violence
+    name: Unforgiveable Act of Violence
+    runes:
+      - ash
+      - ka
+    sockets: 2
+    base_type: any_weapon
+    description: >
+      An offensive Runeword forged from Ash and Ka runes,
+      socketed into any 2-socket weapon.
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - mechanics
+  - runewords
+  - runes
+  - crafting
+  - socketables

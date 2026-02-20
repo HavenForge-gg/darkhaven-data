@@ -24,15 +24,19 @@ gems:
     - tier_2
   max_stack: 9
 
-# Rune Types
+# Rune Types (see items/runes/ for detailed rune info)
 runes:
   description: >
-    Runes provide unique skill modifiers and special effects when socketed.
+    Runes provide unique effects when socketed. Specific combinations of
+    runes form Runewords — powerful named items with special properties.
   types:
-    - rune_01
-    - rune_02
-    - rune_03
-  notes: Rune names pending localization.
+    - elm
+    - deb
+    - ka
+    - bat
+    - ash
+  tier_order: Elm -> Deb -> Ka -> Bat -> Ash
+  upgrade_recipe: 2x Chipped Gem + Rune = Next Tier Rune (via Puzzle Box)
 
 # Cores (monster drops)
 cores:

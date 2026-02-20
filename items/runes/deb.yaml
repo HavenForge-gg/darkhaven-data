@@ -1,0 +1,17 @@
+id: deb_rune
+type: item
+name: Deb Rune
+category: runes
+tier: 2
+rarity: Common
+description: An uncommon rune with moderate power.
+upgrades_from: elm_rune
+upgrades_to: ka_rune
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - items
+  - runes
+  - socketables

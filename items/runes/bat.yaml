@@ -1,0 +1,21 @@
+id: bat_rune
+type: item
+name: Bat Rune
+category: runes
+tier: 4
+rarity: Common
+description: A powerful rune emanating a faint dark aura.
+upgrades_from: ka_rune
+upgrades_to: ash_rune
+
+runewords:
+  - faith_of_my_shield
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - items
+  - runes
+  - socketables
+  - runewords

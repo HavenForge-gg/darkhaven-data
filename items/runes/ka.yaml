@@ -1,0 +1,21 @@
+id: ka_rune
+type: item
+name: Ka Rune
+category: runes
+tier: 3
+rarity: Common
+description: A rare rune crackling with latent energy.
+upgrades_from: deb_rune
+upgrades_to: bat_rune
+
+runewords:
+  - unforgiveable_act_of_violence
+
+# Metadata
+game_version: 0.0.23272
+status: active
+tags:
+  - items
+  - runes
+  - socketables
+  - runewords
