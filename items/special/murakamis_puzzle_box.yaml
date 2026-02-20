@@ -7,7 +7,7 @@ description: >
   This intricately painted box appears to be an artifact from the Orient.
   Use it to transmute, upgrade, and salvage items by placing ingredients
   into the box to perform recipes involving runes, gems, and socketed equipment.
-image: images/items/misc/Puzzle_Box.png
+image: image: /images/items/accessories/misc/Puzzle_Box.png
 
 recipes:
   - id: upgrade_rune
