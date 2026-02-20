@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T09:45:40Z",
+  "generated_at": "2026-02-20T09:49:52Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -49,12 +49,6 @@
       "last_updated": "2026-02-19T21:13:53Z",
       "last_author": "Kieran Taylor",
       "last_message": "Update witch.yaml"
-    },
-    "items/accessories/obsidian_ring.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
-      "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
     },
     "items/consumables.yaml": {
       "last_commit": "f89d359",
@@ -231,10 +225,10 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "98d96af",
-      "last_updated": "2026-02-20T22:45:30+13:00",
+      "last_commit": "ccb6300",
+      "last_updated": "2026-02-20T22:49:43+13:00",
       "last_author": "Meanski",
-      "last_message": "update image"
+      "last_message": "and again"
     },
     "items/tomes/_category.yaml": {
       "last_commit": "f89d359",
