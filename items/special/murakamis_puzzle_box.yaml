@@ -68,6 +68,15 @@ recipes:
       - "3x Cracked -> 1x Flawed"
       - "3x Flawed -> 1x Dull"
 
+
+  - id: transmute_dyes
+    name: Transmute Dyes
+    description: >
+      Combines two dyes of any type to create a new random dye.
+    input: 2x Dye (any type)
+    output: 1x Random Dye
+    notes: Consumes both input dyes.
+
 # Metadata
 guid: ff888090ff7a67a3ed0af5b5cb6d5460
 
@@ -81,3 +90,4 @@ tags:
   - crafting
   - runes
   - gems
+  - dyes 
