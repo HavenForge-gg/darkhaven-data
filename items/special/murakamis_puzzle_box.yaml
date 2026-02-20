@@ -68,14 +68,12 @@ recipes:
       - "3x Cracked -> 1x Flawed"
       - "3x Flawed -> 1x Dull"
 
-
-  - id: transmute_dyes
-    name: Transmute Dyes
+  - id: combine_item_dyes
+    name: Combine Item Dyes
     description: >
-      Combines two dyes of any type to create a new random dye.
-    input: 2x Dye (any type)
-    output: 1x Random Dye
-    notes: Consumes both input dyes.
+      Combines two item dyes into one new, randomly selected item dye.
+    input: 2x Item Dye (any type)
+    output: 1x Item Dye (random)
 
 # Metadata
 guid: ff888090ff7a67a3ed0af5b5cb6d5460
