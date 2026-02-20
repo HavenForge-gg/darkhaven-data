@@ -4,7 +4,7 @@ name: Cracked Opal
 category: gems
 gem_type: opal
 tier: 1
-rarity: Common Gem
+rarity: Common
 description: This once-iridescent gem is slightly scuffed.
 sell_price: 18
 next_tier: flawed_opal

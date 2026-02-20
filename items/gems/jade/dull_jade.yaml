@@ -4,7 +4,7 @@ name: Dull Jade
 category: gems
 gem_type: jade
 tier: 3
-rarity: Common Gem
+rarity: Common
 description: They say the Emperors of the East value jade more than any other stone.
 sell_price: 18
 prev_tier: flawed_jade

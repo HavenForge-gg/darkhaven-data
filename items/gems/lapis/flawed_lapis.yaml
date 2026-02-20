@@ -4,7 +4,7 @@ name: Flawed Lapis
 category: gems
 gem_type: lapis
 tier: 2
-rarity: Common Gem
+rarity: Common
 description: This stone looks like a solid piece of deep blue ocean.
 sell_price: 18
 prev_tier: cracked_lapis

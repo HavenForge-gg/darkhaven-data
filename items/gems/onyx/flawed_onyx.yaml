@@ -4,7 +4,7 @@ name: Flawed Onyx
 category: gems
 gem_type: onyx
 tier: 2
-rarity: Common Gem
+rarity: Common
 description: This shadowy stone seems to absorb light.
 sell_price: 18
 prev_tier: cracked_onyx

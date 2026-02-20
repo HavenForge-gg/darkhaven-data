@@ -4,7 +4,7 @@ name: Dull Amber
 category: gems
 gem_type: amber
 tier: 3
-rarity: Common Gem
+rarity: Common
 description: It might be a bit scuffed, but it's still a fascinating stone.
 sell_price: 18
 prev_tier: flawed_amber

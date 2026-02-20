@@ -4,7 +4,7 @@ name: Flawed Amber
 category: gems
 gem_type: amber
 tier: 2
-rarity: Common Gem
+rarity: Common
 description: The things captured in this stone captivate the eye.
 sell_price: 18
 prev_tier: cracked_amber
