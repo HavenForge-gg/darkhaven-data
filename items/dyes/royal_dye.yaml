@@ -1,0 +1,17 @@
+id: royal_dye
+type: item
+name: Royal Dye
+category: dyes
+rarity: Common Dye
+description: What's the point of being a hero if you don't look good doing it?
+image: images/items/dyes/royal_dye.png
+
+# Metadata
+guid: e56f1c9357213b4ee89318df52b30bc4
+game_version: 0.0.23272
+last_updated: 2026-02-20
+status: active
+tags:
+  - items
+  - dyes
+  - cosmetic
