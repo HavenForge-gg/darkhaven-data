@@ -4,6 +4,7 @@ name: Bat Rune
 category: runes
 tier: 4
 rarity: Common
+image: /images/items/accessories/runes/bat.png
 description: A powerful rune emanating a faint dark aura.
 upgrades_from: ka_rune
 upgrades_to: ash_rune

@@ -4,6 +4,7 @@ name: Ka Rune
 category: runes
 tier: 3
 rarity: Common
+image: /images/items/accessories/runes/ka.png
 description: A rare rune crackling with latent energy.
 upgrades_from: deb_rune
 upgrades_to: bat_rune

@@ -4,6 +4,7 @@ name: Ash Rune
 category: runes
 tier: 5
 rarity: Common
+image: /images/items/accessories/runes/ash.png
 description: >
   The highest tier rune, coveted for its use in Runewords.
   Cannot be upgraded further.
