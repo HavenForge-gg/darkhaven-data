@@ -4,6 +4,7 @@ name: Elm Rune
 category: runes
 tier: 1
 rarity: Common
+image: /images/items/accessories/runes/elm.png
 description: The most common rune, found frequently throughout Darkhaven.
 upgrades_to: deb_rune
 

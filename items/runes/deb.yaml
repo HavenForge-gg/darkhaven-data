@@ -4,6 +4,7 @@ name: Deb Rune
 category: runes
 tier: 2
 rarity: Common
+image: /images/items/accessories/runes/deb.png
 description: An uncommon rune with moderate power.
 upgrades_from: elm_rune
 upgrades_to: ka_rune
