@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T10:56:46Z",
+  "generated_at": "2026-02-21T12:38:44Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -267,34 +267,34 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/runes/ash.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_commit": "50655db",
+      "last_updated": "2026-02-21T02:29:07+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(runes): add image paths in runes"
     },
     "items/runes/bat.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_commit": "50655db",
+      "last_updated": "2026-02-21T02:29:07+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(runes): add image paths in runes"
     },
     "items/runes/deb.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_commit": "50655db",
+      "last_updated": "2026-02-21T02:29:07+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(runes): add image paths in runes"
     },
     "items/runes/elm.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_commit": "50655db",
+      "last_updated": "2026-02-21T02:29:07+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(runes): add image paths in runes"
     },
     "items/runes/ka.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_commit": "50655db",
+      "last_updated": "2026-02-21T02:29:07+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "chore(runes): add image paths in runes"
     },
     "items/socketables.yaml": {
       "last_commit": "3e964af",
