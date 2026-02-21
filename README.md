@@ -1,6 +1,8 @@
-# HavenForge Data
+# HavenForge.GG - DarkHaven Game Data
 
-Community-maintained game data for [Darkhaven](https://darkhaven.game).
+Community-maintained game data for [Darkhaven](https://darkhaven.game) and hosted in Wiki form on [HavenForge.gg](https://havenforge.gg).
+
+Because this is a public repo, we encourage you to submit changes and raise issues.
 
 ## About
 
