@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T22:55:31Z",
+  "generated_at": "2026-02-21T00:17:55Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -441,9 +441,9 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "mechanics/status_effects.yaml": {
-      "last_commit": "7dbdf8d",
-      "last_updated": "2026-02-20T00:52:01-08:00",
-      "last_author": "vishuspuss",
+      "last_commit": "a87b760",
+      "last_updated": "2026-02-21T00:17:46Z",
+      "last_author": "Kieran Taylor",
       "last_message": "Update status_effects.yaml"
     },
     "mechanics/time_of_day.yaml": {
