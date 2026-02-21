@@ -1,6 +1,7 @@
 # =============================================================================
 # STATUS EFFECTS - All status effects in the game
 # Extracted from game data - Version 0.0.23272 (16 Feb 2026)
+# Expanded with interaction documentation
 # =============================================================================
 
 id: status_effects
@@ -8,29 +9,84 @@ type: mechanic
 name: Status Effects
 description: >
   Status effects are temporary conditions applied to characters that modify 
-  their stats or deal damage over time. Some are beneficial (buffs) while 
-  others are harmful (debuffs).
+  their attributes, control capabilities, or deal damage over time. 
+  Some are beneficial (buffs) while others are harmful (debuffs). 
+  Elemental status effects may interact with one another and with environmental states.
 
+# -----------------------------------------------------------------------------
+# Media
+# -----------------------------------------------------------------------------
+media:
+  - type: video
+    title: "Elemental Interactions - Fire & Water"
+    url: "https://youtu.be/1lPa4wJjq1M"
+    description: >
+      Official gameplay demonstration showing Fire and Water interactions,
+      including Burn removal, Damp application, and environmental extinguishing effects.
+
+# -----------------------------------------------------------------------------
+# Elemental Interaction Overview
+# -----------------------------------------------------------------------------
+elemental_interactions_overview: >
+  Darkhaven's elemental system is state-driven rather than purely damage-based.
+  Certain status effects interact with each other and with environmental conditions.
+  For example, fire-based effects can be extinguished by water-based states,
+  and prolonged cold exposure can escalate from Chilled to Frozen.
+  Environmental states such as Damp influence combat outcomes by modifying
+  how elemental statuses behave.
+
+interaction_matrix:
+  - source: Burn
+    target: Damp
+    result: Burn removed (extinguished)
+
+  - source: Fire abilities
+    target: Water surface
+    result: Fire extinguished / Steam effect generated
+
+  - source: Chilled
+    target: Prolonged Cold Exposure
+    result: Escalates to Frozen
+
+  - source: Frozen
+    target: Direct Damage
+    result: Frozen breaks on hit
+
+# -----------------------------------------------------------------------------
+# Debuffs
+# -----------------------------------------------------------------------------
 debuffs:
+
   # Elemental DoTs
   - id: burn
     name: Burn
     category: elemental
     element: Fire
-    description: Deals fire damage over time. Applied by fire attacks and lava/acid tiles.
+    description: >
+      Deals fire damage over time. Commonly applied by fire-based attacks
+      and hazardous surfaces such as lava or burning ground.
     damage_type: fire
-    
+    interactions:
+      removed_by:
+        - damp
+        - water_based_effects
+      may_create_surface: fire_surface
+
   - id: bleed
     name: Bleed
-    category: Slashing
-    description: Deals physical damage over time. Applied by slashing attacks and blood magic.
+    category: slashing
+    description: >
+      Deals physical damage over time. Typically applied by slashing attacks
+      and certain blood magic abilities.
     damage_type: physical
-    
+
   - id: poison
     name: Poison
     category: elemental
-    element: acid
-    description: Deals acid damage over time. Applied by poison gas and venomous attacks.
+    element: Acid
+    description: >
+      Deals acid damage over time. Applied by venomous attacks,
+      poison gas, and corrosive abilities.
     damage_type: acid
 
   # Temperature Effects
@@ -38,89 +94,127 @@ debuffs:
     name: Chilled
     category: elemental
     element: Cold
-    description: Slows movement and attack speed. Prolonged exposure leads to Frozen. Applied by cold attacks.
+    description: >
+      Reduces movement and attack speed. Extended exposure or stacking
+      may escalate the target into a Frozen state.
     effect: slow
-    
+    interactions:
+      may_escalate_to: frozen
+
   - id: frozen
     name: Frozen
     category: elemental  
     element: Cold
-    description: Completely immobilizes the target. Broken by taking damage.
+    description: >
+      Completely immobilizes the target. Typically breaks when the
+      affected target takes direct damage.
     effect: immobilize
+    interactions:
+      broken_by:
+        - direct_damage
 
   # Crowd Control
   - id: stun
     name: Stun
     category: crowd_control
-    description: Briefly incapacitates the target, preventing all actions. Applied by blunt attacks.
+    description: >
+      Briefly incapacitates the target, preventing all actions.
+      Commonly applied by blunt-force attacks.
     effect: incapacitate
     
   - id: entangle
     name: Entangle
     category: crowd_control
-    description: Roots the target in place but allows them to attack.
+    description: >
+      Roots the target in place while still allowing them to attack.
     effect: root
 
   # Electrical
   - id: shock
     name: Shock
     category: elemental
-    element: lightning
-    description: Deals lightning damage and may chain to nearby enemies. Applied by electrical attacks.
+    element: Lightning
+    description: >
+      Deals lightning damage and may chain to nearby enemies,
+      depending on ability mechanics.
     damage_type: lightning
 
-  # Darkness
+  # Darkness / Corruption
   - id: gloom
     name: Gloom
     category: corruption
-    description: Corruption damage from the Gloom. Stacks can be dangerous.
+    description: >
+      Corruption damage originating from the Gloom. Stacks may
+      significantly increase danger over time.
     damage_type: shadow
     
   - id: cursed
     name: Cursed
     category: corruption
-    description: A dark curse that reduces the target's effectiveness. Applied by shadow attacks.
+    description: >
+      A dark affliction that reduces the target's combat effectiveness.
+      Applied by shadow-aligned abilities.
     effect: debuff
 
   # Witch-specific
   - id: scourge
     name: Scourge
     category: witch
-    description: A shadow DoT applied by the Witch's Shadow Walk ability.
+    description: >
+      A shadow damage-over-time effect applied by the Witch's
+      Shadow Walk ability.
     damage_type: shadow
     source: shadow_walk
 
+# -----------------------------------------------------------------------------
+# Buffs
+# -----------------------------------------------------------------------------
 buffs:
   - id: flask_effect
     name: Flask Effect
     category: consumable
-    description: Beneficial effect from using a flask/potion.
-    
+    description: >
+      A beneficial effect granted from using a flask or potion.
+
   - id: enrage
     name: Enrage
     category: combat
-    description: Increased damage output at the cost of defense.
+    description: >
+      Increases damage output at the cost of defensive capability.
     effect: damage_boost
     
   - id: stun_immunity
     name: Stun Immunity
     category: protection
-    description: Prevents stun effects from being applied.
+    description: >
+      Prevents stun effects from being applied while active.
 
+# -----------------------------------------------------------------------------
+# Environmental States
+# -----------------------------------------------------------------------------
 environmental:
   - id: damp
     name: Damp
     category: environment
     source: water
-    description: Applied when walking through water. May affect fire-based abilities.
+    description: >
+      Applied when moving through water or being struck by water-based abilities.
+      May extinguish fire-based status effects and influence elemental interactions.
     duration: 6000  # 6 seconds
+    interactions:
+      removes:
+        - burn
 
+# -----------------------------------------------------------------------------
 # Metadata
+# -----------------------------------------------------------------------------
 game_version: 0.0.23272
-last_updated: 2026-02-16
+last_updated: 2026-02-20
 status: active
 tags:
   - mechanic
   - status_effects
+  - elemental_system
   - debuffs
   - buffs
+  - environmental_interactions
