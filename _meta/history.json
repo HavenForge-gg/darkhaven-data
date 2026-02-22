@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T09:23:16Z",
+  "generated_at": "2026-02-22T20:07:01Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -469,6 +469,12 @@
       "last_updated": "2026-02-17T12:24:35+13:00",
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
+    },
+    "patches/0.0.23445.yaml": {
+      "last_commit": "3b39e9e",
+      "last_updated": "2026-02-23T09:06:51+13:00",
+      "last_author": "Meanski",
+      "last_message": "Added 0.0.23445 patch notes"
     },
     "quests/shadowstone.yaml": {
       "last_commit": "dc973a4",
