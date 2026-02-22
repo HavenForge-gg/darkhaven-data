@@ -1,0 +1,107 @@
+# =============================================================================
+# Patch notes - 22 Feb 2026
+# =============================================================================
+
+id: "0.0.23445"
+type: patch
+name: Patch 0.0.23445
+version: 0.0.23445
+release_date: 2026-02-22
+description: |
+  Major patch introducing Endless Lair dungeon, Hardcore mode, difficulty rebalancing,
+  dungeon waypoint teleportation, and numerous quality-of-life improvements.
+warning: |
+  Single-player save versioning is not yet implemented. Offline single-player world state
+  won't carry over after the patch. Finish any game in progress before patching.
+highlights:
+  - Added Endless Lair dungeon (multi-level dungeon down to level 100, spawns after killing Narlathak)
+  - Added Hardcore character mode (segregated from non-hardcore in multiplayer)
+  - Dungeon entrances can now be used as waypoints from within the dungeon or from the overworld
+  - Improved hero's ability to traverse rough terrain
+  - Significant changes to earlier difficulty tiers (renamed levels, rebalanced damage and necropolis growth)
+changes:
+  stability:
+    - Fixed several crash bugs
+  gameplay:
+    - Added Hardcore character option (segregated from non-hardcore in multiplayer)
+    - "Renamed difficulty levels, set default difficulty to \"Journeyman\""
+    - "Heroes now start with a flask on \"Peasy\" and \"Journeyman\" difficulties"
+    - "Decreased enemy damage in \"Peasy\" and \"Journeyman\" difficulties"
+    - "Necropolis growth is slowed for \"Peasy\", \"Journeyman\", and \"Normal\" difficulties"
+    - Reduced the cooldown and increased the healing rate for all flasks
+    - "Hero's mana is restored on respawn"
+  skills:
+    - Fixed an issue where skills for level 8 characters were being reset to level 1
+    - Increased skill cap from 7 to 9
+    - Decreased the amount of terrain damage done by Spine Breaker
+    - Blood Lash - Red Embrace now has a 50% chance to entangle (instead of 100%)
+  graphics:
+    - Adjusted bloom and fog settings in many overworld areas and dungeons
+    - Crypts can now randomly be foggy or not
+    - Improved various textures, optimized geometry for various objects
+    - Added target FPS option
+  movement_controls_camera:
+    - Allow jumping while entangled when in water or air
+    - Improved the ability for the character to navigate rough terrain
+    - Increased maximum camera pitch (for auto-tilt)
+    - Changed algorithm for gamepad controls focusing
+    - Unified controller camera controls for gameplay / map / and build modes
+    - Allow navigation to empty equipment slots with controller
+    - Added zoom function while building
+    - Added option to disable camera shake
+    - Added camera rotation speed option
+  ui:
+    - Ctrl-click to move items from equipment slots to inventory should now work
+    - Fixed scroll speed for character and world select UIs
+    - Legendary rings should now be the proper size when held by cursor
+    - Equipment slots when a dye or socketable item is held on the cursor over an applicable item are no longer colored red
+    - Allow click on respawn button when there's an item on the cursor when killed
+    - Added fixed rotation option for map (lock map to north)
+    - Added difficulty selection on single player character creation / removed difficulty slider from home menu
+    - Removed spurious WASD settings from controls UI
+    - Fixed various options not saving on start
+    - Added exit thank you for playing demo dialog
+  dungeons:
+    - "Added first-pass \"endless\" dungeon after Narlathak (Endless Lair)"
+    - Endless Lair spawns in a random sector after killing Narlathak
+    - Endless Lair is a multi-level dungeon that goes down to level 100
+    - Teleport back to the entrance of a dungeon (from within) by clicking on it in the full map
+    - Teleport back to the entrance of any dungeon you've entered (from the overworld) by clicking on it in the full map
+    - Bogie dungeon no longer closes unless champion Tyrant is slain
+    - Added a signpost explaining shift-click to attack in place / destroy walls in crypts
+  mobs_ai:
+    - Mobs now have reduced aggro and follow ranges vs. players > 3 levels higher
+    - Removed strata damage from Disgraced Paladin
+  online_server:
+    - Temporarily removed public game functionality
+    - Restored ability to name worlds
+    - Add the last world player visited to world list (even if private)
+    - Added intermittent character save in online games
+  items:
+    - Runes and Runeword items no longer despawn on regular depopulate
+  bug_fixes:
+    - Fixed several crash bugs
+    - Fixed an issue where skills for level 8 characters were being reset to level 1
+    - Ctrl-click to move items from equipment slots to inventory should now work
+    - Fixed scroll speed for character and world select UIs
+    - Legendary rings should now be the proper size when held by cursor
+    - Fixed various options not saving on start
+    - Fixed various typos
+    - Game now properly reports what monster killed you when you're killed by a projectile or status effect
+  misc:
+    - Fixed various typos
+    - Game now properly reports what monster killed you when you're killed by a projectile or status effect
+known_issues:
+  - Flask cooldown/healing improvements do not apply to flasks acquired prior to the patch
+  - Endless Lair has no mechanism for resetting; create a new world to retry
+  - Endless Lair does not currently boot you out of the dungeon on death as intended
+  - Environmental deaths are not correctly attributed
+game_version: 0.0.23445
+last_updated: 2026-02-22
+status: active
+tags:
+  - patch
+  - endless-lair
+  - hardcore-mode
+  - difficulty-rebalance
+  - dungeon-waypoints
