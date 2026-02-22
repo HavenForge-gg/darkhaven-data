@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T13:01:15Z",
+  "generated_at": "2026-02-22T09:14:34Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -423,10 +423,10 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "mechanics/runewords.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
+      "last_commit": "350b7e4",
+      "last_updated": "2026-02-22T22:14:24+13:00",
       "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_message": "update runewords to say any order"
     },
     "mechanics/skill_mods_witch.yaml": {
       "last_commit": "dc973a4",
