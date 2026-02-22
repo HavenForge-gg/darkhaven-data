@@ -6,7 +6,7 @@ id: runewords
 type: mechanic
 name: Runewords
 description: >
-  When specific runes are socketed into an item in the correct order,
+  When specific runes are socketed into an item in any order,
   they form a Runeword — transforming the base item into a powerful named
   item with special properties. The item must have the exact number of
   sockets required and be of the correct equipment type.
