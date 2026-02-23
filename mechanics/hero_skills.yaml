@@ -78,7 +78,7 @@ system_skills:
   - id: fast_travel
     name: Fast Travel Skill
     control: none
-    description: Teleport to discovered waypoints.
+    description: Teleport to discovered waypoints (including between overworld and dungeon entrances).
 
 # Strike Types
 strike_types:

@@ -11,6 +11,9 @@ description: >
   item with special properties. The item must have the exact number of
   sockets required and be of the correct equipment type.
 
+item_rules:
+  despawn_on_depopulate: false
+
 runewords:
   - id: faith_of_my_shield
     name: Faith of My Shield

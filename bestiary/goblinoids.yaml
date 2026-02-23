@@ -127,6 +127,7 @@ enemies:
       - meteor
     skill_shape: tyrant_meteor_shape
     spawn_group: unique_bogie_spawn_group
+    keeps_dungeon_open_until_slain: true
 
   # =========================================================================
   # GOBKINS - Smaller, more organized goblinoid tribe

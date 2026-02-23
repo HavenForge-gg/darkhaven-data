@@ -105,6 +105,15 @@ dungeons:
     description: A collapsed mine leading to underground caverns.
     environment: underground
 
+  - id: endless_lair
+    name: Endless Lair
+    type: dungeon
+    description: A multi-level dungeon that never seems to end.
+    environment: underground
+    spawn_condition: kill_narlathak
+    max_level: 100
+    guid: endless_lair_area
+
 # =============================================================================
 # OVERWORLD REGIONS
 # =============================================================================
@@ -313,7 +322,7 @@ sectors:
 # =============================================================================
 
 zones_summary:
-  dungeons: 6
+  dungeons: 7
   overworld: 8
   points_of_interest: 7
   sectors: 6

@@ -1,0 +1,68 @@
+# =============================================================================
+# DIFFICULTIES - Game Difficulty Scaling
+# =============================================================================
+
+id: difficulties
+type: mechanic
+name: Difficulty Levels
+description: >
+  Defines the game difficulty tiers which alter enemy damage,
+  starting items, and region spread like Necropolis growth.
+
+difficulties:
+  - id: peasy
+    name: Peasy
+    description: A more relaxed experience with lower enemy damage.
+    is_default: false
+    modifiers:
+      enemy_damage: 0.5
+      necropolis_growth_rate: 0.5
+    starting_items:
+      - flask_01
+
+  - id: journeyman
+    name: Journeyman
+    description: The standard darkhaven experience.
+    is_default: true
+    modifiers:
+      enemy_damage: 1.0
+      necropolis_growth_rate: 0.5
+    starting_items:
+      - flask_01
+
+  - id: normal
+    name: Normal
+    description: A slightly more challenging experience.
+    is_default: false
+    modifiers:
+      enemy_damage: 1.5
+      necropolis_growth_rate: 0.5
+
+  - id: heroic
+    name: Heroic
+    description: A punitive experience for experienced players.
+    is_default: false
+    modifiers:
+      enemy_damage: 2.0
+
+  - id: legendary
+    name: Legendary
+    description: An ultimate test of skill and endurance.
+    is_default: false
+    modifiers:
+      enemy_damage: 3.0
+
+# Metadata
+game_version: 0.0.23445
+last_updated: 2026-02-23
+status: active
+tags:
+  - mechanic
+  - difficulty
+  - peasy
+  - journeyman
+  - normal
+  - heroic
+  - legendary
+
+# Disclaimer: Necropolis spread speed is increased by difficulty, but the exact scaling percentage is currently uncertain.

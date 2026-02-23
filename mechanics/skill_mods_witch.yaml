@@ -24,6 +24,7 @@
   name: Red Embrace
   class: witch
   description: A blood magic skill modifier.
+  entangle_chance: 0.5
   guid: 685590486e7b41f46b275fdf92f8c80f
   game_version: 0.0.23272
   last_updated: 2026-02-16

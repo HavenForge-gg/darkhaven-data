@@ -19,8 +19,9 @@ description: Items that can be used and consumed for various effects.
 # Flasks
 flasks:
   description: >
-    Flasks are rechargeable healing items. Players start with 3 free flask
-    uses that recharge at certain conditions.
+    Flasks are rechargeable healing items. Players start with a flask on Peasy 
+    and Journeyman difficulties. Flasks now have reduced cooldown and increased 
+    healing rate.
     
   types:
     - id: flask_01
