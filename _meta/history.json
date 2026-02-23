@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T20:07:01Z",
+  "generated_at": "2026-02-23T21:25:26Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -21,10 +21,10 @@
       "last_message": "add missing guids"
     },
     "bestiary/goblinoids.yaml": {
-      "last_commit": "0cf33cb",
-      "last_updated": "2026-02-19T21:49:01+13:00",
-      "last_author": "Meanski",
-      "last_message": "add missing guids"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "bestiary/plants.yaml": {
       "last_commit": "0cf33cb",
@@ -51,10 +51,10 @@
       "last_message": "fix(misstypo): correct typo sorceror to sorcerer"
     },
     "items/consumables.yaml": {
-      "last_commit": "f89d359",
-      "last_updated": "2026-02-17T19:55:07+13:00",
-      "last_author": "Meanski",
-      "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "items/dyes/cadet_dye.yaml": {
       "last_commit": "60ffd63",
@@ -363,16 +363,22 @@
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
     },
     "locations/zones.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
-      "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/affixes.yaml": {
       "last_commit": "9ddd877",
       "last_updated": "2026-02-19T21:52:01+13:00",
       "last_author": "Meanski",
       "last_message": "move skills"
+    },
+    "mechanics/difficulties.yaml": {
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/equipment_slots.yaml": {
       "last_commit": "dc973a4",
@@ -392,6 +398,12 @@
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
     },
+    "mechanics/game_modes.yaml": {
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
+    },
     "mechanics/glyphs.yaml": {
       "last_commit": "dc973a4",
       "last_updated": "2026-02-17T12:24:35+13:00",
@@ -399,10 +411,10 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "mechanics/hero_skills.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
-      "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/item_rarity.yaml": {
       "last_commit": "dc973a4",
@@ -423,16 +435,16 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "mechanics/runewords.yaml": {
-      "last_commit": "350b7e4",
-      "last_updated": "2026-02-22T22:14:24+13:00",
-      "last_author": "Meanski",
-      "last_message": "update runewords to say any order"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/skill_mods_witch.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
-      "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/skill_system.yaml": {
       "last_commit": "dc973a4",
@@ -501,10 +513,10 @@
       "last_message": "Update glyph_lunge.yaml"
     },
     "skills/witch/glyph/spine_breaker.yaml": {
-      "last_commit": "2c8aad0",
-      "last_updated": "2026-02-19T23:09:02Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Rename spine_breaker.yalm to spine_breaker.yaml"
+      "last_commit": "7cbf8cd",
+      "last_updated": "2026-02-23T15:49:50+02:00",
+      "last_author": "DaPandamonium",
+      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "skills/witch/shadow/feast_for_crows.yaml": {
       "last_commit": "142b743",
