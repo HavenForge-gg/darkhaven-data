@@ -1,0 +1,32 @@
+# =============================================================================
+# GAME MODES - Playable Frameworks
+# =============================================================================
+
+id: game_modes
+type: mechanic
+name: Game Modes
+description: >
+  Defines overarching game modes like Hardcore which segregate
+  multiplayer ladders and introduce perma-death mechanics.
+
+modes:
+  - id: standard
+    name: Standard
+    description: The base game mode. Characters respawn on death.
+    is_default: true
+
+  - id: hardcore
+    name: Hardcore
+    description: A game mode where character death is permanent. Hardcore characters cannot interact with non-hardcore characters in multiplayer.
+    is_default: false
+    multiplayer_segregation: true
+    permacreep: true
+
+# Metadata
+game_version: 0.0.23445
+last_updated: 2026-02-23
+status: active
+tags:
+  - mechanic
+  - game_mode
+  - hardcore

@@ -21,6 +21,8 @@ resource_cost:
 scaling:
   - magic
 
+terrain_damage: reduced
+
 # Skill upgrade options
 skill_options:
   - id: adept
