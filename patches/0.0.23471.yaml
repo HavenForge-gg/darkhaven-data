@@ -1,0 +1,20 @@
+# =============================================================================
+# Patch notes - 25 Feb 2026
+# =============================================================================
+
+id: "0.0.23471"
+type: patch
+name: Patch 0.0.23471
+version: 0.0.23471
+release_date: 2026-02-25
+description: |
+  Small hotfix for Endless Lair spawn conditions.
+changes:
+  gameplay:
+    - Endless Lair spawn is no longer dependent on Narlathak. It will now spawn as long as the Altar of the Ancient Gods has been activated and someone in the world is at least level 6.
+game_version: 0.0.23471
+last_updated: 2026-02-25
+status: active
+tags:
+  - patch
+  - endless-lair
