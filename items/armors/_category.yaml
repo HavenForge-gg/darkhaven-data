@@ -1,0 +1,210 @@
+# =============================================================================
+# ARMORS - Category Metadata
+# Shared information about the armor item category
+# =============================================================================
+
+id: armors
+type: item_category
+name: Armors
+description: >
+  Armors are equippable defensive items that provide protection and 
+  survivability. They are divided into equipment slots and material tiers,
+  progressing from cloth and cord to reinforced leather and specialty gear.
+
+slots:
+  - id: helm
+    name: Helm
+    description: Head slot armor providing defensive and resistance bonuses.
+
+  - id: chest
+    name: Chest
+    description: Primary torso armor providing the largest defensive values.
+
+  - id: gloves
+    name: Gloves
+    description: Hand armor offering defense and potential utility bonuses.
+
+  - id: boots
+    name: Boots
+    description: Footwear providing mobility and defensive bonuses.
+
+  - id: belt
+    name: Belt
+    description: Waist slot armor offering minor defensive or utility bonuses.
+
+  - id: shield
+    name: Shield
+    description: Off-hand defensive equipment providing block and mitigation.
+
+materials:
+  - id: cloth
+    name: Cloth
+    tier: 1
+    description: Lightweight fabric armor offering minimal protection.
+
+  - id: cord
+    name: Cord
+    tier: 1
+    description: Basic woven armor with slightly improved durability.
+
+  - id: padded
+    name: Padded
+    tier: 2
+    description: Reinforced fabric armor providing improved protection.
+
+  - id: soft_leather
+    name: Soft Leather
+    tier: 2
+    description: Flexible leather armor balancing defense and mobility.
+
+  - id: hard_leather
+    name: Hard Leather
+    tier: 3
+    description: Treated leather offering solid physical protection.
+
+  - id: heavy_leather
+    name: Heavy Leather
+    tier: 3
+    description: Thick reinforced leather with increased durability.
+
+  - id: studded_leather
+    name: Studded Leather
+    tier: 4
+    description: Leather reinforced with metal studs for enhanced defense.
+
+  - id: carapace
+    name: Carapace
+    tier: 4
+    description: Hardened organic plating offering strong defensive properties.
+
+base_units:
+  - name: Belt01 Cord Armor Unit
+    slot: belt
+    material: cord
+
+  - name: Belt03 Soft Leather Armor Unit
+    slot: belt
+    material: soft_leather
+
+  - name: Belt05 Hard Leather Armor Unit
+    slot: belt
+    material: hard_leather
+
+  - name: Belt07 Studded Leather Armor Unit
+    slot: belt
+    material: studded_leather
+
+  - name: Boots01 Moccasins Armor Unit
+    slot: boots
+    material: cloth
+
+  - name: Boots02 Soft Leather Armor Unit
+    slot: boots
+    material: soft_leather
+
+  - name: Boots04 Hard Leather Armor Unit
+    slot: boots
+    material: hard_leather
+
+  - name: Boots06 Studded Leather Boots Armor Unit
+    slot: boots
+    material: studded_leather
+
+  - name: Chest01 Cloth Armor Unit
+    slot: chest
+    material: cloth
+
+  - name: Chest02 Padded Armor Unit
+    slot: chest
+    material: padded
+
+  - name: Chest03 Soft Leather Armor Unit
+    slot: chest
+    material: soft_leather
+
+  - name: Chest05 Hard Leather Armor Unit
+    slot: chest
+    material: hard_leather
+
+  - name: Chest07 Studded Leather Armor Unit
+    slot: chest
+    material: studded_leather
+
+  - name: Gloves01 Padded Armor Unit
+    slot: gloves
+    material: padded
+
+  - name: Gloves03 Soft Leather Armor Unit
+    slot: gloves
+    material: soft_leather
+
+  - name: Gloves05 Heavy Leather Armor Unit
+    slot: gloves
+    material: heavy_leather
+
+  - name: Gloves07 Studded Leather Armor Unit
+    slot: gloves
+    material: studded_leather
+
+  - name: Helm01 Hood Armor Unit
+    slot: helm
+    material: cloth
+
+  - name: Helm02 Soft Leather Armor Unit
+    slot: helm
+    material: soft_leather
+
+  - name: Helm04 Hard Leather Armor Unit
+    slot: helm
+    material: hard_leather
+
+  - name: Helm06 Studded Leather Armor Unit
+    slot: helm
+    material: studded_leather
+
+  - name: Shield01 Buckler Armor Unit
+    slot: shield
+    material: hard_leather
+
+  - name: Shield02 Targe Armor Unit
+    slot: shield
+    material: hard_leather
+
+  - name: Shield03 Heater Armor Unit
+    slot: shield
+    material: hard_leather
+
+  - name: Shield04 Carapace Armor Unit
+    slot: shield
+    material: carapace
+
+  - name: Shield05 Round Shield Armor Unit
+    slot: shield
+    material: hard_leather
+
+  - name: Shield07 Banded Heater Armor Unit
+    slot: shield
+    material: studded_leather
+    
+ special_named_items:
+  - id: cinderstep_clompers
+    name: Cinderstep Clompers
+    slot: boots
+
+  - id: wavewalkers
+    name: Wavewalkers
+    slot: boots
+
+  - id: shadowgrips
+    name: Shadowgrips
+    slot: gloves
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armors
+  - equipment
+  - defensive
