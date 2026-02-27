@@ -1,0 +1,31 @@
+id: sword_01
+type: item
+name: Sword
+category: weapons
+slot: main_hand
+weapon_type: sword
+tier: 1
+rarity: variable
+description: >
+  Sword base weapon unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/weapons/swords/Sword01.png
+
+stats:
+  base:
+    min_damage: null
+    max_damage: null
+    attack_speed: null
+    scaling: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - weapons
+  - sword

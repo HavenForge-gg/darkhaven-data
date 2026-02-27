@@ -1,0 +1,31 @@
+id: bodkin
+type: item
+name: Bodkin
+category: weapons
+slot: main_hand
+weapon_type: dagger
+tier: 4
+rarity: variable
+description: >
+  Bodkin base weapon unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/weapons/daggers/Dagger04_Bodkin.png
+
+stats:
+  base:
+    min_damage: null
+    max_damage: null
+    attack_speed: null
+    scaling: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - weapons
+  - dagger

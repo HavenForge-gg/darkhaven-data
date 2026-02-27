@@ -1,0 +1,31 @@
+id: snagtooth_pike
+type: item
+name: Snagtooth Pike
+category: weapons
+slot: main_hand
+weapon_type: staff
+tier: 3
+rarity: variable
+description: >
+  Snagtooth Pike base weapon unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/weapons/staffs/Staff03_Snagtooth_Pike.png
+
+stats:
+  base:
+    min_damage: null
+    max_damage: null
+    attack_speed: null
+    scaling: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - weapons
+  - staff
