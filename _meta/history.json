@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T10:50:24Z",
+  "generated_at": "2026-02-27T10:51:40Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -547,6 +547,12 @@
       "last_updated": "2026-02-17T19:55:07+13:00",
       "last_author": "Meanski",
       "last_message": "feat: add gem and tome metadata files, restructure consumables, and implement GitHub Action for metadata generation"
+    },
+    "items/weapons/_category.yaml": {
+      "last_commit": "86bdeed",
+      "last_updated": "2026-02-27T10:51:32Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
     },
     "items/weapons/dagger/bodkin.yaml": {
       "last_commit": "af6129c",
