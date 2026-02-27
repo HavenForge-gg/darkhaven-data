@@ -1,0 +1,77 @@
+# =============================================================================
+# WEAPONS - Category Metadata
+# Shared information about the Weapons item category
+# =============================================================================
+
+id: weapons
+type: item_category
+name: Weapons
+description: >
+  Weapons are equippable offensive items used to deal damage. They scale
+  through tier progression and can roll varying rarities and affixes.
+  Different weapon types may influence damage profile and scaling behavior.
+
+slots:
+  - id: main_hand
+    name: Main Hand
+    description: Primary weapon slot used for attacking.
+
+weapon_types:
+  - id: dagger
+    name: Dagger
+    damage_profile: physical
+    description: Fast, close-range weapons focused on quick strikes.
+
+  - id: staff
+    name: Staff
+    damage_profile: magical
+    description: Two-handed arcane weapons often associated with spellcasting.
+
+  - id: sword
+    name: Sword
+    damage_profile: physical
+    description: Balanced melee weapons offering consistent damage output.
+
+tiers:
+  - tier: 1
+    name: Basic
+    description: Entry-level weapons with minimal base damage.
+
+  - tier: 2
+    name: Improved
+    description: Slightly enhanced base weapons.
+
+  - tier: 3
+    name: Refined
+    description: More durable and reliable weapons.
+
+  - tier: 4
+    name: Hardened
+    description: Reinforced weapons with stronger damage potential.
+
+  - tier: 5
+    name: Tempered
+    description: Well-crafted weapons with improved balance and power.
+
+  - tier: 6
+    name: Honed
+    description: Sharpened or empowered weapons with high efficiency.
+
+  - tier: 7
+    name: Masterwork
+    description: Advanced-tier weapons representing peak craftsmanship.
+
+rarity_handling:
+  description: >
+    Weapon base units can roll multiple rarity tiers (Common, Magic, Rare,
+    Legendary). Rarity is applied dynamically during item generation.
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - weapons
+  - equipment
+  - offensive
