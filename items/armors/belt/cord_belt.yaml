@@ -1,0 +1,30 @@
+id: cord_belt
+type: item
+name: Cord
+category: armours
+slot: belt
+material: cord
+tier: 1
+rarity: variable
+description: >
+  Cord base armour unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/armours/belts/Belt01_Cord.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armours
+  - belt

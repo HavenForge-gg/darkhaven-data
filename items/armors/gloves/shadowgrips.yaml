@@ -1,0 +1,30 @@
+id: shadowgrips
+type: item
+name: Shadowgrips
+category: armours
+slot: gloves
+material: null
+tier: null
+rarity: variable
+description: >
+  Shadowgrips base armour unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/armours/glovess/Gloves06_Shadowgrips.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armours
+  - gloves

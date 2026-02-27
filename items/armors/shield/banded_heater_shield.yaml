@@ -1,0 +1,30 @@
+id: banded_heater_shield
+type: item
+name: Banded Heater Shield
+category: armours
+slot: shield
+material: studded_leather
+tier: 4
+rarity: variable
+description: >
+  Banded Heater Shield base armour unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/armours/shields/Shield07_Banded_Heater.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armours
+  - shield

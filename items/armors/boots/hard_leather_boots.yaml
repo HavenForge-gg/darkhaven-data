@@ -1,0 +1,30 @@
+id: hard_leather_boots
+type: item
+name: Hard Leather Boots
+category: armours
+slot: boots
+material: hard_leather
+tier: 3
+rarity: variable
+description: >
+  Hard Leather Boots base armour unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/armours/bootss/Boots04_Hard_Leather.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armours
+  - boots

@@ -1,0 +1,30 @@
+id: soft_leather_belt
+type: item
+name: Soft Leather Belt
+category: armours
+slot: belt
+material: soft_leather
+tier: 2
+rarity: variable
+description: >
+  Soft Leather Belt base armour unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/armours/belts/Belt03_Soft_Leather.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armours
+  - belt

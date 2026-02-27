@@ -1,0 +1,30 @@
+id: heater_shield
+type: item
+name: Heater Shield
+category: armours
+slot: shield
+material: hard_leather
+tier: 3
+rarity: variable
+description: >
+  Heater Shield base armour unit. Detailed properties to be expanded later.
+sell_price: null
+image: images/items/armours/shields/Shield03_Heater.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+  affix_slots: []
+
+# Metadata
+game_version: 0.0.23272
+last_updated: 2026-02-27
+status: active
+tags:
+  - items
+  - armours
+  - shield
