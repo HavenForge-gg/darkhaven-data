@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T10:51:40Z",
+  "generated_at": "2026-02-28T00:54:31Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -57,10 +57,10 @@
       "last_message": "Starting with armors"
     },
     "items/armors/belt/cord_belt.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+      "last_commit": "b5d663e",
+      "last_updated": "2026-02-28T00:54:23Z",
       "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
+      "last_message": "Update cord_belt.yaml"
     },
     "items/armors/belt/hard_leather_belt.yaml": {
       "last_commit": "bb1b98e",
