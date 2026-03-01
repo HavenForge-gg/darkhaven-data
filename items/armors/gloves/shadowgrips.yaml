@@ -1,15 +1,56 @@
 id: shadowgrips
 type: item
+guid: 4caa65e8b22132465db15c574bb425e7
 name: Shadowgrips
+internal_name: Gloves06 Shadowgrips Armor Unit
+parse_name: Gloves06ShadowgripsArmorUnit
+
 category: armours
 slot: gloves
-material: null
-tier: null
-rarity: variable
+material: unique
+tier: 6
+rarity: special
+
+spawn_level:
+  min: 6
+  max: 9
+
+stat_level:
+  min: 6
+  max: 6
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.6
+    max: 0.85
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [2, 2]
+  stackable: false
+
+loot:
+  weight: 0
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Shadowgrips base armour unit. Detailed properties to be expanded later.
+  Base gloves blueprint item.
+
+flavor_text: >
+  Wearing these gloves gives you a rush unlike anything you've ever felt.
+
 sell_price: null
-image: images/items/armours/glovess/Gloves06_Shadowgrips.png
+image: images/items/armours/gloves/Gloves06_Shadowgrips.png
 
 stats:
   base:
@@ -18,13 +59,17 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.6, 0.85]
+      damage_grade_range: [0.0, 0.0]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - gloves
+  - unique
