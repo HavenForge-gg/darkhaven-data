@@ -1,0 +1,75 @@
+id: hard_leather_armor
+type: item
+guid: 68c49d35c01ca1e4abdee435581e4a78
+name: Hard Leather Armor
+internal_name: Chest05 Hard Leather Armor Unit
+parse_name: Chest05HardLeatherArmorUnit
+
+category: armours
+slot: chest
+material: hard_leather
+tier: 5
+rarity: variable
+
+spawn_level:
+  min: 5
+  max: 7
+
+stat_level:
+  min: 5
+  max: 5
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 3]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
+description: >
+  Reinforced leather armor offering sturdy protection.
+
+flavor_text: >
+  Armor in the style of the nomads of the Shanghadi Steppes.
+
+sell_price: null
+image: images/items/armours/chest/Chest05_Hard_Leather.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.00]
+      damage_grade_range: [0.00, 0.00]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - armours
+  - chest
+  - hard_leather

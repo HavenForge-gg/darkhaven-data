@@ -1,0 +1,75 @@
+id: padded_armor
+type: item
+guid: dd345dfc880a32351c9978e759da1e84
+name: Padded Armor
+internal_name: Chest02 Padded Armor Unit
+parse_name: Chest02PaddedArmorUnit
+
+category: armours
+slot: chest
+material: padded
+tier: 2
+rarity: variable
+
+spawn_level:
+  min: 0
+  max: 2
+
+stat_level:
+  min: 2
+  max: 2
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 3]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
+description: >
+  Quilted padded armor providing basic protection and insulation.
+
+flavor_text: >
+  Always keep your chest warm is what mother used to say.
+
+sell_price: null
+image: images/items/armours/chest/Chest02_Padded.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.00]
+      damage_grade_range: [0.00, 0.00]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - armours
+  - chest
+  - padded

@@ -1,0 +1,75 @@
+id: soft_leather_armor
+type: item
+guid: e86a7fe49bb0e26d781867ebf5e8a100
+name: Soft Leather Armor
+internal_name: Chest03 Soft Leather Armor Unit
+parse_name: Chest03SoftLeatherArmorUnit
+
+category: armours
+slot: chest
+material: soft_leather
+tier: 3
+rarity: variable
+
+spawn_level:
+  min: 3
+  max: 5
+
+stat_level:
+  min: 3
+  max: 3
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 3]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
+description: >
+  Supple leather armor providing moderate protection without restricting movement.
+
+flavor_text: >
+  This supple armor provides some protection without restricting movement.
+
+sell_price: null
+image: images/items/armours/chest/Chest03_Soft_Leather.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.00]
+      damage_grade_range: [0.00, 0.00]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - armours
+  - chest
+  - soft_leather
