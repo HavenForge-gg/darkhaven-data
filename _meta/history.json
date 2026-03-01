@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:37:19Z",
+  "generated_at": "2026-03-01T20:37:37Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -115,6 +115,36 @@
       "last_updated": "2026-03-01T20:35:50Z",
       "last_author": "Kieran Taylor",
       "last_message": "Boot Updates"
+    },
+    "items/armors/chest/hard_leather_armor.yaml": {
+      "last_commit": "6c42f90",
+      "last_updated": "2026-03-01T20:37:26Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
+    "items/armors/chest/padded_armor.yaml": {
+      "last_commit": "6c42f90",
+      "last_updated": "2026-03-01T20:37:26Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
+    "items/armors/chest/soft_leather_armor.yaml": {
+      "last_commit": "6c42f90",
+      "last_updated": "2026-03-01T20:37:26Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
+    "items/armors/chest/studded_leather_armor.yaml": {
+      "last_commit": "6c42f90",
+      "last_updated": "2026-03-01T20:37:26Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
+    "items/armors/chest/tunic.yaml": {
+      "last_commit": "6c42f90",
+      "last_updated": "2026-03-01T20:37:26Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
     },
     "items/armors/gloves/heavy_leather_gloves.yaml": {
       "last_commit": "bb1b98e",
