@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:37:01Z",
+  "generated_at": "2026-03-01T20:37:19Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -115,12 +115,6 @@
       "last_updated": "2026-03-01T20:35:50Z",
       "last_author": "Kieran Taylor",
       "last_message": "Boot Updates"
-    },
-    "items/armors/chest/studded_leather_chest.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
     },
     "items/armors/gloves/heavy_leather_gloves.yaml": {
       "last_commit": "bb1b98e",
