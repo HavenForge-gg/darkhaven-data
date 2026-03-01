@@ -1,0 +1,74 @@
+id: amulet
+type: item
+guid: 7fd23b1eec0b3d7d611d9b69039d74cb
+name: Amulet
+internal_name: Amulet Jade Item Unit
+parse_name: AmuletJadeItemUnit
+
+category: jewelry
+slot: amulet
+material: jade
+tier: 4
+rarity: variable
+
+spawn_level:
+  min: 4
+  max: 100
+
+stat_level:
+  min: 4
+  max: 4
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [1, 1]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.0
+  damage_type: null
+
+description: >
+  Base amulet blueprint item.
+
+flavor_text: >
+  The problem with believers, is they let anyone in the door.  The problem with deceivers, are all the bodies buried under the floor boards.
+
+sell_price: null
+image: images/items/jewelry/amulets/Amulet_Jade_Item_Unit.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.0, 0.0]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - jewelry
+  - amulet
