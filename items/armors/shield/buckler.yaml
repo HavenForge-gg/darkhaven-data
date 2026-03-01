@@ -1,15 +1,56 @@
 id: buckler
 type: item
+guid: 60f8de0f18480e9fd8f50033879e085d
 name: Buckler
+internal_name: Shield01 Buckler Armor Unit
+parse_name: Shield01BucklerArmorUnit
+
 category: armours
 slot: shield
-material: hard_leather
+material: wood_metal
 tier: 1
 rarity: variable
+
+spawn_level:
+  min: 0
+  max: 3
+
+stat_level:
+  min: 1
+  max: 1
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [2, 2]
+  stackable: false
+
+loot:
+  weight: 50
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Buckler base armour unit. Detailed properties to be expanded later.
+  Base shield blueprint item.
+
+flavor_text: >
+  What is this, a shield for ants?
+
 sell_price: null
-image: images/items/armours/shields/Shield01_Buckler.png
+image: images/items/armours/shield/Shield01_Buckler.png
 
 stats:
   base:
@@ -18,13 +59,17 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.0]
+      damage_grade_range: [0.0, 0.0]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - shield
+  - wood_metal

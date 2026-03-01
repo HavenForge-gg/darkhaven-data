@@ -1,15 +1,56 @@
 id: carapace_shield
 type: item
+guid: d5e10ca109df62530213fe37ecb6ef7b
 name: Carapace Shield
+internal_name: Shield04 Carapace Armor Unit
+parse_name: Shield04CarapaceArmorUnit
+
 category: armours
 slot: shield
-material: carapace
+material: bone
 tier: 4
 rarity: variable
+
+spawn_level:
+  min: 4
+  max: 5
+
+stat_level:
+  min: 4
+  max: 4
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [2, 3]
+  stackable: false
+
+loot:
+  weight: 50
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Carapace Shield base armour unit. Detailed properties to be expanded later.
+  Base shield blueprint item.
+
+flavor_text: >
+  Did you know that with a little seasoning, they taste just like crab?
+
 sell_price: null
-image: images/items/armours/shields/Shield04_Carapace.png
+image: images/items/armours/shield/Shield04_Carapace.png
 
 stats:
   base:
@@ -18,13 +59,17 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.0]
+      damage_grade_range: [0.0, 0.0]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - shield
+  - bone
