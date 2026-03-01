@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T21:04:41Z",
+  "generated_at": "2026-03-01T21:05:22Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -668,11 +668,11 @@
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
-    "items/weapons/sword/sword_01.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+    "items/weapons/sword/sword.yaml": {
+      "last_commit": "477fe6b",
+      "last_updated": "2026-03-01T21:05:15Z",
       "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
+      "last_message": "Update and rename sword_01.yaml to sword.yaml"
     },
     "locations/zones.yaml": {
       "last_commit": "600e6ea",
