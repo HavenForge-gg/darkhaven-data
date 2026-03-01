@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T21:09:03Z",
+  "generated_at": "2026-03-01T22:21:19Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -451,6 +451,18 @@
       "last_updated": "2026-02-17T12:24:35+13:00",
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
+    },
+    "items/rings/ancient_ring.yaml": {
+      "last_commit": "9a7ab8c",
+      "last_updated": "2026-03-01T22:21:12Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
+    "items/rings/bluegem_ring.yaml": {
+      "last_commit": "9a7ab8c",
+      "last_updated": "2026-03-01T22:21:12Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
     },
     "items/runes/_category.yaml": {
       "last_commit": "3e964af",
