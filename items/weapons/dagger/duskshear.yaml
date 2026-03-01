@@ -1,29 +1,72 @@
 id: duskshear
 type: item
+guid: af87bc0502df3a6c49c17051bd7704c8
 name: Duskshear
+internal_name: Dagger07 Duskshear Weapon Unit
+parse_name: Dagger07DuskshearWeaponUnit
+
 category: weapons
 slot: main_hand
-weapon_type: dagger
+material: steel
 tier: 7
-rarity: variable
+rarity: special
+
+spawn_level:
+  min: 7
+  max: 8
+
+stat_level:
+  min: 7
+  max: 7
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.7
+    max: 0.9
+    max_grade: 10
+
+inventory:
+  size: [1, 2]
+  stackable: false
+
+loot:
+  weight: 0
+
+combat:
+  damage_range: 0.2
+  damage_type: null
+
 description: >
-  Duskshear base weapon unit. Detailed properties to be expanded later.
+  Base dagger blueprint weapon.
+
+flavor_text: >
+  Just holding this knife makes you slightly nauseated.
+
 sell_price: null
-image: images/items/weapons/daggers/Dagger07_Duskshear.png
+image: images/items/weapons/dagger/Dagger07_Duskshear_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.7, 0.9]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items

@@ -1,29 +1,72 @@
 id: ripfury_claw
 type: item
+guid: e74df137600b5be6b932b396c1efbcb2
 name: Ripfury Claw
+internal_name: Dagger04 Ripfury Claw Weapon Unit
+parse_name: Dagger04RipfuryClawWeaponUnit
+
 category: weapons
 slot: main_hand
-weapon_type: dagger
+material: steel
 tier: 4
-rarity: variable
+rarity: special
+
+spawn_level:
+  min: 3
+  max: 5
+
+stat_level:
+  min: 4
+  max: 4
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.9
+    max: 1.05
+    max_grade: 10
+
+inventory:
+  size: [1, 2]
+  stackable: false
+
+loot:
+  weight: 0
+
+combat:
+  damage_range: 0.3
+  damage_type: null
+
 description: >
-  Ripfury Claw base weapon unit. Detailed properties to be expanded later.
+  Base dagger blueprint weapon.
+
+flavor_text: >
+  This grotesque weapon seems to be actually made from the claw of a feral.
+
 sell_price: null
-image: images/items/weapons/daggers/Dagger04_Ripfury_Claw.png
+image: images/items/weapons/dagger/Dagger04_Ripfury_Claw_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.9, 1.05]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items

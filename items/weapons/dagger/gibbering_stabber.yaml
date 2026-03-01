@@ -1,29 +1,72 @@
 id: gibbering_stabber
 type: item
+guid: 54be693113e5fbaffc49720e19b08c3f
 name: Gibbering Stabber
+internal_name: Dagger03 Gibbering Stabber Weapon Unit
+parse_name: Dagger03GibberingStabberWeaponUnit
+
 category: weapons
 slot: main_hand
-weapon_type: dagger
+material: steel
 tier: 3
-rarity: variable
+rarity: special
+
+spawn_level:
+  min: 2
+  max: 4
+
+stat_level:
+  min: 3
+  max: 3
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 1.1
+    max: 1.3
+    max_grade: 10
+
+inventory:
+  size: [1, 2]
+  stackable: false
+
+loot:
+  weight: 0
+
+combat:
+  damage_range: 0.5
+  damage_type: null
+
 description: >
-  Gibbering Stabber base weapon unit. Detailed properties to be expanded later.
+  Base dagger blueprint weapon.
+
+flavor_text: >
+  You swear this blade is trying to say something.
+
 sell_price: null
-image: images/items/weapons/daggers/Dagger03_Gibbering_Stabber.png
+image: images/items/weapons/dagger/Dagger03_Gibbering_Stabber_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [1.1, 1.3]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items

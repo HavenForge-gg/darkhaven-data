@@ -1,29 +1,72 @@
 id: poignard
 type: item
+guid: 54939f29e2e962712bd727cd627e7553
 name: Poignard
+internal_name: Dagger06 Poignard Weapon Unit
+parse_name: Dagger06PoignardWeaponUnit
+
 category: weapons
 slot: main_hand
-weapon_type: dagger
+material: steel
 tier: 6
 rarity: variable
+
+spawn_level:
+  min: 6
+  max: 8
+
+stat_level:
+  min: 6
+  max: 6
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.85
+    max: 1.0
+    max_grade: 10
+
+inventory:
+  size: [1, 2]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.23
+  damage_type: null
+
 description: >
-  Poignard base weapon unit. Detailed properties to be expanded later.
+  Base dagger blueprint weapon.
+
+flavor_text: >
+  Mesmerizing patterns on this blade capture your gaze.
+
 sell_price: null
-image: images/items/weapons/daggers/Dagger06_Poignard.png
+image: images/items/weapons/dagger/Dagger06_Poignard_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.85, 1.0]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items

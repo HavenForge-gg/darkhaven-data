@@ -1,29 +1,72 @@
 id: knife
 type: item
+guid: f85bf4bc4de24493f4595cebaf264cfc
 name: Knife
+internal_name: Dagger01 Knife Weapon Unit
+parse_name: Dagger01KnifeWeaponUnit
+
 category: weapons
 slot: main_hand
-weapon_type: dagger
+material: steel
 tier: 1
 rarity: variable
+
+spawn_level:
+  min: 0
+  max: 2
+
+stat_level:
+  min: 1
+  max: 1
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.9
+    max: 1.05
+    max_grade: 10
+
+inventory:
+  size: [1, 2]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.23
+  damage_type: null
+
 description: >
-  Knife base weapon unit. Detailed properties to be expanded later.
+  Base dagger blueprint weapon.
+
+flavor_text: >
+  Bane of fingers everywhere.
+
 sell_price: null
-image: images/items/weapons/daggers/Dagger01_Knife.png
+image: images/items/weapons/dagger/Dagger01_Knife_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.9, 1.05]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
