@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:38:20Z",
+  "generated_at": "2026-03-01T20:38:53Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -173,30 +173,6 @@
     "items/armors/gloves/studded_leather_gloves.yaml": {
       "last_commit": "f6ebbac",
       "last_updated": "2026-03-01T20:38:12Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
-    },
-    "items/armors/helm/hard_leather_helm.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
-    },
-    "items/armors/helm/hood.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
-    },
-    "items/armors/helm/soft_leather_helm.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
-    },
-    "items/armors/helm/studded_leather_helm.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
