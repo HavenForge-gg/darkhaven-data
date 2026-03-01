@@ -1,13 +1,54 @@
 id: soft_leather_belt
 type: item
+guid: 1f26a4250eccd8e7c9ac1b3e3dc60b74
 name: Soft Leather Belt
+internal_name: Belt03 Soft Leather Armor Unit
+parse_name: Belt03SoftLeatherArmorUnit
+
 category: armours
 slot: belt
 material: soft_leather
-tier: 2
+tier: 3
 rarity: variable
+
+spawn_level:
+  min: 3
+  max: 5
+
+stat_level:
+  min: 3
+  max: 3
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 1]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Soft Leather Belt base armour unit. Detailed properties to be expanded later.
+  Soft leather base armour unit.
+
+flavor_text: >
+  One size fits all...
+
 sell_price: null
 image: images/items/armours/belts/Belt03_Soft_Leather.png
 
@@ -18,13 +59,18 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.00]
+      damage_grade_range: [0.00, 0.00]
   affix_slots: []
 
 # Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - belt
+  - soft_leather

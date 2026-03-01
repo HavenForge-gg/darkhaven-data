@@ -1,13 +1,54 @@
 id: hard_leather_belt
 type: item
+guid: 5615f59db0c303b39ed5d837639e3872
 name: Hard Leather Belt
+internal_name: Belt05 Hard Leather Armor Unit
+parse_name: Belt05HardLeatherArmorUnit
+
 category: armours
 slot: belt
 material: hard_leather
-tier: 3
+tier: 5
 rarity: variable
+
+spawn_level:
+  min: 5
+  max: 7
+
+stat_level:
+  min: 5
+  max: 5
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 1]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Hard Leather Belt base armour unit. Detailed properties to be expanded later.
+  Hard leather base armour unit.
+
+flavor_text: >
+  Sometimes a big belt is used to hide what's beneath it.
+
 sell_price: null
 image: images/items/armours/belts/Belt05_Hard_Leather.png
 
@@ -18,13 +59,18 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.00]
+      damage_grade_range: [0.00, 0.00]
   affix_slots: []
 
 # Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - belt
+  - hard_leather
