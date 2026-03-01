@@ -1,0 +1,74 @@
+id: bluegem_ring
+type: item
+guid: e32ceba435d9a1fd031b472bbcad08f5
+name: Blue Gem Ring
+internal_name: Ring 02 Item Unit
+parse_name: Ring02ItemUnit
+
+category: jewelry
+slot: ring
+material: metal
+tier: 3
+rarity: variable
+
+spawn_level:
+  min: 3
+  max: 100
+
+stat_level:
+  min: 3
+  max: 3
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [1, 1]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.0
+  damage_type: null
+
+description: >
+  Base ring blueprint item.
+
+flavor_text: >
+  I've worn this ring for twenty years and now it's stuck.
+
+sell_price: null
+image: images/items/jewelry/rings/Ring_Bluegems_MJ.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.0, 0.0]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - jewelry
+  - ring

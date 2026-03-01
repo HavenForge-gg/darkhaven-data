@@ -1,0 +1,74 @@
+id: ancient_ring
+type: item
+guid: 38cc8d5175b0141ccf5ba095e8045746
+name: Ancient Ring
+internal_name: Ring 01 Item Unit
+parse_name: Ring01ItemUnit
+
+category: jewelry
+slot: ring
+material: metal
+tier: 3
+rarity: variable
+
+spawn_level:
+  min: 3
+  max: 100
+
+stat_level:
+  min: 3
+  max: 3
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [1, 1]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.0
+  damage_type: null
+
+description: >
+  Base ring blueprint item.
+
+flavor_text: >
+  What is this, a world of people with only one finger per hand?
+
+sell_price: null
+image: images/items/jewelry/rings/Ring_Ancient_MJ.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [0.0, 0.0]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - jewelry
+  - ring
