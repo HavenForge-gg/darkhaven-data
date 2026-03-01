@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T21:02:27Z",
+  "generated_at": "2026-03-01T21:04:41Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -609,8 +609,8 @@
       "last_message": "Add files via upload"
     },
     "items/weapons/staff/bramble_staff.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
@@ -620,33 +620,45 @@
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
+    "items/weapons/staff/crystal_shard_staff.yaml": {
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
     "items/weapons/staff/gnarled_staff.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/staff/snagtooth_pike.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/staff/spired_staff.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/staff/thorn_staff.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/staff/twin_pronged_staff.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
+    },
+    "items/weapons/staff/tyrant_s_staff.yaml": {
+      "last_commit": "a383dd9",
+      "last_updated": "2026-03-01T21:04:33Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
