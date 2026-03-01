@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:39:07Z",
+  "generated_at": "2026-03-01T20:39:43Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -200,11 +200,11 @@
       "last_author": "Kieran Taylor",
       "last_message": "Updated helms"
     },
-    "items/armors/shield/banded_heater_shield.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+    "items/armors/shield/banded_heater.yaml": {
+      "last_commit": "d8c884f",
+      "last_updated": "2026-03-01T20:39:36Z",
       "last_author": "Kieran Taylor",
-      "last_message": "Add files via upload"
+      "last_message": "Update and rename banded_heater_shield.yaml to banded_heater.yaml"
     },
     "items/armors/shield/buckler.yaml": {
       "last_commit": "bb1b98e",
