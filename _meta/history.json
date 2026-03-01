@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:37:37Z",
+  "generated_at": "2026-03-01T20:38:20Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -147,32 +147,32 @@
       "last_message": "Add files via upload"
     },
     "items/armors/gloves/heavy_leather_gloves.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+      "last_commit": "f6ebbac",
+      "last_updated": "2026-03-01T20:38:12Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/armors/gloves/padded_gloves.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+      "last_commit": "f6ebbac",
+      "last_updated": "2026-03-01T20:38:12Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/armors/gloves/shadowgrips.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+      "last_commit": "f6ebbac",
+      "last_updated": "2026-03-01T20:38:12Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/armors/gloves/soft_leather_gloves.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+      "last_commit": "f6ebbac",
+      "last_updated": "2026-03-01T20:38:12Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/armors/gloves/studded_leather_gloves.yaml": {
-      "last_commit": "bb1b98e",
-      "last_updated": "2026-02-27T10:44:41Z",
+      "last_commit": "f6ebbac",
+      "last_updated": "2026-03-01T20:38:12Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
