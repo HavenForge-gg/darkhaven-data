@@ -1,0 +1,75 @@
+id: banded_heater
+type: item
+guid: e96835f109ba64c8d2dc27b73ccf7993
+name: Banded Heater
+internal_name: Shield07 Banded Heater Armor Unit
+parse_name: Shield07BandedHeaterArmorUnit
+
+category: armours
+slot: shield
+material: steel
+tier: 7
+rarity: variable
+
+spawn_level:
+  min: 7
+  max: 9
+
+stat_level:
+  min: 7
+  max: 7
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.8
+    max: 1.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [2, 3]
+  stackable: false
+
+loot:
+  weight: 50
+
+combat:
+  damage_range: 0
+  damage_type: null
+
+description: >
+  Base shield blueprint item.
+
+flavor_text: >
+  Iron reinforcing bands is a fantastic improvement.
+
+sell_price: null
+image: images/items/armours/shield/Shield07_Banded_Heater.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.8, 1.0]
+      damage_grade_range: [0.0, 0.0]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - armours
+  - shield
+  - steel
