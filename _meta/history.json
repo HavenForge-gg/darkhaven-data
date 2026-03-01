@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:40:02Z",
+  "generated_at": "2026-03-01T21:02:27Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -555,56 +555,56 @@
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/bodkin.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/dagger.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/duskshear.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/gibbering_stabber.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/knife.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/poignard.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/ripfury_claw.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/ritual_dagger.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
     "items/weapons/dagger/sacrificial_knife.yaml": {
-      "last_commit": "af6129c",
-      "last_updated": "2026-02-27T10:50:16Z",
+      "last_commit": "a483948",
+      "last_updated": "2026-03-01T21:02:18Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
     },
