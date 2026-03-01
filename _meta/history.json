@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T21:05:22Z",
+  "generated_at": "2026-03-01T21:08:41Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -49,6 +49,12 @@
       "last_updated": "2026-02-20T18:08:34+02:00",
       "last_author": "DaPandamonium",
       "last_message": "fix(misstypo): correct typo sorceror to sorcerer"
+    },
+    "items/amulets/amulet.yaml": {
+      "last_commit": "4c66543",
+      "last_updated": "2026-03-01T21:08:33Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Add files via upload"
     },
     "items/armors/_category.yaml": {
       "last_commit": "b6b91b0",
