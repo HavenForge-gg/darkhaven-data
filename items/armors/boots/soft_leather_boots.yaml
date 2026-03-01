@@ -1,15 +1,56 @@
 id: soft_leather_boots
 type: item
+guid: a8ad983252667fd72e966d1eab621981
 name: Soft Leather Boots
+internal_name: Boots02 Soft Leather Armor Unit
+parse_name: Boots02SoftLeatherArmorUnit
+
 category: armours
 slot: boots
 material: soft_leather
 tier: 2
 rarity: variable
+
+spawn_level:
+  min: 2
+  max: 4
+
+stat_level:
+  min: 2
+  max: 2
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 2]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Soft Leather Boots base armour unit. Detailed properties to be expanded later.
+  Soft leather boots offering improved flexibility and light protection.
+
+flavor_text: >
+  The favored footwear of rogues everywhere.
+
 sell_price: null
-image: images/items/armours/bootss/Boots02_Soft_Leather.png
+image: images/items/armours/boots/Boots02_Soft_Leather.png
 
 stats:
   base:
@@ -18,13 +59,17 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.00]
+      damage_grade_range: [0.00, 0.00]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - boots
+  - soft_leather

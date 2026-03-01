@@ -1,15 +1,56 @@
 id: cinderstep_clompers
 type: item
+guid: 7f49a8a95e1723e5b58edb04f6f6c116
 name: Cinderstep Clompers
+internal_name: Boots05 Cinderstep Clompers Armor Unit
+parse_name: Boots05CinderstepClompersArmorUnit
+
 category: armours
 slot: boots
-material: null
-tier: null
-rarity: variable
+material: unique
+tier: 5
+rarity: special
+
+spawn_level:
+  min: 4
+  max: 6
+
+stat_level:
+  min: 5
+  max: 5
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.80
+    max: 1.00
+    max_grade: 10
+  damage:
+    min: 0.00
+    max: 0.00
+    max_grade: 10
+
+inventory:
+  size: [2, 2]
+  stackable: false
+
+loot:
+  weight: 0
+
+combat:
+  damage_range: 0
+  damage_type: null
+
 description: >
-  Cinderstep Clompers base armour unit. Detailed properties to be expanded later.
+  Unique boots radiating intense heat.
+
+flavor_text: >
+  These boots take the word hotfoot to another level!
+
 sell_price: null
-image: images/items/armours/bootss/Boots05_Cinderstep_Clompers.png
+image: images/items/armours/boots/Boots05_Cinderstep_Clompers.png
 
 stats:
   base:
@@ -18,13 +59,17 @@ stats:
     resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.80, 1.00]
+      damage_grade_range: [0.00, 0.00]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items
   - armours
   - boots
+  - special
