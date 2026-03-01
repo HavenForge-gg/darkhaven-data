@@ -1,0 +1,75 @@
+id: hood
+type: item
+guid: fdbc94d2bf5949ee7c7d30e9a3c9ef2a
+name: Hood
+internal_name: Helm01 Hood Armor Unit
+parse_name: Helm01HoodArmorUnit
+
+category: armours
+slot: helm
+material: cloth
+tier: 1
+rarity: variable
+
+spawn_level:
+  min: 0
+  max: 3
+
+stat_level:
+  min: 1
+  max: 1
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.75
+    max: 1.0
+    max_grade: 10
+  damage:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+
+inventory:
+  size: [2, 2]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0
+  damage_type: null
+
+description: >
+  Base helm blueprint item.
+
+flavor_text: >
+  Honestly, I try to avoid people with hoods in the dark.
+
+sell_price: null
+image: images/items/armours/helm/Helm01_Hood.png
+
+stats:
+  base:
+    armor: null
+    block: null
+    resistances: {}
+  scaling:
+    per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.75, 1.0]
+      damage_grade_range: [0.0, 0.0]
+  affix_slots: []
+
+game_version: 0.0.23471
+last_updated: 2026-02-28
+status: active
+tags:
+  - items
+  - armours
+  - helm
+  - cloth
