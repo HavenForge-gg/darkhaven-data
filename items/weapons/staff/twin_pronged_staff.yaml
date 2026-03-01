@@ -1,29 +1,72 @@
 id: twin_pronged_staff
 type: item
-name: Twin Pronged
+guid: 362c3d952413bf1169ded4993f580ec4
+name: Twin Pronged Staff
+internal_name: Staff05 Twin Pronged Weapon Unit
+parse_name: Staff05TwinProngedWeaponUnit
+
 category: weapons
-slot: main_hand
-weapon_type: staff
+slot: two_hand
+material: wood
 tier: 5
 rarity: variable
+
+spawn_level:
+  min: 5
+  max: 6
+
+stat_level:
+  min: 5
+  max: 5
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 1.1
+    max: 1.25
+    max_grade: 10
+
+inventory:
+  size: [1, 4]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.4
+  damage_type: null
+
 description: >
-  Twin Pronged base weapon unit. Detailed properties to be expanded later.
+  Base staff blueprint weapon.
+
+flavor_text: >
+  I wouldn't want this thing poking me in the you-know-what, that's for sure.
+
 sell_price: null
-image: images/items/weapons/staffs/Staff05_Twin_Pronged.png
+image: images/items/weapons/staff/Staff05_Twin_Pronged_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [1.1, 1.25]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items

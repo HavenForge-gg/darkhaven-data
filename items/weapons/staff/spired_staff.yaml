@@ -1,29 +1,72 @@
 id: spired_staff
 type: item
-name: Spired
+guid: e1e3ec68992cd057ed1daaac7875d72f
+name: Spired Staff
+internal_name: Staff07 Spired Weapon Unit
+parse_name: Staff07SpiredWeaponUnit
+
 category: weapons
-slot: main_hand
-weapon_type: staff
+slot: two_hand
+material: wood
 tier: 7
 rarity: variable
+
+spawn_level:
+  min: 7
+  max: 9
+
+stat_level:
+  min: 7
+  max: 7
+
+item_level:
+  max: 100
+
+grades:
+  armor:
+    min: 0.0
+    max: 0.0
+    max_grade: 10
+  damage:
+    min: 1.1
+    max: 1.25
+    max_grade: 10
+
+inventory:
+  size: [1, 4]
+  stackable: false
+
+loot:
+  weight: 100
+
+combat:
+  damage_range: 0.4
+  damage_type: null
+
 description: >
-  Spired base weapon unit. Detailed properties to be expanded later.
+  Base staff blueprint weapon.
+
+flavor_text: >
+  Is this a staff, or a spear?
+
 sell_price: null
-image: images/items/weapons/staffs/Staff07_Spired.png
+image: images/items/weapons/staff/Staff07_Spired_Weapon_Unit.png
 
 stats:
   base:
-    min_damage: null
-    max_damage: null
-    attack_speed: null
-    scaling: {}
+    armor: null
+    block: null
+    resistances: {}
   scaling:
     per_tier: {}
+    per_item_level: {}
+    grade_scaling:
+      armor_grade_range: [0.0, 0.0]
+      damage_grade_range: [1.1, 1.25]
   affix_slots: []
 
-# Metadata
-game_version: 0.0.23272
-last_updated: 2026-02-27
+game_version: 0.0.23471
+last_updated: 2026-02-28
 status: active
 tags:
   - items

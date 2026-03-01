@@ -1,23 +1,23 @@
-id: gnarled_staff
+id: tyrant_s_staff
 type: item
-guid: 5f7102a26189f7fb4d546068b5a949f5
-name: Gnarled Staff
-internal_name: Staff01 Gnarled Weapon Unit
-parse_name: Staff01GnarledWeaponUnit
+guid: eafedc7f15d385aae4bc46b5fa5251e4
+name: Tyrant's Staff
+internal_name: Staff04 Tyrant Weapon Unit
+parse_name: Staff04TyrantWeaponUnit
 
 category: weapons
 slot: two_hand
 material: wood
-tier: 1
-rarity: variable
+tier: 4
+rarity: special
 
 spawn_level:
-  min: 0
-  max: 2
+  min: 3
+  max: 5
 
 stat_level:
-  min: 1
-  max: 1
+  min: 4
+  max: 4
 
 item_level:
   max: 100
@@ -28,8 +28,8 @@ grades:
     max: 0.0
     max_grade: 10
   damage:
-    min: 1.1
-    max: 1.25
+    min: 0.8
+    max: 1.2
     max_grade: 10
 
 inventory:
@@ -37,7 +37,7 @@ inventory:
   stackable: false
 
 loot:
-  weight: 100
+  weight: 0
 
 combat:
   damage_range: 0.4
@@ -47,10 +47,10 @@ description: >
   Base staff blueprint weapon.
 
 flavor_text: >
-  This looks like the staff my old master used to carry... I hate it.
+  A staff used by Bogie Tyrants to strike fear in their subjects.
 
 sell_price: null
-image: images/items/weapons/staff/Staff01_Gnarled_Weapon_Unit.png
+image: images/items/weapons/staff/Staff04_Tyrant_Weapon_Unit.png
 
 stats:
   base:
@@ -62,7 +62,7 @@ stats:
     per_item_level: {}
     grade_scaling:
       armor_grade_range: [0.0, 0.0]
-      damage_grade_range: [1.1, 1.25]
+      damage_grade_range: [0.8, 1.2]
   affix_slots: []
 
 game_version: 0.0.23471
