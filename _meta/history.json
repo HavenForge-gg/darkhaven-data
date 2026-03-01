@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:38:53Z",
+  "generated_at": "2026-03-01T20:39:07Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -175,6 +175,30 @@
       "last_updated": "2026-03-01T20:38:12Z",
       "last_author": "Kieran Taylor",
       "last_message": "Add files via upload"
+    },
+    "items/armors/helm/hard_leather_mask.yaml": {
+      "last_commit": "b75c8d5",
+      "last_updated": "2026-03-01T20:39:00Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Updated helms"
+    },
+    "items/armors/helm/hood.yaml": {
+      "last_commit": "b75c8d5",
+      "last_updated": "2026-03-01T20:39:00Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Updated helms"
+    },
+    "items/armors/helm/soft_leather_veil.yaml": {
+      "last_commit": "b75c8d5",
+      "last_updated": "2026-03-01T20:39:00Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Updated helms"
+    },
+    "items/armors/helm/studded_leather_cap.yaml": {
+      "last_commit": "b75c8d5",
+      "last_updated": "2026-03-01T20:39:00Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Updated helms"
     },
     "items/armors/shield/banded_heater_shield.yaml": {
       "last_commit": "bb1b98e",
