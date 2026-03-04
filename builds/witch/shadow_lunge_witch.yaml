@@ -1,0 +1,66 @@
+# =============================================================================
+# Shadow Lunge - Leith42 Build
+# =============================================================================
+
+id: shadow_lunge_witch
+type: build
+name: Shadow Lunge Witch
+author: Leith42
+class: witch
+
+description: >
+  A sustained AOE damage build. Starts off slow until you can get some mana regen, but once you can reliably generate mana this build hits hard, and keeps hitting.
+
+# Build focus
+primary_branch: glyph
+secondary_branch: shadow
+
+# Recommended skills (pending skill data extraction)
+skills:
+  primary:
+    - glyph_lunge
+	- shadow_walk
+  utility:
+    - reprise
+	- cypher
+	
+# Glyph priority
+glyph_priority:
+  - bone_glyph
+  - blood_glyph
+  - shadow_glyph
+
+# Stat priorities
+stat_priority:
+  
+  - vitality
+  - mana_regen
+  - shadow_penetration
+  - life_regen
+  - glyph_lunge
+  - scourge_chance
+  - scourge_duration
+  - resists
+  - armor
+
+# Gear recommendations
+gear_recommendations:
+  - Dual Shadow Damage Daggers
+  - Armor with Resists
+  - Rings with Mana Regen
+  - Neck with Life Regen
+  - Boots with Feather Fall
+
+# Playstyle notes
+playstyle_notes: >
+  Use Glyph Lunge to build runes. Jump away after striking leveraging feather fall to avoid taking hits. Focus 3 rune attacks on tough enemies or tight clusters of enemies. Use Shadow Walk for positioning, gap closing, and panic button stuns. Use Bloodlash for the third skill as util, or Bone Storm if you prefer some ranged damage.
+
+difficulty: intermediate
+
+# Metadata
+game_version: 0.0.23471
+last_updated: 2026-03-04
+status: effective
+tags:
+  - build
+  - witch
