@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T22:21:19Z",
+  "generated_at": "2026-03-04T20:16:33Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -43,6 +43,12 @@
       "last_updated": "2026-02-17T12:24:35+13:00",
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
+    },
+    "builds/witch/shadow_lunge_witch.yaml": {
+      "last_commit": "a961c89",
+      "last_updated": "2026-03-04T15:05:51-05:00",
+      "last_author": "Leith42",
+      "last_message": "Add files via upload"
     },
     "classes/witch.yaml": {
       "last_commit": "d675006",
