@@ -19,11 +19,11 @@ secondary_branch: shadow
 skills:
   primary:
     - glyph_lunge
-	- shadow_walk
+    - shadow_walk
   utility:
     - reprise
-	- cypher
-	
+    - cypher
+
 # Glyph priority
 glyph_priority:
   - bone_glyph
