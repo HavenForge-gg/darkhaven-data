@@ -1,0 +1,11 @@
+{
+  "name": "darkhaven-data",
+  "private": true,
+  "description": "Game data consumed by HavenForge site",
+  "scripts": {
+    "validate:yaml": "node scripts/validate-yaml.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

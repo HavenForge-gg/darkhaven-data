@@ -1,0 +1,14 @@
+# Catch parse-breaking issues (tabs, bad indentation, duplicate keys).
+# Relax rules that would cause noise on data files (no --- required, longer lines OK).
+# Trailing spaces are warning only so existing files don't block CI.
+extends: default
+
+rules:
+  document-start: disable
+  line-length:
+    max: 200
+    level: warning
+  comments: disable
+  comments-indentation: disable
+  trailing-spaces:
+    level: warning

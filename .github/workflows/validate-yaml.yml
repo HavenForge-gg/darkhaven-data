@@ -1,0 +1,26 @@
+# Validate all YAML files parse correctly (same parser as havenforge-site).
+# Catches errors that would cause the site to skip files (e.g. tab indentation, syntax).
+name: Validate YAML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate YAML (parse-only)
+        run: npm run validate:yaml

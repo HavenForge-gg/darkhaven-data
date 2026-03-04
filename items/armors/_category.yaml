@@ -185,8 +185,8 @@ base_units:
   - name: Shield07 Banded Heater Armor Unit
     slot: shield
     material: studded_leather
-    
- special_named_items:
+
+special_named_items:
   - id: cinderstep_clompers
     name: Cinderstep Clompers
     slot: boots

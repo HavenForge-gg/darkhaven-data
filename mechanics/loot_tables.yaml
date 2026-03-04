@@ -12,65 +12,66 @@ description: >
 
 # Monster Loot Tables
 monster_loot:
-  # Generic
-  - id: monster_loot
-    description: Standard monster loot.
-  - id: monster_resource_loot
-    description: Resource drops from monsters.
-  - id: monster_item_loot
-    description: Item drops from monsters.
-  - id: monster_good_item_loot
-    description: Higher quality item drops.
-    
-  # Elite Monsters
-  - id: popcorn_monster_loot
-    description: Loot from weak enemies.
-  - id: popcorn_elite_magic_item_loot
-    description: Magic item drops from elite popcorn mobs.
-  - id: popcorn_elite_other_item_loot
-    description: Other item drops from elite popcorn mobs.
-  - id: solitaire_monster_loot
-    description: Loot from solo elite monsters.
-  - id: solitaire_elite_other_item_loot
-    description: Other item drops from solo elites.
-  - id: elite_resource_loot
-    description: Resource drops from elites.
-  - id: elite_other_item_loot
-    description: Other item drops from elites.
-    
-  # Specific Monsters
-  undead:
-    - barrow_knight_loot
-    - skelezomb_walker_loot
-    - skelezomb_archer_loot
-    - skelezomb_champion_loot
-    - wraith_loot
-    
-  goblinoids:
-    - bogie_feral_loot
-    - bogie_jabber_loot
-    - bogie_shaman_loot
-    - bogie_slingshotter_loot
-    - bogie_stabber_loot
-    
-  creatures:
-    - beetle_loot
-    - death_beetle_loot
-    - giant_death_beetle_loot
-    - deep_ones_loot
-    - ooze_loot
-    - shadow_ooze_loot
-    - lightning_ooze_loot
-    - gazer_loot
-    - gulpjaw_loot
-    
-  plants:
-    - bramblehusk_loot
-    - bramblehusk_guard_loot
-    - swamp_husk_loot
-    
-  corrupted:
-    - gloom_parasite_loot
+  generic:
+    - id: monster_loot
+      description: Standard monster loot.
+    - id: monster_resource_loot
+      description: Resource drops from monsters.
+    - id: monster_item_loot
+      description: Item drops from monsters.
+    - id: monster_good_item_loot
+      description: Higher quality item drops.
+
+    # Elite Monsters
+    - id: popcorn_monster_loot
+      description: Loot from weak enemies.
+    - id: popcorn_elite_magic_item_loot
+      description: Magic item drops from elite popcorn mobs.
+    - id: popcorn_elite_other_item_loot
+      description: Other item drops from elite popcorn mobs.
+    - id: solitaire_monster_loot
+      description: Loot from solo elite monsters.
+    - id: solitaire_elite_other_item_loot
+      description: Other item drops from solo elites.
+    - id: elite_resource_loot
+      description: Resource drops from elites.
+    - id: elite_other_item_loot
+      description: Other item drops from elites.
+
+  # Specific Monsters (by category)
+  by_category:
+    undead:
+      - barrow_knight_loot
+      - skelezomb_walker_loot
+      - skelezomb_archer_loot
+      - skelezomb_champion_loot
+      - wraith_loot
+
+    goblinoids:
+      - bogie_feral_loot
+      - bogie_jabber_loot
+      - bogie_shaman_loot
+      - bogie_slingshotter_loot
+      - bogie_stabber_loot
+
+    creatures:
+      - beetle_loot
+      - death_beetle_loot
+      - giant_death_beetle_loot
+      - deep_ones_loot
+      - ooze_loot
+      - shadow_ooze_loot
+      - lightning_ooze_loot
+      - gazer_loot
+      - gulpjaw_loot
+
+    plants:
+      - bramblehusk_loot
+      - bramblehusk_guard_loot
+      - swamp_husk_loot
+
+    corrupted:
+      - gloom_parasite_loot
 
 # Treasure Chest Loot
 treasure_loot:

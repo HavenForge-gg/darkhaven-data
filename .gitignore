@@ -16,3 +16,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+# PyEnv
+.venv/
+
+# Node
+node_modules/
