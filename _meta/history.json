@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T20:35:09Z",
+  "generated_at": "2026-03-08T00:33:22Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -837,40 +837,40 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "skills/witch/blood_and_bone/blood_lash.yaml": {
-      "last_commit": "9ddd877",
-      "last_updated": "2026-02-19T21:52:01+13:00",
+      "last_commit": "d6a6155",
+      "last_updated": "2026-03-08T13:33:12+13:00",
       "last_author": "Meanski",
-      "last_message": "move skills"
+      "last_message": "Updated skills"
     },
     "skills/witch/blood_and_bone/bone_storm.yaml": {
-      "last_commit": "9ddd877",
-      "last_updated": "2026-02-19T21:52:01+13:00",
+      "last_commit": "d6a6155",
+      "last_updated": "2026-03-08T13:33:12+13:00",
       "last_author": "Meanski",
-      "last_message": "move skills"
+      "last_message": "Updated skills"
     },
     "skills/witch/glyph/glyph_lunge.yaml": {
-      "last_commit": "8f388ba",
-      "last_updated": "2026-02-19T22:35:51Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Update glyph_lunge.yaml"
+      "last_commit": "d6a6155",
+      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated skills"
     },
     "skills/witch/glyph/spine_breaker.yaml": {
-      "last_commit": "7cbf8cd",
-      "last_updated": "2026-02-23T15:49:50+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
+      "last_commit": "d6a6155",
+      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated skills"
     },
     "skills/witch/shadow/feast_for_crows.yaml": {
-      "last_commit": "142b743",
-      "last_updated": "2026-02-19T23:30:05Z",
-      "last_author": "Kieran Taylor",
-      "last_message": "Update feast_for_crows.yaml"
+      "last_commit": "d6a6155",
+      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_author": "Meanski",
+      "last_message": "Updated skills"
     },
     "skills/witch/shadow/shadow_walk.yaml": {
-      "last_commit": "9ddd877",
-      "last_updated": "2026-02-19T21:52:01+13:00",
+      "last_commit": "d6a6155",
+      "last_updated": "2026-03-08T13:33:12+13:00",
       "last_author": "Meanski",
-      "last_message": "move skills"
+      "last_message": "Updated skills"
     },
     "stats/attributes.yaml": {
       "last_commit": "dc973a4",
