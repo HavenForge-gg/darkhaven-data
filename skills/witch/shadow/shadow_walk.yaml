@@ -10,8 +10,9 @@ class: witch
 branch: shadow
 
 description: >
-  Vanishes into shadow, becoming briefly invulnerable and reappearing 
-  at a target location. Can trigger effects on arrival.
+  Teleport to location where enemies within 2 meters are knocked back and
+  Cursed. The curse lowers their defenses and returns health to the Witch
+  when killed.
 
 damage_type: shadow
 resource_cost:
@@ -21,30 +22,48 @@ resource_cost:
 scaling:
   - magic
 
-# Skill upgrade options
-skill_options:
-  - id: cypher
-    name: Cypher
-    description: Shadow Walk generates glyphs.
-    requires_tag: evocation
-    
-  - id: expanse
-    name: Expanse
-    description: Releases a shadow nova upon arriving at destination.
-    
-  - id: scourge
-    name: Scourge
-    description: Leaves a damaging shadow trail behind.
-    applies_status: scourge
-
 mechanics:
   - teleport
   - invulnerability
   - shadow
 
+skill_options:
+  - id: cypher
+    name: Cypher
+    description: Chance of a glyph on cursed kills.
+    requires_tag: evocation
+    levels:
+      - level: 1
+        effect: "20% (+6.6%) chance of a glyph on cursed kills"
+      - level: 2
+        effect: "26.6% (+6.6%) chance of a glyph on cursed kills"
+      - level: 3
+        effect: "33.2% (+6.6%) chance of a glyph on cursed kills"
+
+  - id: expanse
+    name: Expanse
+    description: Extend the area of effect.
+    levels:
+      - level: 1
+        effect: Extend the area of effect to 5 meters
+      - level: 2
+        effect: Extend the area of effect to 8 meters
+
+  - id: scourge
+    name: Scourge
+    description: Each stack lowers the target's resistances.
+    applies_status: scourge
+    levels:
+      - level: 1
+        effect: "1\xD7 Scourge lasting 5 seconds"
+      - level: 2
+        effect: "2\xD7 Scourge lasting 7 seconds"
+      - level: 3
+        effect: "3\xD7 Scourge lasting 10 seconds"
+
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-02-16
+last_updated: 2026-03-08
 status: active
 tags:
   - skill
@@ -52,3 +71,4 @@ tags:
   - shadow
   - movement
   - teleport
+  - curse

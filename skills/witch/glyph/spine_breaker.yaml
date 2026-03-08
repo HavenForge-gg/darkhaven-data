@@ -11,7 +11,7 @@ branch: glyph
 
 description: >
   Launches bone projectiles that shatter on impact, dealing physical damage.
-  The Witch's primary ranged attack skill in the Blood and Bone tree.
+  The Witch's primary ranged attack skill in the Glyph tree.
 
 damage_type: physical
 resource_cost:
@@ -21,35 +21,66 @@ resource_cost:
 scaling:
   - magic
 
-terrain_damage: reduced
-
-# Skill upgrade options
-skill_options:
-  - id: adept
-    name: Adept
-    description: Improves base skill performance.
-    
-  - id: shadow_glyph
-    name: Shadow Glyph
-    description: Enhances the skill with shadow glyph effects.
-    requires_tag: evocation
-    
-  - id: umbra
-    name: Umbra
-    description: Creates a shadow wall that blocks projectiles.
-    
-  - id: stun
-    name: Stun
-    description: Spine Breaker projectiles can stun enemies.
-    applies_status: stun
-
 mechanics:
   - projectile
   - bone
 
+skill_options:
+  - id: shadow_glyph
+    name: Shadow Glyph
+    description: Chance of Shadow Glyph on kill. Shadow Glyphs return mana when evoked.
+    requires_tag: evocation
+    levels:
+      - level: 1
+        effect: "30% (+9.9%) chance of Shadow Glyph on kill"
+      - level: 2
+        effect: "39.9% (+9.9%) chance of Shadow Glyph on kill"
+      - level: 3
+        effect: "49.8% (+9.9%) chance of Shadow Glyph on kill"
+      - level: 4
+        effect: "59.7% (+9.9%) chance of Shadow Glyph on kill"
+
+  - id: adept
+    name: Adept
+    description: Decrease Mana cost.
+    levels:
+      - level: 1
+        effect: Decrease Mana cost by 15%
+      - level: 2
+        effect: Decrease Mana cost by 25%
+      - level: 3
+        effect: Decrease Mana cost by 35%
+
+  - id: stun
+    name: Stun
+    description: Chance to Stun targets.
+    applies_status: stun
+    levels:
+      - level: 1
+        effect: 40% chance to Stun for 3 seconds
+      - level: 2
+        effect: 50% chance to Stun for 4 seconds
+      - level: 3
+        effect: 60% chance to Stun for 5 seconds
+      - level: 4
+        effect: 70% chance to Stun for 6 seconds
+      - level: 5
+        effect: 80% chance to Stun for 7 seconds
+
+  - id: umbra
+    name: Umbra
+    description: Trail of shadow doing shadow damage to targets within.
+    levels:
+      - level: 1
+        effect: Trail of shadow lasting 3 seconds, doing shadow damage to targets within
+      - level: 2
+        effect: Trail of shadow lasting 5 seconds, doing shadow damage to targets within
+      - level: 3
+        effect: Trail of shadow lasting 8 seconds, doing shadow damage to targets within
+
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-02-16
+last_updated: 2026-03-08
 status: active
 tags:
   - skill
@@ -57,3 +88,4 @@ tags:
   - glyph
   - projectile
   - bone
+  - ranged

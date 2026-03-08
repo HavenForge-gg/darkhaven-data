@@ -1,5 +1,5 @@
 # =============================================================================
-# Feast For Crows - Witch Skill
+# FEAST FOR CROWS - Witch Skill
 # Extracted from game data
 # =============================================================================
 
@@ -10,36 +10,55 @@ class: witch
 branch: shadow
 
 description: >
-  On hit summons a Crow to your flock. Crows follow and orbit, doing damage to nearby enemies.
+  On hit summons a Crow to your flock. [Limit 5] for 20 seconds with a 5%
+  chance of leaving a MANA ORB on release.
 
 icon: images/skills/witch/skill_feast_for_crows.png
 
+mechanic_note: >
+  Divebomb crows with STAND (Shift) or other FOCUSING skills.
+
 damage_type: shadow
 
-# Skill upgrade options
-skill_options:
-  - id: murder
-    name: Murder
-    description: Chance on hit to release a spiraling murder of vicious crows.
-    
-  - id: flock
-    name: Flock
-    description: Gather a flock of crows.
-    
+skill_tags:
+  - Basic Attack
+  - Melee
+  - Shadow
+
 mechanics:
-  - basic attack
+  - basic_attack
   - melee
   - shadow
 
+skill_options:
+  - id: flock
+    name: Flock
+    description: Gather a larger flock of Crows.
+    levels:
+      - level: 1
+        effect: Gather a flock up to 2 Crows
+      - level: 2
+        effect: Gather a flock up to 4 Crows
+
+  - id: murder
+    name: Murder
+    description: Chance on hit to release a spiraling murder of Vicious Crows.
+    levels:
+      - level: 1
+        effect: "2% chance on hit to release a spiraling murder of Vicious Crow \xD712"
+      - level: 2
+        effect: "4% chance on hit to release a spiraling murder of Vicious Crow \xD718"
+      - level: 3
+        effect: "6% chance on hit to release a spiraling murder of Vicious Crow \xD724"
+
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-02-16
+last_updated: 2026-03-08
 status: active
 tags:
   - skill
   - witch
   - shadow
-  - approach
-  - basic attack
+  - basic_attack
   - melee
-  - weapon damage
+  - summon

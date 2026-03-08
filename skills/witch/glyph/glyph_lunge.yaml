@@ -18,8 +18,8 @@ skill_tags:
 requires: weapon
 
 description: >
-  Lunges at a nearby target dealing 150% weapon damage and a 20% chance
-  of generating a random Glyph.
+  Lunges at a nearby target dealing 150% weapon damage and a 14% (+4.62%)
+  chance of generating a random Glyph.
 
 icon: images/skills/witch/skill_glyph_lunge.png
 
@@ -27,19 +27,26 @@ mechanic_note: >
   Three glyphs form a Spell. Trigger spells with Evocation skills.
 
 weapon_damage_percent: 150
-glyph_chance: 20
+glyph_chance: 14
+glyph_chance_per_level: 4.62
 
-# Upgrades (the red nodes around the skill on the tree)
 upgrades:
   - id: reprise
     name: Reprise
-    description: 40% chance an evoked Spell remains to be used again.
+    description: Chance an evoked Spell remains to be used again.
     cost: 1
     image: images/skills/witch/glyph/upgrades/reprise.png
+    levels:
+      - level: 1
+        effect: "40% chance an evoked Spell remains to be used again"
+      - level: 2
+        effect: "60% chance an evoked Spell remains to be used again"
+      - level: 3
+        effect: "80% chance an evoked Spell remains to be used again"
 
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-02-18
+last_updated: 2026-03-08
 status: active
 tags:
   - skill

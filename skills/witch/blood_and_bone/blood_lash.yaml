@@ -10,8 +10,8 @@ class: witch
 branch: blood_and_bone
 
 description: >
-  A blood magic skill that tethers to enemies, draining their life force.
-  Can be enhanced with glyphs and upgraded to steal mana or enrage the caster.
+  Lash distant target and reel it in. Consecutive swings boost attack speed.
+  Gain 4.9% MANA on hit.
 
 damage_type: shadow
 resource_cost:
@@ -22,37 +22,64 @@ scaling:
   - magic
   - vitality
 
-# Skill upgrade options
-skill_options:
-  - id: blood_glyph
-    name: Blood Glyph
-    description: Enhances the skill with blood glyph effects.
-    requires_tag: evocation
-    
-  - id: blood_rage
-    name: Blood Rage
-    description: Enters an enraged state after using Blood Lash.
-    
-  - id: vitae
-    name: Vitae
-    description: Drains life from tethered enemies.
-    
-  - id: steal_mana
-    name: Steal Mana
-    description: Drains mana from tethered enemies.
-    
-  - id: ichor
-    name: Ichor
-    description: Increases the number of enemies that can be tethered.
-
 mechanics:
   - tether
   - drain
   - blood
 
+skill_options:
+  - id: blood_rage
+    name: Blood Rage
+    description: Attack Speed boost duration increased.
+    levels:
+      - level: 1
+        effect: Attack Speed boost lasts 5 seconds
+      - level: 2
+        effect: Attack Speed boost lasts 10 seconds
+      - level: 3
+        effect: Attack Speed boost lasts 15 seconds
+      - level: 4
+        effect: Attack Speed boost lasts 20 seconds
+
+  - id: ichor
+    name: Ichor
+    description: Wield additional grappling tethers.
+    levels:
+      - level: 1
+        effect: Wield 2 grappling tethers
+      - level: 2
+        effect: Wield 3 grappling tethers
+      - level: 3
+        effect: Wield 5 grappling tethers
+
+  - id: leech
+    name: Leech
+    description: Gain Life from target on hit.
+    levels:
+      - level: 1
+        effect: Gain 1% Life from target on hit
+      - level: 2
+        effect: Gain 2% Life from target on hit
+      - level: 3
+        effect: Gain 3% Life from target on hit
+
+  - id: blood_glyph
+    name: Blood Glyph
+    description: Chance of Blood Glyph on kill. Blood Glyphs apply a bleed when evoked.
+    requires_tag: evocation
+    levels:
+      - level: 1
+        effect: "12% (+4%) chance of Blood Glyph on kill"
+      - level: 2
+        effect: "16% (+4%) chance of Blood Glyph on kill"
+      - level: 3
+        effect: "20% (+4%) chance of Blood Glyph on kill"
+      - level: 4
+        effect: "24% (+4%) chance of Blood Glyph on kill"
+
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-02-16
+last_updated: 2026-03-08
 status: active
 tags:
   - skill
@@ -60,3 +87,4 @@ tags:
   - blood_and_bone
   - blood
   - drain
+  - tether

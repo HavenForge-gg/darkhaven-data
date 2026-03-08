@@ -10,8 +10,7 @@ class: witch
 branch: blood_and_bone
 
 description: >
-  Unleashes a whirlwind of bone shards that damages all nearby enemies.
-  Can be enhanced with bone glyphs for additional effects.
+  Fire a rapid blast of bone shard missiles.
 
 damage_type: physical
 resource_cost:
@@ -21,28 +20,50 @@ resource_cost:
 scaling:
   - magic
 
-# Skill upgrade options
-skill_options:
-  - id: bone_glyph
-    name: Bone Glyph
-    description: Enhances the skill with bone glyph effects.
-    requires_tag: evocation
-    
-  - id: impel
-    name: Impel
-    description: Bone Storm knocks enemies back.
-    
-  - id: echo
-    name: Echo
-    description: Bone shards ricochet between enemies.
-
 mechanics:
   - aoe
   - bone
 
+skill_options:
+  - id: bone_glyph
+    name: Bone Glyph
+    description: Chance of Bone Glyph on kill. Bone Glyphs apply a stun when evoked.
+    requires_tag: evocation
+    levels:
+      - level: 1
+        effect: "20% (+6.6%) chance of Bone Glyph on kill"
+      - level: 2
+        effect: "26.6% (+6.6%) chance of Bone Glyph on kill"
+      - level: 3
+        effect: "33.2% (+6.6%) chance of Bone Glyph on kill"
+      - level: 4
+        effect: "39.8% (+6.6%) chance of Bone Glyph on kill"
+
+  - id: impel
+    name: Impel
+    description: Applies knockback to targets.
+    levels:
+      - level: 1
+        effect: Applies a 200 strength knockback
+      - level: 2
+        effect: Applies a 300 strength knockback
+      - level: 3
+        effect: Applies a 400 strength knockback
+
+  - id: echo
+    name: Echo
+    description: Bone shards reflect between enemies.
+    levels:
+      - level: 1
+        effect: "Reflecting shots \xD72"
+      - level: 2
+        effect: "Reflecting shots \xD73"
+      - level: 3
+        effect: "Reflecting shots \xD74"
+
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-02-16
+last_updated: 2026-03-08
 status: active
 tags:
   - skill
@@ -50,3 +71,4 @@ tags:
   - blood_and_bone
   - bone
   - aoe
+  - projectile
