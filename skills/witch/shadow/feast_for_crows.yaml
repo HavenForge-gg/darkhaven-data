@@ -8,6 +8,7 @@ type: skill
 name: Feast for Crows
 class: witch
 branch: shadow
+save_blueprint_guid: ffc8fbd3b912ac7e1bc0b4e884188648
 
 description: >
   On hit summons a Crow to your flock. [Limit 5] for 20 seconds with a 5%
@@ -42,6 +43,7 @@ skill_options:
 
   - id: murder
     name: Murder
+    prototype_guid: 9d3ac0c038c58034f8f217c54f70cef9
     description: Chance on hit to release a spiraling murder of Vicious Crows.
     levels:
       - level: 1

@@ -15,26 +15,36 @@ rune_types:
   - id: elm
     name: Elm
     tier: 1
+    rune_number: 5
+    save_blueprint: "Rune 05 Item Unit"
     description: The most common rune, found frequently throughout Darkhaven.
 
   - id: deb
     name: Deb
     tier: 2
+    rune_number: 4
+    save_blueprint: "Rune 04 Item Unit"
     description: An uncommon rune with moderate power.
 
   - id: ka
     name: Ka
     tier: 3
+    rune_number: 3
+    save_blueprint: "Rune 03 Item Unit"
     description: A rare rune crackling with latent energy.
 
   - id: bat
     name: Bat
     tier: 4
+    rune_number: 2
+    save_blueprint: "Rune 02 Item Unit"
     description: A powerful rune emanating a faint dark aura.
 
   - id: ash
     name: Ash
     tier: 5
+    rune_number: 1
+    save_blueprint: "Rune 01 Item Unit"
     description: The highest tier rune, coveted for its use in Runewords.
 
 tier_order:

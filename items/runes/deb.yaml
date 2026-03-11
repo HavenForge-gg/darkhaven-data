@@ -3,14 +3,25 @@ type: item
 name: Deb Rune
 category: runes
 tier: 2
+rune_number: 4
 rarity: Common
 image: /images/items/accessories/runes/deb.png
+save_blueprint: "Rune 04 Item Unit"
 description: An uncommon rune with moderate power.
 upgrades_from: elm_rune
 upgrades_to: ka_rune
 
+stat_bonuses:
+  - Blunt penetration
+  - Stun duration
+
+tattoo:
+  skill_name: Curved Spine
+  effect: Your Spine Breaker follows an arcing path.
+
 # Metadata
 game_version: 0.0.23272
+last_updated: 2026-03-11
 status: active
 tags:
   - items

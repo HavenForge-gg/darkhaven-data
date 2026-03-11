@@ -27,6 +27,7 @@ mechanics:
 skill_options:
   - id: bone_glyph
     name: Bone Glyph
+    prototype_guid: 443b10d8d3ec1c248b3758eefddd557a
     description: Chance of Bone Glyph on kill. Bone Glyphs apply a stun when evoked.
     requires_tag: evocation
     levels:

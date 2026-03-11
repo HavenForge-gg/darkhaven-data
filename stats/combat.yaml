@@ -11,15 +11,33 @@
   display_name: Attack
   category: combat
   subcategory: offensive
-  description: Base attack power for physical damage calculations.
+  description: Additive flat attack bonus from item affixes.
   guid: 57d40243ca69cdc4293ab75783630ea9
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
     - offensive
     - physical
+
+- id: attack_base
+  type: stat
+  name: Attack Base
+  display_name: Attack
+  category: combat
+  subcategory: offensive
+  description: Character's base attack stat on the character unit.
+  guid: 367bb8e76ee8a504a9c9eb76e1113e71
+  encoding: fixed
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - combat
+    - offensive
+    - physical
+    - base
 
 - id: weapon_damage
   type: stat
@@ -43,10 +61,32 @@
   display_name: Critical Chance
   category: combat
   subcategory: offensive
-  description: Probability of landing a critical hit.
+  description: >
+    Probability of landing a critical hit. Per-element via p0.prototype param.
+    Alt-slot weapons excluded.
   guid: f1888e2481817cf4cb0f2e000974df58
+  encoding: fixed
+  alt_slot_excluded: true
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - combat
+    - offensive
+    - critical
+
+- id: equip_crit_chance
+  type: stat
+  name: Equip Crit Chance
+  display_name: Critical Chance
+  category: combat
+  subcategory: offensive
+  description: Equipment crit chance variant; same handling as critical_chance.
+  guid: 8835ea40499ac5c45a949ccce7cd1be5
+  encoding: fixed
+  alt_slot_excluded: true
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
@@ -75,10 +115,15 @@
   display_name: Attack Speed
   category: combat
   subcategory: offensive
-  description: Rate at which attacks are performed.
+  description: >
+    Rate at which attacks are performed. Fixed-point multiplier summed
+    additively across all active equipment. Alt-slot weapons (slots 11/12)
+    excluded. Display as percentage: value * 100 -> "+20%".
   guid: 72a9c1d23b5aaa64bab15c8c5b7128fb
+  encoding: fixed
+  alt_slot_excluded: true
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
@@ -91,10 +136,15 @@
   display_name: Cast Speed
   category: combat
   subcategory: offensive
-  description: Rate at which spells are cast.
+  description: >
+    Rate at which spells are cast. Fixed-point multiplier summed
+    additively across all active equipment. Alt-slot weapons (slots 11/12)
+    excluded. Display as percentage: value * 100 -> "+14%".
   guid: ffa90dc178405304c9adcc1fec04bf36
+  encoding: fixed
+  alt_slot_excluded: true
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
@@ -108,10 +158,14 @@
   display_name: Penetration
   category: combat
   subcategory: offensive
-  description: Ability to bypass enemy defenses.
+  description: >
+    Ability to bypass enemy defenses. Per-element via p0.prototype param.
+    Alt-slot weapons excluded.
   guid: fce128493e8e2e8498616d6c73c35556
+  encoding: fixed
+  alt_slot_excluded: true
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
@@ -127,8 +181,12 @@
   subcategory: defensive
   description: Physical damage reduction from incoming attacks.
   guid: 00a346fa53aaaa047bfab169da141d13
+  save_guids:
+    base: ae186ac8917738a4d8272dca68d1f11c
+    equip_bonus: 0a44e6405a78a754390879f7dc500bf2
+    equip_percent: e3e0fd5ff5f469e43bdc2de52678b9c6
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
@@ -157,10 +215,14 @@
   display_name: Resistance
   category: combat
   subcategory: defensive
-  description: Reduction to elemental and status effect damage.
+  description: >
+    Reduction to elemental and status effect damage. Per-element via
+    p0.prototype param. Always counted regardless of slot (not alt-excluded).
   guid: fe9add0c2727d3c409ec60640cd420f0
+  encoding: fixed
+  alt_slot_excluded: false
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat
@@ -173,10 +235,14 @@
   display_name: Critical Resistance
   category: combat
   subcategory: defensive
-  description: Reduction to critical hit damage taken.
+  description: >
+    Reduction to critical hit damage taken. Per-element via p0.prototype param.
+    Always counted regardless of slot (not alt-excluded).
   guid: 2422fdf6009941846aefa30e599d1254
+  encoding: fixed
+  alt_slot_excluded: false
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - combat

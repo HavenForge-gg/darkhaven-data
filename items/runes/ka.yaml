@@ -3,17 +3,28 @@ type: item
 name: Ka Rune
 category: runes
 tier: 3
+rune_number: 3
 rarity: Common
 image: /images/items/accessories/runes/ka.png
+save_blueprint: "Rune 03 Item Unit"
 description: A rare rune crackling with latent energy.
 upgrades_from: deb_rune
 upgrades_to: bat_rune
+
+stat_bonuses:
+  - Shadow penetration
+  - Magic Find
+
+tattoo:
+  skill_name: Memory & Thought
+  effect: You are limited to 2 Crows, but they are eternal.
 
 runewords:
   - unforgiveable_act_of_violence
 
 # Metadata
 game_version: 0.0.23272
+last_updated: 2026-03-11
 status: active
 tags:
   - items

@@ -8,6 +8,7 @@ type: skill
 name: Shadow Walk
 class: witch
 branch: shadow
+save_blueprint_guid: 2f79c6a6d2f4eb954526e35bf200009e
 
 description: >
   Teleport to location where enemies within 2 meters are knocked back and
@@ -51,6 +52,7 @@ skill_options:
 
   - id: scourge
     name: Scourge
+    prototype_guid: ce04da600ddc71d45aa161b1619b08e6
     description: Each stack lowers the target's resistances.
     applies_status: scourge
     levels:

@@ -2,6 +2,12 @@
 # ATTRIBUTES - Core character stats that affect all other mechanics
 # Extracted from game data - Version 0.0.23272 (16 Feb 2026)
 # =============================================================================
+#
+# Calculation: final = base + intrinsic_bonus + item_bonus
+#   base           — baked-in value on character unit (class starting + level-up allocations)
+#   intrinsic      — passive bonus from consuming attribute tomes
+#   item_bonus     — summed from active equipment affixes (alt-slot weapons excluded)
+# =============================================================================
 
 - id: strength
   type: stat
@@ -10,8 +16,12 @@
   category: attribute
   description: Primary physical attribute. Affects melee damage and physical abilities.
   guid: fe2f09265d25eb5488ecd81b076fcf63
+  save_guids:
+    base: 6af4197f9df6cec4da7a18c6550d8696
+    intrinsic: 9611aa13f24c978439ddd12e3d984000
+    bonus: 90ca4ade65d73094084afb2524dd18bc
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - attribute
@@ -24,8 +34,13 @@
   category: attribute
   description: Primary agility attribute. Affects attack speed, critical chance, and evasion.
   guid: a3f14410163b5bc42b72e51ad9a4bc8e
+  save_guids:
+    base: 6c31e84f2c7080440adeda7dec6abb56
+    intrinsic: 2ad1e03444d0a1a49bc5438d073cfa3b
+    bonus: 8c6f382fc62e7a54abd32f04f6e67720
+  notes: Base stat is absent for Witch class in save files; use class config fallback (30).
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - attribute
@@ -38,8 +53,12 @@
   category: attribute
   description: Primary magical attribute. Affects spell damage and mana pool.
   guid: cf6a5e41fac71de48b7fc87aa12ab252
+  save_guids:
+    base: a30b17b90d023f9449fce3c7735c2be9
+    intrinsic: 38f897fd5d349c743b8f7a213b9072da
+    bonus: c76898bb84052c34c8a67bc3d0005878
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - attribute
@@ -52,8 +71,12 @@
   category: attribute
   description: Primary defensive attribute. Affects health pool and resistances.
   guid: cf5c6725d0622e94a8d9869526914357
+  save_guids:
+    base: 6fe46d231b86bbe4e9cd3459c27f49ba
+    intrinsic: fbc8a101f047da24abaeb498ad22343c
+    bonus: 646f85f5ebfa69947b558bdbd96c1331
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - attribute

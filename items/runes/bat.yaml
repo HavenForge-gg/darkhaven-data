@@ -3,17 +3,27 @@ type: item
 name: Bat Rune
 category: runes
 tier: 4
+rune_number: 2
 rarity: Common
 image: /images/items/accessories/runes/bat.png
+save_blueprint: "Rune 02 Item Unit"
 description: A powerful rune emanating a faint dark aura.
 upgrades_from: ka_rune
 upgrades_to: ash_rune
+
+stat_bonuses:
+  - Bleed on hit
+
+tattoo:
+  skill_name: Red Embrace
+  effect: Blood Lash has a 50% chance to entangle enemies.
 
 runewords:
   - faith_of_my_shield
 
 # Metadata
 game_version: 0.0.23272
+last_updated: 2026-03-11
 status: active
 tags:
   - items

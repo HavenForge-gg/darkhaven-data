@@ -28,6 +28,7 @@ mechanics:
 skill_options:
   - id: shadow_glyph
     name: Shadow Glyph
+    prototype_guid: 3d215a015edeff4489a50df7975816e9
     description: Chance of Shadow Glyph on kill. Shadow Glyphs return mana when evoked.
     requires_tag: evocation
     levels:
@@ -42,6 +43,7 @@ skill_options:
 
   - id: adept
     name: Adept
+    prototype_guid: 4c8493e66ebc14a4caae68081feeac98
     description: Decrease Mana cost.
     levels:
       - level: 1

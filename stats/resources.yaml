@@ -8,14 +8,18 @@
   name: Life
   display_name: Life
   category: resource
-  description: Health pool. Reaching zero results in death.
+  description: >
+    Health pool. Reaching zero results in death. In save files this is the
+    current HP at moment of save and can be below max (e.g. saved mid-combat).
   guid: a12ff07e0f2eb2c458c46d895b3e984f
+  calculation: healthMax = health_base + finalVitality
   related_stats:
     - life_max
     - life_regen
     - life_bonus
+    - health_base
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - resource
@@ -35,6 +39,40 @@
   tags:
     - resource
     - health
+
+- id: health_base
+  type: stat
+  name: Health Base
+  display_name: Health Base
+  category: resource
+  description: >
+    Base maximum HP before vitality scaling. Used in the max health formula:
+    healthMax = health_base + finalVitality.
+  guid: d935659c0a572ad4f91b0eb5149d899e
+  encoding: fixed
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - resource
+    - health
+    - base
+
+- id: health_bonus
+  type: stat
+  name: Health Bonus
+  display_name: Health Bonus
+  category: resource
+  description: Flat HP bonus from item affixes.
+  guid: 15261ada67c566a41ba01af15881152f
+  encoding: fixed
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - resource
+    - health
+    - bonus
 
 - id: life_regen
   type: stat
@@ -56,13 +94,18 @@
   name: Mana
   display_name: Mana
   category: resource
-  description: Magical energy pool used for casting spells and abilities.
+  description: >
+    Magical energy pool used for casting spells and abilities.
+    In offline saves, the MANA stat equals max mana (fully restored at save).
+    This is the fully-computed total including all item bonuses.
   guid: a1a41762eced5bf4eb07e65cb7fbed7e
   related_stats:
     - mana_max
     - mana_regen
+    - mana_base
+    - mana_item_bonus
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - resource
@@ -82,6 +125,42 @@
   tags:
     - resource
     - magic
+
+- id: mana_base
+  type: stat
+  name: Mana Base
+  display_name: Mana Base
+  category: resource
+  description: >
+    Base mana before item bonuses. Used for tooltip breakdown only;
+    the mana stat already contains the complete total.
+  guid: e9910e346fbe25b459be261da9edc8ba
+  encoding: fixed
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - resource
+    - magic
+    - base
+
+- id: mana_item_bonus
+  type: stat
+  name: Mana Item Bonus
+  display_name: Mana Item Bonus
+  category: resource
+  description: >
+    Per-item mana contribution tracked for tooltip breakdown only.
+    The mana stat already includes all item bonuses in its total.
+  guid: de2fbbe8f89763b438b6eb80dce68361
+  encoding: fixed
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - resource
+    - magic
+    - bonus
 
 - id: mana_regen
   type: stat
@@ -136,13 +215,30 @@
   category: resource
   description: Rate at which stamina is restored over time.
   guid: bf067c99e613bd4479abfa185c61bf3d
+  save_guid: 851b7e40a03cdd544b983815849e7284
   game_version: 0.0.23272
-  last_updated: 2026-02-16
+  last_updated: 2026-03-11
   status: active
   tags:
     - resource
     - physical
     - regen
+
+- id: free_flask_charges
+  type: stat
+  name: Free Flask Charges
+  display_name: Free Flask Charges
+  category: resource
+  description: Bonus flask charges beyond the base amount.
+  guid: 4af3c8c45eb30ab43b44505e4269fe8c
+  encoding: long
+  game_version: 0.0.23272
+  last_updated: 2026-03-11
+  status: active
+  tags:
+    - resource
+    - consumable
+    - flask
 
 - id: energy
   type: stat
