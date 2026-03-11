@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T21:36:27Z",
+  "generated_at": "2026-03-11T11:14:30Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -51,10 +51,10 @@
       "last_message": "Updating spacing for parsing error"
     },
     "classes/witch.yaml": {
-      "last_commit": "d675006",
-      "last_updated": "2026-02-20T18:08:34+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "fix(misstypo): correct typo sorceror to sorcerer"
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update"
     },
     "items/amulets/jade_amulet.yaml": {
       "last_commit": "bdcd994",
@@ -471,40 +471,40 @@
       "last_message": "Add files via upload"
     },
     "items/runes/_category.yaml": {
-      "last_commit": "3e964af",
-      "last_updated": "2026-02-20T22:04:01+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "added runes and first recipes etc"
+      "last_message": "Bulk update"
     },
     "items/runes/ash.yaml": {
-      "last_commit": "50655db",
-      "last_updated": "2026-02-21T02:29:07+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "chore(runes): add image paths in runes"
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update"
     },
     "items/runes/bat.yaml": {
-      "last_commit": "50655db",
-      "last_updated": "2026-02-21T02:29:07+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "chore(runes): add image paths in runes"
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update"
     },
     "items/runes/deb.yaml": {
-      "last_commit": "50655db",
-      "last_updated": "2026-02-21T02:29:07+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "chore(runes): add image paths in runes"
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update"
     },
     "items/runes/elm.yaml": {
-      "last_commit": "50655db",
-      "last_updated": "2026-02-21T02:29:07+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "chore(runes): add image paths in runes"
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update"
     },
     "items/runes/ka.yaml": {
-      "last_commit": "50655db",
-      "last_updated": "2026-02-21T02:29:07+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "chore(runes): add image paths in runes"
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update"
     },
     "items/socketables.yaml": {
       "last_commit": "3e964af",
@@ -717,10 +717,10 @@
       "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/equipment_slots.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     },
     "mechanics/equipment_types.yaml": {
       "last_commit": "dc973a4",
@@ -753,10 +753,10 @@
       "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/item_rarity.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     },
     "mechanics/loot_tables.yaml": {
       "last_commit": "f841489",
@@ -837,16 +837,16 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "skills/witch/blood_and_bone/blood_lash.yaml": {
-      "last_commit": "d6a6155",
-      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated skills"
+      "last_message": "Bulk update"
     },
     "skills/witch/blood_and_bone/bone_storm.yaml": {
-      "last_commit": "d6a6155",
-      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated skills"
+      "last_message": "Bulk update"
     },
     "skills/witch/glyph/glyph_lunge.yaml": {
       "last_commit": "d6a6155",
@@ -855,28 +855,28 @@
       "last_message": "Updated skills"
     },
     "skills/witch/glyph/spine_breaker.yaml": {
-      "last_commit": "d6a6155",
-      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated skills"
+      "last_message": "Bulk update"
     },
     "skills/witch/shadow/feast_for_crows.yaml": {
-      "last_commit": "d6a6155",
-      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated skills"
+      "last_message": "Bulk update"
     },
     "skills/witch/shadow/shadow_walk.yaml": {
-      "last_commit": "d6a6155",
-      "last_updated": "2026-03-08T13:33:12+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated skills"
+      "last_message": "Bulk update"
     },
     "stats/attributes.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     },
     "stats/class_specific.yaml": {
       "last_commit": "dc973a4",
@@ -885,28 +885,28 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "stats/combat.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     },
     "stats/damage_types.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     },
     "stats/resources.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     },
     "stats/utility.yaml": {
-      "last_commit": "dc973a4",
-      "last_updated": "2026-02-17T12:24:35+13:00",
+      "last_commit": "bf61488",
+      "last_updated": "2026-03-12T00:14:20+13:00",
       "last_author": "Meanski",
-      "last_message": "Updated game ver to 0.0.23272"
+      "last_message": "Bulk update"
     }
   }
 }
