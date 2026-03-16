@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T01:18:02Z",
+  "generated_at": "2026-03-16T02:56:01Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -1023,16 +1023,16 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "skills/witch/blood_and_bone/blood_lash.yaml": {
-      "last_commit": "b0026f5",
-      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_commit": "2f5dc01",
+      "last_updated": "2026-03-16T15:55:52+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update of affixes and legendary items"
+      "last_message": "YAML validation"
     },
     "skills/witch/blood_and_bone/bone_storm.yaml": {
-      "last_commit": "b0026f5",
-      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_commit": "2f5dc01",
+      "last_updated": "2026-03-16T15:55:52+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update of affixes and legendary items"
+      "last_message": "YAML validation"
     },
     "skills/witch/glyph/glyph_lunge.yaml": {
       "last_commit": "d6a6155",
@@ -1041,10 +1041,10 @@
       "last_message": "Updated skills"
     },
     "skills/witch/glyph/spine_breaker.yaml": {
-      "last_commit": "b0026f5",
-      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_commit": "2f5dc01",
+      "last_updated": "2026-03-16T15:55:52+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update of affixes and legendary items"
+      "last_message": "YAML validation"
     },
     "skills/witch/shadow/feast_for_crows.yaml": {
       "last_commit": "b0026f5",
@@ -1053,10 +1053,10 @@
       "last_message": "Bulk update of affixes and legendary items"
     },
     "skills/witch/shadow/shadow_walk.yaml": {
-      "last_commit": "b0026f5",
-      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_commit": "2f5dc01",
+      "last_updated": "2026-03-16T15:55:52+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update of affixes and legendary items"
+      "last_message": "YAML validation"
     },
     "stats/attributes.yaml": {
       "last_commit": "b0026f5",
