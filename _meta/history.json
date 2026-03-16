@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T11:14:30Z",
+  "generated_at": "2026-03-16T01:18:02Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -51,10 +51,10 @@
       "last_message": "Updating spacing for parsing error"
     },
     "classes/witch.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/amulets/jade_amulet.yaml": {
       "last_commit": "bdcd994",
@@ -458,6 +458,192 @@
       "last_author": "Meanski",
       "last_message": "Updated game ver to 0.0.23272"
     },
+    "items/legendaries/legendary_amulet01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_amulet02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_amulet03.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_belt01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_belt03.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_boots01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_boots02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_boots04.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_chest01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_chest02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_chest07.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_dagger01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_dagger02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_dagger03.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_dagger04.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_dagger06.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_flask01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_flask03.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_gloves01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_gloves03.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_gloves06.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_helm01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_helm02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_helm06.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_ring01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_ring02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_shield01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_shield02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_staff01.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_staff02.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
+    "items/legendaries/legendary_staff05.yaml": {
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
+      "last_author": "Meanski",
+      "last_message": "Bulk update of affixes and legendary items"
+    },
     "items/rings/ancient_ring.yaml": {
       "last_commit": "9a7ab8c",
       "last_updated": "2026-03-01T22:21:12Z",
@@ -471,40 +657,40 @@
       "last_message": "Add files via upload"
     },
     "items/runes/_category.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/runes/ash.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/runes/bat.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/runes/deb.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/runes/elm.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/runes/ka.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "items/socketables.yaml": {
       "last_commit": "3e964af",
@@ -705,10 +891,10 @@
       "last_message": "chore(patch): 0.0.23471 patch notes & update endless lair zone file"
     },
     "mechanics/affixes.yaml": {
-      "last_commit": "9ddd877",
-      "last_updated": "2026-02-19T21:52:01+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "move skills"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "mechanics/difficulties.yaml": {
       "last_commit": "7cbf8cd",
@@ -717,10 +903,10 @@
       "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/equipment_slots.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "mechanics/equipment_types.yaml": {
       "last_commit": "dc973a4",
@@ -753,10 +939,10 @@
       "last_message": "feat(patch): apply data updates for game version 0.0.23445"
     },
     "mechanics/item_rarity.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "mechanics/loot_tables.yaml": {
       "last_commit": "f841489",
@@ -837,16 +1023,16 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "skills/witch/blood_and_bone/blood_lash.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "skills/witch/blood_and_bone/bone_storm.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "skills/witch/glyph/glyph_lunge.yaml": {
       "last_commit": "d6a6155",
@@ -855,28 +1041,28 @@
       "last_message": "Updated skills"
     },
     "skills/witch/glyph/spine_breaker.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "skills/witch/shadow/feast_for_crows.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "skills/witch/shadow/shadow_walk.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "stats/attributes.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "stats/class_specific.yaml": {
       "last_commit": "dc973a4",
@@ -885,28 +1071,28 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "stats/combat.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "stats/damage_types.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "stats/resources.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     },
     "stats/utility.yaml": {
-      "last_commit": "bf61488",
-      "last_updated": "2026-03-12T00:14:20+13:00",
+      "last_commit": "b0026f5",
+      "last_updated": "2026-03-16T14:17:53+13:00",
       "last_author": "Meanski",
-      "last_message": "Bulk update"
+      "last_message": "Bulk update of affixes and legendary items"
     }
   }
 }
