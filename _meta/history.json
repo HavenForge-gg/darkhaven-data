@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T04:56:37Z",
+  "generated_at": "2026-03-16T23:00:55Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -957,10 +957,10 @@
       "last_message": "Updated game ver to 0.0.23272"
     },
     "mechanics/runewords.yaml": {
-      "last_commit": "7cbf8cd",
-      "last_updated": "2026-02-23T15:49:50+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "feat(patch): apply data updates for game version 0.0.23445"
+      "last_commit": "a92ac4a",
+      "last_updated": "2026-03-16T23:00:39Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Update runewords.yaml"
     },
     "mechanics/skill_mods_witch.yaml": {
       "last_commit": "7cbf8cd",
