@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T23:03:43Z",
+  "generated_at": "2026-03-16T23:08:21Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -699,8 +699,8 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "b9b7495",
-      "last_updated": "2026-03-16T23:03:36Z",
+      "last_commit": "f686a48",
+      "last_updated": "2026-03-16T23:08:14Z",
       "last_author": "Kieran Taylor",
       "last_message": "Update murakamis_puzzle_box.yaml"
     },
