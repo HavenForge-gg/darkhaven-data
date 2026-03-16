@@ -1,0 +1,30 @@
+id: LegendaryGloves03
+guid: "442546ab44f91e1b1feed52ef69d867e"
+name: "Johann's Bedazzlers"
+internal_name: "Legendary Gloves03[UAffixBlueprint]"
+slot: gloves
+in_set: true
+flavor_text: >
+  Colorful rainbows of light and music followed the hands of the Great Bard as he wove enchanting tales of villains and heroes.
+stats:
+  - name: "Cast Speed Multiplier"
+    group: mechanics
+    min: "0.06"
+    max: "0.09"
+  - name: "Dexterity Bonus"
+    group: attribute
+    min: "15"
+    max: "20"
+  - name: "Magic Bonus"
+    group: attribute
+    min: "15"
+    max: "20"
+  - name: "Magic Find"
+    group: mechanics
+    min: "10"
+    max: "20"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "30"
+    max: "40"
+vendor_price: 1999

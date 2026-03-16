@@ -1,0 +1,30 @@
+id: LegendaryBelt03
+guid: "659340f09ee0ce9dae126e179901d2f3"
+name: "War Goddess's Girdle"
+internal_name: "Legendary Belt03[UAffixBlueprint]"
+slot: belt
+in_set: true
+flavor_text: >
+  Legendary War Chief of the Sciatháin Dearga, Makita won over a hundred victories against what most believed impossible odds.
+stats:
+  - name: "Equipment Armor Bonus"
+    group: mechanics
+    min: "8"
+    max: "16"
+  - name: "Damage Percent"
+    group: mechanics
+    min: "4"
+    max: "5"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "3"
+    max: "4"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "3"
+    max: "3"
+  - name: "Critical Duration By Skill"
+    group: mechanics
+    min: "60"
+    max: "70"
+vendor_price: 1576

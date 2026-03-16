@@ -1,0 +1,30 @@
+id: LegendaryStaff02
+guid: "10ca1f760ddf2912e2f12b40cc528756"
+name: "The Golden Bough"
+internal_name: "Legendary Staff02[UAffixBlueprint]"
+slot: staff
+in_set: true
+flavor_text: >
+  Bramblehusks are some of the oldest creatures in existence, hailing from a time before even the First Age.
+stats:
+  - name: "Equipment Attack Speed Multiplier"
+    group: mechanics
+    min: "-0.33"
+    max: "-0.3"
+  - name: "Equipment Damage Percent"
+    group: mechanics
+    min: "40"
+    max: "50"
+  - name: "Equipment Knockback"
+    group: mechanics
+    min: "800"
+    max: "800"
+  - name: "Equipment Critical Chance"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Equipment Critical Duration"
+    group: mechanics
+    min: "30"
+    max: "30"
+vendor_price: 858

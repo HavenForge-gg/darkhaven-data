@@ -1,0 +1,29 @@
+id: LegendaryShield02
+guid: "3a374387a07a92d200637c5a8efd1150"
+name: "Spearbreaker"
+internal_name: "Legendary Shield02[UAffixBlueprint]"
+slot: shield
+in_set: true
+flavor_text: >
+  Passed down through generations of Vandal champions, Spearbreaker was the perfect counter to many a Therian phalanx.
+sockets:
+  min: 1
+  max: 1
+stats:
+  - name: "Equipment Armor Bonus"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Strength Bonus"
+    group: attribute
+    min: "16"
+    max: "24"
+  - name: "Resistance"
+    group: mechanics
+    min: "80"
+    max: "90"
+  - name: "Proc OnGetHIt"
+    group: mechanics
+    min: "0.1"
+    max: "0.1"
+vendor_price: 2100

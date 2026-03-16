@@ -1,0 +1,33 @@
+id: LegendaryBoots02
+guid: "eb9f12c99cdac4faa55e6e4ba8ef0d89"
+name: "Twin Hurricanes"
+internal_name: "Legendary Boots02[UAffixBlueprint]"
+slot: boots
+in_set: true
+flavor_text: >
+  Pregnant with her twins, Makita raced the High King's swiftest horses and won.
+sockets:
+  min: 2
+  max: 2
+stats:
+  - name: "Movement Speed Multiplier"
+    group: mechanics
+    min: "0.3"
+    max: "0.36"
+  - name: "Lunge Knockback"
+    group: skill
+    min: "(0, 0)"
+    max: "(0, 0)"
+  - name: "Stamina Bonus"
+    group: resource
+    min: "3"
+    max: "3"
+  - name: "Dash Distance Multiplier"
+    group: skill
+    min: "1"
+    max: "1"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "800"
+    max: "800"
+vendor_price: 2025

@@ -1,0 +1,26 @@
+id: LegendaryAmulet02
+guid: "f0136b912ef0b1e6add25ef39a8b773e"
+name: "Key of Silver Flame"
+internal_name: "Legendary Amulet02[UAffixBlueprint]"
+slot: amulet
+in_set: true
+flavor_text: >
+  In the last days of the Third Age, the Order of the Silver Flame was formed to fight the encroaching Shadow. It was too little too late.
+stats:
+  - name: "Damage Percent"
+    group: mechanics
+    min: "5"
+    max: "10"
+  - name: "Damage Percent By Defender Tag"
+    group: mechanics
+    min: "40"
+    max: "50"
+  - name: "Damage Resistance By Attacker Tag"
+    group: mechanics
+    min: "40"
+    max: "50"
+  - name: "Health Bonus"
+    group: mechanics
+    min: "15"
+    max: "15"
+vendor_price: 2123

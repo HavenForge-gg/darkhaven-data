@@ -177,13 +177,10 @@
   display_name: Experience
   category: utility
   subcategory: progression
-  description: >
-    Current experience points towards next level. Not present in offline
-    saves; display "Level Cap" with a full progress bar when absent.
+  description: Current experience points towards next level.
   guid: 9509ba7b24ce0f844a22044dbc6e9a02
-  encoding: long
   game_version: 0.0.23272
-  last_updated: 2026-03-11
+  last_updated: 2026-02-16
   status: active
   tags:
     - utility
@@ -251,77 +248,3 @@
     - utility
     - progression
     - attributes
-
-# --- CHARACTER IDENTITY ---
-
-- id: proper_name
-  type: stat
-  name: Proper Name
-  display_name: Name
-  category: utility
-  subcategory: identity
-  description: Character display name. Stored as a prototype reference on the character unit.
-  guid: b00f3f85f9ff6674d933093f1689bd9d
-  encoding: prototype
-  game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
-  tags:
-    - utility
-    - identity
-    - character
-
-- id: rare_name
-  type: stat
-  name: Rare Name
-  display_name: Rare Name
-  category: utility
-  subcategory: identity
-  description: Named item string value (used for rare/legendary item naming).
-  guid: 528fde312ad42d949a4847aa7ecc794b
-  encoding: string
-  game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
-  tags:
-    - utility
-    - identity
-    - item
-
-# --- TRACKING ---
-
-- id: deaths
-  type: stat
-  name: Deaths
-  display_name: Deaths
-  category: utility
-  subcategory: tracking
-  description: Total number of character deaths.
-  guid: 64d4a87359cf9b94c9a496f0fec0880e
-  encoding: long
-  game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
-  tags:
-    - utility
-    - tracking
-    - character
-
-- id: kill_counter
-  type: stat
-  name: Kill Counter
-  display_name: Kills
-  category: utility
-  subcategory: tracking
-  description: >
-    Per-mob-type kill tracking. Multiple entries exist, one per mob type,
-    with p0.prototype identifying the mob blueprint.
-  guid: a3ecebb06794f564496a2e590a885145
-  encoding: long
-  game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
-  tags:
-    - utility
-    - tracking
-    - character

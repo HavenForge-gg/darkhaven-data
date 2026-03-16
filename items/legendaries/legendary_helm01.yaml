@@ -1,0 +1,26 @@
+id: LegendaryHelm01
+guid: "88450e40cc6312b5d5a679fd856c04f8"
+name: "Executioner's Hood"
+internal_name: "Legendary Helm01[UAffixBlueprint]"
+slot: helm
+in_set: true
+flavor_text: >
+  Kharsen Vale was the most feared Executioner of the Third Age. It's said that the entire Clayson Gang drank syferine rather than face him.
+stats:
+  - name: "Critical Chance"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Strength Bonus"
+    group: attribute
+    min: "14"
+    max: "20"
+  - name: "Dexterity Bonus"
+    group: attribute
+    min: "14"
+    max: "20"
+  - name: "Proc OnKill"
+    group: mechanics
+    min: "0.1"
+    max: "0.1"
+vendor_price: 2025

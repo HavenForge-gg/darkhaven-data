@@ -1,0 +1,37 @@
+id: LegendaryShield01
+guid: "74a1f86a5884973bd68045d4d268339d"
+name: "Falce di Luna"
+internal_name: "Legendary Shield01[UAffixBlueprint]"
+slot: shield
+in_set: true
+flavor_text: >
+  The Shadowscar rarely fought with a shield, but when she did, this is the one.
+sockets:
+  min: 0
+  max: 1
+stats:
+  - name: "Equipment Armor Bonus"
+    group: mechanics
+    min: "5"
+    max: "9"
+  - name: "Resistance"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Resistance"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.1"
+    max: "0.13"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "3"
+    max: "3"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "2"
+    max: "3"
+vendor_price: 2100

@@ -1,0 +1,26 @@
+id: LegendaryBoots01
+guid: "abddeeae9d8d2efc3a82fd2f98c62105"
+name: "Hushpaws"
+internal_name: "Legendary Boots01[UAffixBlueprint]"
+slot: boots
+in_set: true
+flavor_text: >
+  Have you heard the tale where Reynard the Fox stole Isengrim's heart without him noticing?
+stats:
+  - name: "Dexterity Bonus"
+    group: attribute
+    min: "20"
+    max: "30"
+  - name: "Movement Speed Multiplier"
+    group: mechanics
+    min: "0.1"
+    max: "0.2"
+  - name: "Stealth"
+    group: mechanics
+    min: "20"
+    max: "25"
+  - name: "Gold Find"
+    group: mechanics
+    min: "30"
+    max: "50"
+vendor_price: 1367

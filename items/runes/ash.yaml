@@ -3,22 +3,12 @@ type: item
 name: Ash Rune
 category: runes
 tier: 5
-rune_number: 1
 rarity: Common
 image: /images/items/accessories/runes/ash.png
-save_blueprint: "Rune 01 Item Unit"
 description: >
   The highest tier rune, coveted for its use in Runewords.
   Cannot be upgraded further.
 upgrades_from: bat_rune
-
-stat_bonuses:
-  - "+Attack"
-  - "+Armor"
-
-tattoo:
-  skill_name: Charged Lunge
-  effect: Lightning shocks nearby enemies during your Glyph Lunge.
 
 runewords:
   - faith_of_my_shield
@@ -26,7 +16,6 @@ runewords:
 
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-03-11
 status: active
 tags:
   - items

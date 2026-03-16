@@ -1,0 +1,30 @@
+id: LegendaryHelm06
+guid: "509aaeb0a4748da7072ef0e9d12dc567"
+name: "Visage of the Undying"
+internal_name: "Legendary Helm06[UAffixBlueprint]"
+slot: helm
+in_set: true
+flavor_text: >
+  Narlathak wore a mask not due to any sense of vanity, but simply to avoid the irritation of having to deal with minions constantly terrified by his gaze.
+stats:
+  - name: "Armor Bonus"
+    group: mechanics
+    min: "23"
+    max: "33"
+  - name: "Life Steal"
+    group: mechanics
+    min: "2"
+    max: "2"
+  - name: "Attack"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Penetration"
+    group: mechanics
+    min: "20"
+    max: "30"
+  - name: "Critical Chance"
+    group: mechanics
+    min: "20"
+    max: "30"
+vendor_price: 4889

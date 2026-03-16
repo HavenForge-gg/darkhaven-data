@@ -1,0 +1,30 @@
+id: LegendaryChest01
+guid: "07cae229fa7ef350e1e94befa0d39d68"
+name: "Night's Embrace"
+internal_name: "Legendary Chest01[UAffixBlueprint]"
+slot: chest
+in_set: true
+flavor_text: >
+  Despite being the youngest of the Cuidh Morgh Coven, the Shadowscar was quite possibly the most powerful.
+stats:
+  - name: "Mana Regen"
+    group: resource
+    min: "2"
+    max: "2"
+  - name: "Cast Speed Multiplier"
+    group: mechanics
+    min: "0.1"
+    max: "0.2"
+  - name: "Magic Bonus"
+    group: attribute
+    min: "7"
+    max: "13"
+  - name: "Vitality Bonus"
+    group: attribute
+    min: "7"
+    max: "13"
+  - name: "Skill Level Bonus Tag"
+    group: skill
+    min: "2"
+    max: "3"
+vendor_price: 2100

@@ -1,7 +1,6 @@
 # =============================================================================
 # EQUIPMENT SLOTS - Character Equipment Slots
 # Extracted from game data - Version 0.0.23272 (16 Feb 2026)
-# Enriched with save file index mapping and container data
 # =============================================================================
 
 id: equipment_slots
@@ -9,247 +8,116 @@ type: mechanic
 name: Equipment Slots
 description: >
   Defines all equipment slots available on a character. Each slot can hold
-  specific types of equipment. Items are stored in the Hero Equipment
-  Container using sequential integer indices (0-27).
-
-alt_slot_exclusion: >
-  Any stat on items in slots 11 or 12 is NOT counted toward character totals.
-  This applies to: attributes, penetration, crit chance, attack speed,
-  cast speed, mana bonuses, and skill level bonuses. Only the active weapon
-  set (slots 0-10) contributes to all calculations.
-
-containers:
-  - id: hero_equipment
-    name: Hero Equipment Container
-    guid: 0b50d10714d6c0c4bb7f5447dfb5a745
-    description: Equipped/active items only. Uses sequential integer indices (0-27).
-  - id: alt_equipment
-    name: Alt Equipment Container
-    guid: 1d936ddad6b2af4418e3d46a2bc946ee
-    description: Alt-slot equipped items. Same sequential scheme.
-  - id: affixes
-    name: Affixes Container
-    guid: 864d7327e29b7464694ce0baf5bed2fd
-    description: Item affix sub-units (bonus stats on items).
-  - id: bonus_stats
-    name: Bonus Stats (Socketables) Container
-    guid: 688a379c1b446ea40a944279e04382e8
-    description: Bonus stats from socketed items (gems, cores, runes).
-  - id: stash
-    name: Stash Container
-    guid: 3cc00cfe933e46344879c0f506594096
-    description: >
-      All stored items. Grid-encoded (15 cols x 16 rows = 240 slots).
-      Index encoding: index = (row << 16) | col.
+  specific types of equipment.
 
 slots:
-  - id: hand_right
-    name: Main Hand
-    description: Primary weapon slot
-    save_index: 0
-    auto_equip: true
-    paired_with: hand_left
-    guid: 378ead4730d80684dbf6561bb197de5f
-
-  - id: hand_left
-    name: Off Hand
-    description: Secondary weapon or shield slot
-    save_index: 1
-    auto_equip: true
-    paired_with: hand_right
-    guid: dce2fb2c88223f748aec3393e4365a3e
-
-  - id: chest
-    name: Chest
-    description: Body armor slot
-    save_index: 2
-    auto_equip: true
-    guid: e3123eb94597f164c958c5674f3f4282
-
-  - id: feet
-    name: Feet
-    description: Boots slot
-    save_index: 3
-    auto_equip: true
-    guid: 39d5788e19413a44492069a4e39ceb4f
-
+  # Main equipment slots
   - id: head
     name: Head
     description: Helm slot
-    save_index: 4
     auto_equip: true
     guid: aab4507b5a49e344ea91d879c66eaa3c
-
+    
+  - id: chest
+    name: Chest
+    description: Body armor slot
+    auto_equip: true
+    guid: e3123eb94597f164c958c5674f3f4282
+    
+  - id: hands
+    name: Hands
+    description: Gloves slot
+    auto_equip: true
+    guid: 67e7e800e7fa3a74f870e3d69508fe94
+    
+  - id: waist
+    name: Waist
+    description: Belt slot
+    auto_equip: true
+    guid: a31c217fdd8ba2e48ba8d51f0cd9fd07
+    
+  - id: feet
+    name: Feet
+    description: Boots slot
+    auto_equip: true
+    guid: 39d5788e19413a44492069a4e39ceb4f
+    
   - id: neck
     name: Neck
     description: Amulet/trinket slot
-    save_index: 5
     auto_equip: true
     guid: c3c49f6dea5f17248b3bdaa666a56d5f
-
+    
   - id: finger_1
     name: Finger 1
     description: First ring slot
-    save_index: 6
     auto_equip: true
     paired_with: finger_2
     guid: 804114c467b2736448aef9083429e1fb
-
+    
   - id: finger_2
     name: Finger 2
     description: Second ring slot
-    save_index: 7
     auto_equip: true
     paired_with: finger_1
     guid: a502b2157e7eeca4799f4b5f0b43d693
 
-  - id: hands
-    name: Hands
-    description: Gloves slot
-    save_index: 8
+  # Weapon slots
+  - id: hand_right
+    name: Main Hand
+    description: Primary weapon slot
     auto_equip: true
-    guid: 67e7e800e7fa3a74f870e3d69508fe94
-
-  - id: waist
-    name: Waist
-    description: Belt slot
-    save_index: 9
+    paired_with: hand_left
+    guid: 378ead4730d80684dbf6561bb197de5f
+    
+  - id: hand_left
+    name: Off Hand
+    description: Secondary weapon or shield slot
     auto_equip: true
-    guid: a31c217fdd8ba2e48ba8d51f0cd9fd07
-
-  - id: flask
-    name: Flask
-    description: Potion flask slot
-    save_index: 10
-    auto_equip: true
-    guid: 4db0d05ede09ca743b5ea2c65aaed93b
-
-  # Alt weapon slots (weapon swap) — EXCLUDED from all stat calculations
+    paired_with: hand_right
+    guid: dce2fb2c88223f748aec3393e4365a3e
+    
+  # Alt weapon slots (weapon swap)
   - id: hand_right_alt
     name: Alt Main Hand
-    description: Alternate weapon slot for weapon swapping (excluded from all bonuses)
-    save_index: 11
+    description: Alternate weapon slot for weapon swapping
     auto_equip: false
-    alt_slot_excluded: true
     paired_with: hand_left_alt
     guid: 8bf8d9f6339a5c64e9fddf237cf9cfce
-
+    
   - id: hand_left_alt
     name: Alt Off Hand
-    description: Alternate off-hand slot for weapon swapping (excluded from all bonuses)
-    save_index: 12
+    description: Alternate off-hand slot for weapon swapping
     auto_equip: false
-    alt_slot_excluded: true
     paired_with: hand_right_alt
     guid: e0615aa28c6b57a438b2cfe376907d3c
 
-  - id: hand_extra_alt
-    name: Extra Weapon Slot
-    description: Third extra weapon slot (not shown in standard paperdoll)
-    save_index: 13
-    auto_equip: false
-    alt_slot_excluded: true
+  # Flask slot
+  - id: flask
+    name: Flask
+    description: Potion flask slot
+    auto_equip: true
+    guid: 4db0d05ede09ca743b5ea2c65aaed93b
 
-# Tattoo / Rune Garment slots (indices 15-27 in the EQUIPMENT container)
+# Tattoo slots (13 total - cosmetic/stat slots)
 tattoo_slots:
-  - id: tattoo_head
-    name: Head Tattoo
-    rune_slot_name: Crown
-    body_location: Head / face
-    save_index: 15
-    guid: 35ca7cdd0f5f4e84ea648049ba13e902
-
-  - id: tattoo_chest
-    name: Chest Tattoo
-    rune_slot_name: Heart
-    body_location: Chest
-    save_index: 16
-    guid: 7e66ca87205075542bf57067d2cffe09
-
-  - id: tattoo_stomach
-    name: Stomach Tattoo
-    rune_slot_name: Core
-    body_location: Stomach / belly
-    save_index: 17
-    guid: e5db015e8478a7642b20e01b2eebe317
-
-  - id: tattoo_upper_back
-    name: Upper Back Tattoo
-    rune_slot_name: Back
-    body_location: Upper back
-    save_index: 18
-    guid: bdd24c41948566842997b31ea759a7dd
-
-  - id: tattoo_lower_back
-    name: Lower Back Tattoo
-    rune_slot_name: Sacra
-    body_location: Lower back / sacrum
-    save_index: 19
-    guid: ec26128fb31ba3341804d0d5b39a1215
-
-  - id: tattoo_upper_arm_r
-    name: Right Upper Arm Tattoo
-    rune_slot_name: Right Shoulder
-    body_location: Right upper arm
-    save_index: 20
-    guid: 1d1f292987d157742b57eca6271c1f3a
-
-  - id: tattoo_upper_arm_l
-    name: Left Upper Arm Tattoo
-    rune_slot_name: Left Shoulder
-    body_location: Left upper arm
-    save_index: 21
-    guid: 321e00012f7470e4a9688eaa747f7a1b
-
-  - id: tattoo_lower_arm_r
-    name: Right Lower Arm Tattoo
-    rune_slot_name: Right Arm
-    body_location: Right lower arm
-    save_index: 22
-    guid: d81cf33daf0049d46ba25045b5f6171b
-
-  - id: tattoo_lower_arm_l
-    name: Left Lower Arm Tattoo
-    rune_slot_name: Left Arm
-    body_location: Left lower arm
-    save_index: 23
-    guid: 981a461b881aef8468b30918002def24
-
-  - id: tattoo_upper_leg_r
-    name: Right Upper Leg Tattoo
-    rune_slot_name: Right Thigh
-    body_location: Right upper leg
-    save_index: 24
-    guid: 6920ad3e65e00104b8b9f15b909c3ae1
-
-  - id: tattoo_upper_leg_l
-    name: Left Upper Leg Tattoo
-    rune_slot_name: Left Thigh
-    body_location: Left upper leg
-    save_index: 25
-    guid: a60f4bc5078384046ba2581b412b61fd
-
-  - id: tattoo_lower_leg_r
-    name: Right Lower Leg Tattoo
-    rune_slot_name: Right Calf
-    body_location: Right lower leg
-    save_index: 26
-    guid: 17f15088b999e9a41a7e4a68461ae7c4
-
-  - id: tattoo_lower_leg_l
-    name: Left Lower Leg Tattoo
-    rune_slot_name: Left Calf
-    body_location: Left lower leg
-    save_index: 27
-    guid: 689c2bd0c963744438a49dbcd667c4a7
-
-tattoo_stat_guids:
-  slot_location: 451c001d1f78ae8408c12934cc48ce07
-  skill_trait: 4267c6613bda4d94a99ef98fe962fce6
+  - { id: tattoo_head, name: "Head Tattoo", guid: "35ca7cdd0f5f4e84ea648049ba13e902" }
+  - { id: tattoo_chest, name: "Chest Tattoo", guid: "7e66ca87205075542bf57067d2cffe09" }
+  - { id: tattoo_stomach, name: "Stomach Tattoo", guid: "e5db015e8478a7642b20e01b2eebe317" }
+  - { id: tattoo_upper_back, name: "Upper Back Tattoo", guid: "bdd24c41948566842997b31ea759a7dd" }
+  - { id: tattoo_lower_back, name: "Lower Back Tattoo", guid: "ec26128fb31ba3341804d0d5b39a1215" }
+  - { id: tattoo_upper_arm_r, name: "Right Upper Arm Tattoo", guid: "1d1f292987d157742b57eca6271c1f3a" }
+  - { id: tattoo_upper_arm_l, name: "Left Upper Arm Tattoo", guid: "321e00012f7470e4a9688eaa747f7a1b" }
+  - { id: tattoo_lower_arm_r, name: "Right Lower Arm Tattoo", guid: "d81cf33daf0049d46ba25045b5f6171b" }
+  - { id: tattoo_lower_arm_l, name: "Left Lower Arm Tattoo", guid: "981a461b881aef8468b30918002def24" }
+  - { id: tattoo_upper_leg_r, name: "Right Upper Leg Tattoo", guid: "6920ad3e65e00104b8b9f15b909c3ae1" }
+  - { id: tattoo_upper_leg_l, name: "Left Upper Leg Tattoo", guid: "a60f4bc5078384046ba2581b412b61fd" }
+  - { id: tattoo_lower_leg_r, name: "Right Lower Leg Tattoo", guid: "17f15088b999e9a41a7e4a68461ae7c4" }
+  - { id: tattoo_lower_leg_l, name: "Left Lower Leg Tattoo", guid: "689c2bd0c963744438a49dbcd667c4a7" }
 
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-03-11
+last_updated: 2026-02-16
 status: active
 tags:
   - mechanic

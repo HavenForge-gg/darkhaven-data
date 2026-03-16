@@ -1,0 +1,22 @@
+id: LegendaryRing02
+guid: "c199c2b88ada00c2d6c8fec35dd125e5"
+name: "Johann's Glory"
+internal_name: "Legendary Ring02[UAffixBlueprint]"
+slot: ring
+in_set: true
+flavor_text: >
+  Johann's fingers were always adorned with dozens of magical rings. Even the gods envied him that trick.
+stats:
+  - name: "Mana Bonus"
+    group: resource
+    min: "8"
+    max: "15"
+  - name: "Skill Level Bonus Tag"
+    group: skill
+    min: "1"
+    max: "1"
+  - name: "Magic Find"
+    group: mechanics
+    min: "10"
+    max: "15"
+vendor_price: 2040

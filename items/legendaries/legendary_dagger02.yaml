@@ -1,0 +1,34 @@
+id: LegendaryDagger02
+guid: "6fa50c7392846347bc16dc61eadaba29"
+name: "Flickerfang"
+internal_name: "Legendary Dagger02[UAffixBlueprint]"
+slot: dagger
+in_set: false
+flavor_text: >
+  "Follow the lightning, ride the storm" Juniper Chance would say, but no one quite knew what he meant.
+stats:
+  - name: "Equipment Damage Type"
+    group: mechanics
+    min: "(0, 0)"
+    max: "(0, 0)"
+  - name: "Equipment Damage Percent"
+    group: mechanics
+    min: "40"
+    max: "60"
+  - name: "Equipment Critical Chance"
+    group: mechanics
+    min: "40"
+    max: "60"
+  - name: "Penetration"
+    group: mechanics
+    min: "20"
+    max: "40"
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.15"
+    max: "0.2"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "1"
+    max: "1"
+vendor_price: 2126

@@ -17,7 +17,7 @@ primary_attribute: magic
 secondary_attribute: vitality
 resource: mana
 
-# Base stats (internal engine names)
+# Base stats
 base_stats:
   agility: 15
   attack: 20
@@ -26,15 +26,6 @@ base_stats:
   mana_max: 10
   power: 20
   spirit: 30
-
-# Starting attributes confirmed from save file class config.
-# These are the base values before any level-up allocations.
-# Note: dexterity_base is absent from Witch save files; use this fallback.
-starting_attributes:
-  strength: 20
-  dexterity: 30
-  vitality: 25
-  magic: 30
 
 # Skill tree branches
 skill_branches:
@@ -63,7 +54,7 @@ mechanics:
 # Metadata
 guid: 9f78b51d366a99342b128ab8b0e5497d
 game_version: 0.0.23272
-last_updated: 2026-03-11
+last_updated: 2026-02-16
 status: active
 tags:
   - class

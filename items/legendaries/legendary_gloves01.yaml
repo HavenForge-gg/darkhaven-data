@@ -1,0 +1,30 @@
+id: LegendaryGloves01
+guid: "c2411ab86646fb67cd33680430e6080c"
+name: "Fenix Fingers"
+internal_name: "Legendary Gloves01[UAffixBlueprint]"
+slot: gloves
+in_set: true
+flavor_text: >
+  This one time, Reynard attended his own hanging. "Who's the chump?" he asked. "Oh it's Reynard the Fox? Bastard owes me money."
+stats:
+  - name: "Critical Chance"
+    group: mechanics
+    min: "15"
+    max: "20"
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.07"
+    max: "0.1"
+  - name: "Cast Speed Multiplier"
+    group: mechanics
+    min: "0.07"
+    max: "0.1"
+  - name: "Dexterity Bonus"
+    group: attribute
+    min: "20"
+    max: "25"
+  - name: "Gold Find"
+    group: mechanics
+    min: "10"
+    max: "20"
+vendor_price: 1999

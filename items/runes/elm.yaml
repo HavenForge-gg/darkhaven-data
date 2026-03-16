@@ -3,24 +3,13 @@ type: item
 name: Elm Rune
 category: runes
 tier: 1
-rune_number: 5
 rarity: Common
 image: /images/items/accessories/runes/elm.png
-save_blueprint: "Rune 05 Item Unit"
 description: The most common rune, found frequently throughout Darkhaven.
 upgrades_to: deb_rune
 
-stat_bonuses:
-  - Slashing penetration
-  - Bleed duration
-
-tattoo:
-  skill_name: Blood Storm
-  effect: Your Bone Storm fires multiple missiles of blood rather than bone.
-
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-03-11
 status: active
 tags:
   - items

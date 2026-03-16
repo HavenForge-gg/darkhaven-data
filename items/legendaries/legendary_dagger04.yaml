@@ -1,0 +1,33 @@
+id: LegendaryDagger04
+guid: "c96b07f5ada38439dbf6c0b513bf956f"
+name: "Emberthorn"
+internal_name: "Legendary Dagger04[UAffixBlueprint]"
+slot: dagger
+in_set: true
+flavor_text: >
+  Makita's youngest, Branwen, was one of the three great beauties of the Third Age. The High King was hardly the only one who coveted her, but he posed the most problems.
+sockets:
+  min: 0
+  max: 1
+stats:
+  - name: "Equipment Damage Type"
+    group: mechanics
+    min: "(0, 0)"
+    max: "(0, 0)"
+  - name: "Equipment Damage Percent"
+    group: mechanics
+    min: "15"
+    max: "20"
+  - name: "Equipment Critical Duration"
+    group: mechanics
+    min: "20"
+    max: "30"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "1"
+    max: "1"
+  - name: "Equipment Aspect"
+    group: mechanics
+    min: "1"
+    max: "1"
+vendor_price: 1125

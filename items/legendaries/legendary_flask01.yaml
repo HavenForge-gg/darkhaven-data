@@ -1,0 +1,22 @@
+id: LegendaryFlask01
+guid: "58dab64c57b7d5135ef5632ca8305733"
+name: "Holy Flask"
+internal_name: "Legendary Flask01[UAffixBlueprint]"
+slot: flask
+in_set: true
+flavor_text: >
+  Arvin Prester would anoint the heads of supplicants with fragrant oil from this flask. And sometimes he would drink from it too.
+stats:
+  - name: "Flask Health Recovery"
+    group: mechanics
+    min: "30"
+    max: "30"
+  - name: "Flask Effect Duration"
+    group: mechanics
+    min: "15"
+    max: "15"
+  - name: "Damage Reduction"
+    group: mechanics
+    min: "2"
+    max: "2"
+vendor_price: 1401

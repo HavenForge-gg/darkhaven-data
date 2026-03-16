@@ -1,0 +1,30 @@
+id: LegendaryStaff01
+guid: "df0a2374e0d48b6264b3ff4fa7c41a75"
+name: "Wormwood Crook"
+internal_name: "Legendary Staff01[UAffixBlueprint]"
+slot: staff
+in_set: false
+flavor_text: >
+  It's uncomfortable to gaze at this staff for too long — it constantly writhes as if in great pain.
+stats:
+  - name: "Equipment Damage Bonus"
+    group: mechanics
+    min: "15"
+    max: "25"
+  - name: "Strength Bonus"
+    group: attribute
+    min: "8"
+    max: "15"
+  - name: "Vitality Bonus"
+    group: attribute
+    min: "8"
+    max: "15"
+  - name: "Health Regen"
+    group: mechanics
+    min: "3"
+    max: "3"
+  - name: "Stability"
+    group: mechanics
+    min: "50"
+    max: "50"
+vendor_price: 858

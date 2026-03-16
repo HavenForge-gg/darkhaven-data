@@ -1,0 +1,34 @@
+id: LegendaryGloves06
+guid: "47c9dfd34ea211e0ce70d4097e4c5492"
+name: "Gloom Talon"
+internal_name: "Legendary Gloves06[UAffixBlueprint]"
+slot: gloves
+in_set: true
+flavor_text: >
+  From the perspective of history, there's little doubt that the Shadowscar was the true instigator of the Second Urivian War. Her motivations, however, are lost to time.
+stats:
+  - name: "Vitality Bonus"
+    group: attribute
+    min: "8"
+    max: "13"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "10"
+    max: "10"
+  - name: "Penetration"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "1"
+    max: "2"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "1"
+    max: "2"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "1"
+    max: "2"
+vendor_price: 2068

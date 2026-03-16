@@ -1,0 +1,30 @@
+id: LegendaryChest02
+guid: "7bcaecdfdff8f9e28dd548c7af58ba41"
+name: "Johann's Mystic Dreamcoat"
+internal_name: "Legendary Chest02[UAffixBlueprint]"
+slot: chest
+in_set: true
+flavor_text: >
+  The most famed story teller of the Third Age, the Great Bard knew far more than anyone had a right to.
+stats:
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.1"
+    max: "0.2"
+  - name: "Cast Speed Multiplier"
+    group: mechanics
+    min: "0.1"
+    max: "0.2"
+  - name: "Magic Bonus"
+    group: attribute
+    min: "20"
+    max: "30"
+  - name: "Resistance"
+    group: mechanics
+    min: "20"
+    max: "30"
+  - name: "Magic Find"
+    group: mechanics
+    min: "30"
+    max: "40"
+vendor_price: 2450

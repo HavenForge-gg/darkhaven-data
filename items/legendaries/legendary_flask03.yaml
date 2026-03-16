@@ -1,0 +1,22 @@
+id: LegendaryFlask03
+guid: "26c17e248f2aa2e8e09911325e612c08"
+name: "name"
+internal_name: "Legendary Flask03[UAffixBlueprint]"
+slot: flask
+in_set: true
+flavor_text: >
+  blah blah
+stats:
+  - name: "Flask Health Recovery"
+    group: mechanics
+    min: "30"
+    max: "30"
+  - name: "Flask Effect Duration"
+    group: mechanics
+    min: "15"
+    max: "15"
+  - name: "Damage Reduction"
+    group: mechanics
+    min: "2"
+    max: "2"
+vendor_price: 1401

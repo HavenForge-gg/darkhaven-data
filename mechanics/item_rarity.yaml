@@ -67,33 +67,6 @@ item_rarities:
     color: "#00ff00"  # Green (speculative)
     guid: 6c12c7d9a15287b40aded128b6c75ce1
 
-  - id: runeword
-    tier: 6
-    name: Runeword
-    description: Items created by socketing specific rune combinations.
-    color: "#daa520"
-    guid: 9085e40916314054bab6c638db119953
-
-quality_stat_guid: 4a9f733126bc51442aa34b4a1c19bf63
-
-socket_types:
-  - id: unique_socket
-    name: Unique Socket
-    guid: 07826ea7c73d5df40b02785076596196
-  - id: common_socket
-    name: Common Socket
-    description: Any socket type that is not the Unique Socket GUID.
-
-item_stat_guids:
-  armor_base: ae186ac8917738a4d8272dca68d1f11c
-  damage_base_min: bebbd894bd559054f9dadcce9d78799a
-  damage_base_max: 0346077fcd461a54ba2b3dff55c0eb26
-  damage_type: 9f9c320d8621b1047a69df8473d712c9
-  sockets: b5a15f51cf6e00f4d924f5fec4a77a81
-  equip_aspect: 4dccf3c1179ea3e4fb57240b3727d777
-  item_set: e0ed6cff34fb2f5408d9ce980894a613
-  item_progression: 5597d3540a0445f4eb67aa1ef5016dfb
-
 monster_rarities:
   - id: normal
     tier: 0
@@ -174,7 +147,7 @@ core_rarities:
 
 # Metadata
 game_version: 0.0.23272
-last_updated: 2026-03-11
+last_updated: 2026-02-16
 status: active
 tags:
   - mechanic

@@ -1,0 +1,30 @@
+id: LegendaryAmulet01
+guid: "5199852ea470b5b91c708038a53160b8"
+name: "Heart of White Mountain"
+internal_name: "Legendary Amulet01[UAffixBlueprint]"
+slot: amulet
+in_set: true
+flavor_text: >
+  The Mistress of White Mountain, Tandis Eks was sometimes Shivani Shadowscar's friend, but more often her foe.
+stats:
+  - name: "Magic Bonus"
+    group: attribute
+    min: "10"
+    max: "20"
+  - name: "Mana Regen"
+    group: resource
+    min: "1"
+    max: "1"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "3"
+    max: "3"
+  - name: "Skill Level Bonus"
+    group: attribute
+    min: "3"
+    max: "3"
+  - name: "Skill Trait"
+    group: mechanics
+    min: "3"
+    max: "3"
+vendor_price: 2003

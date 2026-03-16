@@ -1,0 +1,34 @@
+id: LegendaryStaff05
+guid: "58ff0c4825e5d4c6033bb0dc64d4542c"
+name: "The Arvinrod"
+internal_name: "Legendary Staff05[UAffixBlueprint]"
+slot: staff
+in_set: true
+flavor_text: >
+  Arvin Prester sailed from the Far Lands, bringing word of the Redeemer.
+stats:
+  - name: "Equipment Damage Type"
+    group: mechanics
+    min: "(0, 0)"
+    max: "(0, 0)"
+  - name: "Equipment Damage Bonus"
+    group: mechanics
+    min: "5"
+    max: "7"
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.2"
+    max: "0.3"
+  - name: "Mana Regen"
+    group: resource
+    min: "1"
+    max: "1"
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.1"
+    max: "0.2"
+  - name: "Health Regen"
+    group: mechanics
+    min: "2"
+    max: "2"
+vendor_price: 1125

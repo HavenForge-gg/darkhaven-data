@@ -1,0 +1,29 @@
+id: LegendaryDagger01
+guid: "93ef5b8a8fe0537a0a9136ed0c9c2db0"
+name: "Grimalkin"
+internal_name: "Legendary Dagger01[UAffixBlueprint]"
+slot: dagger
+in_set: true
+flavor_text: >
+  Reynard — "The only difference between theft and taxes is in who does the taking."
+sockets:
+  min: 1
+  max: 2
+stats:
+  - name: "Equipment Attack Speed Multiplier"
+    group: mechanics
+    min: "0.13"
+    max: "0.15"
+  - name: "Equipment Damage Bonus"
+    group: mechanics
+    min: "3"
+    max: "5"
+  - name: "Equipment Critical Duration"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Gold Find"
+    group: mechanics
+    min: "20"
+    max: "30"
+vendor_price: 2126

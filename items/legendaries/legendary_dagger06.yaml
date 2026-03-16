@@ -1,0 +1,26 @@
+id: LegendaryDagger06
+guid: "b1d9f04dae68489f72373d7f70276e22"
+name: "Sorcere"
+internal_name: "Legendary Dagger06[UAffixBlueprint]"
+slot: dagger
+in_set: true
+flavor_text: >
+  From her sanctum atop White Mountain, she inscribed four glyphs into the foundation of the World. Vir, Toth, Elua, and Ruin. Thus the Third Age came to an end.
+stats:
+  - name: "Cast Speed Multiplier"
+    group: mechanics
+    min: "0.05"
+    max: "0.07"
+  - name: "Mana Bonus"
+    group: resource
+    min: "20"
+    max: "30"
+  - name: "Mana Steal"
+    group: mechanics
+    min: "3"
+    max: "3"
+  - name: "Skill Level Bonus Tag"
+    group: skill
+    min: "3"
+    max: "3"
+vendor_price: 2126

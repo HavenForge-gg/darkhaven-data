@@ -1,0 +1,26 @@
+id: LegendaryChest07
+guid: "32ba4b9068c360dc3febb9efc7bf7142"
+name: "Bloody Bones"
+internal_name: "Legendary Chest07[UAffixBlueprint]"
+slot: chest
+in_set: true
+flavor_text: >
+  Only the vilest of creatures could wrap themselves in the remains of their own kind.
+stats:
+  - name: "Armor Bonus"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Resistance"
+    group: mechanics
+    min: "30"
+    max: "40"
+  - name: "Damage Reduction"
+    group: mechanics
+    min: "4"
+    max: "4"
+  - name: "Health Regen"
+    group: mechanics
+    min: "-2.5"
+    max: "-2.5"
+vendor_price: 3101

@@ -95,31 +95,14 @@
   description: Cold damage freezes and slows enemies.
   color: "#7ed9ff"
   scaling_attribute: magic
-  guid: db1b573480f3568429f4dc8c70afeb7d
+  guid: null
   game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
+  last_updated: 2026-02-16
+  status: speculative
   tags:
     - elemental
     - cold
     - slow
-
-- id: blunt
-  type: damage_type
-  name: Blunt Damage
-  display_name: Blunt
-  category: physical
-  description: Physical blunt damage from maces, clubs, and impact weapons.
-  color: "#d4a574"
-  scaling_attribute: strength
-  guid: bbe7b9d922575f5469ca80b9eeac9f02
-  game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
-  tags:
-    - physical
-    - blunt
-    - melee
 
 - id: physical
   type: damage_type
@@ -136,19 +119,3 @@
   tags:
     - physical
     - melee
-
-- id: all
-  type: damage_type
-  name: All Elements
-  display_name: All
-  category: meta
-  description: >
-    Meta-element used when a stat applies to all six damage types simultaneously.
-    Found on penetration, resistance, crit chance, and crit resistance affixes.
-  guid: 99f2b799d71d7cb4ca4161e44224e4af
-  game_version: 0.0.23272
-  last_updated: 2026-03-11
-  status: active
-  tags:
-    - meta
-    - all_elements

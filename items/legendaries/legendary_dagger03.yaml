@@ -1,0 +1,25 @@
+id: LegendaryDagger03
+guid: "cbeac3b1df571feca50801cc74d8f0b8"
+name: "Shiver"
+internal_name: "Legendary Dagger03[UAffixBlueprint]"
+slot: dagger
+in_set: true
+flavor_text: >
+  No one ever knew where Shivani Shadowscar kept Shiver, but it was always at hand when she needed it.
+sockets:
+  min: 1
+  max: 2
+stats:
+  - name: "Equipment Damage Type"
+    group: mechanics
+    min: "(0, 0)"
+    max: "(0, 0)"
+  - name: "Equipment Additional Elemental Damage Bonus"
+    group: mechanics
+    min: "75"
+    max: "100"
+  - name: "Attack Speed Multiplier"
+    group: mechanics
+    min: "0.2"
+    max: "0.25"
+vendor_price: 1125
