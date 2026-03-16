@@ -1,0 +1,114 @@
+# =============================================================================
+# Patch notes - 12 Mar 2026
+# =============================================================================
+
+id: "0.0.23609"
+type: patch
+name: Patch 0.0.23609
+version: 0.0.23609
+release_date: 2026-03-12
+description: |
+  Short development cycle patch following GDC. Introduces a new secret dungeon,
+  additional runewords, expanded Puzzle Box crafting recipes, multiplayer
+  improvements, and various gameplay and UI fixes.
+warning: |
+  Single-player save versioning is not yet implemented. Offline single-player
+  world state will not carry over after the patch. Finish any game in progress
+  before patching.
+highlights:
+  - Added new secret dungeon ("Shark Level")
+  - Added multiple new Runewords
+  - Added expanded Murakami's Puzzle Box crafting recipes
+  - Added character and world selection UI to singleplayer mode
+  - Improved multiplayer reconnection and world management
+contest:
+  name: Shark Level Discovery Contest
+  description: |
+    The first 50 players to post a video to the official Discord showing
+    themselves discovering the secret shark level will receive a shark
+    named after them (subject to editorial approval).
+changes:
+  dungeons:
+    - Added a new secret dungeon known as the "Shark Level"
+  singleplayer:
+    - Added character and world selection UI
+    - Players can now create and manage multiple characters and worlds
+    - Single-player characters can now enter new or existing worlds
+    - The last world used by a character is highlighted in the UI
+    - The most recent single-player character should be automatically converted to the new system
+    - Single-player worlds created before the patch will not carry over
+  multiplayer:
+    - Private worlds can now be manually deleted if no active players are present
+    - Improved reconnection protocol for dropped connections
+    - Fixed issues progressing the Necropolis quest in multiplayer
+    - Synchronization errors now generate diagnostic data in the Logs folder
+  items:
+    - Increased prevalence of sockets and unique sockets
+    - Pickaxe regular attack is now distinct from dig (regular attack only destroys terrain in front)
+    - Vendors now restock every 4 hours instead of once per day
+    - Char Root and Sizzle Bough now drop Flame Hearts instead of Nature Hearts
+    - Assigned abilities to Goke and Endless Boss hearts
+    - Fixed an issue where items on the ground could randomly be destroyed
+  runewords:
+    new:
+      - Blood of Lambs — 3 socket dagger (elm | bat | ash)
+      - Tender are Their Eyes — 4 socket dagger (bat | elm | ash | ka)
+      - One Hard Knock to the Head — 5 socket staff (deb | ash | bat | bat | ash)
+      - Skyfather, Heed My Call — 6 socket staff (ash | elm | deb | ash | ka | ash)
+      - One Thousand Stars — 3 socket belt (deb | elm | ka)
+      - Mandate of Heaven — 4 socket helm (deb | bat | ka | ash)
+    existing:
+      - Unforgivable Act of Violence — 2 socket weapon (ash | ka)
+      - Faith Is My Shield — 2 socket armor (ash | bat)
+  crafting:
+    puzzle_box_recipes:
+      new:
+        - Add socket — item with no sockets + elm rune
+        - Reroll magic amulet — item + 2 dull gems
+        - Reroll magic ring or flask — item + 2 flawed gems
+        - Reroll magic weapon or armor — item + 3 cracked gems
+        - Reroll rare amulet — item + bat rune + dull gem
+        - Reroll rare ring or flask — item + bat rune + flawed gem
+        - Reroll rare weapon or armor — item + bat rune + 2 cracked gems
+        - Fire imbue — common item with empty socket + fire heart + cracked ruby
+      existing:
+        - Reroll dye — 2 dyes
+        - 3 cracked gems of same type → 1 flawed gem
+        - 3 flawed gems of same type → 1 dull gem
+        - Downgrade rune — rune + 2 cracked gems
+        - Upgrade rune — rune + 2 flawed gems
+        - Destructive unsocket — socketed item + cracked gem
+        - Preservative unsocket — socketed item + ash rune
+      improvements:
+        - Multiple gem and rune upgrade/downgrade recipes can now be executed in a single Puzzle Box activation
+  ui_controls:
+    - World name is now prepopulated with a randomly generated name
+    - Call to Action UI can now be closed with the controller back button
+    - Improved camera auto-movement detection when the player is blocked
+    - Controller improvements to item pickup logic
+    - Improved weapon set switching with controller
+    - Added controller support for Puzzle Box interaction
+  gameplay:
+    - Renamed "Normal" difficulty to "Veteran"
+    - Added system allowing units to be buried and unburied
+    - Necropolis waystones are buried when taken by shadow and can be dug up to reactivate
+  mobs_ai:
+    - Endless bosses now have their own quality tier equivalent to unique
+    - Renamed several endless bosses
+    - Adjusted size and speed of the Gulpjaw boss
+  bug_fixes:
+    - Fixed issue where a unit's simulation position could appear under terrain while moving
+known_issues:
+  - Single-player worlds created before this patch do not carry over
+game_version: 0.0.23609
+last_updated: 2026-03-12
+status: active
+tags:
+  - patch
+  - secret-dungeon
+  - runewords
+  - puzzle-box
+  - crafting
+  - multiplayer
+  - singleplayer
+  - sockets
