@@ -10,6 +10,7 @@ class: witch
 branch: blood_and_bone
 save_blueprint_guid: c9c8b893dbebfa61ad880108743e97b2
 
+description: >
   A blood magic skill that tethers to enemies, draining their life force.
   Can be enhanced with glyphs and upgraded to steal mana or enrage the caster.
   Gain 4.9% MANA on hit.
@@ -22,38 +23,35 @@ resource_cost:
 scaling:
   - magic
   - blood
-# Skill upgrade options
 
+# Skill upgrade options
+skill_options:
   - id: blood_glyph
     name: Blood Glyph
     description: Enhances the skill with blood glyph effects.
     requires_tag: evocation
-    
-skill_options:
+    levels:
+      - level: 2
+        effect: "16% (+4%) chance of Blood Glyph on kill"
+      - level: 3
+        effect: "20% (+4%) chance of Blood Glyph on kill"
+
   - id: blood_rage
     description: Enters an enraged state after using Blood Lash.
-    
+    effect: Attack Speed boost lasts 20 seconds
+
   - id: vitae
     name: Vitae
     description: Drains life from tethered enemies.
-    
+
   - id: steal_mana
     name: Steal Mana
-    description: Drains mana from tethered enemies.
-    
-        effect: Attack Speed boost lasts 20 seconds
+    description: Drains mana from tethered enemies. Increases the number of enemies that can be tethered.
 
-    description: Increases the number of enemies that can be tethered.
-      - level: 2
 mechanics:
   - tether
   - drain
   - blood
-        effect: "16% (+4%) chance of Blood Glyph on kill"
-      - level: 3
-        effect: "20% (+4%) chance of Blood Glyph on kill"
-last_updated: 2026-02-16
-        effect: "24% (+4%) chance of Blood Glyph on kill"
 
 # Metadata
 game_version: 0.0.23272

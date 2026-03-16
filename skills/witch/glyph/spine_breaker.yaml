@@ -28,28 +28,28 @@ skill_options:
   - id: adept
     name: Adept
     description: Improves base skill performance.
-    
+
   - id: shadow_glyph
     name: Shadow Glyph
-    description: Enhances the skill with shadow glyph effects.
     description: Chance of Shadow Glyph on kill. Shadow Glyphs return mana when evoked.
-    
+
   - id: umbra
     name: Umbra
     description: Creates a shadow wall that blocks projectiles.
-    
-        effect: Decrease Mana cost by 35%
+    effect: Decrease Mana cost by 35%
 
-    description: Spine Breaker projectiles can stun enemies.
+  - id: stun
     name: Stun
-      - level: 5
-mechanics:
-  - projectile
-  - bone
+    description: Spine Breaker projectiles can stun enemies.
+    levels:
       - level: 3
         effect: Trail of shadow lasting 8 seconds, doing shadow damage to targets within
 
-last_updated: 2026-02-16
+mechanics:
+  - projectile
+  - bone
+
+# Metadata
 game_version: 0.0.23272
 last_updated: 2026-03-08
 status: active

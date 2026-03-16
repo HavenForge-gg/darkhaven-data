@@ -25,24 +25,21 @@ scaling:
 skill_options:
   - id: bone_glyph
     name: Bone Glyph
-    description: Enhances the skill with bone glyph effects.
     description: Chance of Bone Glyph on kill. Bone Glyphs apply a stun when evoked.
-    
 
   - id: impel
     description: Bone Storm knocks enemies back.
-    
 
   - id: echo
     description: Bone shards ricochet between enemies.
-        effect: "Reflecting shots \xD74"
+    effect: "Reflecting shots \xD74"
+
 mechanics:
   - aoe
   - bone
 
-
 # Metadata
-last_updated: 2026-02-16
+game_version: 0.0.23272
 last_updated: 2026-03-08
 status: active
 tags:
