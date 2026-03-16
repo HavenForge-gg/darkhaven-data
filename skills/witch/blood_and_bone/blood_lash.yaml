@@ -37,6 +37,7 @@ skill_options:
         effect: "20% (+4%) chance of Blood Glyph on kill"
 
   - id: blood_rage
+    name: Blood Rage
     description: Enters an enraged state after using Blood Lash.
     effect: Attack Speed boost lasts 20 seconds
 

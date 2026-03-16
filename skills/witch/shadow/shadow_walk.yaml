@@ -25,12 +25,15 @@ scaling:
 # Skill upgrade options
 skill_options:
   - id: cypher
+    name: Cypher
     description: Shadow Walk generates glyphs. Chance of a glyph on cursed kills.
 
   - id: expanse
+    name: Expanse
     description: Releases a shadow nova upon arriving at destination.
 
   - id: scourge
+    name: Scourge
     description: Leaves a damaging shadow trail behind.
     prototype_guid: ce04da600ddc71d45aa161b1619b08e6
     levels:

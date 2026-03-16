@@ -28,9 +28,11 @@ skill_options:
     description: Chance of Bone Glyph on kill. Bone Glyphs apply a stun when evoked.
 
   - id: impel
+    name: Impel
     description: Bone Storm knocks enemies back.
 
   - id: echo
+    name: Echo
     description: Bone shards ricochet between enemies.
     effect: "Reflecting shots \xD74"
 
