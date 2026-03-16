@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T23:00:55Z",
+  "generated_at": "2026-03-16T23:03:43Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -699,10 +699,10 @@
       "last_message": "added runes and first recipes etc"
     },
     "items/special/murakamis_puzzle_box.yaml": {
-      "last_commit": "793eec4",
-      "last_updated": "2026-02-21T00:36:58+02:00",
-      "last_author": "DaPandamonium",
-      "last_message": "fix(puzzle): correct image path for PuzzleBox"
+      "last_commit": "b9b7495",
+      "last_updated": "2026-03-16T23:03:36Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Update murakamis_puzzle_box.yaml"
     },
     "items/tomes/_category.yaml": {
       "last_commit": "f89d359",
