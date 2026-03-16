@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T23:08:21Z",
+  "generated_at": "2026-03-16T23:15:59Z",
   "latest_game_version": null,
   "files": {
     "bestiary/aberrations.yaml": {
@@ -1015,6 +1015,12 @@
       "last_updated": "2026-02-26T03:21:57+02:00",
       "last_author": "DaPandamonium",
       "last_message": "chore(patch): 0.0.23471 patch notes & update endless lair zone file"
+    },
+    "patches/0.0.23609.yaml": {
+      "last_commit": "ef13bee",
+      "last_updated": "2026-03-16T23:15:51Z",
+      "last_author": "Kieran Taylor",
+      "last_message": "Create 0.0.23609.yaml"
     },
     "quests/shadowstone.yaml": {
       "last_commit": "dc973a4",
