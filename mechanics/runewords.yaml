@@ -15,8 +15,13 @@ item_rules:
   despawn_on_depopulate: false
 
 runewords:
-  - id: faith_of_my_shield
-    name: Faith of My Shield
+
+  # ---------------------------------------------------------------------------
+  # Legacy Runewords
+  # ---------------------------------------------------------------------------
+
+  - id: faith_is_my_shield
+    name: Faith Is My Shield
     runes:
       - ash
       - bat
@@ -26,8 +31,8 @@ runewords:
       A defensive Runeword forged from Ash and Bat runes,
       socketed into any 2-socket armour piece.
 
-  - id: unforgiveable_act_of_violence
-    name: Unforgiveable Act of Violence
+  - id: unforgivable_act_of_violence
+    name: Unforgivable Act of Violence
     runes:
       - ash
       - ka
@@ -37,8 +42,91 @@ runewords:
       An offensive Runeword forged from Ash and Ka runes,
       socketed into any 2-socket weapon.
 
+  # ---------------------------------------------------------------------------
+  # Patch 0.0.23609 Runewords
+  # ---------------------------------------------------------------------------
+
+  - id: blood_of_lambs
+    name: Blood of Lambs
+    runes:
+      - elm
+      - bat
+      - ash
+    sockets: 3
+    base_type: dagger
+    description: >
+      A dagger Runeword formed by socketing Elm, Bat, and Ash
+      into a 3-socket dagger.
+
+  - id: tender_are_their_eyes
+    name: Tender are Their Eyes
+    runes:
+      - bat
+      - elm
+      - ash
+      - ka
+    sockets: 4
+    base_type: dagger
+    description: >
+      A dagger Runeword created from Bat, Elm, Ash, and Ka
+      in a 4-socket dagger.
+
+  - id: one_hard_knock_to_the_head
+    name: One Hard Knock to the Head
+    runes:
+      - deb
+      - ash
+      - bat
+      - bat
+      - ash
+    sockets: 5
+    base_type: staff
+    description: >
+      A staff Runeword formed from Deb, Ash, Bat, Bat, and Ash
+      in a 5-socket staff.
+
+  - id: skyfather_heed_my_call
+    name: Skyfather, Heed My Call
+    runes:
+      - ash
+      - elm
+      - deb
+      - ash
+      - ka
+      - ash
+    sockets: 6
+    base_type: staff
+    description: >
+      A powerful staff Runeword created from Ash, Elm, Deb,
+      Ash, Ka, and Ash in a 6-socket staff.
+
+  - id: one_thousand_stars
+    name: One Thousand Stars
+    runes:
+      - deb
+      - elm
+      - ka
+    sockets: 3
+    base_type: belt
+    description: >
+      A belt Runeword forged from Deb, Elm, and Ka
+      in a 3-socket belt.
+
+  - id: mandate_of_heaven
+    name: Mandate of Heaven
+    runes:
+      - deb
+      - bat
+      - ka
+      - ash
+    sockets: 4
+    base_type: helm
+    description: >
+      A helm Runeword created by socketing Deb, Bat, Ka,
+      and Ash into a 4-socket helm.
+
 # Metadata
-game_version: 0.0.23272
+game_version: 0.0.23609
 status: active
 tags:
   - mechanics
