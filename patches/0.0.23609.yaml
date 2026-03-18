@@ -1,12 +1,12 @@
 # =============================================================================
-# Patch notes - 12 Mar 2026
+# Patch notes - 16 Mar 2026
 # =============================================================================
 
 id: "0.0.23609"
 type: patch
 name: Patch 0.0.23609
 version: 0.0.23609
-release_date: 2026-03-12
+release_date: 2026-03-16
 description: |
   Short development cycle patch following GDC. Introduces a new secret dungeon,
   additional runewords, expanded Puzzle Box crafting recipes, multiplayer
